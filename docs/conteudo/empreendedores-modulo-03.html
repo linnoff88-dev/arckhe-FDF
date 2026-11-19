@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modulo 4.3: Marketing Visual Que Vende | Designer do Futuro</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: '#FACC15',
+            dark: { 900: '#111827', 800: '#1f2937', 700: '#374151', 600: '#4b5563' }
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .dark body { background-color: #111827; }
+
+    /* Light mode overrides - OBRIGATORIO */
+    html:not(.dark) body { background-color: #f8fafc; }
+    html:not(.dark) .bg-dark-900 { background-color: #ffffff; }
+    html:not(.dark) .bg-dark-800 { background-color: #f9fafb; }
+    html:not(.dark) .bg-dark-700 { background-color: #f3f4f6; }
+    html:not(.dark) .bg-dark-600 { background-color: #e5e7eb; }
+    html:not(.dark) .text-neutral-100 { color: #111827; }
+    html:not(.dark) .text-neutral-300 { color: #4b5563; }
+    html:not(.dark) .text-neutral-400 { color: #6b7280; }
+    html:not(.dark) .text-neutral-500 { color: #9ca3af; }
+    html:not(.dark) .border-dark-600 { border-color: #d1d5db; }
+    html:not(.dark) .border-dark-700 { border-color: #e5e7eb; }
+
+    /* Light mode - cores de acento (trilha amber) */
+    html:not(.dark) .text-amber-400 { color: #92400e; }
+    html:not(.dark) .bg-amber-500\/20 { background-color: rgba(217, 119, 6, 0.12); }
+    html:not(.dark) .bg-amber-500\/10 { background-color: rgba(217, 119, 6, 0.08); }
+    html:not(.dark) .border-amber-500\/30 { border-color: rgba(217, 119, 6, 0.25); }
+    html:not(.dark) .hover\:bg-amber-500\/30:hover { background-color: rgba(217, 119, 6, 0.18); }
+
+    /* Light mode - remove gradientes */
+    html:not(.dark) [class*="bg-gradient-to"] { background-image: none !important; }
+
+    /* Light mode - cores especiais */
+    html:not(.dark) .text-primary { color: #a16207; }
+    html:not(.dark) .bg-primary\/10 { background-color: rgba(161, 98, 7, 0.08); }
+    html:not(.dark) .border-primary\/40 { border-color: rgba(161, 98, 7, 0.25); }
+    html:not(.dark) .text-sky-400 { color: #0369a1; }
+    html:not(.dark) .text-yellow-400 { color: #a16207; }
+    html:not(.dark) .hover\:text-sky-300:hover { color: #0284c7; }
+    html:not(.dark) .hover\:text-yellow-300:hover { color: #854d0e; }
+
+    /* Light mode - nav */
+    html:not(.dark) .bg-dark-900\/95 { background-color: rgba(255, 255, 255, 0.95); }
+  </style>
+</head>
+<body class="bg-dark-900 text-neutral-100 min-h-screen">
+
+  <!-- NAVIGATION -->
+  <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-14">
+        <div class="flex items-center space-x-4">
+          <a href="../index.html" class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300">
+            <span class="text-2xl">🎨</span>
+            <span class="font-bold text-lg hidden sm:inline">Designer do Futuro</span>
+          </a>
+          <span class="text-neutral-600">|</span>
+          <a href="https://inema.club" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium">INEMA.CLUB</a>
+        </div>
+        <div class="flex items-center space-x-1 sm:space-x-2">
+          <a href="../trilhas/iniciante.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-colors">
+            <span class="sm:hidden">T1</span>
+            <span class="hidden sm:inline">Iniciante</span>
+          </a>
+          <a href="../trilhas/tecnico.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-blue-400 hover:bg-blue-500/10 transition-colors">
+            <span class="sm:hidden">T2</span>
+            <span class="hidden sm:inline">Tecnico</span>
+          </a>
+          <a href="../trilhas/masterclass.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-purple-400 hover:bg-purple-500/10 transition-colors">
+            <span class="sm:hidden">T3</span>
+            <span class="hidden sm:inline">Masterclass</span>
+          </a>
+          <a href="../trilhas/empreendedores.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-amber-400 bg-amber-500/10">
+            <span class="sm:hidden">T4</span>
+            <span class="hidden sm:inline">Empreendedores</span>
+          </a>
+          <button id="theme-toggle" class="p-2 rounded-lg bg-dark-700 hover:bg-dark-600 transition-colors ml-2">
+            <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5 text-neutral-300" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+            </svg>
+            <svg id="theme-toggle-light-icon" class="hidden w-5 h-5 text-neutral-300" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- BREADCRUMB -->
+  <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+    <div class="flex items-center space-x-2 text-sm text-neutral-400">
+      <a href="../index.html" class="hover:text-amber-400">Inicio</a>
+      <span>/</span>
+      <a href="../trilhas/empreendedores.html" class="hover:text-amber-400">Trilha Empreendedores</a>
+      <span>/</span>
+      <span class="text-amber-400">Modulo 4.3</span>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="bg-gradient-to-br from-amber-900/30 via-dark-800 to-dark-800 py-12 border-b border-dark-600">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <span class="inline-block px-3 py-1 bg-amber-500/20 text-amber-400 text-xs font-semibold rounded-full mb-4">
+        MODULO 4.3
+      </span>
+      <h1 class="text-3xl sm:text-4xl font-bold mb-4">📱 Marketing Visual Que Vende</h1>
+      <p class="text-lg text-neutral-400 max-w-3xl">Transforme seu negocio em uma maquina de vendas visual 24/7. Domine identidade de marca, campanhas sazonais e anuncios que convertem 3x mais</p>
+      <div class="grid grid-cols-4 gap-4 mt-8 max-w-2xl">
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-amber-400">6</div>
+          <div class="text-xs text-neutral-400">Topicos</div>
+        </div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-amber-400">480</div>
+          <div class="text-xs text-neutral-400">Minutos</div>
+        </div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-amber-400">3x</div>
+          <div class="text-xs text-neutral-400">Conversao</div>
+        </div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-amber-400">Pratico</div>
+          <div class="text-xs text-neutral-400">Tipo</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTEUDO -->
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+    <!-- TOPICO 1 -->
+    <section id="topico-1" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">1</span>
+        <h2 class="text-2xl font-bold">🧲 Por Que Marketing Visual E Seu Maior Vendedor</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        <strong class="text-amber-400">0.05 segundos</strong> - e o tempo que voce tem para capturar atencao online. Visual profissional nao e luxo, e sobrevivencia. Com IA, voce cria uma presenca visual que <strong class="text-amber-400">vende enquanto voce dorme</strong>.
+      </p>
+
+      <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 mb-6">
+        <h4 class="font-bold text-amber-400 mb-4">🏔️ A Piramide do Marketing Visual Lucrativo</h4>
+        <div class="space-y-3">
+          <div class="bg-dark-700 rounded-lg p-4 border-l-4 border-red-500/50">
+            <h5 class="font-bold text-white mb-1">🏗️ Base: Identidade Visual Consistente</h5>
+            <p class="text-neutral-400 text-sm">Cores, fontes, estilo unico. Cliente reconhece sua marca em 1 segundo.</p>
+            <p class="text-amber-400 text-xs mt-1"><strong>Impacto:</strong> +23% reconhecimento de marca = +15% vendas automaticas</p>
+          </div>
+          <div class="bg-dark-700 rounded-lg p-4 border-l-4 border-orange-500/50">
+            <h5 class="font-bold text-white mb-1">📅 Conteudo: Calendario Visual Estrategico</h5>
+            <p class="text-neutral-400 text-sm">365 dias de conteudo planejado. Nunca mais fique sem saber o que postar.</p>
+            <p class="text-amber-400 text-xs mt-1"><strong>Resultado:</strong> 5x mais consistencia = 3x mais vendas recorrentes</p>
+          </div>
+          <div class="bg-dark-700 rounded-lg p-4 border-l-4 border-yellow-500/50">
+            <h5 class="font-bold text-white mb-1">🎯 Campanhas: Datas que Faturam</h5>
+            <p class="text-neutral-400 text-sm">Black Friday, Natal, Dia das Maes. Campanhas que capturam 40% do faturamento anual.</p>
+            <p class="text-amber-400 text-xs mt-1"><strong>Oportunidade:</strong> 70% das vendas do ano em 30% dos dias</p>
+          </div>
+          <div class="bg-gradient-to-r from-amber-900/40 to-dark-700 rounded-lg p-4 border-l-4 border-amber-400">
+            <h5 class="font-bold text-amber-400 mb-1">👑 Topo: Anuncios Que Imprimem Dinheiro</h5>
+            <p class="text-neutral-300 text-sm">Teste A/B automatizado, copy que converte, visual irresistivel. ROI de 500%+</p>
+            <p class="text-amber-400 text-xs mt-1"><strong>💰 Meta:</strong> R$10 investidos = R$50+ de retorno consistente</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+        <div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6">
+          <h4 class="font-bold text-red-400 mb-4">❌ Sem Marketing Visual Estrategico</h4>
+          <ul class="space-y-2 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>Posts aleatorios sem conexao</span></li>
+            <li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>Marca confusa e esquecivel</span></li>
+            <li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>Perde 90% das datas importantes</span></li>
+            <li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>Anuncios que queimam dinheiro</span></li>
+            <li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>Cliente nao lembra de voce</span></li>
+          </ul>
+        </div>
+        <div class="bg-gradient-to-br from-amber-900/30 to-dark-800 rounded-xl border border-amber-500/30 p-6">
+          <h4 class="font-bold text-amber-400 mb-4">✅ Com Sistema Visual IA</h4>
+          <ul class="space-y-2 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-amber-400">✓</span><span>Presenca consistente e profissional</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400">✓</span><span>Top of mind do cliente</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400">✓</span><span>Captura todas oportunidades</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400">✓</span><span>Anuncios que lucram no piloto</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400">✓</span><span>Vira referencia no mercado</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 2 -->
+    <section id="topico-2" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">2</span>
+        <h2 class="text-2xl font-bold">🚀 Arsenal Completo de Marketing Visual</h2>
+      </div>
+
+      <div class="space-y-4 mb-6">
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <h4 class="font-semibold text-amber-400 mb-2">1. Identidade Visual Premium (Sem Designer)</h4>
+          <p class="text-neutral-300 text-sm">Crie uma marca memoravel que seus clientes reconhecem instantaneamente. Paleta de cores psicologicamente otimizada, tipografia que vende, elementos visuais unicos.</p>
+          <p class="text-neutral-400 text-xs mt-2">🎨 Paleta cores | 🔤 Tipografia | 📐 Layouts | ✨ Elementos</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <h4 class="font-semibold text-amber-400 mb-2">2. Calendario Visual Automatizado</h4>
+          <p class="text-neutral-300 text-sm">365 dias de conteudo pronto. IA gera automaticamente posts para cada dia do ano, considerando datas comemorativas, tendencias e seu nicho especifico.</p>
+          <p class="text-neutral-400 text-xs mt-2">Segunda: Motivacional | Terca: Dicas | Quarta: Produto | Quinta: Bastidores | Sexta: Promocao</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <h4 class="font-semibold text-amber-400 mb-2">3. Campanhas Sazonais Que Faturam</h4>
+          <p class="text-neutral-300 text-sm">Nunca mais perca uma data importante. Black Friday, Natal, Pascoa, Dia das Maes - campanhas completas prontas para disparar vendas.</p>
+          <p class="text-neutral-400 text-xs mt-2">🎄 Natal +45% vendas | 🏷️ Black Friday +120% | 💝 Dia das Maes +65%</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <h4 class="font-semibold text-amber-400 mb-2">4. Stories, Reels e TikToks Virais</h4>
+          <p class="text-neutral-300 text-sm">O conteudo que mais engaja. Templates virais, trends do momento, hooks irresistiveis. Alcance organico 10x maior.</p>
+          <p class="text-neutral-400 text-xs mt-2">10x Mais alcance | 5x Mais saves | 3x Mais vendas</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <h4 class="font-semibold text-amber-400 mb-2">5. Anuncios Pagos Que Lucram</h4>
+          <p class="text-neutral-300 text-sm">Pare de queimar dinheiro com ads. Copy que converte, criativos que param o scroll, segmentacao laser. ROI garantido desde o dia 1.</p>
+          <div class="bg-primary/10 rounded-lg border border-primary/40 p-3 mt-2">
+            <p class="text-sm text-primary"><strong>🎯 Formula do Anuncio Perfeito:</strong> Visual que para em 0.5s + Headline com beneficio claro + Prova social + CTA urgente</p>
+          </div>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <h4 class="font-semibold text-amber-400 mb-2">6. Teste A/B com IA (Multiplas Versoes)</h4>
+          <p class="text-neutral-300 text-sm">Descubra o que realmente vende. Gere 10 versoes em 1 minuto, teste todas, escale a vencedora. Otimizacao continua = vendas crescentes.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 3 -->
+    <section id="topico-3" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">3</span>
+        <h2 class="text-2xl font-bold">📚 6 Aulas Transformadoras</h2>
+      </div>
+
+      <div class="space-y-4 mb-6">
+        <div class="bg-dark-800 rounded-xl p-6 border-l-4 border-amber-500/50 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">Aula 1: Identidade Visual Para Pequenos Negocios <span class="text-neutral-400 text-sm">(75 min)</span></h4>
+          <p class="text-neutral-400 text-sm mb-3">Como criar uma marca profissional que compete com grandes empresas</p>
+          <ul class="space-y-1 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>Paleta de Cores Vendedora:</strong> Psicologia das cores aplicada ao seu nicho</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>Guia de Estilo Completo:</strong> Documento profissional de marca em 30min</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>Templates Base:</strong> 20 layouts para todos os formatos</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>Elementos Visuais:</strong> Icones, patterns, texturas exclusivas</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>Aplicacoes Praticas:</strong> Logo, cartao, papel timbrado, assinatura email</span></li>
+          </ul>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border-l-4 border-amber-500/50 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">Aula 2: Calendario de Conteudo Automatizado <span class="text-neutral-400 text-sm">(80 min)</span></h4>
+          <p class="text-neutral-400 text-sm mb-3">365 dias de conteudo planejado e criado com IA</p>
+          <ul class="space-y-1 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>Pilares de Conteudo:</strong> 5 temas estrategicos para seu negocio</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>Mix de Formatos:</strong> Educativo 40%, Vendas 30%, Entretenimento 20%, Bastidores 10%</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>Datas Importantes:</strong> 150+ datas comerciais mapeadas</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>Geracao em Massa:</strong> Crie 30 posts em 30 minutos</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>Programacao Automatica:</strong> Configure e esqueca</span></li>
+          </ul>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border-l-4 border-amber-500/50 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">Aula 3: Campanhas Sazonais (Natal, Black Friday, Dia das Maes) <span class="text-neutral-400 text-sm">(90 min)</span></h4>
+          <p class="text-neutral-400 text-sm mb-3">Como capturar 40% do seu faturamento anual em datas especiais</p>
+          <ul class="space-y-1 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>🏷️ Black Friday:</strong> 30 posts + 10 emails + 5 anuncios</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>🎄 Natal:</strong> 25 posts + countdown + catalogo</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>💝 Dia das Maes:</strong> 20 posts + guia presentes + cupons</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>🐰 Pascoa:</strong> 15 posts + promocoes + receitas</span></li>
+          </ul>
+          <div class="bg-primary/10 rounded-lg border border-primary/40 p-3 mt-3">
+            <p class="text-sm text-primary"><strong>💰 ROI Medio:</strong> Black Friday 800%, Natal 500%, Dia das Maes 400%</p>
+          </div>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border-l-4 border-amber-500/50 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">Aula 4: Stories, Reels e TikToks Que Viralizam <span class="text-neutral-400 text-sm">(85 min)</span></h4>
+          <p class="text-neutral-400 text-sm mb-3">O conteudo que mais engaja - domine os formatos que geram alcance organico</p>
+          <ul class="space-y-1 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>Hook em 1s:</strong> 50 aberturas que prendem atencao</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>Storytelling Visual:</strong> Contar historia em 15-30s</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>Trends do Momento:</strong> Como surfar tendencias</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>Musica e Timing:</strong> Sincronizacao perfeita</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>CTAs Que Funcionam:</strong> Como gerar acao sem ser invasivo</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>Hashtags Estrategicas:</strong> Alcance maximo garantido</span></li>
+          </ul>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border-l-4 border-amber-500/50 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">Aula 5: Anuncios Pagos Que Convertem <span class="text-neutral-400 text-sm">(95 min)</span></h4>
+          <p class="text-neutral-400 text-sm mb-3">Como criar anuncios que lucram desde o primeiro dia</p>
+          <ul class="space-y-1 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>L - Localizacao:</strong> Segmentacao precisa do publico</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>U - Urgencia:</strong> Gatilhos de escassez e tempo</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>C - Criativo:</strong> Visual que para o scroll</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>R - Relevancia:</strong> Mensagem certeira pro publico</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>O - Oferta:</strong> Proposta irrecusavel</span></li>
+          </ul>
+          <div class="bg-primary/10 rounded-lg border border-primary/40 p-3 mt-3">
+            <p class="text-sm text-primary"><strong>💰 Resultado Esperado:</strong> ROI minimo 300% em 30 dias</p>
+          </div>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border-l-4 border-amber-500/50 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">Aula 6: Teste A/B e Otimizacao Continua <span class="text-neutral-400 text-sm">(70 min)</span></h4>
+          <p class="text-neutral-400 text-sm mb-3">Como descobrir exatamente o que vende no seu negocio e escalar infinitamente</p>
+          <ul class="space-y-1 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>Teste Headlines:</strong> "Economize 50%" (2.1%) vs "Ultimas 24h" (4.7%)</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>Teste Cores:</strong> Azul (1.2%) vs Vermelho (3.8%) vs Verde (2.1%)</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>Teste Formato:</strong> Foto (2.3%) vs Video (5.1%) vs Carrossel (3.2%)</span></li>
+          </ul>
+          <div class="bg-primary/10 rounded-lg border border-primary/40 p-3 mt-3">
+            <p class="text-sm text-primary"><strong>💡 Insight:</strong> Combinacao vencedora aumentou vendas em 240%</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 4 -->
+    <section id="topico-4" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">4</span>
+        <h2 class="text-2xl font-bold">🎯 Projetos Praticos (Aplique e Lucre)</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+        <div class="bg-dark-800 rounded-xl border border-dark-600 p-6">
+          <h4 class="font-semibold text-white mb-2">🎨 Identidade Visual Completa</h4>
+          <p class="text-neutral-400 text-sm mb-2">2 horas</p>
+          <p class="text-neutral-300 text-sm">Crie manual de marca profissional: logo, paleta, tipografia, aplicacoes. Valor de mercado: R$5.000</p>
+          <p class="text-amber-400 text-sm font-semibold mt-2">→ Entrega: Manual PDF + 20 templates</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl border border-dark-600 p-6">
+          <h4 class="font-semibold text-white mb-2">📅 Mes de Conteudo</h4>
+          <p class="text-neutral-400 text-sm mb-2">3 horas</p>
+          <p class="text-neutral-300 text-sm">30 dias de posts prontos e agendados. 150 pecas: feed, stories, reels.</p>
+          <p class="text-amber-400 text-sm font-semibold mt-2">→ Resultado: Presenca diaria garantida</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl border border-dark-600 p-6">
+          <h4 class="font-semibold text-white mb-2">🎄 Campanha de Natal</h4>
+          <p class="text-neutral-400 text-sm mb-2">4 horas</p>
+          <p class="text-neutral-300 text-sm">Campanha completa: 25 posts, email marketing, anuncios, catalogo. Fature 30% do ano em dezembro.</p>
+          <p class="text-amber-400 text-sm font-semibold mt-2">→ Meta: +40% vendas dezembro</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl border border-dark-600 p-6">
+          <h4 class="font-semibold text-white mb-2">📱 Kit Stories Viral</h4>
+          <p class="text-neutral-400 text-sm mb-2">2 horas</p>
+          <p class="text-neutral-300 text-sm">50 templates de stories que viralizam. Hooks testados, transicoes, musica.</p>
+          <p class="text-amber-400 text-sm font-semibold mt-2">→ Potencial: 1M+ visualizacoes/mes</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl border border-dark-600 p-6">
+          <h4 class="font-semibold text-white mb-2">💰 Funil de Anuncios</h4>
+          <p class="text-neutral-400 text-sm mb-2">3 horas</p>
+          <p class="text-neutral-300 text-sm">Sistema completo: anuncios frios, retargeting, conversao. Facebook + Google Ads.</p>
+          <p class="text-amber-400 text-sm font-semibold mt-2">→ ROI esperado: 500%+ em 30 dias</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl border border-dark-600 p-6">
+          <h4 class="font-semibold text-white mb-2">🧪 Laboratorio A/B</h4>
+          <p class="text-neutral-400 text-sm mb-2">2 horas</p>
+          <p class="text-neutral-300 text-sm">Monte 10 testes A/B para descobrir o que vende. Headlines, cores, formatos.</p>
+          <p class="text-amber-400 text-sm font-semibold mt-2">→ Descoberta: Formula de vendas unica</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 5 -->
+    <section id="topico-5" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">5</span>
+        <h2 class="text-2xl font-bold">🎁 Arsenal Marketing Visual (Vale R$20k+)</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+        <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 text-center">
+          <div class="text-4xl mb-3">📱</div>
+          <h4 class="font-semibold text-white mb-2">1000+ Templates</h4>
+          <p class="text-neutral-400 text-sm">Posts, stories, reels prontos para editar</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 text-center">
+          <div class="text-4xl mb-3">🎯</div>
+          <h4 class="font-semibold text-white mb-2">50 Campanhas</h4>
+          <p class="text-neutral-400 text-sm">Todas as datas importantes do ano</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 text-center">
+          <div class="text-4xl mb-3">💰</div>
+          <h4 class="font-semibold text-white mb-2">Anuncios Vencedores</h4>
+          <p class="text-neutral-400 text-sm">100 ads que converteram 5%+</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 text-center">
+          <div class="text-4xl mb-3">📊</div>
+          <h4 class="font-semibold text-white mb-2">Dashboard Metricas</h4>
+          <p class="text-neutral-400 text-sm">Acompanhe ROI em tempo real</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 text-center">
+          <div class="text-4xl mb-3">🎨</div>
+          <h4 class="font-semibold text-white mb-2">Banco de Ideias</h4>
+          <p class="text-neutral-400 text-sm">2000+ conceitos criativos</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 text-center">
+          <div class="text-4xl mb-3">📝</div>
+          <h4 class="font-semibold text-white mb-2">Scripts Vendas</h4>
+          <p class="text-neutral-400 text-sm">Copy que converte para videos</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUMO -->
+    <section class="mb-12">
+      <div class="bg-gradient-to-br from-amber-900/40 via-dark-800 to-dark-800 rounded-xl border border-amber-500/30 p-8">
+        <h2 class="text-2xl font-bold mb-6 flex items-center">
+          <span class="mr-3">📋</span> Resumo do Modulo
+        </h2>
+        <div class="space-y-4 mb-8">
+          <div class="flex items-start space-x-3">
+            <span class="text-amber-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Marketing visual e seu maior vendedor</strong>
+              <span class="text-neutral-400"> - 87% das decisoes de compra sao influenciadas por visual</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-amber-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Identidade visual profissional criada com IA</strong>
+              <span class="text-neutral-400"> - Marca memoravel em 2 horas</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-amber-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Calendario de conteudo automatizado</strong>
+              <span class="text-neutral-400"> - 365 dias planejados, 1.825 posts/ano</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-amber-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Campanhas sazonais prontas para usar</strong>
+              <span class="text-neutral-400"> - Black Friday, Natal, Dia das Maes com ROI 400-800%</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-amber-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Framework LUCRO para anuncios pagos</strong>
+              <span class="text-neutral-400"> - ROI minimo 300% em 30 dias</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-amber-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Teste A/B com IA para otimizacao continua</strong>
+              <span class="text-neutral-400"> - Descubra exatamente o que vende no seu negocio</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-dark-800/50 rounded-lg p-4 mb-8">
+          <h3 class="font-semibold text-amber-400 mb-2">Proximo Modulo:</h3>
+          <p class="text-neutral-300">4.4 - Ferramentas Para Negocios</p>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="empreendedores-modulo-02.html" class="flex-1 text-center px-6 py-3 bg-dark-700 text-neutral-300 rounded-lg font-semibold hover:bg-dark-600 transition-colors">
+            ← Modulo Anterior
+          </a>
+          <a href="empreendedores-modulo-04.html" class="flex-1 text-center px-6 py-3 bg-amber-600 text-white rounded-lg font-semibold hover:bg-amber-500 transition-colors">
+            Proximo Modulo →
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-dark-600 py-8 mt-16">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
+      <p>Designer do Futuro - 2025 | <a href="https://inema.club" target="_blank" class="text-sky-400 hover:text-sky-300">INEMA.CLUB</a></p>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script>
+    // Theme Toggle
+    const themeToggle = document.getElementById('theme-toggle');
+    const themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+    const themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
+    const html = document.documentElement;
+
+    if (localStorage.getItem('theme') === 'light' || (!localStorage.getItem('theme') && !html.classList.contains('dark'))) {
+      themeToggleDarkIcon.classList.remove('hidden');
+      html.classList.remove('dark');
+    } else {
+      themeToggleLightIcon.classList.remove('hidden');
+    }
+
+    themeToggle.addEventListener('click', () => {
+      themeToggleDarkIcon.classList.toggle('hidden');
+      themeToggleLightIcon.classList.toggle('hidden');
+      html.classList.toggle('dark');
+      localStorage.setItem('theme', html.classList.contains('dark') ? 'dark' : 'light');
+    });
+  </script>
+
+</body>
+</html>

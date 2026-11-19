@@ -1,0 +1,528 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modulo 4.4: Ferramentas Para Negocios | Designer do Futuro</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: '#FACC15',
+            dark: { 900: '#111827', 800: '#1f2937', 700: '#374151', 600: '#4b5563' }
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .dark body { background-color: #111827; }
+
+    /* Light mode overrides - OBRIGATORIO */
+    html:not(.dark) body { background-color: #f8fafc; }
+    html:not(.dark) .bg-dark-900 { background-color: #ffffff; }
+    html:not(.dark) .bg-dark-800 { background-color: #f9fafb; }
+    html:not(.dark) .bg-dark-700 { background-color: #f3f4f6; }
+    html:not(.dark) .bg-dark-600 { background-color: #e5e7eb; }
+    html:not(.dark) .text-neutral-100 { color: #111827; }
+    html:not(.dark) .text-neutral-300 { color: #4b5563; }
+    html:not(.dark) .text-neutral-400 { color: #6b7280; }
+    html:not(.dark) .text-neutral-500 { color: #9ca3af; }
+    html:not(.dark) .border-dark-600 { border-color: #d1d5db; }
+    html:not(.dark) .border-dark-700 { border-color: #e5e7eb; }
+
+    /* Light mode - cores de acento (trilha amber) */
+    html:not(.dark) .text-amber-400 { color: #92400e; }
+    html:not(.dark) .bg-amber-500\/20 { background-color: rgba(217, 119, 6, 0.12); }
+    html:not(.dark) .bg-amber-500\/10 { background-color: rgba(217, 119, 6, 0.08); }
+    html:not(.dark) .border-amber-500\/30 { border-color: rgba(217, 119, 6, 0.25); }
+    html:not(.dark) .hover\:bg-amber-500\/30:hover { background-color: rgba(217, 119, 6, 0.18); }
+
+    /* Light mode - remove gradientes */
+    html:not(.dark) [class*="bg-gradient-to"] { background-image: none !important; }
+
+    /* Light mode - cores especiais */
+    html:not(.dark) .text-primary { color: #a16207; }
+    html:not(.dark) .bg-primary\/10 { background-color: rgba(161, 98, 7, 0.08); }
+    html:not(.dark) .border-primary\/40 { border-color: rgba(161, 98, 7, 0.25); }
+    html:not(.dark) .text-sky-400 { color: #0369a1; }
+    html:not(.dark) .text-yellow-400 { color: #a16207; }
+    html:not(.dark) .hover\:text-sky-300:hover { color: #0284c7; }
+    html:not(.dark) .hover\:text-yellow-300:hover { color: #854d0e; }
+
+    /* Light mode - nav */
+    html:not(.dark) .bg-dark-900\/95 { background-color: rgba(255, 255, 255, 0.95); }
+  </style>
+</head>
+<body class="bg-dark-900 text-neutral-100 min-h-screen">
+
+  <!-- NAVIGATION -->
+  <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-14">
+        <div class="flex items-center space-x-4">
+          <a href="../index.html" class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300">
+            <span class="text-2xl">🎨</span>
+            <span class="font-bold text-lg hidden sm:inline">Designer do Futuro</span>
+          </a>
+          <span class="text-neutral-600">|</span>
+          <a href="https://inema.club" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium">INEMA.CLUB</a>
+        </div>
+        <div class="flex items-center space-x-1 sm:space-x-2">
+          <a href="../trilhas/iniciante.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-colors">
+            <span class="sm:hidden">T1</span>
+            <span class="hidden sm:inline">Iniciante</span>
+          </a>
+          <a href="../trilhas/tecnico.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-blue-400 hover:bg-blue-500/10 transition-colors">
+            <span class="sm:hidden">T2</span>
+            <span class="hidden sm:inline">Tecnico</span>
+          </a>
+          <a href="../trilhas/masterclass.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-purple-400 hover:bg-purple-500/10 transition-colors">
+            <span class="sm:hidden">T3</span>
+            <span class="hidden sm:inline">Masterclass</span>
+          </a>
+          <a href="../trilhas/empreendedores.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-amber-400 bg-amber-500/10">
+            <span class="sm:hidden">T4</span>
+            <span class="hidden sm:inline">Empreendedores</span>
+          </a>
+          <button id="theme-toggle" class="p-2 rounded-lg bg-dark-700 hover:bg-dark-600 transition-colors ml-2">
+            <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5 text-neutral-300" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+            </svg>
+            <svg id="theme-toggle-light-icon" class="hidden w-5 h-5 text-neutral-300" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- BREADCRUMB -->
+  <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+    <div class="flex items-center space-x-2 text-sm text-neutral-400">
+      <a href="../index.html" class="hover:text-amber-400">Inicio</a>
+      <span>/</span>
+      <a href="../trilhas/empreendedores.html" class="hover:text-amber-400">Trilha Empreendedores</a>
+      <span>/</span>
+      <span class="text-amber-400">Modulo 4.4</span>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="bg-gradient-to-br from-amber-900/30 via-dark-800 to-dark-800 py-12 border-b border-dark-600">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <span class="inline-block px-3 py-1 bg-amber-500/20 text-amber-400 text-xs font-semibold rounded-full mb-4">
+        MODULO 4.4
+      </span>
+      <h1 class="text-3xl sm:text-4xl font-bold mb-4">🛠️ Ferramentas Para Negocios</h1>
+      <p class="text-lg text-neutral-400 max-w-3xl">Monte seu arsenal de ferramentas profissionais gastando pouco e produzindo muito. Stack completa por menos de R$50/mes</p>
+      <div class="grid grid-cols-4 gap-4 mt-8 max-w-2xl">
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-amber-400">5</div>
+          <div class="text-xs text-neutral-400">Topicos</div>
+        </div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-amber-400">480</div>
+          <div class="text-xs text-neutral-400">Minutos</div>
+        </div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-amber-400">R$41</div>
+          <div class="text-xs text-neutral-400">Invest/Mes</div>
+        </div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-amber-400">Pratico</div>
+          <div class="text-xs text-neutral-400">Tipo</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTEUDO -->
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+    <!-- TOPICO 1 -->
+    <section id="topico-1" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">1</span>
+        <h2 class="text-2xl font-bold">💰 Ferramentas Gratuitas vs Pagas</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        O guia definitivo para <strong class="text-amber-400">nao jogar dinheiro fora</strong> e saber quando investir. Aprenda quando vale a pena pagar por uma ferramenta e quando a versao gratuita e suficiente.
+      </p>
+
+      <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 mb-6 overflow-x-auto">
+        <h4 class="font-bold text-amber-400 mb-4">Comparativo de Ferramentas</h4>
+        <div class="space-y-3">
+          <div class="flex items-center justify-between p-3 bg-dark-700 rounded-lg">
+            <span class="font-semibold text-white text-sm">Canva</span>
+            <span class="text-neutral-400 text-xs">Free: 5GB | Pro: R$34/mes</span>
+            <span class="text-green-400 text-xs font-bold">✅ SIM - Pagar</span>
+          </div>
+          <div class="flex items-center justify-between p-3 bg-dark-700 rounded-lg">
+            <span class="font-semibold text-white text-sm">Remove.bg</span>
+            <span class="text-neutral-400 text-xs">Free: 1/mes | Pago: R$45/mes</span>
+            <span class="text-red-400 text-xs font-bold">❌ NAO - Use alternativas</span>
+          </div>
+          <div class="flex items-center justify-between p-3 bg-dark-700 rounded-lg">
+            <span class="font-semibold text-white text-sm">Buffer</span>
+            <span class="text-neutral-400 text-xs">Free: 3 contas | Pago: R$30/mes</span>
+            <span class="text-yellow-400 text-xs font-bold">⚠️ DEPENDE - 5+ redes</span>
+          </div>
+          <div class="flex items-center justify-between p-3 bg-dark-700 rounded-lg">
+            <span class="font-semibold text-white text-sm">Google Drive</span>
+            <span class="text-neutral-400 text-xs">Free: 15GB | Pago: R$7/mes 100GB</span>
+            <span class="text-green-400 text-xs font-bold">✅ SIM - Quando 10GB+</span>
+          </div>
+          <div class="flex items-center justify-between p-3 bg-dark-700 rounded-lg">
+            <span class="font-semibold text-white text-sm">Notion</span>
+            <span class="text-neutral-400 text-xs">Free: 1000 blocos | Pago: R$40/mes</span>
+            <span class="text-red-400 text-xs font-bold">❌ NAO - Free suficiente</span>
+          </div>
+          <div class="flex items-center justify-between p-3 bg-dark-700 rounded-lg">
+            <span class="font-semibold text-white text-sm">Trello</span>
+            <span class="text-neutral-400 text-xs">Free: 10 boards | Pago: R$25/mes</span>
+            <span class="text-red-400 text-xs font-bold">❌ NAO - 10 boards bastam</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-primary/10 rounded-xl border border-primary/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-primary mb-3 flex items-center">
+          <span class="mr-2">💡</span> Caso Real: Maria - Loja de Roupas
+        </h3>
+        <p class="text-neutral-300 text-sm mb-3">De R$800/mes para R$41/mes em ferramentas. Cancelou Photoshop (R$90), Illustrator (R$90), Stock photos (R$200), Hootsuite (R$250), Dropbox (R$60), Monday (R$110). Migrou para: Canva Pro (R$34) + Google Drive (R$7).</p>
+        <div class="grid grid-cols-3 gap-4">
+          <div class="text-center"><span class="text-xl font-bold text-amber-400">-95%</span><p class="text-xs text-neutral-400">Reducao custos</p></div>
+          <div class="text-center"><span class="text-xl font-bold text-amber-400">R$759</span><p class="text-xs text-neutral-400">Economia mensal</p></div>
+          <div class="text-center"><span class="text-xl font-bold text-amber-400">3x</span><p class="text-xs text-neutral-400">Mais produtividade</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 2 -->
+    <section id="topico-2" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">2</span>
+        <h2 class="text-2xl font-bold">🎨 Canva Pro: Guia Completo Para Negocios</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        Transforme <strong class="text-amber-400">R$34/mes em milhares de reais</strong> em vendas. Domine todos os recursos profissionais do Canva.
+      </p>
+
+      <div class="space-y-4 mb-6">
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <h4 class="font-semibold text-amber-400 mb-2">1. Configure Sua Marca no Canva</h4>
+          <p class="text-neutral-300 text-sm mb-2">Cadastre toda identidade visual para manter consistencia em todos os materiais.</p>
+          <ul class="space-y-1 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Ate 100 paletas de cores da marca</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Upload de ate 100 logos em diferentes versoes</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Configure ate 20 fontes personalizadas</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Use "Magic Resize" para adaptar em 30 segundos</span></li>
+          </ul>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <h4 class="font-semibold text-amber-400 mb-2">2. Background Remover (Economize R$45/mes)</h4>
+          <p class="text-neutral-300 text-sm">Remova fundos em 1 clique com precisao de 95%. Ajuste bordas manualmente, salve como PNG transparente, processe lotes de ate 100 imagens.</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <h4 class="font-semibold text-amber-400 mb-2">3. Banco de Imagens Premium (100M+ fotos)</h4>
+          <p class="text-neutral-300 text-sm">Downloads ilimitados sem marca d'agua. Videos em 4K para anuncios. Elementos animados para Stories e Reels. Cada imagem economiza R$10-50.</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <h4 class="font-semibold text-amber-400 mb-2">4. Mockups Profissionais (5000+ opcoes)</h4>
+          <p class="text-neutral-300 text-sm">Apresente produtos sem fotografo. Camisetas, canecas, embalagens com Smartmockups integrados. Ajuste perspectiva e iluminacao automaticamente.</p>
+          <div class="bg-primary/10 rounded-lg border border-primary/40 p-3 mt-2">
+            <p class="text-sm text-primary"><strong>Case Real:</strong> Joao aumentou vendas em 40% so trocando fotos amadoras por mockups profissionais do Canva.</p>
+          </div>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <h4 class="font-semibold text-amber-400 mb-2">5. Content Planner (Agende em 8 redes)</h4>
+          <p class="text-neutral-300 text-sm">Instagram, Facebook, LinkedIn, Pinterest, Twitter. Visualize calendario editorial completo. Crie e agende conteudo de 1 mes em apenas 2 horas.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 3 -->
+    <section id="topico-3" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">3</span>
+        <h2 class="text-2xl font-bold">🤖 Ferramentas de IA + Agendamento + Organizacao</h2>
+      </div>
+
+      <div class="space-y-4 mb-6">
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <h4 class="font-semibold text-amber-400 mb-2">Bing Image Creator (Microsoft) - GRATIS</h4>
+          <p class="text-neutral-300 text-sm mb-2">100 creditos gratis por dia = 400 imagens/mes de graca! Qualidade igual ou superior ao Midjourney. Aceita prompts em portugues.</p>
+          <div class="bg-primary/10 rounded-lg border border-primary/40 p-3 mt-2">
+            <p class="text-sm text-primary"><strong>Prompt Matador:</strong> "foto profissional de [produto] em fundo branco minimalista, iluminacao de estudio, alta qualidade, 4k"</p>
+          </div>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <h4 class="font-semibold text-amber-400 mb-2">Caso Real: Confeitaria da Ana</h4>
+          <p class="text-neutral-300 text-sm">De R$500/sessao fotografica para R$0 com IA. 300 imagens/mes, +60% engajamento. Testa interesse do publico antes de produzir - economiza ingredientes e tempo!</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <h4 class="font-semibold text-amber-400 mb-2">Sistema de Producao em Lote</h4>
+          <ul class="space-y-1 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>Segunda 9h:</strong> Brainstorm - 30 ideias de conteudo (30min)</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>Segunda 10h:</strong> Criacao - 30 posts no Canva (60min)</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>Segunda 11h:</strong> Agendamento - Distribuir nas redes (30min)</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>Resto da semana:</strong> Apenas engajamento e respostas</span></li>
+          </ul>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <h4 class="font-semibold text-amber-400 mb-2">Ferramentas de Organizacao</h4>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-3">
+            <div class="bg-dark-700 rounded-lg p-4">
+              <h5 class="font-semibold text-white text-sm mb-1">Google Drive - R$7/mes</h5>
+              <p class="text-neutral-400 text-xs">100GB. Pastas: Clientes, Produtos, Marketing, Financeiro, Templates</p>
+            </div>
+            <div class="bg-dark-700 rounded-lg p-4">
+              <h5 class="font-semibold text-white text-sm mb-1">Notion - R$0/mes</h5>
+              <p class="text-neutral-400 text-xs">CRM simples, calendario editorial, tarefas, controle financeiro</p>
+            </div>
+            <div class="bg-dark-700 rounded-lg p-4">
+              <h5 class="font-semibold text-white text-sm mb-1">Trello - R$0/mes</h5>
+              <p class="text-neutral-400 text-xs">Kanban: Leads, Negociacao, Proposta, Fechado, Perdido</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 4 -->
+    <section id="topico-4" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">4</span>
+        <h2 class="text-2xl font-bold">🚀 Stack Essencial do Empreendedor</h2>
+      </div>
+
+      <div class="bg-gradient-to-br from-amber-900/30 to-dark-800 rounded-xl border border-amber-500/30 p-6 mb-6">
+        <h4 class="font-bold text-amber-400 mb-4">Stack Por R$41/mes - Testada por +500 Empresarios</h4>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4 mb-4">
+          <div class="bg-dark-800/50 rounded-lg p-4 text-center border border-amber-500/20">
+            <div class="text-2xl mb-2">🎨</div>
+            <h5 class="font-semibold text-white text-sm">Canva Pro</h5>
+            <p class="text-amber-400 font-bold">R$34/mes</p>
+            <p class="text-neutral-400 text-xs">Design + Agendamento + Banco imagens</p>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 text-center border border-amber-500/20">
+            <div class="text-2xl mb-2">☁️</div>
+            <h5 class="font-semibold text-white text-sm">Google Drive</h5>
+            <p class="text-amber-400 font-bold">R$7/mes</p>
+            <p class="text-neutral-400 text-xs">100GB para todos os arquivos</p>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 text-center">
+            <div class="text-2xl mb-2">🤖</div>
+            <h5 class="font-semibold text-white text-sm">Bing Creator</h5>
+            <p class="text-green-400 font-bold">R$0/mes</p>
+            <p class="text-neutral-400 text-xs">400 imagens IA/mes gratis</p>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 text-center">
+            <div class="text-2xl mb-2">📅</div>
+            <h5 class="font-semibold text-white text-sm">Creator Studio</h5>
+            <p class="text-green-400 font-bold">R$0/mes</p>
+            <p class="text-neutral-400 text-xs">Agendamento FB/IG ilimitado</p>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 text-center">
+            <div class="text-2xl mb-2">📝</div>
+            <h5 class="font-semibold text-white text-sm">Notion</h5>
+            <p class="text-green-400 font-bold">R$0/mes</p>
+            <p class="text-neutral-400 text-xs">Organizacao completa gratis</p>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 text-center">
+            <div class="text-2xl mb-2">📊</div>
+            <h5 class="font-semibold text-white text-sm">Trello</h5>
+            <p class="text-green-400 font-bold">R$0/mes</p>
+            <p class="text-neutral-400 text-xs">10 quadros para projetos</p>
+          </div>
+        </div>
+        <div class="bg-amber-500/20 rounded-lg p-4 text-center">
+          <p class="text-sm text-neutral-300">Investimento Total Mensal</p>
+          <p class="text-3xl font-bold text-amber-400">R$41</p>
+          <p class="text-sm text-neutral-400">Economia vs ferramentas tradicionais: R$759/mes</p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+        <div class="bg-dark-800 rounded-xl border border-dark-600 p-6">
+          <h4 class="font-semibold text-amber-400 mb-2">Upgrade Nivel 2 - R$100/mes</h4>
+          <p class="text-neutral-400 text-sm mb-2">Quando faturar R$5.000+/mes, adicione:</p>
+          <ul class="space-y-1 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>ChatGPT Plus (R$100) - Copywriting ilimitado</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Hostinger (R$15) - Site profissional</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Google Workspace (R$30) - Email profissional</span></li>
+          </ul>
+        </div>
+        <div class="bg-dark-800 rounded-xl border border-dark-600 p-6">
+          <h4 class="font-semibold text-amber-400 mb-2">Upgrade Nivel 3 - R$300/mes</h4>
+          <p class="text-neutral-400 text-sm mb-2">Quando faturar R$20.000+/mes, adicione:</p>
+          <ul class="space-y-1 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>ActiveCampaign (R$150) - Email marketing</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Hotmart (%) - Vendas online</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>RD Station (R$200) - Automacao completa</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 5 -->
+    <section id="topico-5" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">5</span>
+        <h2 class="text-2xl font-bold">📚 Aulas Praticas</h2>
+      </div>
+
+      <div class="space-y-4 mb-6">
+        <div class="bg-dark-800 rounded-xl p-6 border-l-4 border-amber-500/50 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">Aula 1: Analise Inteligente - Quando Vale Pagar <span class="text-neutral-400 text-sm">(90 min)</span></h4>
+          <p class="text-neutral-400 text-sm mb-3">Aprenda a avaliar ferramentas como um investidor</p>
+          <ul class="space-y-1 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Calculadora de ROI para ferramentas digitais</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Analise das 30 ferramentas mais usadas</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Matriz de decisao: gratis vs pago</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Casos reais de economia de R$500+/mes</span></li>
+          </ul>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border-l-4 border-amber-500/50 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">Aula 2: Canva Pro Master <span class="text-neutral-400 text-sm">(120 min)</span></h4>
+          <p class="text-neutral-400 text-sm mb-3">Do basico ao avancado em design para negocios</p>
+          <ul class="space-y-1 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Configuracao completa de marca</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Background Remover, Magic Resize, Mockups</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Templates secretos que convertem</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Atalhos que triplicam sua velocidade</span></li>
+          </ul>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border-l-4 border-amber-500/50 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">Aula 3: IA Para Empresas <span class="text-neutral-400 text-sm">(90 min)</span></h4>
+          <p class="text-neutral-400 text-sm mb-3">Gere imagens profissionais ilimitadas sem gastar nada</p>
+          <ul class="space-y-1 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Bing Image Creator: 400 imagens gratis/mes</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Prompts que vendem por nicho de negocio</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Alternativas gratis para remocao de fundo e upscale</span></li>
+          </ul>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border-l-4 border-amber-500/50 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">Aula 4: Agendamento e Automacao <span class="text-neutral-400 text-sm">(90 min)</span></h4>
+          <p class="text-neutral-400 text-sm mb-3">Publique em 10 redes gastando 30 minutos por semana</p>
+          <ul class="space-y-1 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Sistema de producao em lote: 1 mes em 2 horas</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Multi-plataforma gratis: Creator Studio + LinkedIn + Pinterest</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Economia de R$200/mes vs ferramentas pagas</span></li>
+          </ul>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border-l-4 border-amber-500/50 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">Aula 5: Organizacao Total <span class="text-neutral-400 text-sm">(90 min)</span></h4>
+          <p class="text-neutral-400 text-sm mb-3">Monte seu sistema completo com Google Drive, Notion e Trello</p>
+          <ul class="space-y-1 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Estrutura perfeita de pastas no Drive</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>CRM, calendario e tarefas no Notion</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Quadro Kanban de vendas no Trello</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESUMO -->
+    <section class="mb-12">
+      <div class="bg-gradient-to-br from-amber-900/40 via-dark-800 to-dark-800 rounded-xl border border-amber-500/30 p-8">
+        <h2 class="text-2xl font-bold mb-6 flex items-center">
+          <span class="mr-3">📋</span> Resumo do Modulo
+        </h2>
+        <div class="space-y-4 mb-8">
+          <div class="flex items-start space-x-3">
+            <span class="text-amber-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Economia inteligente em ferramentas</strong>
+              <span class="text-neutral-400"> - Saiba quando pagar e quando usar gratis</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-amber-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Canva Pro dominado</strong>
+              <span class="text-neutral-400"> - R$34/mes que geram milhares em vendas</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-amber-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">IA gratuita para imagens profissionais</strong>
+              <span class="text-neutral-400"> - 400 imagens/mes com Bing Image Creator</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-amber-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Automacao de publicacao</strong>
+              <span class="text-neutral-400"> - 10 redes sociais em 30 minutos por semana</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-amber-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Stack completa por R$41/mes</strong>
+              <span class="text-neutral-400"> - Economia de R$759/mes vs ferramentas tradicionais</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-dark-800/50 rounded-lg p-4 mb-8">
+          <h3 class="font-semibold text-amber-400 mb-2">Proximo Modulo:</h3>
+          <p class="text-neutral-300">4.5 - Do Zero ao Resultado</p>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="empreendedores-modulo-03.html" class="flex-1 text-center px-6 py-3 bg-dark-700 text-neutral-300 rounded-lg font-semibold hover:bg-dark-600 transition-colors">
+            ← Modulo Anterior
+          </a>
+          <a href="empreendedores-modulo-05.html" class="flex-1 text-center px-6 py-3 bg-amber-600 text-white rounded-lg font-semibold hover:bg-amber-500 transition-colors">
+            Proximo Modulo →
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-dark-600 py-8 mt-16">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
+      <p>Designer do Futuro - 2025 | <a href="https://inema.club" target="_blank" class="text-sky-400 hover:text-sky-300">INEMA.CLUB</a></p>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script>
+    // Theme Toggle
+    const themeToggle = document.getElementById('theme-toggle');
+    const themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+    const themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
+    const html = document.documentElement;
+
+    if (localStorage.getItem('theme') === 'light' || (!localStorage.getItem('theme') && !html.classList.contains('dark'))) {
+      themeToggleDarkIcon.classList.remove('hidden');
+      html.classList.remove('dark');
+    } else {
+      themeToggleLightIcon.classList.remove('hidden');
+    }
+
+    themeToggle.addEventListener('click', () => {
+      themeToggleDarkIcon.classList.toggle('hidden');
+      themeToggleLightIcon.classList.toggle('hidden');
+      html.classList.toggle('dark');
+      localStorage.setItem('theme', html.classList.contains('dark') ? 'dark' : 'light');
+    });
+  </script>
+
+</body>
+</html>

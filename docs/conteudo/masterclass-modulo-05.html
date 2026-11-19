@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modulo 3.5: Producao em Escala | Designer do Futuro</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: '#FACC15',
+            dark: { 900: '#111827', 800: '#1f2937', 700: '#374151', 600: '#4b5563' }
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .dark body { background-color: #111827; }
+
+    /* Light mode overrides - OBRIGATORIO */
+    html:not(.dark) body { background-color: #f8fafc; }
+    html:not(.dark) .bg-dark-900 { background-color: #ffffff; }
+    html:not(.dark) .bg-dark-800 { background-color: #f9fafb; }
+    html:not(.dark) .bg-dark-700 { background-color: #f3f4f6; }
+    html:not(.dark) .bg-dark-600 { background-color: #e5e7eb; }
+    html:not(.dark) .text-neutral-100 { color: #111827; }
+    html:not(.dark) .text-neutral-300 { color: #4b5563; }
+    html:not(.dark) .text-neutral-400 { color: #6b7280; }
+    html:not(.dark) .text-neutral-500 { color: #9ca3af; }
+    html:not(.dark) .border-dark-600 { border-color: #d1d5db; }
+    html:not(.dark) .border-dark-700 { border-color: #e5e7eb; }
+
+    /* Light mode - cores de acento (trilha purple) */
+    html:not(.dark) .text-purple-400 { color: #7c3aed; }
+    html:not(.dark) .bg-purple-500\/20 { background-color: rgba(124, 58, 237, 0.12); }
+    html:not(.dark) .bg-purple-500\/10 { background-color: rgba(124, 58, 237, 0.08); }
+    html:not(.dark) .border-purple-500\/30 { border-color: rgba(124, 58, 237, 0.25); }
+    html:not(.dark) .hover\:bg-purple-500\/30:hover { background-color: rgba(124, 58, 237, 0.18); }
+
+    /* Light mode - remove gradientes */
+    html:not(.dark) [class*="bg-gradient-to"] { background-image: none !important; }
+
+    /* Light mode - cores especiais */
+    html:not(.dark) .text-primary { color: #a16207; }
+    html:not(.dark) .bg-primary\/10 { background-color: rgba(161, 98, 7, 0.08); }
+    html:not(.dark) .border-primary\/40 { border-color: rgba(161, 98, 7, 0.25); }
+    html:not(.dark) .text-sky-400 { color: #0369a1; }
+    html:not(.dark) .text-yellow-400 { color: #a16207; }
+    html:not(.dark) .hover\:text-sky-300:hover { color: #0284c7; }
+    html:not(.dark) .hover\:text-yellow-300:hover { color: #854d0e; }
+
+    /* Light mode - nav */
+    html:not(.dark) .bg-dark-900\/95 { background-color: rgba(255, 255, 255, 0.95); }
+  </style>
+</head>
+<body class="bg-dark-900 text-neutral-100 min-h-screen">
+
+  <!-- NAVIGATION -->
+  <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-14">
+        <div class="flex items-center space-x-4">
+          <a href="../index.html" class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300">
+            <span class="text-2xl">🎨</span>
+            <span class="font-bold text-lg hidden sm:inline">Designer do Futuro</span>
+          </a>
+          <span class="text-neutral-600">|</span>
+          <a href="https://inema.club" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium">INEMA.CLUB</a>
+        </div>
+        <div class="flex items-center space-x-1 sm:space-x-2">
+          <a href="../trilhas/iniciante.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-colors">
+            <span class="sm:hidden">T1</span>
+            <span class="hidden sm:inline">Iniciante</span>
+          </a>
+          <a href="../trilhas/tecnico.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-blue-400 hover:bg-blue-500/10 transition-colors">
+            <span class="sm:hidden">T2</span>
+            <span class="hidden sm:inline">Tecnico</span>
+          </a>
+          <a href="../trilhas/masterclass.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-purple-400 bg-purple-500/10">
+            <span class="sm:hidden">T3</span>
+            <span class="hidden sm:inline">Masterclass</span>
+          </a>
+          <a href="../trilhas/empreendedores.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10 transition-colors">
+            <span class="sm:hidden">T4</span>
+            <span class="hidden sm:inline">Empreendedores</span>
+          </a>
+          <button id="theme-toggle" class="p-2 rounded-lg bg-dark-700 hover:bg-dark-600 transition-colors ml-2">
+            <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5 text-neutral-300" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+            </svg>
+            <svg id="theme-toggle-light-icon" class="hidden w-5 h-5 text-neutral-300" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- BREADCRUMB -->
+  <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+    <div class="flex items-center space-x-2 text-sm text-neutral-400">
+      <a href="../index.html" class="hover:text-purple-400">Inicio</a>
+      <span>/</span>
+      <a href="../trilhas/masterclass.html" class="hover:text-purple-400">Trilha Masterclass</a>
+      <span>/</span>
+      <span class="text-purple-400">Modulo 3.5</span>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="bg-gradient-to-br from-purple-900/30 via-dark-800 to-dark-800 py-12 border-b border-dark-600">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <span class="inline-block px-3 py-1 bg-purple-500/20 text-purple-400 text-xs font-semibold rounded-full mb-4">
+        MODULO 3.5
+      </span>
+      <h1 class="text-3xl sm:text-4xl font-bold mb-4">🚀 Producao em Escala</h1>
+      <p class="text-lg text-neutral-400 max-w-3xl">Domine as tecnicas avancadas de producao em massa com IA. Aprenda a criar sistemas eficientes para gerar centenas de imagens por dia mantendo qualidade e consistencia excepcionais.</p>
+      <div class="grid grid-cols-4 gap-4 mt-8 max-w-2xl">
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-purple-400">100+</div>
+          <div class="text-xs text-neutral-400">Imagens/Dia</div>
+        </div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-purple-400">510</div>
+          <div class="text-xs text-neutral-400">Minutos</div>
+        </div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-purple-400">Master</div>
+          <div class="text-xs text-neutral-400">Nivel</div>
+        </div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-purple-400">Pratico</div>
+          <div class="text-xs text-neutral-400">Tipo</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTEUDO -->
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+    <!-- TOPICO 1 -->
+    <section id="topico-1" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">1</span>
+        <h2 class="text-2xl font-bold">⚡ Objetivos e Fundamentos de Batch Generation</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        Tecnicas profissionais de producao em escala com automacao completa e controle de qualidade. Voce vai dominar sistemas avancados de geracao em lote com <strong class="text-purple-400">variacoes controladas e parametros otimizados</strong> para maxima eficiencia.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
+        <div class="bg-dark-800 rounded-xl p-5 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">⚡ Batch Generation</h4>
+          <p class="text-neutral-300 text-sm mb-2">Sistemas avancados de geracao em lote com variacoes controladas e parametros otimizados para maxima eficiencia.</p>
+          <ul class="space-y-1 text-neutral-400 text-xs">
+            <li>• Processamento paralelo multi-GPU</li>
+            <li>• Queue management inteligente</li>
+            <li>• Auto-retry com fallback</li>
+            <li>• Resource optimization</li>
+          </ul>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-5 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">🤖 Automacao Completa</h4>
+          <p class="text-neutral-300 text-sm mb-2">Scripts e APIs para automatizar todo o workflow de producao, desde a geracao ate a entrega final.</p>
+          <ul class="space-y-1 text-neutral-400 text-xs">
+            <li>• Python scripts avancados</li>
+            <li>• API integration (Midjourney, SD)</li>
+            <li>• Webhook automation</li>
+            <li>• Cloud processing setup</li>
+          </ul>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-5 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">📊 Sistemas de Organizacao</h4>
+          <p class="text-neutral-300 text-sm mb-2">Estruturas profissionais de naming, tagging e catalogacao para gerenciar milhares de assets.</p>
+          <ul class="space-y-1 text-neutral-400 text-xs">
+            <li>• Semantic naming conventions</li>
+            <li>• Auto-tagging com AI</li>
+            <li>• Database management</li>
+            <li>• Version control systems</li>
+          </ul>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-5 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">✅ Quality Control</h4>
+          <p class="text-neutral-300 text-sm mb-2">Processos automatizados de controle de qualidade para garantir consistencia em grandes volumes.</p>
+          <ul class="space-y-1 text-neutral-400 text-xs">
+            <li>• Automated QA checks</li>
+            <li>• Consistency validation</li>
+            <li>• Error detection AI</li>
+            <li>• Batch correction tools</li>
+          </ul>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-5 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">🎨 Templates & Presets</h4>
+          <p class="text-neutral-300 text-sm mb-2">Biblioteca completa de templates reutilizaveis e presets otimizados para diferentes cenarios.</p>
+          <ul class="space-y-1 text-neutral-400 text-xs">
+            <li>• Style preset library</li>
+            <li>• Prompt templates avancados</li>
+            <li>• Workflow templates</li>
+            <li>• Custom preset creation</li>
+          </ul>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-5 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">📈 Performance Metrics</h4>
+          <p class="text-neutral-300 text-sm mb-2">KPIs e metricas para monitorar e otimizar a producao em escala continuamente.</p>
+          <ul class="space-y-1 text-neutral-400 text-xs">
+            <li>• Production analytics</li>
+            <li>• Cost per image tracking</li>
+            <li>• Time optimization metrics</li>
+            <li>• ROI calculation tools</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 2 -->
+    <section id="topico-2" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">2</span>
+        <h2 class="text-2xl font-bold">📚 Aulas Estruturadas</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        5 aulas praticas com foco em <strong class="text-purple-400">implementacao de sistemas de producao profissionais</strong> para escalar sua operacao.
+      </p>
+
+      <div class="space-y-4 mb-6">
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <div class="flex items-center justify-between mb-3">
+            <h4 class="font-semibold text-white">Aula 01: Fundamentos de Batch Generation</h4>
+            <span class="text-purple-400 text-sm font-bold">90 min</span>
+          </div>
+          <p class="text-neutral-300 text-sm mb-3">Introducao completa aos sistemas de geracao em lote. Aprenda a configurar pipelines eficientes, otimizar parametros para processamento em massa e implementar sistemas de queue management. Explore tecnicas de paralelizacao, load balancing e resource allocation para maximizar throughput.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Batch Processing</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Queue Systems</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Parallel Generation</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Resource Management</span>
+          </div>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <div class="flex items-center justify-between mb-3">
+            <h4 class="font-semibold text-white">Aula 02: Automacao com Scripts e APIs</h4>
+            <span class="text-purple-400 text-sm font-bold">120 min</span>
+          </div>
+          <p class="text-neutral-300 text-sm mb-3">Deep dive em automacao completa do workflow. Desenvolvimento de scripts Python avancados, integracao com APIs de IA (Midjourney, Stable Diffusion, DALL-E), implementacao de webhooks e triggers automaticos. Setup de infraestrutura cloud para processamento distribuido.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Python Automation</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">API Integration</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Webhook Setup</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Cloud Processing</span>
+          </div>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <div class="flex items-center justify-between mb-3">
+            <h4 class="font-semibold text-white">Aula 03: Sistemas Avancados de Organizacao</h4>
+            <span class="text-purple-400 text-sm font-bold">90 min</span>
+          </div>
+          <p class="text-neutral-300 text-sm mb-3">Criacao de estruturas profissionais de catalogacao e gerenciamento. Implementacao de naming conventions semanticas, sistemas de auto-tagging com IA, setup de databases relacionais, integracao com DAM (Digital Asset Management) systems e version control para assets visuais.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Asset Management</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Database Design</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Auto-tagging</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Version Control</span>
+          </div>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <div class="flex items-center justify-between mb-3">
+            <h4 class="font-semibold text-white">Aula 04: Quality Control Automatizado</h4>
+            <span class="text-purple-400 text-sm font-bold">100 min</span>
+          </div>
+          <p class="text-neutral-300 text-sm mb-3">Implementacao de sistemas robustos de QA automatizado. Desenvolvimento de algoritmos de deteccao de erros, validacao de consistencia visual, correcao em batch com AI, setup de approval workflows e feedback loops. Criacao de dashboards de monitoramento em tempo real.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Automated QA</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Error Detection</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Batch Correction</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Monitoring Tools</span>
+          </div>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <div class="flex items-center justify-between mb-3">
+            <h4 class="font-semibold text-white">Aula 05: Workflow para 100+ Imagens/Dia</h4>
+            <span class="text-purple-400 text-sm font-bold">110 min</span>
+          </div>
+          <p class="text-neutral-300 text-sm mb-3">Case study completo de implementacao de sistema de alta producao. Analise de bottlenecks, otimizacao de pipeline end-to-end, estrategias de scaling horizontal e vertical, cost optimization e ROI maximization. Setup completo de producao profissional com metricas e KPIs.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">High-volume Production</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Pipeline Optimization</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Scaling Strategies</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Performance Metrics</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 3 -->
+    <section id="topico-3" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">3</span>
+        <h2 class="text-2xl font-bold">💪 Exercicios Praticos - Desafios de Producao</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        Projetos praticos para dominar producao em escala com <strong class="text-purple-400">cenarios reais do mercado</strong>.
+      </p>
+
+      <div class="space-y-4 mb-6">
+        <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6">
+          <h3 class="text-lg font-semibold text-purple-400 mb-2 flex items-center">
+            <span class="mr-2">🛒</span> Sistema de Producao E-commerce (Avancado)
+          </h3>
+          <p class="text-neutral-300 text-sm mb-4">Desenvolva um sistema completo de producao automatizada para um e-commerce com 1000+ produtos. Implemente batch generation de imagens de produto com variacoes (cores, angulos, contextos), sistema de naming semantico, auto-upload para plataforma e quality control automatizado.</p>
+          <ul class="space-y-2 text-neutral-300 text-sm mb-3">
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Criar pipeline de geracao para 1000 produtos em 24h</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Implementar sistema de variacoes automatizadas (5 por produto)</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Desenvolver script de upload automatico para Shopify/WooCommerce</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Setup de QA com rejection rate menor que 5%</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Calcular e otimizar custo por imagem gerada</span></li>
+          </ul>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-dark-700 text-neutral-300 text-xs rounded-full">Python</span>
+            <span class="px-2 py-1 bg-dark-700 text-neutral-300 text-xs rounded-full">Midjourney API</span>
+            <span class="px-2 py-1 bg-dark-700 text-neutral-300 text-xs rounded-full">ComfyUI</span>
+            <span class="px-2 py-1 bg-dark-700 text-neutral-300 text-xs rounded-full">AWS S3</span>
+            <span class="px-2 py-1 bg-dark-700 text-neutral-300 text-xs rounded-full">PostgreSQL</span>
+          </div>
+        </div>
+
+        <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6">
+          <h3 class="text-lg font-semibold text-purple-400 mb-2 flex items-center">
+            <span class="mr-2">📱</span> Content Factory para Social Media (Expert)
+          </h3>
+          <p class="text-neutral-300 text-sm mb-4">Crie uma content factory automatizada capaz de gerar 100+ posts unicos por dia para diferentes plataformas sociais. Implemente adaptacao automatica de formato, scheduling inteligente, A/B testing automatizado e analytics em tempo real.</p>
+          <ul class="space-y-2 text-neutral-300 text-sm mb-3">
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Desenvolver gerador de conteudo multi-plataforma (Instagram, TikTok, LinkedIn)</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Implementar adaptacao automatica de aspect ratio e formato</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Criar sistema de scheduling com otimizacao de horarios</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Setup de A/B testing automatizado com analise de performance</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Dashboard de metricas com ROI por tipo de conteudo</span></li>
+          </ul>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-dark-700 text-neutral-300 text-xs rounded-full">Node.js</span>
+            <span class="px-2 py-1 bg-dark-700 text-neutral-300 text-xs rounded-full">Stable Diffusion</span>
+            <span class="px-2 py-1 bg-dark-700 text-neutral-300 text-xs rounded-full">Buffer API</span>
+            <span class="px-2 py-1 bg-dark-700 text-neutral-300 text-xs rounded-full">MongoDB</span>
+            <span class="px-2 py-1 bg-dark-700 text-neutral-300 text-xs rounded-full">Grafana</span>
+          </div>
+        </div>
+
+        <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6">
+          <h3 class="text-lg font-semibold text-purple-400 mb-2 flex items-center">
+            <span class="mr-2">🎮</span> Asset Pipeline para Game Studio (Expert)
+          </h3>
+          <p class="text-neutral-300 text-sm mb-4">Desenvolva um pipeline completo de geracao de assets para um game studio indie. Crie sistema de geracao de sprites, backgrounds, UI elements com consistencia visual, version control integrado e export automatizado para Unity/Unreal.</p>
+          <ul class="space-y-2 text-neutral-300 text-sm mb-3">
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Pipeline de geracao de 500+ sprites com consistencia de estilo</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Sistema de variacoes para diferentes estados (idle, action, damage)</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Auto-export com optimization para game engines</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Integration com Perforce/Git LFS para version control</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Documentation generator automatico para art bible</span></li>
+          </ul>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-dark-700 text-neutral-300 text-xs rounded-full">Python</span>
+            <span class="px-2 py-1 bg-dark-700 text-neutral-300 text-xs rounded-full">DALL-E 3</span>
+            <span class="px-2 py-1 bg-dark-700 text-neutral-300 text-xs rounded-full">Photoshop API</span>
+            <span class="px-2 py-1 bg-dark-700 text-neutral-300 text-xs rounded-full">Unity Cloud</span>
+            <span class="px-2 py-1 bg-dark-700 text-neutral-300 text-xs rounded-full">Perforce</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 4 -->
+    <section id="topico-4" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">4</span>
+        <h2 class="text-2xl font-bold">🔥 Tecnicas Avancadas - Estrategias de Elite</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        Metodos exclusivos utilizados por <strong class="text-purple-400">profissionais de alta performance</strong> na producao em escala.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+        <div class="bg-dark-800 rounded-xl p-5 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">🔄 Progressive Scaling</h4>
+          <p class="text-neutral-300 text-sm mb-3">Sistema de scaling progressivo que aumenta capacidade gradualmente baseado em demanda e recursos disponiveis.</p>
+          <div class="bg-dark-700 rounded-lg p-3">
+            <code class="text-xs text-purple-400">
+              // Auto-scaling algorithm<br>
+              if (queue_size > threshold) {<br>
+              &nbsp;&nbsp;spawn_workers(calculate_optimal_count())<br>
+              &nbsp;&nbsp;distribute_load(weighted_round_robin)<br>
+              }
+            </code>
+          </div>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-5 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">🎯 Smart Caching</h4>
+          <p class="text-neutral-300 text-sm mb-3">Implementacao de cache inteligente multi-layer para reutilizacao de elementos comuns e aceleracao de producao.</p>
+          <div class="bg-dark-700 rounded-lg p-3">
+            <code class="text-xs text-purple-400">
+              // Cache strategy<br>
+              cache_layers = {<br>
+              &nbsp;&nbsp;L1: "prompts_frecuentes",<br>
+              &nbsp;&nbsp;L2: "style_embeddings",<br>
+              &nbsp;&nbsp;L3: "generated_assets"<br>
+              }
+            </code>
+          </div>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-5 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">⚡ Predictive Generation</h4>
+          <p class="text-neutral-300 text-sm mb-3">IA preditiva que antecipa demandas e pre-gera conteudo baseado em padroes historicos e tendencias.</p>
+          <div class="bg-dark-700 rounded-lg p-3">
+            <code class="text-xs text-purple-400">
+              // Predictive model<br>
+              predict_demand(historical_data)<br>
+              pre_generate_trending_styles()<br>
+              optimize_resource_allocation()
+            </code>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center">
+          <span class="mr-2">📈</span> KPIs de Producao - Benchmark de Mercado
+        </h3>
+        <p class="text-neutral-300 text-sm mb-4">Profissionais de elite mantem throughput medio de 15-20 imagens/hora com 95%+ de aprovacao no QA. Cost per image otimizado fica entre $0.10-$0.30 dependendo da complexidade.</p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white text-sm mb-2">Throughput Metrics</h4>
+            <ul class="space-y-1 text-neutral-400 text-xs">
+              <li>• Images per hour (IPH)</li>
+              <li>• Queue processing time</li>
+              <li>• Parallel generation capacity</li>
+              <li>• Resource utilization rate</li>
+            </ul>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white text-sm mb-2">Quality Metrics</h4>
+            <ul class="space-y-1 text-neutral-400 text-xs">
+              <li>• First-pass approval rate</li>
+              <li>• Consistency score</li>
+              <li>• Error detection accuracy</li>
+              <li>• Client satisfaction index</li>
+            </ul>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white text-sm mb-2">Financial Metrics</h4>
+            <ul class="space-y-1 text-neutral-400 text-xs">
+              <li>• Cost per image (CPI)</li>
+              <li>• ROI por projeto</li>
+              <li>• Margin optimization</li>
+              <li>• Resource cost allocation</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 5 -->
+    <section id="topico-5" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">5</span>
+        <h2 class="text-2xl font-bold">🛠️ Ferramentas & Recursos</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        Ferramentas essenciais para <strong class="text-purple-400">producao em escala de alto nivel</strong>.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mb-6">
+        <div class="bg-dark-800 rounded-xl p-5 border border-dark-600">
+          <p class="text-2xl mb-2">🐍</p>
+          <h4 class="font-semibold text-white mb-1">Python Automation Scripts</h4>
+          <p class="text-neutral-400 text-sm">Biblioteca completa de scripts para automacao</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-5 border border-dark-600">
+          <p class="text-2xl mb-2">🔌</p>
+          <h4 class="font-semibold text-white mb-1">API Collection</h4>
+          <p class="text-neutral-400 text-sm">Postman collection com todas as APIs de IA</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-5 border border-dark-600">
+          <p class="text-2xl mb-2">☁️</p>
+          <h4 class="font-semibold text-white mb-1">Cloud Setup Guide</h4>
+          <p class="text-neutral-400 text-sm">Configuracao de infraestrutura AWS/GCP</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-5 border border-dark-600">
+          <p class="text-2xl mb-2">📊</p>
+          <h4 class="font-semibold text-white mb-1">Dashboard Templates</h4>
+          <p class="text-neutral-400 text-sm">Templates Grafana para monitoring</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-5 border border-dark-600">
+          <p class="text-2xl mb-2">🎨</p>
+          <h4 class="font-semibold text-white mb-1">Style Library</h4>
+          <p class="text-neutral-400 text-sm">1000+ presets otimizados para producao</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-5 border border-dark-600">
+          <p class="text-2xl mb-2">📚</p>
+          <h4 class="font-semibold text-white mb-1">Workflow Templates</h4>
+          <p class="text-neutral-400 text-sm">Blueprints de pipelines testados</p>
+        </div>
+      </div>
+
+      <div class="bg-primary/10 rounded-xl border border-primary/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-primary mb-3 flex items-center">
+          <span class="mr-2">💡</span> Dica Master de Producao em Escala
+        </h3>
+        <p class="text-neutral-300 mb-3">O segredo da producao em escala nao esta apenas na velocidade, mas na criacao de sistemas inteligentes e autonomos. Invista 80% do tempo otimizando o pipeline e apenas 20% na execucao.</p>
+        <p class="text-neutral-300 font-semibold">Um sistema bem arquitetado pode rodar 24/7 gerando valor enquanto voce dorme. Lembre-se: automacao ruim gera retrabalho em escala - teste exaustivamente antes de colocar em producao!</p>
+      </div>
+    </section>
+
+    <!-- RESUMO -->
+    <section class="mb-12">
+      <div class="bg-gradient-to-br from-purple-900/40 via-dark-800 to-dark-800 rounded-xl border border-purple-500/30 p-8">
+        <h2 class="text-2xl font-bold mb-6 flex items-center">
+          <span class="mr-3">📋</span> Resumo do Modulo
+        </h2>
+        <div class="space-y-4 mb-8">
+          <div class="flex items-start space-x-3">
+            <span class="text-purple-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">6 Areas de Dominio</strong>
+              <span class="text-neutral-400"> - Batch generation, automacao, organizacao, QA, templates e metricas</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-purple-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">5 Aulas Praticas</strong>
+              <span class="text-neutral-400"> - De fundamentos de batch ate workflow de 100+ imagens/dia</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-purple-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">3 Exercicios Reais</strong>
+              <span class="text-neutral-400"> - E-commerce, social media factory e game studio pipeline</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-purple-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Tecnicas de Elite</strong>
+              <span class="text-neutral-400"> - Progressive scaling, smart caching e predictive generation</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-purple-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Arsenal Profissional</strong>
+              <span class="text-neutral-400"> - 6 ferramentas essenciais para producao em escala</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-dark-800/50 rounded-lg p-4 mb-8">
+          <h3 class="font-semibold text-purple-400 mb-2">Proximo Modulo:</h3>
+          <p class="text-neutral-300">3.6 - Monetizacao Avancada</p>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="masterclass-modulo-04.html" class="flex-1 text-center px-6 py-3 bg-dark-700 text-neutral-300 rounded-lg font-semibold hover:bg-dark-600 transition-colors">
+            ← Modulo Anterior
+          </a>
+          <a href="masterclass-modulo-06.html" class="flex-1 text-center px-6 py-3 bg-purple-600 text-white rounded-lg font-semibold hover:bg-purple-500 transition-colors">
+            Proximo Modulo →
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-dark-600 py-8 mt-16">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
+      <p>Designer do Futuro - 2025 | <a href="https://inema.club" target="_blank" class="text-sky-400 hover:text-sky-300">INEMA.CLUB</a></p>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script>
+    // Theme Toggle
+    const themeToggle = document.getElementById('theme-toggle');
+    const themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+    const themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
+    const html = document.documentElement;
+
+    if (localStorage.getItem('theme') === 'light' || (!localStorage.getItem('theme') && !html.classList.contains('dark'))) {
+      themeToggleDarkIcon.classList.remove('hidden');
+      html.classList.remove('dark');
+    } else {
+      themeToggleLightIcon.classList.remove('hidden');
+    }
+
+    themeToggle.addEventListener('click', () => {
+      themeToggleDarkIcon.classList.toggle('hidden');
+      themeToggleLightIcon.classList.toggle('hidden');
+      html.classList.toggle('dark');
+      localStorage.setItem('theme', html.classList.contains('dark') ? 'dark' : 'light');
+    });
+  </script>
+
+</body>
+</html>

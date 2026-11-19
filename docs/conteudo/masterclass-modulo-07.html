@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modulo 3.7: Comunidade e Lideranca | Designer do Futuro</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: '#FACC15',
+            dark: { 900: '#111827', 800: '#1f2937', 700: '#374151', 600: '#4b5563' }
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .dark body { background-color: #111827; }
+
+    /* Light mode overrides - OBRIGATORIO */
+    html:not(.dark) body { background-color: #f8fafc; }
+    html:not(.dark) .bg-dark-900 { background-color: #ffffff; }
+    html:not(.dark) .bg-dark-800 { background-color: #f9fafb; }
+    html:not(.dark) .bg-dark-700 { background-color: #f3f4f6; }
+    html:not(.dark) .bg-dark-600 { background-color: #e5e7eb; }
+    html:not(.dark) .text-neutral-100 { color: #111827; }
+    html:not(.dark) .text-neutral-300 { color: #4b5563; }
+    html:not(.dark) .text-neutral-400 { color: #6b7280; }
+    html:not(.dark) .text-neutral-500 { color: #9ca3af; }
+    html:not(.dark) .border-dark-600 { border-color: #d1d5db; }
+    html:not(.dark) .border-dark-700 { border-color: #e5e7eb; }
+
+    /* Light mode - cores de acento (trilha purple) */
+    html:not(.dark) .text-purple-400 { color: #7c3aed; }
+    html:not(.dark) .bg-purple-500\/20 { background-color: rgba(124, 58, 237, 0.12); }
+    html:not(.dark) .bg-purple-500\/10 { background-color: rgba(124, 58, 237, 0.08); }
+    html:not(.dark) .border-purple-500\/30 { border-color: rgba(124, 58, 237, 0.25); }
+    html:not(.dark) .hover\:bg-purple-500\/30:hover { background-color: rgba(124, 58, 237, 0.18); }
+
+    /* Light mode - remove gradientes */
+    html:not(.dark) [class*="bg-gradient-to"] { background-image: none !important; }
+
+    /* Light mode - cores especiais */
+    html:not(.dark) .text-primary { color: #a16207; }
+    html:not(.dark) .bg-primary\/10 { background-color: rgba(161, 98, 7, 0.08); }
+    html:not(.dark) .border-primary\/30 { border-color: rgba(161, 98, 7, 0.25); }
+    html:not(.dark) .text-sky-400 { color: #0369a1; }
+    html:not(.dark) .text-yellow-400 { color: #a16207; }
+    html:not(.dark) .hover\:text-sky-300:hover { color: #0284c7; }
+    html:not(.dark) .hover\:text-yellow-300:hover { color: #854d0e; }
+
+    /* Light mode - nav */
+    html:not(.dark) .bg-dark-900\/95 { background-color: rgba(255, 255, 255, 0.95); }
+  </style>
+</head>
+<body class="bg-dark-900 text-neutral-100 min-h-screen">
+
+  <!-- NAVIGATION -->
+  <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-14">
+        <div class="flex items-center space-x-4">
+          <a href="../index.html" class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300">
+            <span class="text-2xl">🎨</span>
+            <span class="font-bold text-lg hidden sm:inline">Designer do Futuro</span>
+          </a>
+          <span class="text-neutral-600">|</span>
+          <a href="https://inema.club" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium">INEMA.CLUB</a>
+        </div>
+        <div class="flex items-center space-x-1 sm:space-x-2">
+          <a href="../trilhas/iniciante.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-colors">
+            <span class="sm:hidden">T1</span>
+            <span class="hidden sm:inline">Iniciante</span>
+          </a>
+          <a href="../trilhas/tecnico.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-blue-400 hover:bg-blue-500/10 transition-colors">
+            <span class="sm:hidden">T2</span>
+            <span class="hidden sm:inline">Tecnico</span>
+          </a>
+          <a href="../trilhas/masterclass.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-purple-400 bg-purple-500/10">
+            <span class="sm:hidden">T3</span>
+            <span class="hidden sm:inline">Masterclass</span>
+          </a>
+          <a href="../trilhas/empreendedores.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10 transition-colors">
+            <span class="sm:hidden">T4</span>
+            <span class="hidden sm:inline">Empreendedores</span>
+          </a>
+          <button id="theme-toggle" class="p-2 rounded-lg bg-dark-700 hover:bg-dark-600 transition-colors ml-2">
+            <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5 text-neutral-300" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+            </svg>
+            <svg id="theme-toggle-light-icon" class="hidden w-5 h-5 text-neutral-300" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- BREADCRUMB -->
+  <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+    <div class="flex items-center space-x-2 text-sm text-neutral-400">
+      <a href="../index.html" class="hover:text-purple-400">Inicio</a>
+      <span>/</span>
+      <a href="../trilhas/masterclass.html" class="hover:text-purple-400">Trilha Masterclass</a>
+      <span>/</span>
+      <span class="text-purple-400">Modulo 3.7</span>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="bg-gradient-to-br from-purple-900/30 via-dark-800 to-dark-800 py-12 border-b border-dark-600">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <span class="inline-block px-3 py-1 bg-purple-500/20 text-purple-400 text-xs font-semibold rounded-full mb-4">
+        MODULO 3.7
+      </span>
+      <h1 class="text-3xl sm:text-4xl font-bold mb-4">🌟 Comunidade e Lideranca</h1>
+      <p class="text-lg text-neutral-400 max-w-3xl">Construa sua marca pessoal, lidere uma comunidade engajada e crie um legado duradouro no mercado de IA generativa. Transforme-se em uma autoridade reconhecida e inspiradora.</p>
+      <div class="grid grid-cols-4 gap-4 mt-8 max-w-2xl">
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-purple-400">100k+</div>
+          <div class="text-xs text-neutral-400">Seguidores</div>
+        </div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-purple-400">620</div>
+          <div class="text-xs text-neutral-400">Minutos</div>
+        </div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-purple-400">Master</div>
+          <div class="text-xs text-neutral-400">Nivel</div>
+        </div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-purple-400">Top 1%</div>
+          <div class="text-xs text-neutral-400">Autoridade</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTEUDO -->
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+    <!-- TOPICO 1 -->
+    <section id="topico-1" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">1</span>
+        <h2 class="text-2xl font-bold">📱 Estrategias por Plataforma</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        Taticas especificas para <strong class="text-purple-400">construir audiencia em cada plataforma principal</strong> e tornar-se uma autoridade global.
+      </p>
+
+      <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-purple-400 mb-4 flex items-center">
+          <span class="mr-2">📊</span> Metricas de Influencia - Metas
+        </h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div class="text-center">
+            <p class="text-xl font-bold text-purple-400">1M+</p>
+            <p class="text-xs text-neutral-400">Alcance mensal</p>
+          </div>
+          <div class="text-center">
+            <p class="text-xl font-bold text-purple-400">500+</p>
+            <p class="text-xs text-neutral-400">Alunos formados</p>
+          </div>
+          <div class="text-center">
+            <p class="text-xl font-bold text-purple-400">10x</p>
+            <p class="text-xs text-neutral-400">Multiplicacao de valor</p>
+          </div>
+          <div class="text-center">
+            <p class="text-xl font-bold text-purple-400">∞</p>
+            <p class="text-xs text-neutral-400">Impacto duradouro</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+        <div class="bg-dark-800 rounded-xl p-5 border border-purple-500/30">
+          <h4 class="font-semibold text-white mb-1">🐦 Twitter/X Strategy</h4>
+          <p class="text-purple-400 text-sm font-bold mb-2">10-50k seguidores em 6 meses</p>
+          <p class="text-neutral-300 text-sm mb-2">A plataforma mais rapida para construir autoridade em tech e IA. Ideal para networking com decision makers e thought leaders.</p>
+          <ul class="space-y-1 text-neutral-400 text-xs">
+            <li>• Thread strategy com 10+ tweets semanais</li>
+            <li>• Build in public documentando projetos</li>
+            <li>• Engagement pods com outros creators</li>
+            <li>• Live tweeting de eventos e lancamentos</li>
+          </ul>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-5 border border-dark-600">
+          <h4 class="font-semibold text-white mb-1">📸 Instagram Visual</h4>
+          <p class="text-purple-400 text-sm font-bold mb-2">20-100k seguidores em 12 meses</p>
+          <p class="text-neutral-300 text-sm mb-2">Showcase visual do seu trabalho com IA. Perfeito para portfolio vivo e atracao de clientes visuais.</p>
+          <ul class="space-y-1 text-neutral-400 text-xs">
+            <li>• Carrossel educativo 3x/semana</li>
+            <li>• Reels de processo criativo</li>
+            <li>• Stories com behind the scenes</li>
+            <li>• IGTV com tutoriais longos</li>
+          </ul>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-5 border border-dark-600">
+          <h4 class="font-semibold text-white mb-1">💼 LinkedIn Professional</h4>
+          <p class="text-purple-400 text-sm font-bold mb-2">5-20k conexoes relevantes</p>
+          <p class="text-neutral-300 text-sm mb-2">Network B2B e autoridade corporativa. Essencial para fechar contratos enterprise e parcerias estrategicas.</p>
+          <ul class="space-y-1 text-neutral-400 text-xs">
+            <li>• Artigos longos semanais</li>
+            <li>• Case studies com metricas</li>
+            <li>• LinkedIn Live mensal</li>
+            <li>• Newsletter propria na plataforma</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 2 -->
+    <section id="topico-2" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">2</span>
+        <h2 class="text-2xl font-bold">🏗️ Construcao de Comunidade - Estagios de Crescimento</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        Roadmap completo para construir uma <strong class="text-purple-400">comunidade engajada e lucrativa</strong>.
+      </p>
+
+      <div class="space-y-4 mb-6">
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <div class="flex items-center justify-between mb-3">
+            <h4 class="font-semibold text-white">Estagio 01: Semente (0-100 membros)</h4>
+            <span class="text-purple-400 text-sm font-bold">Fundacao</span>
+          </div>
+          <p class="text-neutral-300 text-sm mb-3">Fase inicial de alta qualidade e engajamento pessoal. Foque em criar cultura forte, estabelecer valores e formar early adopters evangelicos. Responda pessoalmente cada mensagem e crie conexoes profundas.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Discord/Telegram gratuito</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Onboarding pessoal</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Weekly calls</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Conteudo exclusivo</span>
+          </div>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <div class="flex items-center justify-between mb-3">
+            <h4 class="font-semibold text-white">Estagio 02: Crescimento (100-1000 membros)</h4>
+            <span class="text-purple-400 text-sm font-bold">Sistematizacao</span>
+          </div>
+          <p class="text-neutral-300 text-sm mb-3">Sistematizacao e primeiras monetizacoes. Implemente moderadores, crie processos de onboarding automatizados, lance membership pago com beneficios premium. Mantenha cultura atraves de rituais e eventos.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Membership R$ 47-97/mes</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Moderadores voluntarios</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Eventos mensais</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Gamification</span>
+          </div>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <div class="flex items-center justify-between mb-3">
+            <h4 class="font-semibold text-white">Estagio 03: Escala (1000-5000 membros)</h4>
+            <span class="text-purple-400 text-sm font-bold">Profissional</span>
+          </div>
+          <p class="text-neutral-300 text-sm mb-3">Profissionalizacao completa com equipe dedicada. Multiple tiers de membership, programa de embaixadores, parcerias com marcas, eventos presenciais. Comunidade auto-sustentavel com lideres emergentes.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Tiers R$ 97/297/997</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Community manager</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Eventos hibridos</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Marketplace interno</span>
+          </div>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <div class="flex items-center justify-between mb-3">
+            <h4 class="font-semibold text-white">Estagio 04: Autoridade (5000+ membros)</h4>
+            <span class="text-purple-400 text-sm font-bold">Legado</span>
+          </div>
+          <p class="text-neutral-300 text-sm mb-3">Comunidade como ativo de negocio valuado. Conferencias proprias, certificacoes, spin-offs regionais, M&A opportunities. Voce se torna o hub central do ecossistema de IA generativa no Brasil.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Conferencia anual</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Certificacao oficial</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Investimentos/exits</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Franquia/licenciamento</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 3 -->
+    <section id="topico-3" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">3</span>
+        <h2 class="text-2xl font-bold">📚 Aulas Estruturadas</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        6 aulas transformadoras para <strong class="text-purple-400">construir sua lideranca e legado</strong>.
+      </p>
+
+      <div class="space-y-4 mb-6">
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <div class="flex items-center justify-between mb-3">
+            <h4 class="font-semibold text-white">Aula 01: Personal Branding Estrategico</h4>
+            <span class="text-purple-400 text-sm font-bold">90 min</span>
+          </div>
+          <p class="text-neutral-300 text-sm mb-3">Construa uma marca pessoal autentica e memoravel. Definicao de arquetipo, tom de voz, visual identity, storytelling pessoal. Posicionamento unico no mercado e diferenciacao competitiva duradoura.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Brand Architecture</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Storytelling</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Visual Identity</span>
+          </div>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <div class="flex items-center justify-between mb-3">
+            <h4 class="font-semibold text-white">Aula 02: Growth Hacking para Creators</h4>
+            <span class="text-purple-400 text-sm font-bold">100 min</span>
+          </div>
+          <p class="text-neutral-300 text-sm mb-3">Tecnicas avancadas de crescimento organico e viral. Algoritmos de cada plataforma, content hacking, viral engineering, cross-promotion. Do zero aos primeiros 10k seguidores em 90 dias.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Algorithm Hacking</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Viral Content</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Growth Loops</span>
+          </div>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <div class="flex items-center justify-between mb-3">
+            <h4 class="font-semibold text-white">Aula 03: Content Marketing Avancado</h4>
+            <span class="text-purple-400 text-sm font-bold">110 min</span>
+          </div>
+          <p class="text-neutral-300 text-sm mb-3">Sistema de producao de conteudo em escala mantendo qualidade. Content pillars, calendario editorial, repurposing strategy, SEO para creators. Transforme 1 peca em 20 posts diferentes.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Content Systems</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Repurposing</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">SEO Strategy</span>
+          </div>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <div class="flex items-center justify-between mb-3">
+            <h4 class="font-semibold text-white">Aula 04: Community Management Pro</h4>
+            <span class="text-purple-400 text-sm font-bold">95 min</span>
+          </div>
+          <p class="text-neutral-300 text-sm mb-3">Gestao profissional de comunidades grandes. Moderacao escalavel, cultura e valores, eventos e rituais, monetizacao etica. Transforme membros em evangelistas e co-criadores.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Community Ops</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Culture Building</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Engagement</span>
+          </div>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <div class="flex items-center justify-between mb-3">
+            <h4 class="font-semibold text-white">Aula 05: Ensino como Negocio</h4>
+            <span class="text-purple-400 text-sm font-bold">105 min</span>
+          </div>
+          <p class="text-neutral-300 text-sm mb-3">Transforme conhecimento em imperio educacional. Criacao de cursos premium, cohort-based courses, mentoria em grupo, certificacoes. Do primeiro curso ao instituto de ensino reconhecido.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Course Creation</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">LMS Platforms</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Certification</span>
+          </div>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <div class="flex items-center justify-between mb-3">
+            <h4 class="font-semibold text-white">Aula 06: Lideranca e Legado</h4>
+            <span class="text-purple-400 text-sm font-bold">120 min</span>
+          </div>
+          <p class="text-neutral-300 text-sm mb-3">Construa um legado que transcende voce. Formacao de lideres, sucessao planejada, impacto social, filantropia estrategica. Como criar algo que dura geracoes e transforma vidas.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Leadership Dev</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Legacy Planning</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Social Impact</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 4 -->
+    <section id="topico-4" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">4</span>
+        <h2 class="text-2xl font-bold">🤝 Parcerias Estrategicas e Metricas de Influencia</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        Tipos de parcerias que <strong class="text-purple-400">aceleram crescimento e multiplicam alcance</strong>.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+        <div class="bg-dark-800 rounded-xl p-5 border border-dark-600">
+          <p class="text-xs text-purple-400 font-semibold mb-2">PARCERIAS DE CONTEUDO</p>
+          <h4 class="font-semibold text-white mb-2">Co-criacao com Influencers</h4>
+          <p class="text-neutral-300 text-sm mb-2">Colabore com outros creators para alcancar novas audiencias. Lives conjuntas, podcasts, webinars, challenges virais. Cross-pollination de comunidades com beneficio mutuo.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-dark-700 text-neutral-300 text-xs rounded-full">Audiencia 10x maior</span>
+            <span class="px-2 py-1 bg-dark-700 text-neutral-300 text-xs rounded-full">Credibilidade instant</span>
+          </div>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-5 border border-dark-600">
+          <p class="text-xs text-purple-400 font-semibold mb-2">PARCERIAS COMERCIAIS</p>
+          <h4 class="font-semibold text-white mb-2">Brand Deals e Sponsorships</h4>
+          <p class="text-neutral-300 text-sm mb-2">Monetize sua influencia com marcas alinhadas aos seus valores. Sponsored content, embaixador de marca, produtos white-label, revenue sharing em vendas.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-dark-700 text-neutral-300 text-xs rounded-full">Receita adicional 30%+</span>
+            <span class="px-2 py-1 bg-dark-700 text-neutral-300 text-xs rounded-full">Produtos exclusivos</span>
+          </div>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-5 border border-dark-600">
+          <p class="text-xs text-purple-400 font-semibold mb-2">PARCERIAS EDUCACIONAIS</p>
+          <h4 class="font-semibold text-white mb-2">Instituicoes e Certificacoes</h4>
+          <p class="text-neutral-300 text-sm mb-2">Valide sua expertise com parcerias academicas. Cursos em universidades, certificacoes reconhecidas, programas corporativos, bootcamps oficiais.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-dark-700 text-neutral-300 text-xs rounded-full">Credibilidade formal</span>
+            <span class="px-2 py-1 bg-dark-700 text-neutral-300 text-xs rounded-full">Ticket 10x maior</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center">
+          <span class="mr-2">📊</span> KPIs de Influencia
+        </h3>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-4">
+          <div class="text-center">
+            <p class="text-xl font-bold text-purple-400">1M+</p>
+            <p class="text-xs text-neutral-400">Impressoes/Mes</p>
+          </div>
+          <div class="text-center">
+            <p class="text-xl font-bold text-purple-400">15%</p>
+            <p class="text-xs text-neutral-400">Engagement Rate</p>
+          </div>
+          <div class="text-center">
+            <p class="text-xl font-bold text-purple-400">10k</p>
+            <p class="text-xs text-neutral-400">Novos Followers/Mes</p>
+          </div>
+          <div class="text-center">
+            <p class="text-xl font-bold text-purple-400">50</p>
+            <p class="text-xs text-neutral-400">Leads Qualificados</p>
+          </div>
+          <div class="text-center">
+            <p class="text-xl font-bold text-purple-400">R$ 500</p>
+            <p class="text-xs text-neutral-400">LTV por Membro</p>
+          </div>
+          <div class="text-center">
+            <p class="text-xl font-bold text-purple-400">95%</p>
+            <p class="text-xs text-neutral-400">Satisfacao (NPS)</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 5 -->
+    <section id="topico-5" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">5</span>
+        <h2 class="text-2xl font-bold">💪 Exercicios Praticos e Legado</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        Projetos transformadores para <strong class="text-purple-400">construir sua autoridade e comunidade</strong>.
+      </p>
+
+      <div class="space-y-4 mb-6">
+        <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6">
+          <h3 class="text-lg font-semibold text-purple-400 mb-2 flex items-center">
+            <span class="mr-2">🔥</span> 30-Day Authority Challenge (Expert)
+          </h3>
+          <p class="text-neutral-300 text-sm mb-4">Execute um plano intensivo de 30 dias para estabelecer autoridade em IA generativa. Publique conteudo diario, faca networking estrategico, lance um produto minimo e construa lista de 1000 subscribers.</p>
+          <ul class="space-y-2 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Publicar 30 pecas de conteudo original (1/dia)</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Crescer 3000+ seguidores organicos</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Fazer 10 collabs com outros creators</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Lancar lead magnet com 500+ downloads</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Conseguir primeiro cliente via content marketing</span></li>
+          </ul>
+        </div>
+
+        <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6">
+          <h3 class="text-lg font-semibold text-purple-400 mb-2 flex items-center">
+            <span class="mr-2">👥</span> Community MVP Launch (Expert)
+          </h3>
+          <p class="text-neutral-300 text-sm mb-4">Lance uma comunidade paga do zero e alcance 100 membros fundadores em 30 dias. Crie proposta de valor unica, onboarding experience, primeiros eventos e cultura inicial.</p>
+          <ul class="space-y-2 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Definir nicho e proposta de valor clara</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Setup completo Discord/Circle com automacoes</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Criar 10 recursos exclusivos para membros</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Realizar 4 eventos ao vivo (1/semana)</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Atingir MRR de R$ 5k com 100 membros</span></li>
+          </ul>
+        </div>
+
+        <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6">
+          <h3 class="text-lg font-semibold text-purple-400 mb-2 flex items-center">
+            <span class="mr-2">🎤</span> Influence Summit Organization (Expert)
+          </h3>
+          <p class="text-neutral-300 text-sm mb-4">Organize um evento online sobre IA generativa. Convide speakers, monte programacao, faca marketing, gerencie inscricoes e crie networking opportunities para 500+ participantes.</p>
+          <ul class="space-y-2 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Curar 10 palestrantes de alto nivel</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Criar landing page com 30% conversao</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Alcancar 1000 inscritos (500 participantes)</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Gerar R$ 20k em sponsorships</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Estabelecer evento como referencia anual</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-purple-400 mb-4 flex items-center">
+          <span class="mr-2">🏛️</span> Construa Seu Legado
+        </h3>
+        <p class="text-neutral-300 mb-4">Sua jornada nao termina com sucesso pessoal. E sobre criar impacto duradouro, formar proximas geracoes de lideres e deixar o mundo melhor atraves da democratizacao da IA generativa.</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-1">🎓 Educacao Transformadora</h4>
+            <p class="text-neutral-400 text-sm">Forme milhares de profissionais, crie metodologias proprias, estabeleca padroes de mercado.</p>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-1">🌍 Impacto Social</h4>
+            <p class="text-neutral-400 text-sm">Use IA para resolver problemas sociais, democratize acesso ao conhecimento, gere oportunidades.</p>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-1">🚀 Inovacao Continua</h4>
+            <p class="text-neutral-400 text-sm">Lidere a fronteira da tecnologia, inspire novos creators, defina o futuro da industria criativa.</p>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-1">💫 Comunidade Perpetua</h4>
+            <p class="text-neutral-400 text-sm">Crie algo maior que voce, forme lideres sucessores, construa instituicao que dura geracoes.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-primary/10 rounded-xl border border-primary/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-primary mb-3 flex items-center">
+          <span class="mr-2">💡</span> Dica Master de Lideranca
+        </h3>
+        <p class="text-neutral-300 mb-3">Lideranca autentica nao e sobre ter todas as respostas, mas sobre fazer as perguntas certas e criar espaco para outros brilharem. Seu maior legado nao sera o que voce construiu sozinho, mas quantas pessoas voce empoderou para construirem suas proprias historias de sucesso.</p>
+        <p class="text-neutral-300 font-semibold">Lidere com vulnerabilidade, ensine com generosidade, e lembre-se: uma comunidade engajada vale mais que um milhao de seguidores passivos. Seu impacto se multiplica atraves das pessoas que voce transforma!</p>
+      </div>
+    </section>
+
+    <!-- RESUMO -->
+    <section class="mb-12">
+      <div class="bg-gradient-to-br from-purple-900/40 via-dark-800 to-dark-800 rounded-xl border border-purple-500/30 p-8">
+        <h2 class="text-2xl font-bold mb-6 flex items-center">
+          <span class="mr-3">📋</span> Resumo do Modulo
+        </h2>
+        <div class="space-y-4 mb-8">
+          <div class="flex items-start space-x-3">
+            <span class="text-purple-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Estrategias por Plataforma</strong>
+              <span class="text-neutral-400"> - Twitter/X, Instagram e LinkedIn com metas e taticas</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-purple-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">4 Estagios de Comunidade</strong>
+              <span class="text-neutral-400"> - De semente (0-100) a autoridade (5000+ membros)</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-purple-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">6 Aulas Transformadoras</strong>
+              <span class="text-neutral-400"> - De personal branding a lideranca e legado</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-purple-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Parcerias e Metricas</strong>
+              <span class="text-neutral-400"> - Conteudo, comerciais, educacionais e KPIs de influencia</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-purple-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Legado Duradouro</strong>
+              <span class="text-neutral-400"> - Educacao, impacto social, inovacao e comunidade perpetua</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-dark-800/50 rounded-lg p-4 mb-8">
+          <h3 class="font-semibold text-purple-400 mb-2">🎓 Parabens!</h3>
+          <p class="text-neutral-300">Voce concluiu a Trilha Masterclass! Agora voce tem todas as ferramentas para se tornar uma autoridade global em IA generativa.</p>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="masterclass-modulo-06.html" class="flex-1 text-center px-6 py-3 bg-dark-700 text-neutral-300 rounded-lg font-semibold hover:bg-dark-600 transition-colors">
+            ← Modulo Anterior
+          </a>
+          <a href="../trilhas/masterclass.html" class="flex-1 text-center px-6 py-3 bg-purple-600 text-white rounded-lg font-semibold hover:bg-purple-500 transition-colors">
+            🎓 Concluir Trilha Masterclass
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-dark-600 py-8 mt-16">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
+      <p>Designer do Futuro - 2025 | <a href="https://inema.club" target="_blank" class="text-sky-400 hover:text-sky-300">INEMA.CLUB</a></p>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script>
+    // Theme Toggle
+    const themeToggle = document.getElementById('theme-toggle');
+    const themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+    const themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
+    const html = document.documentElement;
+
+    if (localStorage.getItem('theme') === 'light' || (!localStorage.getItem('theme') && !html.classList.contains('dark'))) {
+      themeToggleDarkIcon.classList.remove('hidden');
+      html.classList.remove('dark');
+    } else {
+      themeToggleLightIcon.classList.remove('hidden');
+    }
+
+    themeToggle.addEventListener('click', () => {
+      themeToggleDarkIcon.classList.toggle('hidden');
+      themeToggleLightIcon.classList.toggle('hidden');
+      html.classList.toggle('dark');
+      localStorage.setItem('theme', html.classList.contains('dark') ? 'dark' : 'light');
+    });
+  </script>
+
+</body>
+</html>

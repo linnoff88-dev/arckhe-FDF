@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modulo 3.3: Direcao de Arte Avancada | Designer do Futuro</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: '#FACC15',
+            dark: { 900: '#111827', 800: '#1f2937', 700: '#374151', 600: '#4b5563' }
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .dark body { background-color: #111827; }
+
+    /* Light mode overrides - OBRIGATORIO */
+    html:not(.dark) body { background-color: #f8fafc; }
+    html:not(.dark) .bg-dark-900 { background-color: #ffffff; }
+    html:not(.dark) .bg-dark-800 { background-color: #f9fafb; }
+    html:not(.dark) .bg-dark-700 { background-color: #f3f4f6; }
+    html:not(.dark) .bg-dark-600 { background-color: #e5e7eb; }
+    html:not(.dark) .text-neutral-100 { color: #111827; }
+    html:not(.dark) .text-neutral-300 { color: #4b5563; }
+    html:not(.dark) .text-neutral-400 { color: #6b7280; }
+    html:not(.dark) .text-neutral-500 { color: #9ca3af; }
+    html:not(.dark) .border-dark-600 { border-color: #d1d5db; }
+    html:not(.dark) .border-dark-700 { border-color: #e5e7eb; }
+
+    /* Light mode - cores de acento (trilha purple) */
+    html:not(.dark) .text-purple-400 { color: #7c3aed; }
+    html:not(.dark) .bg-purple-500\/20 { background-color: rgba(124, 58, 237, 0.12); }
+    html:not(.dark) .bg-purple-500\/10 { background-color: rgba(124, 58, 237, 0.08); }
+    html:not(.dark) .border-purple-500\/30 { border-color: rgba(124, 58, 237, 0.25); }
+    html:not(.dark) .hover\:bg-purple-500\/30:hover { background-color: rgba(124, 58, 237, 0.18); }
+
+    /* Light mode - remove gradientes */
+    html:not(.dark) [class*="bg-gradient-to"] { background-image: none !important; }
+
+    /* Light mode - cores especiais */
+    html:not(.dark) .text-primary { color: #a16207; }
+    html:not(.dark) .bg-primary\/10 { background-color: rgba(161, 98, 7, 0.08); }
+    html:not(.dark) .border-primary\/40 { border-color: rgba(161, 98, 7, 0.25); }
+    html:not(.dark) .text-sky-400 { color: #0369a1; }
+    html:not(.dark) .text-yellow-400 { color: #a16207; }
+    html:not(.dark) .hover\:text-sky-300:hover { color: #0284c7; }
+    html:not(.dark) .hover\:text-yellow-300:hover { color: #854d0e; }
+
+    /* Light mode - nav */
+    html:not(.dark) .bg-dark-900\/95 { background-color: rgba(255, 255, 255, 0.95); }
+  </style>
+</head>
+<body class="bg-dark-900 text-neutral-100 min-h-screen">
+
+  <!-- NAVIGATION -->
+  <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-14">
+        <div class="flex items-center space-x-4">
+          <a href="../index.html" class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300">
+            <span class="text-2xl">🎨</span>
+            <span class="font-bold text-lg hidden sm:inline">Designer do Futuro</span>
+          </a>
+          <span class="text-neutral-600">|</span>
+          <a href="https://inema.club" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium">INEMA.CLUB</a>
+        </div>
+        <div class="flex items-center space-x-1 sm:space-x-2">
+          <a href="../trilhas/iniciante.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-colors">
+            <span class="sm:hidden">T1</span>
+            <span class="hidden sm:inline">Iniciante</span>
+          </a>
+          <a href="../trilhas/tecnico.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-blue-400 hover:bg-blue-500/10 transition-colors">
+            <span class="sm:hidden">T2</span>
+            <span class="hidden sm:inline">Tecnico</span>
+          </a>
+          <a href="../trilhas/masterclass.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-purple-400 bg-purple-500/10">
+            <span class="sm:hidden">T3</span>
+            <span class="hidden sm:inline">Masterclass</span>
+          </a>
+          <a href="../trilhas/empreendedores.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10 transition-colors">
+            <span class="sm:hidden">T4</span>
+            <span class="hidden sm:inline">Empreendedores</span>
+          </a>
+          <button id="theme-toggle" class="p-2 rounded-lg bg-dark-700 hover:bg-dark-600 transition-colors ml-2">
+            <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5 text-neutral-300" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+            </svg>
+            <svg id="theme-toggle-light-icon" class="hidden w-5 h-5 text-neutral-300" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- BREADCRUMB -->
+  <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+    <div class="flex items-center space-x-2 text-sm text-neutral-400">
+      <a href="../index.html" class="hover:text-purple-400">Inicio</a>
+      <span>/</span>
+      <a href="../trilhas/masterclass.html" class="hover:text-purple-400">Trilha Masterclass</a>
+      <span>/</span>
+      <span class="text-purple-400">Modulo 3.3</span>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="bg-gradient-to-br from-purple-900/30 via-dark-800 to-dark-800 py-12 border-b border-dark-600">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <span class="inline-block px-3 py-1 bg-purple-500/20 text-purple-400 text-xs font-semibold rounded-full mb-4">
+        MODULO 3.3
+      </span>
+      <h1 class="text-3xl sm:text-4xl font-bold mb-4">🎨 Direcao de Arte Avancada</h1>
+      <p class="text-lg text-neutral-400 max-w-3xl">Teoria avancada, composicao cinematografica e desenvolvimento de linguagem visual unica que transcende ferramentas</p>
+      <div class="grid grid-cols-4 gap-4 mt-8 max-w-2xl">
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-purple-400">5</div>
+          <div class="text-xs text-neutral-400">Topicos</div>
+        </div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-purple-400">600</div>
+          <div class="text-xs text-neutral-400">Minutos</div>
+        </div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-purple-400">Master</div>
+          <div class="text-xs text-neutral-400">Nivel</div>
+        </div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-purple-400">Artistico</div>
+          <div class="text-xs text-neutral-400">Tipo</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTEUDO -->
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+    <!-- TOPICO 1: Teoria da Cor -->
+    <section id="topico-1" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">1</span>
+        <h2 class="text-2xl font-bold">🎨 Teoria da Cor: Alem do Basico</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        Cor nao e apenas estetica - e neurociencia, psicologia e cultura combinadas. <strong class="text-purple-400">Mestres usam cor para controlar atencao, evocar memorias e guiar decisoes inconscientes.</strong>
+      </p>
+
+      <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-purple-400 mb-4 flex items-center">
+          <span class="mr-2">🧠</span> Neurociencia das Cores - Respostas Fisiologicas Mensuraveis
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-red-400 mb-2">Vermelho (630-700nm)</h4>
+            <ul class="text-neutral-300 text-sm space-y-1">
+              <li>• Aumenta frequencia cardiaca em 12%</li>
+              <li>• Eleva pressao arterial</li>
+              <li>• Acelera respiracao</li>
+              <li>• Tempo percebido 7% mais rapido</li>
+              <li>• Aumenta apetite e impulsividade</li>
+            </ul>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-blue-400 mb-2">Azul (450-495nm)</h4>
+            <ul class="text-neutral-300 text-sm space-y-1">
+              <li>• Reduz frequencia cardiaca em 8%</li>
+              <li>• Diminui pressao arterial</li>
+              <li>• Suprime melatonina (alerta)</li>
+              <li>• Tempo percebido 12% mais lento</li>
+              <li>• Aumenta produtividade mental</li>
+            </ul>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-green-400 mb-2">Verde (495-570nm)</h4>
+            <ul class="text-neutral-300 text-sm space-y-1">
+              <li>• Reduz fadiga ocular em 20%</li>
+              <li>• Melhora foco e concentracao</li>
+              <li>• Acelera healing psicologico</li>
+              <li>• Associado a decisoes financeiras</li>
+              <li>• Aumenta criatividade em 15%</li>
+            </ul>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-yellow-400 mb-2">Amarelo (570-590nm)</h4>
+            <ul class="text-neutral-300 text-sm space-y-1">
+              <li>• Estimula sistema nervoso</li>
+              <li>• Aumenta metabolismo</li>
+              <li>• Melhora memoria em 10%</li>
+              <li>• Causa fadiga visual rapida</li>
+              <li>• Trigger de ansiedade em excesso</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-purple-400 mb-4 flex items-center">
+          <span class="mr-2">🎭</span> Harmonias Alem da Roda de Cores
+        </h3>
+        <div class="space-y-4">
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">Double Split-Complementary</h4>
+            <p class="text-neutral-300 text-sm mb-2">Base + 2 pares de cores adjacentes aos complementares</p>
+            <p class="text-neutral-400 text-xs">Uso: Composicoes vibrantes mas equilibradas, perfeito para branding jovem</p>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">Harmonia de Temperatura Dividida</h4>
+            <p class="text-neutral-300 text-sm mb-2">70% cores frias, 30% quente de alto contraste</p>
+            <p class="text-neutral-400 text-xs">Uso: Criar ponto focal dramatico, guiar olhar instantaneamente</p>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">Progressao Tonal Cinematografica</h4>
+            <p class="text-neutral-300 text-sm mb-2">Gradiente nao-linear com peaks de saturacao</p>
+            <p class="text-neutral-400 text-xs">Uso: Criar profundidade e atmosfera, essencial para mood cinematografico</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-purple-400 mb-4 flex items-center">
+          <span class="mr-2">🌍</span> Significados Culturais Profundos
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="bg-dark-700/50 rounded-lg p-4">
+            <h4 class="font-semibold text-sm mb-2">Ocidente vs Oriente</h4>
+            <ul class="text-neutral-300 text-xs space-y-1">
+              <li><strong>Branco:</strong> Pureza (West) vs Morte (East)</li>
+              <li><strong>Vermelho:</strong> Paixao (West) vs Sorte (East)</li>
+              <li><strong>Verde:</strong> Natureza (West) vs Infidelidade (East)</li>
+              <li><strong>Amarelo:</strong> Alegria (West) vs Imperial (East)</li>
+            </ul>
+          </div>
+          <div class="bg-dark-700/50 rounded-lg p-4">
+            <h4 class="font-semibold text-sm mb-2">Geracoes e Cores</h4>
+            <ul class="text-neutral-300 text-xs space-y-1">
+              <li><strong>Gen Z:</strong> Neon, gradientes, iridescente</li>
+              <li><strong>Millennials:</strong> Millennial pink, pasteis</li>
+              <li><strong>Gen X:</strong> Earthtones, grunge</li>
+              <li><strong>Boomers:</strong> Classicas, alto contraste</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-purple-400 mb-4 flex items-center">
+          <span class="mr-2">🎬</span> Color Grading Cinematografico
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">Teal e Orange (Blockbuster)</h4>
+            <p class="text-neutral-300 text-sm">Shadows: Teal/Cyan | Highlights: Orange/Amber. Cria separacao dramatica entre figura e fundo. Usado em 90% dos filmes de acao.</p>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">Bleach Bypass (Thriller)</h4>
+            <p class="text-neutral-300 text-sm">Desaturacao parcial + contrast boost. Mantem luminancia mas reduz cor em 40%. Cria tensao e desconforto subliminal.</p>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">Day for Night (Romantico)</h4>
+            <p class="text-neutral-300 text-sm">Underexpose 2 stops + heavy blue grade. Simula noite mantendo detalhes. Romantico e misterioso.</p>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">Cross Processing (Artistico)</h4>
+            <p class="text-neutral-300 text-sm">Inverte curvas de cor seletivamente. Cria looks impossiveis naturalmente. Define estilos unicos de autor.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 2: Composicao Cinematografica -->
+    <section id="topico-2" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">2</span>
+        <h2 class="text-2xl font-bold">📐 Composicao: A Matematica da Beleza</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        Composicao nao e sobre regras - e sobre tensao, movimento e hierarquia visual. <strong class="text-purple-400">Grandes diretores de arte usam geometria para guiar o subconsciente do espectador.</strong>
+      </p>
+
+      <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-purple-400 mb-4 flex items-center">
+          <span class="mr-2">📏</span> Sistemas de Composicao Avancados
+        </h3>
+        <div class="space-y-4">
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">Espiral de Fibonacci Multi-camada</h4>
+            <p class="text-neutral-300 text-sm mb-2">Nao apenas uma espiral - multiplas espirais interconectadas:</p>
+            <ul class="text-neutral-300 text-sm space-y-1">
+              <li><strong>Espiral Principal (phi):</strong> Define o movimento geral do olhar</li>
+              <li><strong>Espiral Secundaria (phi2):</strong> Cria sub-pontos de interesse</li>
+              <li><strong>Micro-espirais (phi3):</strong> Detalhes que mantem atencao</li>
+            </ul>
+            <p class="text-purple-400 text-xs mt-2"><strong>Aplicacao:</strong> Coloque elemento principal no olho da espiral maior, secundarios nas interseccoes das espirais menores</p>
+          </div>
+
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">Dynamic Symmetry (Jay Hambidge)</h4>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+              <div class="bg-dark-700/50 rounded p-3">
+                <p class="font-semibold text-sm mb-2">Retangulos Dinamicos</p>
+                <ul class="text-neutral-300 text-xs space-y-1">
+                  <li>• sqrt2 Rectangle (1:1.414) - Tensao equilibrada</li>
+                  <li>• sqrt3 Rectangle (1:1.732) - Energia crescente</li>
+                  <li>• sqrt4 Rectangle (1:2) - Maximo dinamismo</li>
+                  <li>• sqrt5 Rectangle (1:2.236) - Harmonia complexa</li>
+                </ul>
+              </div>
+              <div class="bg-dark-700/50 rounded p-3">
+                <p class="font-semibold text-sm mb-2">Linhas de Forca</p>
+                <p class="text-neutral-300 text-xs mb-2">Diagonais e reciprocais criam "armaduras" invisiveis que guiam composicao sem ser obvias.</p>
+                <p class="text-purple-400 text-xs">Use para: Acao, movimento, tensao dramatica</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">Peso Visual e Balanceamento</h4>
+            <p class="font-semibold text-sm mb-3">Fatores de Peso Visual (em ordem de impacto):</p>
+            <div class="space-y-2">
+              <div class="flex items-center"><div class="w-24 text-xs font-semibold">Faces Humanas</div><div class="flex-1 bg-dark-700 rounded h-2"><div class="bg-purple-500 h-2 rounded" style="width: 100%"></div></div><span class="ml-2 text-xs text-neutral-400">100%</span></div>
+              <div class="flex items-center"><div class="w-24 text-xs font-semibold">Texto</div><div class="flex-1 bg-dark-700 rounded h-2"><div class="bg-purple-500 h-2 rounded" style="width: 85%"></div></div><span class="ml-2 text-xs text-neutral-400">85%</span></div>
+              <div class="flex items-center"><div class="w-24 text-xs font-semibold">Alto Contraste</div><div class="flex-1 bg-dark-700 rounded h-2"><div class="bg-purple-500 h-2 rounded" style="width: 75%"></div></div><span class="ml-2 text-xs text-neutral-400">75%</span></div>
+              <div class="flex items-center"><div class="w-24 text-xs font-semibold">Cor Saturada</div><div class="flex-1 bg-dark-700 rounded h-2"><div class="bg-purple-500 h-2 rounded" style="width: 65%"></div></div><span class="ml-2 text-xs text-neutral-400">65%</span></div>
+              <div class="flex items-center"><div class="w-24 text-xs font-semibold">Formas Complex</div><div class="flex-1 bg-dark-700 rounded h-2"><div class="bg-purple-500 h-2 rounded" style="width: 50%"></div></div><span class="ml-2 text-xs text-neutral-400">50%</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-purple-400 mb-4 flex items-center">
+          <span class="mr-2">🎬</span> Enquadramentos Cinematograficos
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">Dutch Angle (Angulo Holandes)</h4>
+            <p class="text-neutral-300 text-sm">Rotacao 15-45 graus cria desconforto psicologico. Use para: tensao, desorientacao, loucura.</p>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">Leading Lines Convergentes</h4>
+            <p class="text-neutral-300 text-sm">Multiplas linhas convergindo para ponto unico. Cria profundidade extrema e foco absoluto.</p>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">Frame Within Frame</h4>
+            <p class="text-neutral-300 text-sm">Molduras naturais (portas, janelas, arcos). Adiciona camadas de profundidade e contexto.</p>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">Negative Space Extremo</h4>
+            <p class="text-neutral-300 text-sm">70%+ de espaco vazio cria isolamento. Amplifica emocoes e solidao do sujeito.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 3: Iluminacao Virtual -->
+    <section id="topico-3" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">3</span>
+        <h2 class="text-2xl font-bold">💡 Iluminacao: Esculpindo com Luz</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        Luz e o pincel invisivel que define forma, mood e narrativa. No mundo digital, <strong class="text-purple-400">voce tem controle absoluto sobre cada foton - use esse poder sabiamente.</strong>
+      </p>
+
+      <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-purple-400 mb-4 flex items-center">
+          <span class="mr-2">💡</span> Sistema 5-Point Advanced
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <p class="font-semibold text-sm mb-2">Luzes Principais</p>
+            <ul class="text-neutral-300 text-xs space-y-1">
+              <li><strong>Key Light:</strong> 45 graus lateral, 30 graus acima (4000K)</li>
+              <li><strong>Fill Light:</strong> Oposta, -2 stops, difusa (5500K)</li>
+              <li><strong>Rim Light:</strong> Traseira, +1 stop (6500K)</li>
+            </ul>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <p class="font-semibold text-sm mb-2">Luzes Complementares</p>
+            <ul class="text-neutral-300 text-xs space-y-1">
+              <li><strong>Background:</strong> Separacao figura/fundo</li>
+              <li><strong>Practical:</strong> Motivada por elementos cena</li>
+              <li><strong>Accent:</strong> Destaque elementos especificos</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-purple-400 mb-4 flex items-center">
+          <span class="mr-2">🎭</span> Mood Lighting Patterns
+        </h3>
+        <div class="space-y-3">
+          <div class="bg-dark-700/50 rounded-lg p-4 border-l-4 border-purple-500/50">
+            <p class="font-semibold mb-1">Rembrandt Lighting</p>
+            <p class="text-neutral-400 text-sm">Triangulo de luz sob o olho. Drama e misterio classicos. 45 graus lateral, 45 graus acima, sombras profundas.</p>
+          </div>
+          <div class="bg-dark-700/50 rounded-lg p-4 border-l-4 border-purple-500/50">
+            <p class="font-semibold mb-1">Split Lighting</p>
+            <p class="text-neutral-400 text-sm">Metade iluminada, metade sombra. Dualidade e conflito. 90 graus lateral, nivel dos olhos, sem fill.</p>
+          </div>
+          <div class="bg-dark-700/50 rounded-lg p-4 border-l-4 border-purple-500/50">
+            <p class="font-semibold mb-1">Butterfly/Paramount</p>
+            <p class="text-neutral-400 text-sm">Sombra borboleta sob nariz. Glamour e beleza. Frontal acima, fill suave abaixo.</p>
+          </div>
+          <div class="bg-dark-700/50 rounded-lg p-4 border-l-4 border-purple-500/50">
+            <p class="font-semibold mb-1">Loop Lighting</p>
+            <p class="text-neutral-400 text-sm">Sombra nasal em loop. Natural e agradavel. 30 graus lateral, 25 graus acima, fill moderado.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-purple-400 mb-4 flex items-center">
+          <span class="mr-2">🌡️</span> Temperatura de Cor e Emocao
+        </h3>
+        <div class="space-y-2">
+          <div class="flex items-center justify-between bg-dark-700/50 rounded p-3"><span class="text-xs font-semibold">2000K - Candlelight</span><span class="text-xs text-orange-400">Intimo, romantico</span></div>
+          <div class="flex items-center justify-between bg-dark-700/50 rounded p-3"><span class="text-xs font-semibold">3200K - Tungsten</span><span class="text-xs text-amber-400">Aconchegante, nostalgico</span></div>
+          <div class="flex items-center justify-between bg-dark-700/50 rounded p-3"><span class="text-xs font-semibold">4000K - Fluorescent</span><span class="text-xs text-yellow-400">Neutro, comercial</span></div>
+          <div class="flex items-center justify-between bg-dark-700/50 rounded p-3"><span class="text-xs font-semibold">5600K - Daylight</span><span class="text-xs text-blue-300">Natural, verdadeiro</span></div>
+          <div class="flex items-center justify-between bg-dark-700/50 rounded p-3"><span class="text-xs font-semibold">6500K - Overcast</span><span class="text-xs text-blue-400">Frio, melancolico</span></div>
+          <div class="flex items-center justify-between bg-dark-700/50 rounded p-3"><span class="text-xs font-semibold">8000K - Blue Hour</span><span class="text-xs text-blue-500">Misterioso, surreal</span></div>
+        </div>
+      </div>
+
+      <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-purple-400 mb-4 flex items-center">
+          <span class="mr-2">✨</span> Tecnicas Avancadas de Iluminacao Virtual
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">Volumetric Lighting</h4>
+            <p class="text-neutral-300 text-sm">Raios de luz visiveis atraves de nevoa/particulas. Cria profundidade e atmosfera divina.</p>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">Subsurface Scattering</h4>
+            <p class="text-neutral-300 text-sm">Luz penetrando superficies translucidas. Essencial para pele, cera, folhas realistas.</p>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">Global Illumination</h4>
+            <p class="text-neutral-300 text-sm">Bounced light calculado fisicamente. Cria realismo atraves de luz indireta.</p>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">HDRI Lighting</h4>
+            <p class="text-neutral-300 text-sm">Imagens 360 graus como fonte de luz. Integracao perfeita com ambientes reais.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 4: Semiotica Visual -->
+    <section id="topico-4" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">4</span>
+        <h2 class="text-2xl font-bold">🔤 Semiotica Visual: A Linguagem Secreta</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        Cada elemento visual carrega significado. <strong class="text-purple-400">Mestres da direcao de arte manipulam simbolos conscientes e inconscientes para criar narrativas profundas sem palavras.</strong>
+      </p>
+
+      <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-purple-400 mb-4 flex items-center">
+          <span class="mr-2">🎭</span> Psicologia das Formas Basicas
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600 text-center">
+            <div class="w-16 h-16 bg-purple-500 rounded-full mx-auto mb-2"></div>
+            <h4 class="font-semibold text-sm">Circulo</h4>
+            <p class="text-neutral-400 text-xs mt-1">Infinito, perfeicao, feminino, protecao, unidade, movimento eterno</p>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600 text-center">
+            <div class="w-16 h-16 bg-purple-500 mx-auto mb-2"></div>
+            <h4 class="font-semibold text-sm">Quadrado</h4>
+            <p class="text-neutral-400 text-xs mt-1">Estabilidade, confianca, masculino, ordem, racionalidade, terra</p>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600 text-center">
+            <div class="w-0 h-0 border-l-[32px] border-l-transparent border-r-[32px] border-r-transparent border-b-[56px] border-b-purple-500 mx-auto mb-2"></div>
+            <h4 class="font-semibold text-sm">Triangulo</h4>
+            <p class="text-neutral-400 text-xs mt-1">Dinamismo, tensao, direcao, hierarquia, aspiracao, fogo</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-purple-400 mb-4 flex items-center">
+          <span class="mr-2">🧠</span> Arquetipos Junguianos Aplicados
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="bg-dark-700/50 rounded-lg p-4">
+            <h4 class="font-semibold text-sm mb-1">O Heroi</h4>
+            <p class="text-neutral-300 text-xs mb-1">Visual: Pose confiante, luz frontal, cores vibrantes</p>
+            <p class="text-purple-400 text-xs">Marcas: Nike, GoPro, FedEx</p>
+          </div>
+          <div class="bg-dark-700/50 rounded-lg p-4">
+            <h4 class="font-semibold text-sm mb-1">O Sabio</h4>
+            <p class="text-neutral-300 text-xs mb-1">Visual: Minimalista, tons neutros, espaco negativo</p>
+            <p class="text-purple-400 text-xs">Marcas: Google, MIT, TED</p>
+          </div>
+          <div class="bg-dark-700/50 rounded-lg p-4">
+            <h4 class="font-semibold text-sm mb-1">O Rebelde</h4>
+            <p class="text-neutral-300 text-xs mb-1">Visual: Angulos agressivos, alto contraste, vermelho/preto</p>
+            <p class="text-purple-400 text-xs">Marcas: Harley-Davidson, Diesel</p>
+          </div>
+          <div class="bg-dark-700/50 rounded-lg p-4">
+            <h4 class="font-semibold text-sm mb-1">O Criador</h4>
+            <p class="text-neutral-300 text-xs mb-1">Visual: Colorido, organico, texturas ricas</p>
+            <p class="text-purple-400 text-xs">Marcas: Lego, Adobe, Apple</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-purple-400 mb-4 flex items-center">
+          <span class="mr-2">🔑</span> Simbolos Universais e Significados
+        </h3>
+        <div class="grid grid-cols-2 md:grid-cols-3 gap-3 text-xs">
+          <div class="bg-dark-700/50 rounded p-2"><strong>Agua:</strong> <span class="text-neutral-400">Purificacao, vida, fluxo, emocao</span></div>
+          <div class="bg-dark-700/50 rounded p-2"><strong>Fogo:</strong> <span class="text-neutral-400">Transformacao, paixao, destruicao</span></div>
+          <div class="bg-dark-700/50 rounded p-2"><strong>Montanha:</strong> <span class="text-neutral-400">Desafio, permanencia, objetivo</span></div>
+          <div class="bg-dark-700/50 rounded p-2"><strong>Ponte:</strong> <span class="text-neutral-400">Transicao, conexao, jornada</span></div>
+          <div class="bg-dark-700/50 rounded p-2"><strong>Espelho:</strong> <span class="text-neutral-400">Reflexao, verdade, ilusao</span></div>
+          <div class="bg-dark-700/50 rounded p-2"><strong>Porta:</strong> <span class="text-neutral-400">Oportunidade, misterio, escolha</span></div>
+          <div class="bg-dark-700/50 rounded p-2"><strong>Relogio:</strong> <span class="text-neutral-400">Mortalidade, pressao, precisao</span></div>
+          <div class="bg-dark-700/50 rounded p-2"><strong>Chave:</strong> <span class="text-neutral-400">Solucao, acesso, poder</span></div>
+          <div class="bg-dark-700/50 rounded p-2"><strong>Labirinto:</strong> <span class="text-neutral-400">Confusao, busca, complexidade</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 5: Linguagem Visual Unica -->
+    <section id="topico-5" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">5</span>
+        <h2 class="text-2xl font-bold">🔮 Desenvolvendo Sua Assinatura Visual</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        Tecnica e replicavel. Estilo e unico. <strong class="text-purple-400">Sua linguagem visual e a combinacao irrepetivel de suas experiencias, obsessoes e visao de mundo traduzidas em imagem.</strong>
+      </p>
+
+      <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-purple-400 mb-4 flex items-center">
+          <span class="mr-2">🎨</span> Framework de Desenvolvimento de Estilo
+        </h3>
+        <div class="space-y-4">
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">Fase 1: Auto-Descoberta Visual (30 dias)</h4>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+              <div class="bg-dark-700/50 rounded p-3">
+                <p class="font-semibold text-sm mb-2">Analise Obsessiva</p>
+                <ul class="text-neutral-300 text-xs space-y-1">
+                  <li>• Colete 500 imagens que voce ama</li>
+                  <li>• Identifique 10 padroes recorrentes</li>
+                  <li>• Mapeie suas preferencias inconscientes</li>
+                  <li>• Documente o que te repulsa visualmente</li>
+                </ul>
+              </div>
+              <div class="bg-dark-700/50 rounded p-3">
+                <p class="font-semibold text-sm mb-2">DNA Visual</p>
+                <ul class="text-neutral-300 text-xs space-y-1">
+                  <li>• 3 cores dominantes pessoais</li>
+                  <li>• 2 tipos de composicao preferidos</li>
+                  <li>• 1 mood/emocao recorrente</li>
+                  <li>• Texturas e patterns obsessivos</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">Fase 2: Experimentacao Radical (60 dias)</h4>
+            <div class="space-y-2">
+              <div class="flex items-start space-x-2"><span class="text-purple-400 mt-1">→</span><div><strong class="text-sm">Restricao Extrema:</strong> <span class="text-neutral-400 text-xs">Crie 30 pecas usando apenas 2 cores</span></div></div>
+              <div class="flex items-start space-x-2"><span class="text-purple-400 mt-1">→</span><div><strong class="text-sm">Inversao Total:</strong> <span class="text-neutral-400 text-xs">Faca o oposto do seu instinto por 1 semana</span></div></div>
+              <div class="flex items-start space-x-2"><span class="text-purple-400 mt-1">→</span><div><strong class="text-sm">Hibridizacao:</strong> <span class="text-neutral-400 text-xs">Misture 2 estilos opostos ate criar algo novo</span></div></div>
+              <div class="flex items-start space-x-2"><span class="text-purple-400 mt-1">→</span><div><strong class="text-sm">Abstracao Progressiva:</strong> <span class="text-neutral-400 text-xs">Simplifique ate encontrar a essencia</span></div></div>
+            </div>
+          </div>
+
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">Fase 3: Refinamento e Consistencia (90 dias)</h4>
+            <p class="font-semibold text-sm mb-2">Criando Seu Manual de Estilo:</p>
+            <div class="grid grid-cols-2 md:grid-cols-3 gap-3 text-xs">
+              <div class="bg-dark-700/50 rounded p-2"><strong>Paleta Signature:</strong> <span class="text-neutral-400">12 cores maximo</span></div>
+              <div class="bg-dark-700/50 rounded p-2"><strong>Tipografia:</strong> <span class="text-neutral-400">3 fontes caracteristicas</span></div>
+              <div class="bg-dark-700/50 rounded p-2"><strong>Proporcoes:</strong> <span class="text-neutral-400">Ratios preferidos</span></div>
+              <div class="bg-dark-700/50 rounded p-2"><strong>Texturas:</strong> <span class="text-neutral-400">Library personalizada</span></div>
+              <div class="bg-dark-700/50 rounded p-2"><strong>Lighting:</strong> <span class="text-neutral-400">Setups signature</span></div>
+              <div class="bg-dark-700/50 rounded p-2"><strong>Processos:</strong> <span class="text-neutral-400">Workflows unicos</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-purple-400 mb-4 flex items-center">
+          <span class="mr-2">✨</span> Assinaturas Visuais Iconicas
+        </h3>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">Wes Anderson</h4>
+            <p class="text-neutral-300 text-sm">Simetria obsessiva + Paletas pastel + Frontalidade = Mundo artificial perfeito e melancolico</p>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">Christopher Nolan</h4>
+            <p class="text-neutral-300 text-sm">Azul/Laranja + Arquitetura brutal + Time distortion = Realidade questionavel e grandiosidade</p>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">Refik Anadol</h4>
+            <p class="text-neutral-300 text-sm">Data visualization + Fluidos digitais + Scale epica = Poesia computacional sublime</p>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-4 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">James Turrell</h4>
+            <p class="text-neutral-300 text-sm">Luz pura + Espaco vazio + Percepcao alterada = Experiencia transcendental minimalista</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-primary/10 rounded-xl border border-primary/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-primary mb-3 flex items-center">
+          <span class="mr-2">💡</span> Insight Master: A Arte Transcende a Ferramenta
+        </h3>
+        <p class="text-neutral-300 mb-3">Ferramentas mudam, tecnicas evoluem, mas principios artisticos sao eternos. Voce agora possui conhecimento que transcende qualquer software ou tecnologia.</p>
+        <p class="text-neutral-300 font-semibold italic">"Voce nao cria imagens - voce orquestra experiencias emocionais. Cada escolha de cor, cada angulo, cada feixe de luz e uma nota em sua sinfonia visual. Voce e um diretor de arte, nao um operador de ferramentas."</p>
+      </div>
+    </section>
+
+    <!-- RESUMO -->
+    <section class="mb-12">
+      <div class="bg-gradient-to-br from-purple-900/40 via-dark-800 to-dark-800 rounded-xl border border-purple-500/30 p-8">
+        <h2 class="text-2xl font-bold mb-6 flex items-center">
+          <span class="mr-3">📋</span> Resumo do Modulo
+        </h2>
+        <div class="space-y-4 mb-8">
+          <div class="flex items-start space-x-3">
+            <span class="text-purple-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Teoria da Cor Avancada</strong>
+              <span class="text-neutral-400"> - Neurociencia, harmonias complexas e color grading cinematografico</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-purple-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Composicao Cinematografica</strong>
+              <span class="text-neutral-400"> - Fibonacci, Dynamic Symmetry e enquadramentos avancados</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-purple-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Iluminacao de Estudio Virtual</strong>
+              <span class="text-neutral-400"> - Sistema 5-point, mood lighting e tecnicas avancadas</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-purple-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Semiotica Visual</strong>
+              <span class="text-neutral-400"> - Psicologia das formas, arquetipos e simbolos universais</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-purple-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Assinatura Visual</strong>
+              <span class="text-neutral-400"> - Framework de 180 dias para desenvolver linguagem unica</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-dark-800/50 rounded-lg p-4 mb-8">
+          <h3 class="font-semibold text-purple-400 mb-2">Proximo Modulo:</h3>
+          <p class="text-neutral-300">3.4 - Especializacoes Tecnicas</p>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="masterclass-modulo-02.html" class="flex-1 text-center px-6 py-3 bg-dark-700 text-neutral-300 rounded-lg font-semibold hover:bg-dark-600 transition-colors">
+            ← Modulo Anterior
+          </a>
+          <a href="masterclass-modulo-04.html" class="flex-1 text-center px-6 py-3 bg-purple-600 text-white rounded-lg font-semibold hover:bg-purple-500 transition-colors">
+            Proximo Modulo →
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-dark-600 py-8 mt-16">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
+      <p>Designer do Futuro - 2025 | <a href="https://inema.club" target="_blank" class="text-sky-400 hover:text-sky-300">INEMA.CLUB</a></p>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script>
+    // Theme Toggle
+    const themeToggle = document.getElementById('theme-toggle');
+    const themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+    const themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
+    const html = document.documentElement;
+
+    if (localStorage.getItem('theme') === 'light' || (!localStorage.getItem('theme') && !html.classList.contains('dark'))) {
+      themeToggleDarkIcon.classList.remove('hidden');
+      html.classList.remove('dark');
+    } else {
+      themeToggleLightIcon.classList.remove('hidden');
+    }
+
+    themeToggle.addEventListener('click', () => {
+      themeToggleDarkIcon.classList.toggle('hidden');
+      themeToggleLightIcon.classList.toggle('hidden');
+      html.classList.toggle('dark');
+      localStorage.setItem('theme', html.classList.contains('dark') ? 'dark' : 'light');
+    });
+  </script>
+
+</body>
+</html>

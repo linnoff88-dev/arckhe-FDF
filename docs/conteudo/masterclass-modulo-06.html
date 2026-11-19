@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modulo 3.6: Monetizacao Avancada | Designer do Futuro</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: '#FACC15',
+            dark: { 900: '#111827', 800: '#1f2937', 700: '#374151', 600: '#4b5563' }
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .dark body { background-color: #111827; }
+
+    /* Light mode overrides - OBRIGATORIO */
+    html:not(.dark) body { background-color: #f8fafc; }
+    html:not(.dark) .bg-dark-900 { background-color: #ffffff; }
+    html:not(.dark) .bg-dark-800 { background-color: #f9fafb; }
+    html:not(.dark) .bg-dark-700 { background-color: #f3f4f6; }
+    html:not(.dark) .bg-dark-600 { background-color: #e5e7eb; }
+    html:not(.dark) .text-neutral-100 { color: #111827; }
+    html:not(.dark) .text-neutral-300 { color: #4b5563; }
+    html:not(.dark) .text-neutral-400 { color: #6b7280; }
+    html:not(.dark) .text-neutral-500 { color: #9ca3af; }
+    html:not(.dark) .border-dark-600 { border-color: #d1d5db; }
+    html:not(.dark) .border-dark-700 { border-color: #e5e7eb; }
+
+    /* Light mode - cores de acento (trilha purple) */
+    html:not(.dark) .text-purple-400 { color: #7c3aed; }
+    html:not(.dark) .bg-purple-500\/20 { background-color: rgba(124, 58, 237, 0.12); }
+    html:not(.dark) .bg-purple-500\/10 { background-color: rgba(124, 58, 237, 0.08); }
+    html:not(.dark) .border-purple-500\/30 { border-color: rgba(124, 58, 237, 0.25); }
+    html:not(.dark) .hover\:bg-purple-500\/30:hover { background-color: rgba(124, 58, 237, 0.18); }
+
+    /* Light mode - remove gradientes */
+    html:not(.dark) [class*="bg-gradient-to"] { background-image: none !important; }
+
+    /* Light mode - cores especiais */
+    html:not(.dark) .text-primary { color: #a16207; }
+    html:not(.dark) .bg-primary\/10 { background-color: rgba(161, 98, 7, 0.08); }
+    html:not(.dark) .border-primary\/30 { border-color: rgba(161, 98, 7, 0.25); }
+    html:not(.dark) .text-sky-400 { color: #0369a1; }
+    html:not(.dark) .text-yellow-400 { color: #a16207; }
+    html:not(.dark) .hover\:text-sky-300:hover { color: #0284c7; }
+    html:not(.dark) .hover\:text-yellow-300:hover { color: #854d0e; }
+
+    /* Light mode - nav */
+    html:not(.dark) .bg-dark-900\/95 { background-color: rgba(255, 255, 255, 0.95); }
+  </style>
+</head>
+<body class="bg-dark-900 text-neutral-100 min-h-screen">
+
+  <!-- NAVIGATION -->
+  <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-14">
+        <div class="flex items-center space-x-4">
+          <a href="../index.html" class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300">
+            <span class="text-2xl">🎨</span>
+            <span class="font-bold text-lg hidden sm:inline">Designer do Futuro</span>
+          </a>
+          <span class="text-neutral-600">|</span>
+          <a href="https://inema.club" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium">INEMA.CLUB</a>
+        </div>
+        <div class="flex items-center space-x-1 sm:space-x-2">
+          <a href="../trilhas/iniciante.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-colors">
+            <span class="sm:hidden">T1</span>
+            <span class="hidden sm:inline">Iniciante</span>
+          </a>
+          <a href="../trilhas/tecnico.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-blue-400 hover:bg-blue-500/10 transition-colors">
+            <span class="sm:hidden">T2</span>
+            <span class="hidden sm:inline">Tecnico</span>
+          </a>
+          <a href="../trilhas/masterclass.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-purple-400 bg-purple-500/10">
+            <span class="sm:hidden">T3</span>
+            <span class="hidden sm:inline">Masterclass</span>
+          </a>
+          <a href="../trilhas/empreendedores.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10 transition-colors">
+            <span class="sm:hidden">T4</span>
+            <span class="hidden sm:inline">Empreendedores</span>
+          </a>
+          <button id="theme-toggle" class="p-2 rounded-lg bg-dark-700 hover:bg-dark-600 transition-colors ml-2">
+            <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5 text-neutral-300" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+            </svg>
+            <svg id="theme-toggle-light-icon" class="hidden w-5 h-5 text-neutral-300" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- BREADCRUMB -->
+  <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+    <div class="flex items-center space-x-2 text-sm text-neutral-400">
+      <a href="../index.html" class="hover:text-purple-400">Inicio</a>
+      <span>/</span>
+      <a href="../trilhas/masterclass.html" class="hover:text-purple-400">Trilha Masterclass</a>
+      <span>/</span>
+      <span class="text-purple-400">Modulo 3.6</span>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="bg-gradient-to-br from-purple-900/30 via-dark-800 to-dark-800 py-12 border-b border-dark-600">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <span class="inline-block px-3 py-1 bg-purple-500/20 text-purple-400 text-xs font-semibold rounded-full mb-4">
+        MODULO 3.6
+      </span>
+      <h1 class="text-3xl sm:text-4xl font-bold mb-4">💎 Monetizacao Avancada</h1>
+      <p class="text-lg text-neutral-400 max-w-3xl">Desbloqueie o potencial maximo de receita com IA generativa. Aprenda estrategias comprovadas para escalar seu faturamento para R$ 50k+ mensais com modelos de negocio inteligentes e diversificacao de fontes de renda.</p>
+      <div class="grid grid-cols-4 gap-4 mt-8 max-w-2xl">
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-purple-400">R$50k+</div>
+          <div class="text-xs text-neutral-400">Por Mes</div>
+        </div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-purple-400">620</div>
+          <div class="text-xs text-neutral-400">Minutos</div>
+        </div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-purple-400">Master</div>
+          <div class="text-xs text-neutral-400">Nivel</div>
+        </div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-purple-400">MRR</div>
+          <div class="text-xs text-neutral-400">Recorrente</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTEUDO -->
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+    <!-- TOPICO 1 -->
+    <section id="topico-1" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">1</span>
+        <h2 class="text-2xl font-bold">💰 Cases Reais e Modelos de Negocio</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        Profissionais formados alcancando resultados extraordinarios. Conheca os <strong class="text-purple-400">modelos comprovados para diferentes perfis e objetivos de faturamento</strong>.
+      </p>
+
+      <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-purple-400 mb-4 flex items-center">
+          <span class="mr-2">📊</span> Metricas de Sucesso Comprovadas
+        </h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div class="text-center">
+            <p class="text-xl font-bold text-purple-400">R$ 85k</p>
+            <p class="text-xs text-neutral-400">Maior faturamento mensal</p>
+          </div>
+          <div class="text-center">
+            <p class="text-xl font-bold text-purple-400">R$ 3.5k</p>
+            <p class="text-xs text-neutral-400">Ticket medio por projeto</p>
+          </div>
+          <div class="text-center">
+            <p class="text-xl font-bold text-purple-400">23</p>
+            <p class="text-xs text-neutral-400">Clientes recorrentes</p>
+          </div>
+          <div class="text-center">
+            <p class="text-xl font-bold text-purple-400">92%</p>
+            <p class="text-xs text-neutral-400">Taxa de retencao</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+        <div class="bg-dark-800 rounded-xl p-5 border border-dark-600">
+          <h4 class="font-semibold text-white mb-1">👤 Freelancer Premium</h4>
+          <p class="text-purple-400 text-sm font-bold mb-2">R$ 15-30k/mes</p>
+          <p class="text-neutral-300 text-sm mb-2">Modelo individual focado em projetos de alto valor com clientes selecionados. Ideal para quem busca flexibilidade e alta margem.</p>
+          <ul class="space-y-1 text-neutral-400 text-xs">
+            <li>• Liberdade total de horarios</li>
+            <li>• Margem de lucro 80-90%</li>
+            <li>• Controle total do processo</li>
+            <li>• Baixo custo operacional</li>
+          </ul>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-5 border border-purple-500/30">
+          <h4 class="font-semibold text-white mb-1">🏢 Agencia Especializada</h4>
+          <p class="text-purple-400 text-sm font-bold mb-2">R$ 50-100k/mes</p>
+          <p class="text-neutral-300 text-sm mb-2">Estrutura escalavel com equipe, processos definidos e multiplos clientes simultaneos. Maximo potencial de crescimento.</p>
+          <ul class="space-y-1 text-neutral-400 text-xs">
+            <li>• Escalabilidade ilimitada</li>
+            <li>• Multiplas fontes de receita</li>
+            <li>• Valorizacao para venda</li>
+            <li>• Construcao de marca forte</li>
+          </ul>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-5 border border-dark-600">
+          <h4 class="font-semibold text-white mb-1">📦 Produtos Digitais</h4>
+          <p class="text-purple-400 text-sm font-bold mb-2">R$ 20-50k/mes</p>
+          <p class="text-neutral-300 text-sm mb-2">Criacao e venda de assets, templates, cursos e ferramentas. Receita passiva e escalavel sem limite de clientes.</p>
+          <ul class="space-y-1 text-neutral-400 text-xs">
+            <li>• Renda 100% passiva</li>
+            <li>• Escalabilidade infinita</li>
+            <li>• Margem proxima a 100%</li>
+            <li>• Trabalho uma vez, venda sempre</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 2 -->
+    <section id="topico-2" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">2</span>
+        <h2 class="text-2xl font-bold">💲 Estrategias de Precificacao Premium</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        Estrutura profissional de precificacao baseada em <strong class="text-purple-400">valor, nao em horas</strong>.
+      </p>
+
+      <div class="bg-dark-800 rounded-xl border border-dark-600 overflow-hidden mb-6">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="border-b border-dark-600 bg-dark-700">
+              <th class="text-left p-4 text-neutral-300 font-semibold">Tipo de Servico</th>
+              <th class="text-left p-4 text-neutral-300 font-semibold">Valor Base</th>
+              <th class="text-left p-4 text-neutral-300 font-semibold">Valor Premium</th>
+              <th class="text-left p-4 text-neutral-300 font-semibold">Modelo</th>
+            </tr>
+          </thead>
+          <tbody class="text-neutral-300">
+            <tr class="border-b border-dark-700">
+              <td class="p-4"><strong>Identidade Visual Completa</strong></td>
+              <td class="p-4 text-purple-400 font-bold">R$ 5.000</td>
+              <td class="p-4 text-purple-400 font-bold">R$ 15.000</td>
+              <td class="p-4 text-neutral-400">50% entrada + 50% entrega</td>
+            </tr>
+            <tr class="border-b border-dark-700">
+              <td class="p-4"><strong>Campanha Publicitaria</strong></td>
+              <td class="p-4 text-purple-400 font-bold">R$ 8.000</td>
+              <td class="p-4 text-purple-400 font-bold">R$ 25.000</td>
+              <td class="p-4 text-neutral-400">Por projeto + performance</td>
+            </tr>
+            <tr class="border-b border-dark-700">
+              <td class="p-4"><strong>Retainer Mensal</strong></td>
+              <td class="p-4 text-purple-400 font-bold">R$ 4.000</td>
+              <td class="p-4 text-purple-400 font-bold">R$ 12.000</td>
+              <td class="p-4 text-neutral-400">Recorrente com contrato</td>
+            </tr>
+            <tr class="border-b border-dark-700">
+              <td class="p-4"><strong>Consultoria Estrategica</strong></td>
+              <td class="p-4 text-purple-400 font-bold">R$ 1.500/h</td>
+              <td class="p-4 text-purple-400 font-bold">R$ 3.500/h</td>
+              <td class="p-4 text-neutral-400">Pacotes de horas</td>
+            </tr>
+            <tr class="border-b border-dark-700">
+              <td class="p-4"><strong>Produto Digital (Template)</strong></td>
+              <td class="p-4 text-purple-400 font-bold">R$ 97</td>
+              <td class="p-4 text-purple-400 font-bold">R$ 497</td>
+              <td class="p-4 text-neutral-400">Venda unica ou assinatura</td>
+            </tr>
+            <tr>
+              <td class="p-4"><strong>Curso/Workshop</strong></td>
+              <td class="p-4 text-purple-400 font-bold">R$ 997</td>
+              <td class="p-4 text-purple-400 font-bold">R$ 4.997</td>
+              <td class="p-4 text-neutral-400">Lancamento ou evergreen</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="bg-primary/10 rounded-xl border border-primary/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-primary mb-3 flex items-center">
+          <span class="mr-2">💡</span> Dica de Ouro
+        </h3>
+        <p class="text-neutral-300">Sempre precifique baseado no valor entregue ao cliente, nao nas horas trabalhadas. Com IA, voce pode entregar em 2 horas o que antes levava 20, mas o valor para o cliente permanece o mesmo!</p>
+      </div>
+    </section>
+
+    <!-- TOPICO 3 -->
+    <section id="topico-3" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">3</span>
+        <h2 class="text-2xl font-bold">📚 Aulas Estruturadas</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        6 aulas estrategicas para <strong class="text-purple-400">transformar seu conhecimento em receita consistente</strong>.
+      </p>
+
+      <div class="space-y-4 mb-6">
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <div class="flex items-center justify-between mb-3">
+            <h4 class="font-semibold text-white">Aula 01: Psicologia da Precificacao Premium</h4>
+            <span class="text-purple-400 text-sm font-bold">90 min</span>
+          </div>
+          <p class="text-neutral-300 text-sm mb-3">Domine a arte de cobrar precos premium sem objecoes. Aprenda tecnicas de ancoragem, framing de valor, storytelling de resultados e posicionamento de autoridade que justificam precos 5-10x acima da media do mercado.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Value-based Pricing</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Price Anchoring</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Luxury Positioning</span>
+          </div>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <div class="flex items-center justify-between mb-3">
+            <h4 class="font-semibold text-white">Aula 02: Retainers e Contratos Recorrentes</h4>
+            <span class="text-purple-400 text-sm font-bold">100 min</span>
+          </div>
+          <p class="text-neutral-300 text-sm mb-3">Construa previsibilidade financeira com MRR (Monthly Recurring Revenue). Estruturacao de propostas irresistiveis, modelos de contrato, gestao de expectativas e estrategias para reter clientes por anos.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">MRR Strategy</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Client Retention</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Contract Design</span>
+          </div>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <div class="flex items-center justify-between mb-3">
+            <h4 class="font-semibold text-white">Aula 03: Imperio de Produtos Digitais</h4>
+            <span class="text-purple-400 text-sm font-bold">110 min</span>
+          </div>
+          <p class="text-neutral-300 text-sm mb-3">Crie um ecossistema de produtos digitais que geram renda passiva 24/7. Templates premium, presets exclusivos, cursos gravados, ebooks tecnicos. Plataformas de venda, estrategias de lancamento e automacao completa.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Digital Products</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Passive Income</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Launch Strategy</span>
+          </div>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <div class="flex items-center justify-between mb-3">
+            <h4 class="font-semibold text-white">Aula 04: Licenciamento e Direitos de Uso</h4>
+            <span class="text-purple-400 text-sm font-bold">95 min</span>
+          </div>
+          <p class="text-neutral-300 text-sm mb-3">Monetize sua arte atraves de licenciamento estrategico. Contratos de uso comercial, royalties, exclusividade, stock platforms, NFTs e marketplaces. Protecao legal e maximizacao de receita por asset criado.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Licensing Models</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Royalties</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Legal Protection</span>
+          </div>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <div class="flex items-center justify-between mb-3">
+            <h4 class="font-semibold text-white">Aula 05: Scaling - De Freelancer a CEO</h4>
+            <span class="text-purple-400 text-sm font-bold">105 min</span>
+          </div>
+          <p class="text-neutral-300 text-sm mb-3">Transicao estrategica de operador para empresario. Construcao de equipe, delegacao eficiente, sistemas e processos, gestao financeira avancada. Do primeiro funcionario ao time de 10+ pessoas.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Team Building</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Systems Design</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Business Operations</span>
+          </div>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <div class="flex items-center justify-between mb-3">
+            <h4 class="font-semibold text-white">Aula 06: Planejamento Financeiro Profissional</h4>
+            <span class="text-purple-400 text-sm font-bold">120 min</span>
+          </div>
+          <p class="text-neutral-300 text-sm mb-3">Gestao financeira para crescimento sustentavel. Separacao PF/PJ, reserva de emergencia, investimentos, aposentadoria, planejamento tributario inteligente. Dashboard de metricas e KPIs financeiros.</p>
+          <div class="flex flex-wrap gap-2">
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Financial Planning</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Tax Optimization</span>
+            <span class="px-2 py-1 bg-purple-500/20 text-purple-400 text-xs rounded-full">Investment Strategy</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 4 -->
+    <section id="topico-4" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">4</span>
+        <h2 class="text-2xl font-bold">🏆 Cases de Sucesso - Historias Reais de R$ 50k+/mes</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        Analise detalhada de profissionais que <strong class="text-purple-400">alcancaram o topo do mercado</strong>.
+      </p>
+
+      <div class="space-y-4 mb-6">
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <div class="flex items-center justify-between mb-3">
+            <div>
+              <h4 class="font-semibold text-white">Marina Silva - Creative AI Studio</h4>
+              <p class="text-neutral-400 text-xs">De designer freelancer a CEO de estudio premium</p>
+            </div>
+            <span class="text-purple-400 text-lg font-bold">R$ 78k/mes</span>
+          </div>
+          <p class="text-neutral-300 text-sm mb-3">Marina comecou como freelancer cobrando R$ 500 por logo. Em 18 meses, construiu um estudio com 5 colaboradores, atendendo grandes marcas com projetos de identidade visual completa usando IA. Hoje tem 12 clientes em retainer mensal e lanca produtos digitais que geram R$ 15k/mes em renda passiva.</p>
+          <div class="grid grid-cols-4 gap-3 mb-3">
+            <div class="text-center bg-dark-700 rounded-lg p-2">
+              <p class="text-purple-400 font-bold text-sm">R$ 6.5k</p>
+              <p class="text-neutral-400 text-xs">Ticket Medio</p>
+            </div>
+            <div class="text-center bg-dark-700 rounded-lg p-2">
+              <p class="text-purple-400 font-bold text-sm">12</p>
+              <p class="text-neutral-400 text-xs">Retainers</p>
+            </div>
+            <div class="text-center bg-dark-700 rounded-lg p-2">
+              <p class="text-purple-400 font-bold text-sm">85%</p>
+              <p class="text-neutral-400 text-xs">Margem</p>
+            </div>
+            <div class="text-center bg-dark-700 rounded-lg p-2">
+              <p class="text-purple-400 font-bold text-sm">5</p>
+              <p class="text-neutral-400 text-xs">Colaboradores</p>
+            </div>
+          </div>
+          <ul class="space-y-1 text-neutral-400 text-xs">
+            <li>• Nicho em branding para startups tech valorizou em 10x o trabalho</li>
+            <li>• Retainer minimo de R$ 4k garantiu previsibilidade financeira</li>
+            <li>• Templates customizaveis geraram R$ 180k em 12 meses</li>
+            <li>• Contratacao de juniors para execucao liberou tempo para vendas</li>
+          </ul>
+        </div>
+
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <div class="flex items-center justify-between mb-3">
+            <div>
+              <h4 class="font-semibold text-white">Carlos Mendes - Performance Creative Agency</h4>
+              <p class="text-neutral-400 text-xs">Especialista em campanhas de alta conversao com IA</p>
+            </div>
+            <span class="text-purple-400 text-lg font-bold">R$ 92k/mes</span>
+          </div>
+          <p class="text-neutral-300 text-sm mb-3">Carlos pivotou de agencia tradicional para performance creative usando IA. Desenvolveu metodologia propria de testes A/B automatizados e creative automation que aumenta conversao em media 40%. Cobra success fee alem do fee fixo, multiplicando receita.</p>
+          <div class="grid grid-cols-4 gap-3 mb-3">
+            <div class="text-center bg-dark-700 rounded-lg p-2">
+              <p class="text-purple-400 font-bold text-sm">R$ 15k</p>
+              <p class="text-neutral-400 text-xs">Fee Base</p>
+            </div>
+            <div class="text-center bg-dark-700 rounded-lg p-2">
+              <p class="text-purple-400 font-bold text-sm">3-5%</p>
+              <p class="text-neutral-400 text-xs">Success Fee</p>
+            </div>
+            <div class="text-center bg-dark-700 rounded-lg p-2">
+              <p class="text-purple-400 font-bold text-sm">8</p>
+              <p class="text-neutral-400 text-xs">Grandes Contas</p>
+            </div>
+            <div class="text-center bg-dark-700 rounded-lg p-2">
+              <p class="text-purple-400 font-bold text-sm">R$ 2.3M</p>
+              <p class="text-neutral-400 text-xs">Media Gerenciada</p>
+            </div>
+          </div>
+          <ul class="space-y-1 text-neutral-400 text-xs">
+            <li>• Success fee alinha interesses e pode triplicar receita</li>
+            <li>• Automacao de creative testing economizou 30h/semana</li>
+            <li>• Case studies com ROI comprovado facilitam vendas premium</li>
+            <li>• Parceria com agencias de media multiplicou pipeline</li>
+          </ul>
+        </div>
+
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <div class="flex items-center justify-between mb-3">
+            <div>
+              <h4 class="font-semibold text-white">Ana Costa - AI Education Empire</h4>
+              <p class="text-neutral-400 text-xs">De designer a educadora com imperio digital</p>
+            </div>
+            <span class="text-purple-400 text-lg font-bold">R$ 65k/mes</span>
+          </div>
+          <p class="text-neutral-300 text-sm mb-3">Ana transformou sua expertise em IA generativa em negocio educacional escalavel. Criou curso signature de R$ 3.997, membership recorrente de R$ 297/mes com 400+ alunos, e consultoria premium para empresas. Fatura adicional com afiliados e parcerias.</p>
+          <div class="grid grid-cols-4 gap-3 mb-3">
+            <div class="text-center bg-dark-700 rounded-lg p-2">
+              <p class="text-purple-400 font-bold text-sm">R$ 3.997</p>
+              <p class="text-neutral-400 text-xs">Curso Premium</p>
+            </div>
+            <div class="text-center bg-dark-700 rounded-lg p-2">
+              <p class="text-purple-400 font-bold text-sm">400+</p>
+              <p class="text-neutral-400 text-xs">Membros</p>
+            </div>
+            <div class="text-center bg-dark-700 rounded-lg p-2">
+              <p class="text-purple-400 font-bold text-sm">R$ 120k</p>
+              <p class="text-neutral-400 text-xs">MRR</p>
+            </div>
+            <div class="text-center bg-dark-700 rounded-lg p-2">
+              <p class="text-purple-400 font-bold text-sm">95%</p>
+              <p class="text-neutral-400 text-xs">Margem</p>
+            </div>
+          </div>
+          <ul class="space-y-1 text-neutral-400 text-xs">
+            <li>• Comunidade engajada vale mais que numero de alunos</li>
+            <li>• Membership recorrente cria base solida de receita</li>
+            <li>• Lancamentos semestrais geram picos de R$ 200k+</li>
+            <li>• Programa de afiliados responsavel por 30% das vendas</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 5 -->
+    <section id="topico-5" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-purple-500/20 text-purple-400 font-bold text-xl">5</span>
+        <h2 class="text-2xl font-bold">💪 Exercicios e Multiplas Fontes de Renda</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        Projetos praticos para implementar estrategias de alta receita e <strong class="text-purple-400">diversificacao inteligente</strong> para estabilidade e crescimento exponencial.
+      </p>
+
+      <div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-blue-400 mb-3 flex items-center">
+          <span class="mr-2">⚠️</span> Regra de Ouro
+        </h3>
+        <p class="text-neutral-300">Nunca dependa de uma unica fonte de renda. O ideal e ter 30% servicos, 30% produtos, 30% recorrencia e 10% investimentos/parcerias.</p>
+      </div>
+
+      <div class="space-y-4 mb-6">
+        <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6">
+          <h3 class="text-lg font-semibold text-purple-400 mb-2 flex items-center">
+            <span class="mr-2">📋</span> Plano de Negocio R$ 50k/mes (Expert)
+          </h3>
+          <p class="text-neutral-300 text-sm mb-4">Desenvolva um business plan completo para alcancar R$ 50k mensais em 12 meses. Inclua mix de produtos/servicos, estrategia de precificacao, projecoes financeiras, plano de marketing e metricas de acompanhamento.</p>
+          <ul class="space-y-2 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Definir 3-5 fontes de receita complementares</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Criar tabela de precos com 3 tiers (basico, pro, enterprise)</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Projetar fluxo de caixa mensal para 12 meses</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Desenvolver estrategia de aquisicao de clientes premium</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Estabelecer KPIs e dashboard de acompanhamento</span></li>
+          </ul>
+        </div>
+
+        <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6">
+          <h3 class="text-lg font-semibold text-purple-400 mb-2 flex items-center">
+            <span class="mr-2">🚀</span> Lancamento de Produto Digital (Expert)
+          </h3>
+          <p class="text-neutral-300 text-sm mb-4">Execute um lancamento completo de produto digital (template pack, curso ou ferramenta) seguindo estrategia de Jeff Walker (PLF). Objetivo: R$ 30k em 7 dias de lancamento.</p>
+          <ul class="space-y-2 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Criar produto digital de alto valor (R$ 497+)</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Desenvolver sequencia de 3 videos de pre-lancamento</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Construir lista de 500+ leads qualificados</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Implementar funil completo com upsells e downsells</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Configurar automacao de vendas e entrega</span></li>
+          </ul>
+        </div>
+
+        <div class="bg-gradient-to-br from-purple-900/30 to-dark-800 rounded-xl border border-purple-500/30 p-6">
+          <h3 class="text-lg font-semibold text-purple-400 mb-2 flex items-center">
+            <span class="mr-2">🏢</span> Estruturacao de Agencia Premium (Expert)
+          </h3>
+          <p class="text-neutral-300 text-sm mb-4">Monte estrutura completa de agencia boutique de IA generativa. Inclua proposta comercial, portfolio premium, processo de vendas consultivas e sistema de producao escalavel.</p>
+          <ul class="space-y-2 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Criar brand book e posicionamento de agencia premium</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Desenvolver 3 case studies com ROI comprovado</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Estruturar processo de vendas B2B enterprise</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Montar equipe inicial (2-3 colaboradores)</span></li>
+            <li class="flex items-start space-x-2"><span class="text-purple-400 mt-1">•</span><span>Implementar sistemas de gestao e CRM</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+        <div class="bg-dark-800 rounded-xl p-5 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">🎯 Servicos Premium</h4>
+          <p class="text-neutral-300 text-sm mb-2">Projetos customizados de alto valor para clientes selecionados.</p>
+          <ul class="space-y-1 text-neutral-400 text-xs">
+            <li>• Identidades visuais: R$ 5-20k</li>
+            <li>• Campanhas publicitarias: R$ 10-30k</li>
+            <li>• Consultoria estrategica: R$ 2-5k/dia</li>
+            <li>• Workshops in-company: R$ 5-15k</li>
+          </ul>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-5 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">📱 Produtos Digitais</h4>
+          <p class="text-neutral-300 text-sm mb-2">Assets e recursos que vendem 24/7 no automatico.</p>
+          <ul class="space-y-1 text-neutral-400 text-xs">
+            <li>• Template packs: R$ 97-497</li>
+            <li>• Prompt libraries: R$ 47-297</li>
+            <li>• Cursos online: R$ 997-4.997</li>
+            <li>• Ebooks tecnicos: R$ 37-197</li>
+          </ul>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-5 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">🔄 Receita Recorrente</h4>
+          <p class="text-neutral-300 text-sm mb-2">MRR previsivel que cresce mes a mes.</p>
+          <ul class="space-y-1 text-neutral-400 text-xs">
+            <li>• Retainers mensais: R$ 3-15k</li>
+            <li>• Membership site: R$ 97-497/mes</li>
+            <li>• SaaS tools: R$ 47-297/mes</li>
+            <li>• Mentoria em grupo: R$ 997-2.997/mes</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bg-primary/10 rounded-xl border border-primary/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-primary mb-3 flex items-center">
+          <span class="mr-2">💡</span> Dica Master de Monetizacao
+        </h3>
+        <p class="text-neutral-300 mb-3">O segredo para R$ 50k+/mes nao esta em trabalhar mais, mas em criar sistemas de alto valor que funcionam para voce. Foque em construir ativos (produtos, processos, marca) que multiplicam seu tempo.</p>
+        <p class="text-neutral-300 font-semibold">Com IA voce pode atender 10x mais clientes com a mesma qualidade. Use isso para cobrar premium, nao para cobrar barato. Seu conhecimento especializado vale ouro - precifique de acordo!</p>
+      </div>
+    </section>
+
+    <!-- RESUMO -->
+    <section class="mb-12">
+      <div class="bg-gradient-to-br from-purple-900/40 via-dark-800 to-dark-800 rounded-xl border border-purple-500/30 p-8">
+        <h2 class="text-2xl font-bold mb-6 flex items-center">
+          <span class="mr-3">📋</span> Resumo do Modulo
+        </h2>
+        <div class="space-y-4 mb-8">
+          <div class="flex items-start space-x-3">
+            <span class="text-purple-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">3 Modelos de Negocio</strong>
+              <span class="text-neutral-400"> - Freelancer premium, agencia especializada e produtos digitais</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-purple-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Tabela de Precificacao Premium</strong>
+              <span class="text-neutral-400"> - Valores de R$ 97 a R$ 25.000 baseados em valor entregue</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-purple-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">6 Aulas Estrategicas</strong>
+              <span class="text-neutral-400"> - De pricing psychology a planejamento financeiro</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-purple-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">3 Cases Reais de R$ 50k+</strong>
+              <span class="text-neutral-400"> - Marina (R$ 78k), Carlos (R$ 92k) e Ana (R$ 65k)</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-purple-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Ecossistema de Receitas</strong>
+              <span class="text-neutral-400"> - Servicos, produtos digitais e receita recorrente</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-dark-800/50 rounded-lg p-4 mb-8">
+          <h3 class="font-semibold text-purple-400 mb-2">Proximo Modulo:</h3>
+          <p class="text-neutral-300">3.7 - Comunidade e Lideranca</p>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="masterclass-modulo-05.html" class="flex-1 text-center px-6 py-3 bg-dark-700 text-neutral-300 rounded-lg font-semibold hover:bg-dark-600 transition-colors">
+            ← Modulo Anterior
+          </a>
+          <a href="masterclass-modulo-07.html" class="flex-1 text-center px-6 py-3 bg-purple-600 text-white rounded-lg font-semibold hover:bg-purple-500 transition-colors">
+            Proximo Modulo →
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-dark-600 py-8 mt-16">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
+      <p>Designer do Futuro - 2025 | <a href="https://inema.club" target="_blank" class="text-sky-400 hover:text-sky-300">INEMA.CLUB</a></p>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script>
+    // Theme Toggle
+    const themeToggle = document.getElementById('theme-toggle');
+    const themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+    const themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
+    const html = document.documentElement;
+
+    if (localStorage.getItem('theme') === 'light' || (!localStorage.getItem('theme') && !html.classList.contains('dark'))) {
+      themeToggleDarkIcon.classList.remove('hidden');
+      html.classList.remove('dark');
+    } else {
+      themeToggleLightIcon.classList.remove('hidden');
+    }
+
+    themeToggle.addEventListener('click', () => {
+      themeToggleDarkIcon.classList.toggle('hidden');
+      themeToggleLightIcon.classList.toggle('hidden');
+      html.classList.toggle('dark');
+      localStorage.setItem('theme', html.classList.contains('dark') ? 'dark' : 'light');
+    });
+  </script>
+
+</body>
+</html>

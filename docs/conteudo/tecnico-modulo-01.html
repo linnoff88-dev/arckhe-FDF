@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modulo 2.1: Transicao Profissional | Designer do Futuro</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: '#FACC15',
+            dark: { 900: '#111827', 800: '#1f2937', 700: '#374151', 600: '#4b5563' }
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .dark body { background-color: #111827; }
+
+    /* Light mode overrides - OBRIGATORIO */
+    html:not(.dark) body { background-color: #f8fafc; }
+    html:not(.dark) .bg-dark-900 { background-color: #ffffff; }
+    html:not(.dark) .bg-dark-800 { background-color: #f9fafb; }
+    html:not(.dark) .bg-dark-700 { background-color: #f3f4f6; }
+    html:not(.dark) .bg-dark-600 { background-color: #e5e7eb; }
+    html:not(.dark) .text-neutral-100 { color: #111827; }
+    html:not(.dark) .text-neutral-300 { color: #4b5563; }
+    html:not(.dark) .text-neutral-400 { color: #6b7280; }
+    html:not(.dark) .text-neutral-500 { color: #9ca3af; }
+    html:not(.dark) .border-dark-600 { border-color: #d1d5db; }
+    html:not(.dark) .border-dark-700 { border-color: #e5e7eb; }
+
+    /* Light mode - cores de acento (trilha blue) */
+    html:not(.dark) .text-blue-400 { color: #2563eb; }
+    html:not(.dark) .bg-blue-500\/20 { background-color: rgba(37, 99, 235, 0.12); }
+    html:not(.dark) .bg-blue-500\/10 { background-color: rgba(37, 99, 235, 0.08); }
+    html:not(.dark) .border-blue-500\/30 { border-color: rgba(37, 99, 235, 0.25); }
+    html:not(.dark) .hover\:bg-blue-500\/30:hover { background-color: rgba(37, 99, 235, 0.18); }
+
+    /* Light mode - remove gradientes */
+    html:not(.dark) [class*="bg-gradient-to"] { background-image: none !important; }
+
+    /* Light mode - cores especiais */
+    html:not(.dark) .text-primary { color: #a16207; }
+    html:not(.dark) .bg-primary\/10 { background-color: rgba(161, 98, 7, 0.08); }
+    html:not(.dark) .border-primary\/40 { border-color: rgba(161, 98, 7, 0.25); }
+    html:not(.dark) .text-sky-400 { color: #0369a1; }
+    html:not(.dark) .text-yellow-400 { color: #a16207; }
+    html:not(.dark) .hover\:text-sky-300:hover { color: #0284c7; }
+    html:not(.dark) .hover\:text-yellow-300:hover { color: #854d0e; }
+
+    /* Light mode - nav */
+    html:not(.dark) .bg-dark-900\/95 { background-color: rgba(255, 255, 255, 0.95); }
+  </style>
+</head>
+<body class="bg-dark-900 text-neutral-100 min-h-screen">
+
+  <!-- NAVIGATION -->
+  <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-14">
+        <div class="flex items-center space-x-4">
+          <a href="../index.html" class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300">
+            <span class="text-2xl">🎨</span>
+            <span class="font-bold text-lg hidden sm:inline">Designer do Futuro</span>
+          </a>
+          <span class="text-neutral-600">|</span>
+          <a href="https://inema.club" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium">INEMA.CLUB</a>
+        </div>
+        <div class="flex items-center space-x-1 sm:space-x-2">
+          <a href="../trilhas/iniciante.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-colors">
+            <span class="sm:hidden">T1</span>
+            <span class="hidden sm:inline">Iniciante</span>
+          </a>
+          <a href="../trilhas/tecnico.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-blue-400 bg-blue-500/10">
+            <span class="sm:hidden">T2</span>
+            <span class="hidden sm:inline">Tecnico</span>
+          </a>
+          <a href="../trilhas/masterclass.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-purple-400 hover:bg-purple-500/10 transition-colors">
+            <span class="sm:hidden">T3</span>
+            <span class="hidden sm:inline">Masterclass</span>
+          </a>
+          <a href="../trilhas/empreendedores.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-amber-400 hover:bg-amber-500/10 transition-colors">
+            <span class="sm:hidden">T4</span>
+            <span class="hidden sm:inline">Empreendedores</span>
+          </a>
+          <button id="theme-toggle" class="p-2 rounded-lg bg-dark-700 hover:bg-dark-600 transition-colors ml-2">
+            <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5 text-neutral-300" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+            </svg>
+            <svg id="theme-toggle-light-icon" class="hidden w-5 h-5 text-neutral-300" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- BREADCRUMB -->
+  <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+    <div class="flex items-center space-x-2 text-sm text-neutral-400">
+      <a href="../index.html" class="hover:text-blue-400">Inicio</a>
+      <span>/</span>
+      <a href="../trilhas/tecnico.html" class="hover:text-blue-400">Trilha Tecnico</a>
+      <span>/</span>
+      <span class="text-blue-400">Modulo 2.1</span>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="bg-gradient-to-br from-blue-900/30 via-dark-800 to-dark-800 py-12 border-b border-dark-600">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <span class="inline-block px-3 py-1 bg-blue-500/20 text-blue-400 text-xs font-semibold rounded-full mb-4">
+        MODULO 2.1
+      </span>
+      <h1 class="text-3xl sm:text-4xl font-bold mb-4">💼 Transicao Profissional</h1>
+      <p class="text-lg text-neutral-400 max-w-3xl">Como migrar para o mercado de IA e transformar suas habilidades em uma carreira lucrativa no futuro do design</p>
+      <div class="grid grid-cols-4 gap-4 mt-8 max-w-2xl">
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-blue-400">8</div>
+          <div class="text-xs text-neutral-400">Topicos</div>
+        </div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-blue-400">360</div>
+          <div class="text-xs text-neutral-400">Minutos</div>
+        </div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-blue-400">Tecnico</div>
+          <div class="text-xs text-neutral-400">Nivel</div>
+        </div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-blue-400">Pratico</div>
+          <div class="text-xs text-neutral-400">Tipo</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTEUDO -->
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+    <!-- TOPICO 1 -->
+    <section id="topico-1" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">1</span>
+        <h2 class="text-2xl font-bold">🚀 O Novo Mercado de Trabalho em IA</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        Nao estamos falando de um futuro distante. Estamos vivendo o maior momento de <strong class="text-blue-400">transformacao profissional</strong> desde a internet comercial dos anos 90. E voce esta bem a tempo de surfar essa onda.
+      </p>
+
+      <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center">
+          <span class="mr-2">📊</span> Numeros Que Provam
+        </h3>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+          <div class="bg-dark-800/50 rounded-lg p-3 text-center">
+            <div class="text-2xl font-bold text-blue-400">300%</div>
+            <div class="text-xs text-neutral-400">Crescimento de vagas "AI Designer" no LinkedIn</div>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-3 text-center">
+            <div class="text-2xl font-bold text-blue-400">R$ 8-15k</div>
+            <div class="text-xs text-neutral-400">Salario medio inicial IA generativa no Brasil</div>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-3 text-center">
+            <div class="text-2xl font-bold text-blue-400">89%</div>
+            <div class="text-xs text-neutral-400">Das empresas planejam usar IA em criacao de conteudo</div>
+          </div>
+          <div class="bg-dark-800/50 rounded-lg p-3 text-center">
+            <div class="text-2xl font-bold text-blue-400">$500-2k</div>
+            <div class="text-xs text-neutral-400">Valor medio cobrado por freelancers IA por projeto</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center">
+          <span class="mr-2">💼</span> Profissoes Emergentes em IA
+        </h3>
+        <p class="text-neutral-300 mb-4">O mercado esta criando cargos que NAO EXISTIAM ha 2 anos:</p>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <div class="flex items-start space-x-2"><span class="text-blue-400">✓</span><span class="text-neutral-300"><strong>Prompt Engineer</strong> - R$ 8-15k/mes</span></div>
+          <div class="flex items-start space-x-2"><span class="text-blue-400">✓</span><span class="text-neutral-300"><strong>AI Art Director</strong> - R$ 10-20k/mes</span></div>
+          <div class="flex items-start space-x-2"><span class="text-blue-400">✓</span><span class="text-neutral-300"><strong>AI Content Designer</strong> - R$ 7-12k/mes</span></div>
+          <div class="flex items-start space-x-2"><span class="text-blue-400">✓</span><span class="text-neutral-300"><strong>Generative Designer</strong> - R$ 9-16k/mes</span></div>
+          <div class="flex items-start space-x-2"><span class="text-blue-400">✓</span><span class="text-neutral-300"><strong>AI Brand Specialist</strong> - R$ 8-14k/mes</span></div>
+          <div class="flex items-start space-x-2"><span class="text-blue-400">✓</span><span class="text-neutral-300"><strong>Synthetic Media Producer</strong> - R$ 10-18k/mes</span></div>
+        </div>
+      </div>
+
+      <div class="bg-primary/10 rounded-xl border border-primary/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-primary mb-3 flex items-center">
+          <span class="mr-2">🎯</span> Por Que Designers Tradicionais Tem VANTAGEM
+        </h3>
+        <p class="text-neutral-300 mb-3">Se voce tem background em design, fotografia, ilustracao ou areas criativas, voce ja tem 70% do que precisa:</p>
+        <ul class="space-y-2 text-neutral-300">
+          <li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span><strong>Senso estetico desenvolvido</strong> - voce sabe o que e bonito</span></li>
+          <li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span><strong>Entendimento de composicao</strong> - voce conhece regras visuais</span></li>
+          <li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span><strong>Vocabulario visual</strong> - voce sabe nomear estilos e tecnicas</span></li>
+          <li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span><strong>Referencias culturais</strong> - voce conhece movimentos artisticos</span></li>
+          <li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span><strong>Pensamento em briefing</strong> - voce entende necessidades de projeto</span></li>
+        </ul>
+        <p class="text-neutral-300 font-semibold mt-3">Programadores estao APRENDENDO design para usar IA. Voce so precisa aprender a ferramenta!</p>
+      </div>
+    </section>
+
+    <!-- TOPICO 2 -->
+    <section id="topico-2" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">2</span>
+        <h2 class="text-2xl font-bold">🧠 Mindset: Profissional vs Amador</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        A diferenca entre ganhar R$ 200 ou R$ 5.000 por mes esta 90% no <strong class="text-blue-400">mindset</strong>. Muitas pessoas aprendem IA mas nao conseguem monetizar porque tratam como hobby, nao como profissao.
+      </p>
+
+      <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 mb-6 overflow-x-auto">
+        <h3 class="text-lg font-semibold mb-4">Comparativo de Mentalidade</h3>
+        <div class="space-y-3">
+          <div class="bg-dark-700/50 rounded-lg p-4 border-l-4 border-red-500/50">
+            <p class="font-semibold mb-1">Objetivo</p>
+            <p class="text-neutral-400 text-sm">❌ "Quero fazer imagens legais" → ✅ "Quero resolver problemas de clientes com IA"</p>
+          </div>
+          <div class="bg-dark-700/50 rounded-lg p-4 border-l-4 border-red-500/50">
+            <p class="font-semibold mb-1">Aprendizado</p>
+            <p class="text-neutral-400 text-sm">❌ "Vou aprender quando tiver tempo" → ✅ "Dedico X horas/semana para evoluir"</p>
+          </div>
+          <div class="bg-dark-700/50 rounded-lg p-4 border-l-4 border-red-500/50">
+            <p class="font-semibold mb-1">Portfolio</p>
+            <p class="text-neutral-400 text-sm">❌ "Posto no Instagram quando criar algo legal" → ✅ "Construo cases estruturados com objetivo comercial"</p>
+          </div>
+          <div class="bg-dark-700/50 rounded-lg p-4 border-l-4 border-red-500/50">
+            <p class="font-semibold mb-1">Precificacao</p>
+            <p class="text-neutral-400 text-sm">❌ "Cobro barato no comeco" → ✅ "Cobro pelo valor entregue, nao pelo tempo"</p>
+          </div>
+          <div class="bg-dark-700/50 rounded-lg p-4 border-l-4 border-red-500/50">
+            <p class="font-semibold mb-1">Comunicacao</p>
+            <p class="text-neutral-400 text-sm">❌ "Faco umas artes com IA" → ✅ "Sou designer especializado em solucoes com IA generativa"</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-blue-400 mb-3 flex items-center">
+          <span class="mr-2">💎</span> O Segredo do Sucesso
+        </h3>
+        <p class="text-neutral-300 mb-3">Nao e sobre ser o melhor tecnicamente. E sobre ter:</p>
+        <ul class="space-y-2 text-neutral-300">
+          <li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">✓</span><span><strong>Consistencia</strong> - aparecer todos os dias</span></li>
+          <li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">✓</span><span><strong>Confiabilidade</strong> - fazer o que promete</span></li>
+          <li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">✓</span><span><strong>Comunicacao</strong> - explicar seu valor claramente</span></li>
+          <li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">✓</span><span><strong>Profissionalismo</strong> - tratar como negocio serio</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- TOPICO 3 -->
+    <section id="topico-3" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">3</span>
+        <h2 class="text-2xl font-bold">⭐ Historias Reais de Transicao</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        Pessoas que fizeram a mudanca e estao <strong class="text-blue-400">ganhando dinheiro</strong> com IA. Nenhuma delas era genio - eram pessoas normais que viram a oportunidade e AGIRAM.
+      </p>
+
+      <div class="space-y-6 mb-6">
+        <div class="flex items-start space-x-4">
+          <div class="flex-shrink-0 w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center">
+            <span class="text-2xl">👨‍🎨</span>
+          </div>
+          <div class="flex-1 bg-dark-800 rounded-xl p-6 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">Rafael, 29 anos - Designer Grafico → AI Art Director</h4>
+            <p class="text-sm text-neutral-400 mb-3 italic">"Eu pensava que IA ia me substituir. Descobri que ela me LIBERTOU."</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">
+              <div class="text-sm"><span class="text-red-400 font-semibold">ANTES:</span> <span class="text-neutral-400">R$ 3.500/mes em agencia, burnout</span></div>
+              <div class="text-sm"><span class="text-blue-400 font-semibold">DEPOIS:</span> <span class="text-neutral-400">R$ 12.000/mes freelancer, horario flexivel</span></div>
+            </div>
+            <p class="text-neutral-300 text-sm">Investiu 3 meses estudando IA. Criou 15 projetos para portfolio. Hoje 80% dos clientes vem por indicacao.</p>
+          </div>
+        </div>
+        <div class="flex items-start space-x-4">
+          <div class="flex-shrink-0 w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center">
+            <span class="text-2xl">👩‍💻</span>
+          </div>
+          <div class="flex-1 bg-dark-800 rounded-xl p-6 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">Carla, 34 anos - Fotografa → Criadora de Conteudo Visual com IA</h4>
+            <p class="text-sm text-neutral-400 mb-3 italic">"Como fotografa, eu tinha olho treinado para luz, composicao, momentos. Com IA, multipliquei por 1000."</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">
+              <div class="text-sm"><span class="text-red-400 font-semibold">ANTES:</span> <span class="text-neutral-400">Renda instavel R$ 2k-6k/mes</span></div>
+              <div class="text-sm"><span class="text-blue-400 font-semibold">DEPOIS:</span> <span class="text-neutral-400">R$ 15.000/mes estavel, nicho de moda sustentavel</span></div>
+            </div>
+            <p class="text-neutral-300 text-sm">Percebeu que seu VERDADEIRO talento era direcao de arte. Especializou-se em e-commerce de moda.</p>
+          </div>
+        </div>
+        <div class="flex items-start space-x-4">
+          <div class="flex-shrink-0 w-12 h-12 rounded-full bg-blue-500/20 flex items-center justify-center">
+            <span class="text-2xl">👨‍💼</span>
+          </div>
+          <div class="flex-1 bg-dark-800 rounded-xl p-6 border border-dark-600">
+            <h4 class="font-semibold text-white mb-2">Lucas, 41 anos - Analista de Marketing → Especialista em Conteudo Visual IA</h4>
+            <p class="text-sm text-neutral-400 mb-3 italic">"Eu sempre tive visao criativa, mas nunca consegui executar. Com IA, finalmente consigo."</p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mb-3">
+              <div class="text-sm"><span class="text-red-400 font-semibold">ANTES:</span> <span class="text-neutral-400">Dependia de designers, frustracao criativa</span></div>
+              <div class="text-sm"><span class="text-blue-400 font-semibold">DEPOIS:</span> <span class="text-neutral-400">Promovido + R$ 8k/mes extra em consultoria</span></div>
+            </div>
+            <p class="text-neutral-300 text-sm">Percebeu que a combinacao Marketing + IA era rarissima no mercado. Virou 10x mais valioso para a empresa.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 4 -->
+    <section id="topico-4" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">4</span>
+        <h2 class="text-2xl font-bold">🔄 Mapeando Suas Habilidades Transferiveis</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        A transicao para IA nao significa comecar do zero. Suas <strong class="text-blue-400">experiencias anteriores</strong> sao ATIVOS valiosos.
+      </p>
+
+      <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 mb-6">
+        <h3 class="text-lg font-semibold mb-4">Tabela de Habilidades Transferiveis</h3>
+        <div class="space-y-3">
+          <div class="bg-dark-700/50 rounded-lg p-4 border-l-4 border-blue-500/50">
+            <p class="font-semibold mb-1">📸 Fotografia → Direcao de luz, composicao, edicao</p>
+            <p class="text-neutral-400 text-sm italic">Criacao de bancos de imagem, product photography, lifestyle</p>
+          </div>
+          <div class="bg-dark-700/50 rounded-lg p-4 border-l-4 border-blue-500/50">
+            <p class="font-semibold mb-1">🎨 Design Grafico → Hierarquia visual, tipografia, layouts</p>
+            <p class="text-neutral-400 text-sm italic">Posts para redes sociais, materiais de marketing, branding</p>
+          </div>
+          <div class="bg-dark-700/50 rounded-lg p-4 border-l-4 border-blue-500/50">
+            <p class="font-semibold mb-1">🏛️ Arquitetura → Perspectiva, iluminacao 3D, espacos</p>
+            <p class="text-neutral-400 text-sm italic">Visualizacao de projetos, renders arquitetonicos, design de interiores</p>
+          </div>
+          <div class="bg-dark-700/50 rounded-lg p-4 border-l-4 border-blue-500/50">
+            <p class="font-semibold mb-1">✏️ Ilustracao → Estilos artisticos, narrativa visual, personagens</p>
+            <p class="text-neutral-400 text-sm italic">Concept art, livros infantis, mascotes e characters</p>
+          </div>
+          <div class="bg-dark-700/50 rounded-lg p-4 border-l-4 border-blue-500/50">
+            <p class="font-semibold mb-1">📢 Publicidade → Conceito criativo, storytelling, impacto visual</p>
+            <p class="text-neutral-400 text-sm italic">Campanhas publicitarias, pecas de impacto, conceitos visuais</p>
+          </div>
+          <div class="bg-dark-700/50 rounded-lg p-4 border-l-4 border-blue-500/50">
+            <p class="font-semibold mb-1">👗 Moda → Tendencias, paletas, composicao de looks</p>
+            <p class="text-neutral-400 text-sm italic">Lookbooks, colecoes virtuais, fashion editorial</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 5 -->
+    <section id="topico-5" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">5</span>
+        <h2 class="text-2xl font-bold">🎨 Construindo Seu Portfolio IA Profissional</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        Um portfolio que <strong class="text-blue-400">vende</strong> nao e uma colecao de imagens bonitas. E um conjunto de cases estruturados com briefing, processo e resultado.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+        <div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6">
+          <h4 class="font-bold text-red-400 mb-4">❌ Portfolio Amador</h4>
+          <ul class="space-y-2 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>So imagens soltas sem contexto</span></li>
+            <li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>Estilos inconsistentes e aleatorios</span></li>
+            <li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>Sem explicacao do processo</span></li>
+            <li class="flex items-start space-x-2"><span class="text-red-400">✗</span><span>Sem objetivo comercial claro</span></li>
+          </ul>
+        </div>
+        <div class="bg-blue-900/20 rounded-xl border border-blue-500/30 p-6">
+          <h4 class="font-bold text-blue-400 mb-4">✅ Portfolio Profissional</h4>
+          <ul class="space-y-2 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-blue-400">✓</span><span>Cases estruturados com briefing</span></li>
+            <li class="flex items-start space-x-2"><span class="text-blue-400">✓</span><span>Coerencia visual por projeto</span></li>
+            <li class="flex items-start space-x-2"><span class="text-blue-400">✓</span><span>Processo documentado</span></li>
+            <li class="flex items-start space-x-2"><span class="text-blue-400">✓</span><span>Foco em resolver problemas reais</span></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center">
+          <span class="mr-2">🎯</span> 5 Projetos Essenciais Para Seu Primeiro Portfolio
+        </h3>
+        <ul class="space-y-2 text-neutral-300">
+          <li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">1.</span><span><strong>Identidade Visual Completa</strong> - Logo, paleta de cores, aplicacoes</span></li>
+          <li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">2.</span><span><strong>Campanha de Redes Sociais</strong> - 9 posts tematicos para Instagram de marca ficticia</span></li>
+          <li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">3.</span><span><strong>Product Photography</strong> - 6-10 imagens de produto para e-commerce</span></li>
+          <li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">4.</span><span><strong>Editorial/Lookbook</strong> - Serie de 5-8 imagens com narrativa visual</span></li>
+          <li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">5.</span><span><strong>Conceito Publicitario</strong> - Campanha visual completa (outdoor, anuncio, social)</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- TOPICO 6 -->
+    <section id="topico-6" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">6</span>
+        <h2 class="text-2xl font-bold">💰 Posicionamento e Precificacao</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        <strong class="text-blue-400">Como cobrar</strong> pelo seu trabalho sem medo. O cliente nao paga pela sua ferramenta ou tempo de aprendizado - paga pelo RESULTADO que voce entrega.
+      </p>
+
+      <div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-red-400 mb-3 flex items-center">
+          <span class="mr-2">⚠️</span> O Erro Fatal do Iniciante
+        </h3>
+        <p class="text-neutral-300 mb-2"><strong>"Vou cobrar barato porque ainda estou aprendendo"</strong></p>
+        <p class="text-neutral-400 text-sm">Isso posiciona voce como amador e atrai os PIORES clientes.</p>
+      </div>
+
+      <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 mb-6">
+        <h3 class="text-lg font-semibold mb-4">💵 Tabela de Precos Sugeridos (Mercado Brasileiro)</h3>
+        <div class="space-y-3 text-sm">
+          <div class="bg-dark-700/50 rounded-lg p-3 flex justify-between items-center">
+            <span class="text-neutral-300">Post Instagram (1 imagem)</span>
+            <span class="text-blue-400 font-semibold">R$ 80-500</span>
+          </div>
+          <div class="bg-dark-700/50 rounded-lg p-3 flex justify-between items-center">
+            <span class="text-neutral-300">Pacote 9 posts feed (grid)</span>
+            <span class="text-blue-400 font-semibold">R$ 500-3.000</span>
+          </div>
+          <div class="bg-dark-700/50 rounded-lg p-3 flex justify-between items-center">
+            <span class="text-neutral-300">Identidade Visual completa</span>
+            <span class="text-blue-400 font-semibold">R$ 1.000-8.000</span>
+          </div>
+          <div class="bg-dark-700/50 rounded-lg p-3 flex justify-between items-center">
+            <span class="text-neutral-300">Product photography (10 imagens)</span>
+            <span class="text-blue-400 font-semibold">R$ 600-4.000</span>
+          </div>
+          <div class="bg-dark-700/50 rounded-lg p-3 flex justify-between items-center">
+            <span class="text-neutral-300">Campanha completa (conceito + pecas)</span>
+            <span class="text-blue-400 font-semibold">R$ 2.000-15.000</span>
+          </div>
+          <div class="bg-dark-700/50 rounded-lg p-3 flex justify-between items-center">
+            <span class="text-neutral-300">Mensalista (gestao completa)</span>
+            <span class="text-blue-400 font-semibold">R$ 2.000-15.000</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 7 -->
+    <section id="topico-7" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">7</span>
+        <h2 class="text-2xl font-bold">🎯 Oportunidades e Onde Encontra-las</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        Estrategias praticas para <strong class="text-blue-400">conseguir clientes</strong>: plataformas de freelancing, redes sociais, comunidades e cold outreach.
+      </p>
+
+      <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center">
+          <span class="mr-2">💼</span> Plataformas de Freelancing
+        </h3>
+        <ul class="space-y-3 text-neutral-300">
+          <li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span><strong>Upwork</strong> - Maior plataforma global. Perfil profissional + portfolio forte</span></li>
+          <li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span><strong>Fiverr</strong> - Crie gigs focados. Ex: "AI Instagram Posts for Fashion Brands"</span></li>
+          <li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span><strong>99Freelas / Workana</strong> - Plataformas brasileiras. Bom para comecar</span></li>
+        </ul>
+      </div>
+
+      <div class="bg-gradient-to-br from-blue-900/30 to-dark-800 rounded-xl border border-blue-500/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-blue-400 mb-4 flex items-center">
+          <span class="mr-2">📱</span> Redes Sociais Como Ferramenta de Vendas
+        </h3>
+        <ul class="space-y-3 text-neutral-300">
+          <li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span><strong>Instagram</strong> - Poste 3-5x/semana, hashtags do nicho, stories com processo</span></li>
+          <li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span><strong>LinkedIn</strong> - Perfil profissional, cases de sucesso, conecte com gestores</span></li>
+          <li class="flex items-start space-x-2"><span class="text-blue-400 mt-1">•</span><span><strong>Twitter/X</strong> - Compartilhe processo, participe de conversas sobre IA</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- TOPICO 8 -->
+    <section id="topico-8" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-blue-500/20 text-blue-400 font-bold text-xl">8</span>
+        <h2 class="text-2xl font-bold">📅 Plano de Acao 90 Dias</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        Planeje sua transicao <strong class="text-blue-400">estrategicamente</strong> com metas SMART e cronograma realista.
+      </p>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
+        <div class="bg-dark-800 rounded-xl border border-dark-600 p-6">
+          <h4 class="font-bold text-blue-400 mb-3">📘 MES 1: APRENDER</h4>
+          <ul class="space-y-2 text-neutral-300 text-sm">
+            <li>• Dominar ferramentas principais</li>
+            <li>• Estudar referencias do nicho</li>
+            <li>• Criar primeiros 3 projetos</li>
+            <li>• Montar portfolio basico</li>
+          </ul>
+        </div>
+        <div class="bg-dark-800 rounded-xl border border-dark-600 p-6">
+          <h4 class="font-bold text-blue-400 mb-3">🎨 MES 2: PRATICAR</h4>
+          <ul class="space-y-2 text-neutral-300 text-sm">
+            <li>• Completar 5 projetos de portfolio</li>
+            <li>• Comecar presenca em redes sociais</li>
+            <li>• Definir precificacao</li>
+            <li>• Buscar primeiro cliente real</li>
+          </ul>
+        </div>
+        <div class="bg-dark-800 rounded-xl border border-dark-600 p-6">
+          <h4 class="font-bold text-blue-400 mb-3">🚀 MES 3: MONETIZAR</h4>
+          <ul class="space-y-2 text-neutral-300 text-sm">
+            <li>• Fazer primeiro freela pago</li>
+            <li>• Cold outreach para 20 prospects</li>
+            <li>• Refinar processos</li>
+            <li>• Meta: 3 clientes pagantes</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bg-primary/10 rounded-xl border border-primary/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-primary mb-3 flex items-center">
+          <span class="mr-2">💡</span> Dica Final
+        </h3>
+        <p class="text-neutral-300 mb-3">A diferenca entre quem ganha R$ 500 e quem ganha R$ 5.000 por mes com IA NAO e habilidade tecnica. E sobre:</p>
+        <p class="text-neutral-300"><strong>1. CONSISTENCIA</strong> - Aparecer todo dia | <strong>2. POSICIONAMENTO</strong> - Comunicar seu valor | <strong>3. ACAO</strong> - Buscar clientes ativamente</p>
+      </div>
+    </section>
+
+    <!-- RESUMO -->
+    <section class="mb-12">
+      <div class="bg-gradient-to-br from-blue-900/40 via-dark-800 to-dark-800 rounded-xl border border-blue-500/30 p-8">
+        <h2 class="text-2xl font-bold mb-6 flex items-center">
+          <span class="mr-3">📋</span> Resumo do Modulo
+        </h2>
+        <div class="space-y-4 mb-8">
+          <div class="flex items-start space-x-3">
+            <span class="text-blue-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">O mercado de IA esta explodindo</strong>
+              <span class="text-neutral-400"> - Profissoes novas com salarios de R$ 8-20k/mes</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-blue-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Mindset profissional e o diferencial</strong>
+              <span class="text-neutral-400"> - Consistencia, comunicacao e posicionamento</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-blue-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Suas habilidades sao transferiveis</strong>
+              <span class="text-neutral-400"> - Experiencia anterior e vantagem competitiva</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-blue-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Portfolio profissional vende</strong>
+              <span class="text-neutral-400"> - Cases estruturados com briefing, processo e resultado</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-blue-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Precificacao pelo valor entregue</strong>
+              <span class="text-neutral-400"> - Cobrar pelo resultado, nao pelo tempo</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-dark-800/50 rounded-lg p-4 mb-8">
+          <h3 class="font-semibold text-blue-400 mb-2">Proximo Modulo:</h3>
+          <p class="text-neutral-300">2.2 - Engenharia de Prompt Avancada</p>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="../trilhas/tecnico.html" class="flex-1 text-center px-6 py-3 bg-dark-700 text-neutral-300 rounded-lg font-semibold hover:bg-dark-600 transition-colors">
+            ← Voltar para Trilha
+          </a>
+          <a href="tecnico-modulo-02.html" class="flex-1 text-center px-6 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-500 transition-colors">
+            Proximo Modulo →
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-dark-600 py-8 mt-16">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
+      <p>Designer do Futuro - 2025 | <a href="https://inema.club" target="_blank" class="text-sky-400 hover:text-sky-300">INEMA.CLUB</a></p>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script>
+    // Theme Toggle
+    const themeToggle = document.getElementById('theme-toggle');
+    const themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+    const themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
+    const html = document.documentElement;
+
+    if (localStorage.getItem('theme') === 'light' || (!localStorage.getItem('theme') && !html.classList.contains('dark'))) {
+      themeToggleDarkIcon.classList.remove('hidden');
+      html.classList.remove('dark');
+    } else {
+      themeToggleLightIcon.classList.remove('hidden');
+    }
+
+    themeToggle.addEventListener('click', () => {
+      themeToggleDarkIcon.classList.toggle('hidden');
+      themeToggleLightIcon.classList.toggle('hidden');
+      html.classList.toggle('dark');
+      localStorage.setItem('theme', html.classList.contains('dark') ? 'dark' : 'light');
+    });
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modulo 4.1: IA Para Seu Negocio | Designer do Futuro</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            primary: '#FACC15',
+            dark: { 900: '#111827', 800: '#1f2937', 700: '#374151', 600: '#4b5563' }
+          }
+        }
+      }
+    }
+  </script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Inter', sans-serif; }
+    .dark body { background-color: #111827; }
+
+    /* Light mode overrides - OBRIGATORIO */
+    html:not(.dark) body { background-color: #f8fafc; }
+    html:not(.dark) .bg-dark-900 { background-color: #ffffff; }
+    html:not(.dark) .bg-dark-800 { background-color: #f9fafb; }
+    html:not(.dark) .bg-dark-700 { background-color: #f3f4f6; }
+    html:not(.dark) .bg-dark-600 { background-color: #e5e7eb; }
+    html:not(.dark) .text-neutral-100 { color: #111827; }
+    html:not(.dark) .text-neutral-300 { color: #4b5563; }
+    html:not(.dark) .text-neutral-400 { color: #6b7280; }
+    html:not(.dark) .text-neutral-500 { color: #9ca3af; }
+    html:not(.dark) .border-dark-600 { border-color: #d1d5db; }
+    html:not(.dark) .border-dark-700 { border-color: #e5e7eb; }
+
+    /* Light mode - cores de acento (trilha amber) */
+    html:not(.dark) .text-amber-400 { color: #92400e; }
+    html:not(.dark) .bg-amber-500\/20 { background-color: rgba(217, 119, 6, 0.12); }
+    html:not(.dark) .bg-amber-500\/10 { background-color: rgba(217, 119, 6, 0.08); }
+    html:not(.dark) .border-amber-500\/30 { border-color: rgba(217, 119, 6, 0.25); }
+    html:not(.dark) .hover\:bg-amber-500\/30:hover { background-color: rgba(217, 119, 6, 0.18); }
+
+    /* Light mode - remove gradientes */
+    html:not(.dark) [class*="bg-gradient-to"] { background-image: none !important; }
+
+    /* Light mode - cores especiais */
+    html:not(.dark) .text-primary { color: #a16207; }
+    html:not(.dark) .bg-primary\/10 { background-color: rgba(161, 98, 7, 0.08); }
+    html:not(.dark) .border-primary\/40 { border-color: rgba(161, 98, 7, 0.25); }
+    html:not(.dark) .text-sky-400 { color: #0369a1; }
+    html:not(.dark) .text-yellow-400 { color: #a16207; }
+    html:not(.dark) .hover\:text-sky-300:hover { color: #0284c7; }
+    html:not(.dark) .hover\:text-yellow-300:hover { color: #854d0e; }
+
+    /* Light mode - nav */
+    html:not(.dark) .bg-dark-900\/95 { background-color: rgba(255, 255, 255, 0.95); }
+  </style>
+</head>
+<body class="bg-dark-900 text-neutral-100 min-h-screen">
+
+  <!-- NAVIGATION -->
+  <nav class="sticky top-0 z-50 bg-dark-900/95 backdrop-blur-sm border-b border-dark-600">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex justify-between items-center h-14">
+        <div class="flex items-center space-x-4">
+          <a href="../index.html" class="flex items-center space-x-2 text-yellow-400 hover:text-yellow-300">
+            <span class="text-2xl">🎨</span>
+            <span class="font-bold text-lg hidden sm:inline">Designer do Futuro</span>
+          </a>
+          <span class="text-neutral-600">|</span>
+          <a href="https://inema.club" target="_blank" class="text-sky-400 hover:text-sky-300 text-sm font-medium">INEMA.CLUB</a>
+        </div>
+        <div class="flex items-center space-x-1 sm:space-x-2">
+          <a href="../trilhas/iniciante.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-emerald-400 hover:bg-emerald-500/10 transition-colors">
+            <span class="sm:hidden">T1</span>
+            <span class="hidden sm:inline">Iniciante</span>
+          </a>
+          <a href="../trilhas/tecnico.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-blue-400 hover:bg-blue-500/10 transition-colors">
+            <span class="sm:hidden">T2</span>
+            <span class="hidden sm:inline">Tecnico</span>
+          </a>
+          <a href="../trilhas/masterclass.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-neutral-400 hover:text-purple-400 hover:bg-purple-500/10 transition-colors">
+            <span class="sm:hidden">T3</span>
+            <span class="hidden sm:inline">Masterclass</span>
+          </a>
+          <a href="../trilhas/empreendedores.html" class="px-3 py-1.5 rounded-lg text-sm font-semibold text-amber-400 bg-amber-500/10">
+            <span class="sm:hidden">T4</span>
+            <span class="hidden sm:inline">Empreendedores</span>
+          </a>
+          <button id="theme-toggle" class="p-2 rounded-lg bg-dark-700 hover:bg-dark-600 transition-colors ml-2">
+            <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5 text-neutral-300" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path>
+            </svg>
+            <svg id="theme-toggle-light-icon" class="hidden w-5 h-5 text-neutral-300" fill="currentColor" viewBox="0 0 20 20">
+              <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" fill-rule="evenodd" clip-rule="evenodd"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- BREADCRUMB -->
+  <nav class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+    <div class="flex items-center space-x-2 text-sm text-neutral-400">
+      <a href="../index.html" class="hover:text-amber-400">Inicio</a>
+      <span>/</span>
+      <a href="../trilhas/empreendedores.html" class="hover:text-amber-400">Trilha Empreendedores</a>
+      <span>/</span>
+      <span class="text-amber-400">Modulo 4.1</span>
+    </div>
+  </nav>
+
+  <!-- HEADER -->
+  <header class="bg-gradient-to-br from-amber-900/30 via-dark-800 to-dark-800 py-12 border-b border-dark-600">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <span class="inline-block px-3 py-1 bg-amber-500/20 text-amber-400 text-xs font-semibold rounded-full mb-4">
+        MODULO 4.1
+      </span>
+      <h1 class="text-3xl sm:text-4xl font-bold mb-4">💼 IA Para Seu Negocio</h1>
+      <p class="text-lg text-neutral-400 max-w-3xl">Descubra como a IA visual pode multiplicar suas vendas, reduzir custos com designers e transformar seu negocio em uma maquina de conteudo profissional</p>
+      <div class="grid grid-cols-4 gap-4 mt-8 max-w-2xl">
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-amber-400">5</div>
+          <div class="text-xs text-neutral-400">Topicos</div>
+        </div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-amber-400">360</div>
+          <div class="text-xs text-neutral-400">Minutos</div>
+        </div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-amber-400">Negocios</div>
+          <div class="text-xs text-neutral-400">Nivel</div>
+        </div>
+        <div class="bg-dark-800/50 rounded-lg p-3 border border-dark-600">
+          <div class="text-xl font-bold text-amber-400">Pratico</div>
+          <div class="text-xs text-neutral-400">Tipo</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTEUDO -->
+  <main class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+    <!-- TOPICO 1 -->
+    <section id="topico-1" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">1</span>
+        <h2 class="text-2xl font-bold">🎯 Por Que IA Vai Mudar Seu Negocio</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        Enquanto seus concorrentes gastam <strong class="text-amber-400">milhares de reais por mes</strong> com agencias e designers, voce vai aprender a criar conteudo visual profissional em <strong class="text-amber-400">minutos</strong>, nao dias. Este e o diferencial que separa negocios que crescem dos que ficam para tras.
+      </p>
+
+      <!-- Box Conceito Principal -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+        <div class="bg-red-900/20 rounded-xl border border-red-500/30 p-6">
+          <h4 class="font-bold text-red-400 mb-4">❌ Sem IA (Seus Concorrentes)</h4>
+          <ul class="space-y-3 text-neutral-300">
+            <li class="flex items-start space-x-2">
+              <span class="text-red-400">✗</span>
+              <span>R$ 3.000-5.000/mes com designer</span>
+            </li>
+            <li class="flex items-start space-x-2">
+              <span class="text-red-400">✗</span>
+              <span>7-15 dias para criar campanha</span>
+            </li>
+            <li class="flex items-start space-x-2">
+              <span class="text-red-400">✗</span>
+              <span>Posts genericos sem personalidade</span>
+            </li>
+            <li class="flex items-start space-x-2">
+              <span class="text-red-400">✗</span>
+              <span>Dependencia de terceiros</span>
+            </li>
+            <li class="flex items-start space-x-2">
+              <span class="text-red-400">✗</span>
+              <span>Conteudo limitado e repetitivo</span>
+            </li>
+          </ul>
+        </div>
+        <div class="bg-gradient-to-br from-amber-900/30 to-dark-800 rounded-xl border border-amber-500/30 p-6">
+          <h4 class="font-bold text-amber-400 mb-4">✅ Com IA (Voce Depois Deste Modulo)</h4>
+          <ul class="space-y-3 text-neutral-300">
+            <li class="flex items-start space-x-2">
+              <span class="text-amber-400">✓</span>
+              <span>R$ 50-200/mes ferramentas IA</span>
+            </li>
+            <li class="flex items-start space-x-2">
+              <span class="text-amber-400">✓</span>
+              <span>5-10 minutos por imagem</span>
+            </li>
+            <li class="flex items-start space-x-2">
+              <span class="text-amber-400">✓</span>
+              <span>Conteudo unico e personalizado</span>
+            </li>
+            <li class="flex items-start space-x-2">
+              <span class="text-amber-400">✓</span>
+              <span>100% independente</span>
+            </li>
+            <li class="flex items-start space-x-2">
+              <span class="text-amber-400">✓</span>
+              <span>Producao ilimitada 24/7</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="bg-primary/10 rounded-xl border border-primary/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-primary mb-3 flex items-center">
+          <span class="mr-2">💡</span> Insight de Mercado
+        </h3>
+        <p class="text-neutral-300"><strong>73% dos consumidores</strong> sao mais propensos a comprar de marcas com conteudo visual profissional. Com IA, voce pode criar 50x mais conteudo pelo mesmo custo. Faca as contas do impacto nas suas vendas.</p>
+      </div>
+    </section>
+
+    <!-- TOPICO 2 -->
+    <section id="topico-2" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">2</span>
+        <h2 class="text-2xl font-bold">🚀 O Que Voce Vai Dominar (E Aplicar Hoje Mesmo)</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        Cinco competencias essenciais que vao transformar a forma como voce cria <strong class="text-amber-400">conteudo visual para seu negocio</strong>.
+      </p>
+
+      <div class="space-y-4 mb-6">
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <h4 class="font-semibold text-amber-400 mb-2">1. Mentalidade de Dono com IA</h4>
+          <p class="text-neutral-300 text-sm">Pare de pensar em IA como "ferramenta tecnica" e comece a ver como sua vantagem competitiva. Voce vai entender exatamente onde aplicar IA para gerar mais vendas, reduzir custos e escalar sem contratar.</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <h4 class="font-semibold text-amber-400 mb-2">2. ROI Real e Mensuravel</h4>
+          <p class="text-neutral-300 text-sm">Aprenda a calcular exatamente quanto voce economiza e quanto mais vende com IA. Casos reais: restaurante que aumentou delivery em 40%, e-commerce que dobrou conversao, consultoria que triplicou propostas aceitas.</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <h4 class="font-semibold text-amber-400 mb-2">3. Casos de Sucesso Por Nicho</h4>
+          <p class="text-neutral-300 text-sm">Templates prontos e adaptados: E-commerce (mockups que vendem), Restaurantes (cardapios irresistiveis), Servicos (apresentacoes que fecham), Varejo (vitrine virtual 24h), Consultoria (autoridade visual).</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <h4 class="font-semibold text-amber-400 mb-2">4. Oportunidades Escondidas no Seu Negocio</h4>
+          <p class="text-neutral-300 text-sm">Framework exclusivo para identificar onde IA pode gerar mais impacto no SEU negocio especifico. Checklist de 50+ aplicacoes praticas que voce pode implementar esta semana.</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border border-dark-600">
+          <h4 class="font-semibold text-amber-400 mb-2">5. Estrategia de Implementacao Rapida</h4>
+          <p class="text-neutral-300 text-sm">Plano de 30 dias para integrar IA no seu negocio sem parar as operacoes. Semana 1: Quick wins, Semana 2: Automacoes, Semana 3: Escala, Semana 4: Otimizacao e metricas.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 3 -->
+    <section id="topico-3" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">3</span>
+        <h2 class="text-2xl font-bold">📚 Aulas Praticas</h2>
+      </div>
+
+      <p class="text-neutral-300 mb-6 leading-relaxed">
+        5 aulas estruturadas para voce aplicar <strong class="text-amber-400">enquanto aprende</strong>. Cada aula entrega resultados imediatos para seu negocio.
+      </p>
+
+      <div class="space-y-4 mb-6">
+        <div class="bg-dark-800 rounded-xl p-6 border-l-4 border-amber-500/50 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">Aula 1: O Novo Jogo do Marketing Visual <span class="text-neutral-400 text-sm">(45 min)</span></h4>
+          <p class="text-neutral-400 text-sm mb-3">Por que empresas que usam IA estao dominando o mercado e como voce pode fazer o mesmo</p>
+          <ul class="space-y-1 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>A revolucao silenciosa: como IA esta mudando quem vende mais</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Numeros reais: quanto custa NAO usar IA no seu negocio</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Os 5 pilares do marketing visual com IA</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Mapa mental: onde IA gera mais ROI por tipo de negocio</span></li>
+          </ul>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border-l-4 border-amber-500/50 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">Aula 2: ROI Comprovado - Casos Reais <span class="text-neutral-400 text-sm">(60 min)</span></h4>
+          <p class="text-neutral-400 text-sm mb-3">Empresas reais, resultados reais: veja na pratica como IA multiplica vendas</p>
+          <ul class="space-y-1 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>Restaurante Famiglia:</strong> +40% delivery com cardapio visual IA</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>Boutique Maria:</strong> -70% custo fotografia, +2x engajamento</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>Consultoria TechPro:</strong> 3x propostas aceitas com apresentacoes IA</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span><strong>E-commerce PetLove:</strong> Conversao dobrou com mockups personalizados</span></li>
+          </ul>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border-l-4 border-amber-500/50 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">Aula 3: Substituindo Agencias e Freelancers <span class="text-neutral-400 text-sm">(75 min)</span></h4>
+          <p class="text-neutral-400 text-sm mb-3">Como fazer em 10 minutos o que agencias cobram milhares e demoram semanas</p>
+          <ul class="space-y-1 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Designer grafico: Economize R$3.000-5.000/mes</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Fotografo produto: Economize R$200-500 por sessao</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Social media: Economize R$2.000-4.000/mes</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Agencia marketing: Economize R$5.000-15.000/mes</span></li>
+          </ul>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border-l-4 border-amber-500/50 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">Aula 4: Mapeando Oportunidades no SEU Negocio <span class="text-neutral-400 text-sm">(90 min)</span></h4>
+          <p class="text-neutral-400 text-sm mb-3">Framework exclusivo para identificar onde IA pode gerar mais lucro no seu caso especifico</p>
+          <ul class="space-y-1 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Matriz de Impacto IA: Identifique quick wins vs projetos estrategicos</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Audit Visual 360: Encontre gaps no seu marketing atual</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Roadmap Personalizado: Plano de implementacao sob medida</span></li>
+          </ul>
+        </div>
+        <div class="bg-dark-800 rounded-xl p-6 border-l-4 border-amber-500/50 border border-dark-600">
+          <h4 class="font-semibold text-white mb-2">Aula 5: Plano de Acao - Proximos 30 Dias <span class="text-neutral-400 text-sm">(60 min)</span></h4>
+          <p class="text-neutral-400 text-sm mb-3">Implementacao estruturada semana a semana para resultados imediatos</p>
+          <ul class="space-y-1 text-neutral-300 text-sm">
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Semana 1: Quick Wins - 10 posts, mockups, capas de redes</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Semana 2: Automacao - Templates recorrentes, banco de prompts</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Semana 3: Escala - Campanha completa, 30 dias de conteudo</span></li>
+            <li class="flex items-start space-x-2"><span class="text-amber-400 mt-1">•</span><span>Semana 4: Otimizacao - Analise de metricas e ROI</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 4 -->
+    <section id="topico-4" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">4</span>
+        <h2 class="text-2xl font-bold">💪 Exercicios Praticos (Resultados Imediatos)</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+        <div class="bg-dark-800 rounded-xl border border-dark-600 p-6">
+          <h4 class="font-semibold text-white mb-2">📊 Audit Visual do Seu Negocio</h4>
+          <p class="text-neutral-400 text-sm mb-2">15 minutos</p>
+          <p class="text-neutral-300 text-sm">Analise completa: onde voce esta perdendo vendas por falta de visual profissional</p>
+          <p class="text-amber-400 text-sm font-semibold mt-2">→ Entrega: Relatorio com 10+ oportunidades</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl border border-dark-600 p-6">
+          <h4 class="font-semibold text-white mb-2">💰 Calculadora ROI Personalizada</h4>
+          <p class="text-neutral-400 text-sm mb-2">10 minutos</p>
+          <p class="text-neutral-300 text-sm">Descubra exatamente quanto voce vai economizar e lucrar com IA no seu negocio</p>
+          <p class="text-amber-400 text-sm font-semibold mt-2">→ Resultado: Projecao de economia anual</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl border border-dark-600 p-6">
+          <h4 class="font-semibold text-white mb-2">🎨 Primeiro Post Viral</h4>
+          <p class="text-neutral-400 text-sm mb-2">20 minutos</p>
+          <p class="text-neutral-300 text-sm">Crie seu primeiro post com IA seguindo nossa formula de alto engajamento</p>
+          <p class="text-amber-400 text-sm font-semibold mt-2">→ Entrega: Post pronto para publicar</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl border border-dark-600 p-6">
+          <h4 class="font-semibold text-white mb-2">📱 Kit Stories que Vendem</h4>
+          <p class="text-neutral-400 text-sm mb-2">30 minutos</p>
+          <p class="text-neutral-300 text-sm">5 templates de stories que convertem, adaptados para seu nicho especifico</p>
+          <p class="text-amber-400 text-sm font-semibold mt-2">→ Entrega: 5 stories prontos + templates</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TOPICO 5 -->
+    <section id="topico-5" class="mb-16">
+      <div class="flex items-center space-x-4 mb-6">
+        <span class="flex items-center justify-center w-12 h-12 rounded-full bg-amber-500/20 text-amber-400 font-bold text-xl">5</span>
+        <h2 class="text-2xl font-bold">🎁 Recursos Exclusivos</h2>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
+        <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 text-center">
+          <div class="text-4xl mb-3">📋</div>
+          <h4 class="font-semibold text-white mb-2">Checklist Mestre</h4>
+          <p class="text-neutral-400 text-sm">50+ aplicacoes de IA por tipo de negocio</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 text-center">
+          <div class="text-4xl mb-3">💼</div>
+          <h4 class="font-semibold text-white mb-2">Templates Premium</h4>
+          <p class="text-neutral-400 text-sm">Prompts testados que geram vendas</p>
+        </div>
+        <div class="bg-dark-800 rounded-xl border border-dark-600 p-6 text-center">
+          <div class="text-4xl mb-3">📊</div>
+          <h4 class="font-semibold text-white mb-2">Planilhas ROI</h4>
+          <p class="text-neutral-400 text-sm">Calcule economia e lucro automaticamente</p>
+        </div>
+      </div>
+
+      <div class="bg-gradient-to-br from-amber-900/30 to-dark-800 rounded-xl border border-amber-500/30 p-6 mb-6">
+        <h3 class="text-lg font-semibold text-amber-400 mb-4 flex items-center">
+          <span class="mr-2">✨</span> No proximo modulo, voce vai aprender:
+        </h3>
+        <ul class="space-y-2 text-neutral-300">
+          <li class="flex items-start space-x-2">
+            <span class="text-amber-400 mt-1">•</span>
+            <span>Como criar conteudo profissional em minutos, nao horas</span>
+          </li>
+          <li class="flex items-start space-x-2">
+            <span class="text-amber-400 mt-1">•</span>
+            <span>Workflow otimizado para producao 10x mais rapida</span>
+          </li>
+          <li class="flex items-start space-x-2">
+            <span class="text-amber-400 mt-1">•</span>
+            <span>Prompts para donos de negocio que focam em conversao</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- RESUMO -->
+    <section class="mb-12">
+      <div class="bg-gradient-to-br from-amber-900/40 via-dark-800 to-dark-800 rounded-xl border border-amber-500/30 p-8">
+        <h2 class="text-2xl font-bold mb-6 flex items-center">
+          <span class="mr-3">📋</span> Resumo do Modulo
+        </h2>
+        <div class="space-y-4 mb-8">
+          <div class="flex items-start space-x-3">
+            <span class="text-amber-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">IA e vantagem competitiva</strong>
+              <span class="text-neutral-400"> - Negocios com IA visual tem 3x mais engajamento</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-amber-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">ROI comprovado com casos reais</strong>
+              <span class="text-neutral-400"> - Retorno de R$12 para cada R$1 investido</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-amber-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Substituicao de agencias e freelancers</strong>
+              <span class="text-neutral-400"> - Economize R$5.000-15.000/mes</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-amber-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Oportunidades mapeadas no seu negocio</strong>
+              <span class="text-neutral-400"> - 50+ aplicacoes praticas por nicho</span>
+            </div>
+          </div>
+          <div class="flex items-start space-x-3">
+            <span class="text-amber-400 mt-1">✓</span>
+            <div>
+              <strong class="text-white">Plano de acao de 30 dias</strong>
+              <span class="text-neutral-400"> - Implementacao semana a semana</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-dark-800/50 rounded-lg p-4 mb-8">
+          <h3 class="font-semibold text-amber-400 mb-2">Proximo Modulo:</h3>
+          <p class="text-neutral-300">4.2 - Criacao Rapida e Eficiente</p>
+        </div>
+
+        <div class="flex flex-col sm:flex-row gap-4">
+          <a href="../trilhas/empreendedores.html" class="flex-1 text-center px-6 py-3 bg-dark-700 text-neutral-300 rounded-lg font-semibold hover:bg-dark-600 transition-colors">
+            ← Voltar para Trilha
+          </a>
+          <a href="empreendedores-modulo-02.html" class="flex-1 text-center px-6 py-3 bg-amber-600 text-white rounded-lg font-semibold hover:bg-amber-500 transition-colors">
+            Proximo Modulo →
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="border-t border-dark-600 py-8 mt-16">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-neutral-500 text-sm">
+      <p>Designer do Futuro - 2025 | <a href="https://inema.club" target="_blank" class="text-sky-400 hover:text-sky-300">INEMA.CLUB</a></p>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS -->
+  <script>
+    // Theme Toggle
+    const themeToggle = document.getElementById('theme-toggle');
+    const themeToggleDarkIcon = document.getElementById('theme-toggle-dark-icon');
+    const themeToggleLightIcon = document.getElementById('theme-toggle-light-icon');
+    const html = document.documentElement;
+
+    if (localStorage.getItem('theme') === 'light' || (!localStorage.getItem('theme') && !html.classList.contains('dark'))) {
+      themeToggleDarkIcon.classList.remove('hidden');
+      html.classList.remove('dark');
+    } else {
+      themeToggleLightIcon.classList.remove('hidden');
+    }
+
+    themeToggle.addEventListener('click', () => {
+      themeToggleDarkIcon.classList.toggle('hidden');
+      themeToggleLightIcon.classList.toggle('hidden');
+      html.classList.toggle('dark');
+      localStorage.setItem('theme', html.classList.contains('dark') ? 'dark' : 'light');
+    });
+  </script>
+
+</body>
+</html>
