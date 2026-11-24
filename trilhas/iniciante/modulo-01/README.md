@@ -296,7 +296,7 @@ Você pode se identificar com um ou mais:
 #### Você É o Diretor Criativo
 
 Pense na IA como:
-- 🎬 Diretor de Cinema → Atores e equipe
+- 🎬 Diretor de CARCKHÉ → Atores e equipe
 - 🎵 Maestro → Orquestra
 - 👨‍🍳 Chef → Assistentes de cozinha
 - 🎨 **Você → IA**
@@ -504,7 +504,7 @@ Você transformou sua mentalidade e está pronto para aprender os fundamentos vi
 
 - [Artigo: A Democratização da Criação Visual](../../recursos/artigos/democratizacao.md)
 - [Vídeo: Entrevistas com Criadores com IA](../../recursos/videos/)
-- [Comunidade: Canal #mentalidade-criativa](https://discord.gg/inema-club)
+- [Comunidade: Canal #mentalidade-criativa](https://discord.gg/ARCKHÉ-club)
 
 ---
 
@@ -512,7 +512,7 @@ Você transformou sua mentalidade e está pronto para aprender os fundamentos vi
 
 **🌟 Você é um criador. Sempre foi. Agora tem as ferramentas certas.**
 
-Feito com ❤️ pela comunidade INEMA
+Feito com ❤️ pela comunidade ARCKHÉ
 
 [← Voltar](../README.md) | [Próximo Módulo →](../modulo-02/README.md)
 

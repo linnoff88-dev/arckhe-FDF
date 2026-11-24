@@ -1,13 +1,13 @@
-# 🎯 INEMA.CLUB
+# 🎯 ARCKHÉ AI
 ## Comunidade Gratuita de Criadores com IA
 
 > **Aprenda, crie e cresça junto com centenas de criadores usando IA**
 
 ---
 
-## 🌟 O Que é o INEMA.CLUB?
+## 🌟 O Que é o ARCKHÉ AI?
 
-O **INEMA.CLUB** é a comunidade oficial e **100% gratuita** do projeto Designer do Futuro, onde criadores de todos os níveis se reúnem para:
+O **ARCKHÉ AI** é a comunidade oficial e **100% gratuita** do projeto Designer do Futuro, onde criadores de todos os níveis se reúnem para:
 
 - 📚 Aprender criação de imagens com IA
 - 🤝 Compartilhar projetos e receber feedback
@@ -97,7 +97,7 @@ O **INEMA.CLUB** é a comunidade oficial e **100% gratuita** do projeto Designer
 
 ### 1. Entre no Discord
 
-**Link:** [discord.gg/inema-club](https://discord.gg/inema-club)
+**Link:** [discord.gg/ARCKHÉ-club](https://discord.gg/ARCKHÉ-club)
 
 **Canais Principais:**
 
@@ -127,7 +127,7 @@ O **INEMA.CLUB** é a comunidade oficial e **100% gratuita** do projeto Designer
 
 ### 2. Junte-se ao GitHub
 
-**Link:** [github.com/inema/designer-do-futuro](https://github.com/inema/designer-do-futuro)
+**Link:** [github.com/ARCKHÉ/designer-do-futuro](https://github.com/ARCKHÉ/designer-do-futuro)
 
 - ⭐ Dê Star no repositório
 - 👀 Watch para receber atualizações
@@ -137,7 +137,7 @@ O **INEMA.CLUB** é a comunidade oficial e **100% gratuita** do projeto Designer
 
 ### 3. Assine a Newsletter
 
-**Link:** [inema.club/newsletter](https://inema.club/newsletter)
+**Link:** [ARCKHÉ AI/newsletter](https://ARCKHÉ AI/newsletter)
 
 Receba mensalmente:
 - Resumo do que rolou na comunidade
@@ -148,7 +148,7 @@ Receba mensalmente:
 
 ---
 
-## 🎓 Jornada no INEMA.CLUB
+## 🎓 Jornada no ARCKHÉ AI
 
 ### Nível 1: Novato 🌱
 **Quando você entra:**
@@ -240,13 +240,13 @@ Receba mensalmente:
 ### Eventos Especiais
 
 **Trimestrais:**
-- Conferência INEMA (online)
+- Conferência ARCKHÉ (online)
 - Palestrantes especiais
 - Lançamento de recursos
 - Networking
 
 **Anuais:**
-- INEMA Fest (evento principal)
+- ARCKHÉ Fest (evento principal)
 - Premiação anual
 - Retrospectiva
 - Roadmap do próximo ano
@@ -362,7 +362,7 @@ Sim! Faça quantas quiser, na ordem que quiser.
 **Os certificados são reconhecidos?**
 São certificados de conclusão de curso livre, válidos como comprovante de horas de estudo e conhecimento adquirido.
 
-**Qual a diferença entre INEMA.CLUB e INEMA.VIP?**
+**Qual a diferença entre ARCKHÉ AI e ARCKHÉ.VIP?**
 - CLUB: Gratuito, acesso a conteúdo e comunidade
 - VIP: Pago, mentorias, feedback personalizado, networking premium
 
@@ -373,29 +373,29 @@ Não! Todos os cursos usam ferramentas gratuitas. Ferramentas pagas são opciona
 
 ## 🔗 Links Importantes
 
-- 🌐 **Website:** [inema.club/designer-do-futuro](https://inema.club/designer-do-futuro)
-- 💬 **Discord:** [discord.gg/inema-club](https://discord.gg/inema-club)
-- 🐙 **GitHub:** [github.com/inema/designer-do-futuro](https://github.com/inema/designer-do-futuro)
-- 📧 **Newsletter:** [inema.club/newsletter](https://inema.club/newsletter)
-- 📸 **Instagram:** [@inema.club](https://instagram.com/inema.club)
-- 🐦 **Twitter:** [@inemaclub](https://twitter.com/inemaclub)
-- 💼 **LinkedIn:** [INEMA](https://linkedin.com/company/inema-club)
+- 🌐 **Website:** [ARCKHÉ AI/designer-do-futuro](https://ARCKHÉ AI/designer-do-futuro)
+- 💬 **Discord:** [discord.gg/ARCKHÉ-club](https://discord.gg/ARCKHÉ-club)
+- 🐙 **GitHub:** [github.com/ARCKHÉ/designer-do-futuro](https://github.com/ARCKHÉ/designer-do-futuro)
+- 📧 **Newsletter:** [ARCKHÉ AI/newsletter](https://ARCKHÉ AI/newsletter)
+- 📸 **Instagram:** [@ARCKHÉ AI](https://instagram.com/ARCKHÉ AI)
+- 🐦 **Twitter:** [@ARCKHÉclub](https://twitter.com/ARCKHÉclub)
+- 💼 **LinkedIn:** [ARCKHÉ](https://linkedin.com/company/ARCKHÉ-club)
 
 ---
 
 ## 💌 Contato
 
 **Dúvidas gerais:**
-contato@inema.club
+contato@ARCKHÉ AI
 
 **Suporte técnico:**
-suporte@inema.club
+suporte@ARCKHÉ AI
 
 **Parcerias:**
-parcerias@inema.club
+parcerias@ARCKHÉ AI
 
 **Imprensa:**
-imprensa@inema.club
+imprensa@ARCKHÉ AI
 
 ---
 
@@ -403,9 +403,9 @@ imprensa@inema.club
 
 **🎯 Pronto para fazer parte da maior comunidade de criadores com IA do Brasil?**
 
-[Entrar no Discord](https://discord.gg/inema-club) | [Ver Trilhas](../trilhas/README.md) | [Conhecer INEMA.VIP](./inema-vip.md)
+[Entrar no Discord](https://discord.gg/ARCKHÉ-club) | [Ver Trilhas](../trilhas/README.md) | [Conhecer ARCKHÉ.VIP](./ARCKHÉ-vip.md)
 
-**INEMA.CLUB** - Onde a criatividade encontra a tecnologia
+**ARCKHÉ AI** - Onde a criatividade encontra a tecnologia
 
 Feito com ❤️ pela comunidade
 

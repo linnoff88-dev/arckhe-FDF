@@ -10,7 +10,7 @@ Midias baixadas: 1
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-18T04:29:40+00:00
 Texto:
 É só minhas anotações. Coloco em todos eles mas me lembrar
@@ -26,7 +26,7 @@ nao funciona?
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T04:36:52+00:00
 Texto:
 1. FLUX1.1 Pro Ultra - Cria imagens de alta resolução com detalhes realistas.   
@@ -40,7 +40,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T00:06:31+00:00
 Texto:
 A coleção de modelos FLUX oferece diversas ferramentas para geração e edição de imagens, cada uma com funcionalidades específicas:
@@ -119,7 +119,7 @@ Para mais informações, visite a coleção de modelos FLUX no Replicate.
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T02:07:31+00:00
 Texto:
 5
@@ -127,7 +127,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T02:07:29+00:00
 Texto:
 O FLUX é uma coleção de modelos de geração e edição de imagens hospedados no **Replicate**, e cada modelo oferece funcionalidades específicas voltadas para criadores, desenvolvedores e profissionais que trabalham com visuais. Aqui está uma análise mais profunda do que podemos explorar no FLUX: 
@@ -161,7 +161,7 @@ Se você quiser explorar mais detalhes, como benchmarks, casos de uso específic
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T02:07:27+00:00
 Texto:
 A **Black Forest Labs** é uma empresa de tecnologia sediada em Freiburg im Breisgau, Alemanha, fundada em 2024 por Robin Rombach, Andreas Blattmann e Patrick Esser, ex-funcionários da Stability AI. A empresa é reconhecida pelo desenvolvimento do modelo de geração de imagens a partir de texto conhecido como **FLUX**.  
@@ -184,7 +184,7 @@ Em resumo, a Black Forest Labs, por meio do FLUX, busca fornecer soluções avan
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T02:07:25+00:00
 Texto:
 fluxpro.art
@@ -192,7 +192,7 @@ fluxpro.art
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T02:06:49+00:00
 Texto:
 https://chatgpt.com/c/679187a9-00e0-8009-a07c-6e8ab2b387db
@@ -201,7 +201,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T02:06:46+00:00
 Texto: [Sem texto]
 

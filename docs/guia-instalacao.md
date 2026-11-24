@@ -18,7 +18,7 @@
 ### 1. Clone o Repositório
 
 ```bash
-git clone https://github.com/inematds/FDF.git
+git clone https://github.com/linnoff88-dev/FDF.git
 cd FDF
 ```
 
@@ -75,7 +75,7 @@ git push origin main
 
 2. **Ative GitHub Pages:**
 
-- Vá em: `https://github.com/inematds/FDF/settings/pages`
+- Vá em: `https://github.com/linnoff88-dev/FDF/settings/pages`
 - Source: `Deploy from a branch`
 - Branch: `main` (ou sua branch principal)
 - Folder: `/website`
@@ -87,20 +87,20 @@ GitHub Pages levará 1-3 minutos para fazer o deploy.
 
 Seu site estará disponível em:
 ```
-https://inematds.github.io/FDF/
+https://linnoff88-dev.github.io/
 ```
 
 ### Domínio Customizado (Opcional)
 
-Se você tiver um domínio (exemplo: `inema.club`):
+Se você tiver um domínio (exemplo: `ARCKHÉ AI`):
 
 1. Configure DNS do seu domínio:
    - Tipo: `CNAME`
    - Nome: `designer-do-futuro` (ou `@` para apex)
-   - Valor: `inematds.github.io`
+   - Valor: `linnoff88-dev.github.io`
 
 2. No GitHub Pages settings:
-   - Custom domain: `designer-do-futuro.inema.club`
+   - Custom domain: `designer-do-futuro.ARCKHÉ AI`
    - Marque "Enforce HTTPS"
 
 ---
@@ -177,9 +177,9 @@ Ver [contributing.md](./contributing.md) para instruções completas.
 GitHub Pages irá servir de /website/:
 
 website/
-├── index.html              → https://inematds.github.io/FDF/
+├── index.html              → https://linnoff88-dev.github.io/
 ├── trilhas/
-│   └── iniciante.html      → https://inematds.github.io/FDF/trilhas/iniciante.html
+│   └── iniciante.html      → https://linnoff88-dev.github.io/
 ├── css/                    → Seus estilos customizados
 ├── js/                     → Scripts adicionais
 └── assets/                 → Imagens, ícones, etc.
@@ -274,9 +274,9 @@ Para rastrear visitantes, adicione Google Analytics ou similar:
 
 **Problemas com deploy ou desenvolvimento?**
 
-- 📧 Email: inematds@gmail.com
-- 🐙 GitHub Issues: https://github.com/inematds/FDF/issues
-- 💬 Discord: discord.gg/inema-club (quando disponível)
+- 📧 Email: linnoff88-dev@gmail.com
+- 🐙 GitHub Issues: https://github.com/linnoff88-dev/FDF/issues
+- 💬 Discord: discord.gg/ARCKHÉ-club (quando disponível)
 
 ---
 
@@ -284,7 +284,7 @@ Para rastrear visitantes, adicione Google Analytics ou similar:
 
 Se tudo deu certo, seu site está no ar em:
 
-**https://inematds.github.io/FDF/**
+**https://linnoff88-dev.github.io/
 
 Compartilhe o link e comece a receber alunos! 🚀
 
@@ -292,8 +292,8 @@ Compartilhe o link e comece a receber alunos! 🚀
 
 <div align="center">
 
-**Feito com ❤️ pela comunidade INEMA**
+**Feito com ❤️ pela comunidade ARCKHÉ**
 
-[Ver Site](https://inematds.github.io/FDF/) | [Reportar Problema](https://github.com/inematds/FDF/issues)
+[Ver Site](https://linnoff88-dev.github.io/ | [Reportar Problema](https://github.com/linnoff88-dev/FDF/issues)
 
 </div>

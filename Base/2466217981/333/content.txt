@@ -10,7 +10,7 @@ Midias baixadas: 0
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-24T22:16:11+00:00
 Texto:
 https://t.me/c/2494987106/1092
@@ -18,14 +18,14 @@ https://t.me/c/2494987106/1092
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-19T17:28:04+00:00
 Texto: [Sem texto]
 
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:55:32+00:00
 Texto:
 O tópico 8 trata de **automatizar o processo de geração e manutenção de consistência** com ferramentas complementares. A ideia é usar softwares e plataformas que integram fluxos de trabalho automatizados para gerar, gerenciar e ajustar imagens de maneira eficiente, especialmente em projetos de grande escala. 
@@ -123,7 +123,7 @@ O tópico 8 trata de **automatizar o processo de geração e manutenção de con
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:54:16+00:00
 Texto:
 ===========================
@@ -131,7 +131,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:53:54+00:00
 Texto:
 O tópico 7 aborda o uso de **ajustes manuais e pós-produção** para garantir consistência e qualidade em imagens geradas por IA. Embora as ferramentas de IA sejam poderosas, a edição manual complementa a geração, alinhando detalhes que a IA pode não ter capturado com precisão. 
@@ -228,7 +228,7 @@ O tópico 7 aborda o uso de **ajustes manuais e pós-produção** para garantir 
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:53:19+00:00
 Texto:
 ============================
@@ -236,7 +236,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:53:15+00:00
 Texto:
 O tópico 6 trata de **manter um banco de estilo ou elementos** para garantir consistência na geração de imagens. Isso envolve criar uma coleção organizada de referências visuais e padrões que possam ser usados repetidamente em prompts ou no treinamento de modelos, permitindo uniformidade visual em projetos ou séries de imagens. 
@@ -330,7 +330,7 @@ O tópico 6 trata de **manter um banco de estilo ou elementos** para garantir co
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:51:02+00:00
 Texto:
 ============================
@@ -338,7 +338,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:50:57+00:00
 Texto:
 **Ferramenta**: Use ControlNet para guiar a pose e composição.
@@ -346,7 +346,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:50:57+00:00
 Texto:
 O tópico 5 trata do **uso de imagens de referência para guiar novas gerações**, uma técnica que permite gerar imagens consistentes usando uma imagem base como orientação. Isso é especialmente útil para manter elementos visuais como poses, proporções ou estilos, mesmo ao variar o cenário ou os detalhes. 
@@ -441,7 +441,7 @@ O tópico 5 trata do **uso de imagens de referência para guiar novas gerações
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:50:48+00:00
 Texto:
 ===================
@@ -449,7 +449,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 12
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:49:25+00:00
 Texto:
 O tópico 4 aborda **treinar e personalizar modelos** para criar consistência em imagens geradas por IA. Isso é feito treinando o modelo com imagens específicas, permitindo que ele reconheça e reproduza elementos como personagens, estilos ou objetos de forma consistente. 
@@ -544,7 +544,7 @@ Treinar um modelo personalizado significa ensinar ao sistema como um personagem 
 ------------------------------
 
 MENSAGEM 13
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:48:48+00:00
 Texto:
 ===========================
@@ -552,7 +552,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 14
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:48:01+00:00
 Texto:
 O tópico 3 aborda o uso de **Seed Fixado**, uma técnica que garante consistência entre imagens geradas por IA. Essa prática é particularmente útil para criar séries de imagens relacionadas, mantendo características visuais semelhantes, como poses, estilos e composições. 
@@ -639,7 +639,7 @@ O tópico 3 aborda o uso de **Seed Fixado**, uma técnica que garante consistên
 ------------------------------
 
 MENSAGEM 15
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:46:44+00:00
 Texto:
 =================
@@ -647,7 +647,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 16
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:45:33+00:00
 Texto:
 O tópico 2 aborda **reutilizar prompts e parâmetros** para criar consistência em imagens. Essa técnica é útil porque aproveita os mesmos detalhes de entrada para orientar o modelo de IA, mantendo elementos visuais e estilísticos semelhantes entre imagens. 
@@ -721,7 +721,7 @@ O tópico 2 aborda **reutilizar prompts e parâmetros** para criar consistência
 ------------------------------
 
 MENSAGEM 17
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:45:00+00:00
 Texto:
 ================
@@ -729,7 +729,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 18
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:44:55+00:00
 Texto:
 O tópico 1 fala sobre **usar um modelo que suporte controle de consistência**, o que significa escolher modelos de IA que permitem criar variações ou imagens relacionadas mantendo um estilo, personagens ou cenários consistentes. Vamos explorar como isso funciona com exemplos. 
@@ -787,7 +787,7 @@ O tópico 1 fala sobre **usar um modelo que suporte controle de consistência**,
 ------------------------------
 
 MENSAGEM 19
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:44:39+00:00
 Texto:
 ===============
@@ -795,7 +795,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 20
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:41:43+00:00
 Texto:
 Criar consistência em imagens geradas por IA é essencial para narrativas visuais, projetos de design ou branding. Aqui estão os passos e técnicas que você pode usar, combinando ferramentas e boas práticas: 
@@ -876,7 +876,7 @@ Criar consistência em imagens geradas por IA é essencial para narrativas visua
 ------------------------------
 
 MENSAGEM 21
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:40:45+00:00
 Texto:
 0
@@ -884,7 +884,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 22
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:40:44+00:00
 Texto:
 9
@@ -892,7 +892,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 23
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:40:39+00:00
 Texto:
 8
@@ -900,7 +900,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 24
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:40:39+00:00
 Texto:
 6
@@ -908,7 +908,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 25
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:40:38+00:00
 Texto:
 4
@@ -916,7 +916,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 26
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:40:37+00:00
 Texto:
 2
@@ -924,7 +924,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 27
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:40:37+00:00
 Texto:
 1
@@ -932,7 +932,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 28
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:40:29+00:00
 Texto: [Sem texto]
 

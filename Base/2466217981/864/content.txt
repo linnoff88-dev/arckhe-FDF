@@ -61,7 +61,7 @@ MENSAGEM 7
 Autor: Conecta Facil
 Data: 2025-08-26T13:47:24+00:00
 Texto:
-https://chatgpt.com/g/g-684786a3b288819194ba7b471e41a8a3-inema-prompt-melhor
+https://chatgpt.com/g/g-684786a3b288819194ba7b471e41a8a3-ARCKHÉ-prompt-melhor
 Midia: MessageMediaWebPage
 
 ------------------------------
@@ -78,7 +78,7 @@ MENSAGEM 9
 Autor: Conecta Facil
 Data: 2025-08-26T13:46:56+00:00
 Texto:
-bom dia, comeca com uma esplicaçao em: https://chatgpt.com/g/g-688adc172090819180657635a4d1c468-inema-ec7-arquiteto-de-automacoes-inteligentes
+bom dia, comeca com uma esplicaçao em: https://chatgpt.com/g/g-688adc172090819180657635a4d1c468-ARCKHÉ-ec7-arquiteto-de-automacoes-inteligentes
 Midia: MessageMediaWebPage
 
 ------------------------------
@@ -158,7 +158,7 @@ Quero fazer uma homenagem pra minha tia colocando ela ao lado do idolo dela elvi
 ------------------------------
 
 MENSAGEM 19
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-28T16:09:15+00:00
 Texto:
 Agora em diante o chat GPT permite fazer isso também
@@ -198,7 +198,7 @@ Qual melhor ferramenta hoje para produzir criativos de promoções para restaura
 ------------------------------
 
 MENSAGEM 24
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-14T03:52:14+00:00
 Texto:
 .
@@ -206,7 +206,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 25
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-14T03:52:13+00:00
 Texto:
 ...
@@ -214,7 +214,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 26
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-14T03:52:13+00:00
 Texto:
 ..
@@ -222,7 +222,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 27
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-14T03:52:12+00:00
 Texto:
 .
@@ -230,7 +230,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 28
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-14T03:52:12+00:00
 Texto:
 .
@@ -238,7 +238,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 29
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-14T03:52:12+00:00
 Texto:
 1
@@ -246,7 +246,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 30
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-14T03:51:29+00:00
 Texto: [Sem texto]
 

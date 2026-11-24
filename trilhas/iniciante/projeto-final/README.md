@@ -342,7 +342,7 @@ Atmosfera: Energético, saudável, motivador
 Após completar e entregar o projeto final com nota mínima de 70 pontos, você receberá:
 
 **Certificado de Conclusão - Trilha Iniciante**
-- Designer do Futuro by INEMA.CLUB
+- Designer do Futuro by ARCKHÉ AI
 - 30 horas de curso
 - Assinado digitalmente
 - Compartilhável no LinkedIn
@@ -366,7 +366,7 @@ Após completar e entregar o projeto final com nota mínima de 70 pontos, você 
 
 Os melhores projetos serão destacados:
 
-- ✨ Galeria oficial do INEMA.CLUB
+- ✨ Galeria oficial do ARCKHÉ AI
 - 📱 Redes sociais do projeto
 - 🎁 Acesso antecipado a novos conteúdos
 - 🏆 Badge especial no Discord
@@ -450,7 +450,7 @@ Antes de entregar, confira:
 - Mostre para amigos e família
 
 **2. Continue Praticando**
-- Desafios mensais do INEMA.CLUB
+- Desafios mensais do ARCKHÉ AI
 - Projetos pessoais
 - Ajude outros iniciantes
 
@@ -477,7 +477,7 @@ Transformou sua criatividade em realidade.
 
 **O céu é o limite! 🚀**
 
-Feito com ❤️ pela comunidade INEMA
+Feito com ❤️ pela comunidade ARCKHÉ
 
 [← Voltar para Trilha](../README.md) | [Explorar Outras Trilhas](../../README.md)
 

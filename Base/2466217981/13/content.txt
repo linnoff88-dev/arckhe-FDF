@@ -10,7 +10,7 @@ Midias baixadas: 1
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-02-25T01:28:44+00:00
 Texto:
 O **Replicate.com** é uma plataforma que permite rodar modelos de inteligência artificial diretamente na nuvem sem precisar configurar ou manter infraestrutura própria. Ele é muito usado para **executar modelos de machine learning** de forma fácil e rápida, sem a necessidade de instalar bibliotecas ou ter um ambiente de desenvolvimento local configurado.
@@ -47,7 +47,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T02:04:55+00:00
 Texto:
 4
@@ -55,7 +55,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T02:04:53+00:00
 Texto:
 3
@@ -63,7 +63,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T02:04:51+00:00
 Texto:
 3
@@ -71,7 +71,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T02:04:49+00:00
 Texto:
 1
@@ -79,7 +79,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T02:04:44+00:00
 Texto: [Sem texto]
 

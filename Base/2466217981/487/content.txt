@@ -10,7 +10,7 @@ Midias baixadas: 0
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T05:21:40+00:00
 Texto:
 As principais vantagens do **Leonardo.ai** em comparação com outras plataformas de geração de imagens são: 
@@ -41,7 +41,7 @@ Resumindo, o Leonardo.ai se destaca no **mercado de criação visual para jogos 
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T05:21:11+00:00
 Texto:
 Leonardo.ai é uma plataforma poderosa que permite criar imagens, arte e designs utilizando inteligência artificial. Ela é amplamente utilizada para criar conteúdo visual de alta qualidade, desde ilustrações realistas até designs estilizados e artísticos. O foco principal da Leonardo.ai é oferecer ferramentas acessíveis e fáceis de usar para artistas, designers, desenvolvedores de jogos, criadores de conteúdo e outros profissionais que necessitam de gráficos gerados por IA. 
@@ -65,7 +65,7 @@ Se precisar de ajuda para criar imagens ou entender como usar o Leonardo.ai, pos
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T05:19:58+00:00
 Texto:
 Canva comprou o Leonardo...
@@ -73,7 +73,7 @@ Canva comprou o Leonardo...
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T05:19:37+00:00
 Texto:
 8
@@ -81,7 +81,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T05:19:36+00:00
 Texto:
 7
@@ -89,7 +89,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T05:19:36+00:00
 Texto:
 5
@@ -97,7 +97,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T05:19:36+00:00
 Texto:
 4
@@ -105,7 +105,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T05:19:35+00:00
 Texto:
 3
@@ -113,7 +113,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T05:19:35+00:00
 Texto:
 2
@@ -121,7 +121,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T05:19:34+00:00
 Texto:
 1
@@ -129,7 +129,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T05:19:21+00:00
 Texto: [Sem texto]
 

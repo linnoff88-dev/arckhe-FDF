@@ -1,7 +1,7 @@
 # 📚 Biblioteca de Prompts
 ## 100+ Prompts Prontos Para Usar
 
-> Coleção curada de prompts testados e aprovados pela comunidade INEMA
+> Coleção curada de prompts testados e aprovados pela comunidade ARCKHÉ
 
 **Última atualização:** 2025-11-24
 
@@ -139,7 +139,7 @@ mystical foggy atmosphere,
 soft diffused natural light,
 magical and peaceful mood,
 professional nature photography,
-8k, detailed, cinematic
+8k, detailed, cARCKHÉtic
 ```
 
 **Uso:** Conteúdo inspiracional, meditação, natureza
@@ -263,7 +263,7 @@ dramatic sky with storm clouds parting,
 magical blue and purple light rays,
 floating islands in distance,
 highly detailed digital fantasy art,
-cinematic and majestic atmosphere,
+cARCKHÉtic and majestic atmosphere,
 vibrant colors, concept art style,
 8k, ultra detailed
 ```
@@ -523,7 +523,7 @@ digital particles and connections,
 sleek and modern aesthetic,
 high-tech atmosphere,
 professional tech illustration,
-8k, detailed, cinematic
+8k, detailed, cARCKHÉtic
 ```
 
 **Uso:** Tech, IA, inovação
@@ -538,7 +538,7 @@ neon signs in pink and blue,
 rain-slicked streets reflecting lights,
 futuristic buildings and technology,
 atmospheric and moody,
-cinematic sci-fi photography,
+cARCKHÉtic sci-fi photography,
 detailed, 8k, dramatic
 ```
 
@@ -584,7 +584,7 @@ Criou um prompt incrível? Compartilhe com a comunidade!
 **Como contribuir:**
 1. Teste seu prompt (mínimo 3 gerações boas)
 2. Documente: categoria, uso, resultado
-3. Envie via [GitHub Pull Request](https://github.com/inema/designer-do-futuro)
+3. Envie via [GitHub Pull Request](https://github.com/ARCKHÉ/designer-do-futuro)
 4. Ou compartilhe no Discord #biblioteca-prompts
 
 ---
@@ -593,7 +593,7 @@ Criou um prompt incrível? Compartilhe com a comunidade!
 
 **Total de Prompts:** 40+ (em crescimento)
 **Categorias:** 10
-**Contribuidores:** Comunidade INEMA
+**Contribuidores:** Comunidade ARCKHÉ
 **Última Atualização:** 2025-11-24
 
 ---
@@ -606,6 +606,6 @@ Novos prompts adicionados semanalmente.
 
 [Voltar ao Início](../../README.md) | [Recursos](../README.md)
 
-Feito com ❤️ pela comunidade INEMA
+Feito com ❤️ pela comunidade ARCKHÉ
 
 </div>

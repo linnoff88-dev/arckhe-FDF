@@ -10,7 +10,7 @@ Midias baixadas: 4
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-29T16:05:49+00:00
 Texto:
 **dicas e hacks práticos** para usar melhor o **Nano Banana (Gemini 2.5 Flash)** no dia a dia. Aqui estão os principais:
@@ -105,7 +105,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-29T15:58:59+00:00
 Texto:
 o video é dublado
@@ -113,7 +113,7 @@ o video é dublado
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-29T15:35:31+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_1905_003.jpg
@@ -121,7 +121,7 @@ Midia: MessageMediaPhoto -> photo_1905_003.jpg
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-29T15:33:28+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_1904_004.jpg
@@ -129,7 +129,7 @@ Midia: MessageMediaPhoto -> photo_1904_004.jpg
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-29T15:26:37+00:00
 Texto:
 com um casaco de inverno vermelho, depois faça ela segurá-lo na frente do corpo em outra variação."
@@ -138,7 +138,7 @@ com um casaco de inverno vermelho, depois faça ela segurá-lo na frente do corp
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-29T15:26:37+00:00
 Texto:
 Vou montar um **cheat sheet de prompts completos** (em português e inglês quando necessário) para você usar direto no **Nano Banana (Gemini 2.5 Flash)**. Todos foram extraídos ou adaptados dos hacks mostrados no vídeo:
@@ -205,7 +205,7 @@ Vou montar um **cheat sheet de prompts completos** (em português e inglês quan
 
 ---
 
-### 7. Criação de universos cinematográficos
+### 7. Criação de universos cARCKHÉtográficos
 
 * Prompt:
   "Mostre o mesmo personagem correndo em direção à torre ao fundo, na mesma cidade da imagem original, mantendo roupas e estilo consistentes."
@@ -245,7 +245,7 @@ Vou montar um **cheat sheet de prompts completos** (em português e inglês quan
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-29T15:25:54+00:00
 Texto:
 ==============
@@ -253,7 +253,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-29T15:25:51+00:00
 Texto:
 Aqui estão os principais **hacks e truques** mostrados e descobertos no vídeo do **Nano Banana do Google**:
@@ -263,7 +263,7 @@ Aqui estão os principais **hacks e truques** mostrados e descobertos no vídeo 
 ### 1. Consistência de personagens
 
 * Use **sua própria foto** como base para testar consistência (rosto, roupas, detalhes).
-* Replique cenas mudando apenas **expressão ou ambiente** para obter universos cinematográficos.
+* Replique cenas mudando apenas **expressão ou ambiente** para obter universos cARCKHÉtográficos.
 * Exemplo:
 
   * “Make him laughing” → apenas muda expressão.
@@ -309,7 +309,7 @@ Aqui estão os principais **hacks e truques** mostrados e descobertos no vídeo 
 
 ---
 
-### 6. Criação de universos cinematográficos
+### 6. Criação de universos cARCKHÉtográficos
 
 * Ao invés de repromptar do zero, continue editando a mesma cena.
 * Hack: use prompts incrementais como “change weather”, “make him running”, “show scene from behind”.
@@ -359,7 +359,7 @@ Aqui estão os principais **hacks e truques** mostrados e descobertos no vídeo 
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-29T15:24:26+00:00
 Texto:
 ===============
@@ -367,7 +367,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-29T15:24:22+00:00
 Texto:
 Aqui está o resumo do vídeo sobre o **Nano Banana do Google**:
@@ -377,14 +377,14 @@ Aqui está o resumo do vídeo sobre o **Nano Banana do Google**:
 * O **Nano Banana** é um novo modelo de IA gratuito do Google, da família **Gemini 2.5 Flash**, com foco em edição e geração de imagens.
 * Permite **edições avançadas em nível de Photoshop** apenas com texto, preservando alta consistência de personagens (90–95%), algo superior a MidJourney e GPT.
 * Funciona no **Gemini app** (selecionando Flash) e também no **Google AI Studio** (modo image preview).
-* Destaque para a capacidade de **manter personagens consistentes** em diferentes ângulos, poses e expressões, útil para criar universos cinematográficos com continuidade.
+* Destaque para a capacidade de **manter personagens consistentes** em diferentes ângulos, poses e expressões, útil para criar universos cARCKHÉtográficos com continuidade.
 
 ### Testes práticos mostrados
 
 * Alterações em fotos pessoais: mudar expressão, adicionar objetos (banana, cachorro, chapéu), trocar cabelo, cenário e clima.
 * Criação de cenas completas: selfies, mudanças de cenário (cidade, floresta, neve), poses de meditação, etc.
 * Testes de ângulos de câmera: vista aérea, de trás, sobre o ombro, diferentes distâncias.
-* Geração de **sequências cinematográficas** com o mesmo personagem em várias cenas.
+* Geração de **sequências cARCKHÉtográficas** com o mesmo personagem em várias cenas.
 * Edição de múltiplos personagens juntos com boa consistência.
 * Aplicações em **fotografia de produtos**: segurar objetos, mudar roupas, criar pôsteres publicitários automáticos.
 * Estilo e ambientação: transformar ambientes (apartamento em art déco, estúdio gamer futurista, selva, etc.), transferir estilos artísticos (Ghibli, 2D, etc.).
@@ -400,7 +400,7 @@ Aqui está o resumo do vídeo sobre o **Nano Banana do Google**:
 ### Potenciais aplicações
 
 * Criação rápida de anúncios, pôsteres e materiais de marketing.
-* Produção de curtas ou filmes em estilo cinematográfico com consistência entre cenas.
+* Produção de curtas ou filmes em estilo cARCKHÉtográfico com consistência entre cenas.
 * Visualização de interiores e arquitetura (redecoração de ambientes).
 * Moda e publicidade (mudança de roupas, acessórios, produtos).
 * Geração de moodboards e referências de estilo.
@@ -410,7 +410,7 @@ Aqui está o resumo do vídeo sobre o **Nano Banana do Google**:
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-29T15:23:58+00:00
 Texto:
 ==============
@@ -418,7 +418,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 12
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-29T15:23:55+00:00
 Texto:
 mas adicionou objetos novos.
@@ -435,14 +435,14 @@ mas adicionou objetos novos.
   * GPT = melhor em **mudança de clima/luz**.
   * Qian = mais limitado, perde realismo.
   * Limitações: censura, erros em texto/mãos, dificuldade em objetos específicos.
-  * Potencial enorme em **publicidade, cinema, design e marketing digital**.
+  * Potencial enorme em **publicidade, cARCKHÉ, design e marketing digital**.
 
 ---
 
 ------------------------------
 
 MENSAGEM 13
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-29T15:23:55+00:00
 Texto:
 Vou detalhar cada sessão do vídeo do **Nano Banana** com exemplos de prompts usados, como se fosse um guia prático:
@@ -493,7 +493,7 @@ Vou detalhar cada sessão do vídeo do **Nano Banana** com exemplos de prompts u
 
 ---
 
-### 5. Criação de universos cinematográficos
+### 5. Criação de universos cARCKHÉtográficos
 
 * Sequência de imagens que parecem frames de um filme.
 * Exemplos:
@@ -583,7 +583,7 @@ Vou detalhar cada sessão do vídeo do **Nano Banana** com exemplos de prompts u
 ------------------------------
 
 MENSAGEM 14
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-29T15:22:19+00:00
 Texto:
 aistudio.google.com
@@ -591,7 +591,7 @@ aistudio.google.com
 ------------------------------
 
 MENSAGEM 15
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-29T15:21:20+00:00
 Texto:
 Segue a lista das sessões principais mostradas no vídeo do **Nano Banana do Google**:
@@ -600,7 +600,7 @@ Segue a lista das sessões principais mostradas no vídeo do **Nano Banana do Go
 2. Testes com foto pessoal (expressões faciais, chapéu, cachorro, objetos, clima)
 3. Alterações de cenário (cidade, neve, outono, floresta, telhados, prédios → casas na árvore)
 4. Testes de ângulos de câmera (frente, lado, trás, aérea, drone, sobre o ombro)
-5. Criação de universos cinematográficos (sequências de cenas com mesmo personagem)
+5. Criação de universos cARCKHÉtográficos (sequências de cenas com mesmo personagem)
 6. Edição com múltiplos personagens (selfies em grupo, combinações com outros avatares)
 7. Fotografia de produtos (inserir objetos, segurar embalagens, anúncios publicitários automáticos)
 8. Estilo e ambientação (transformar interiores em art déco, gamer futurista, selva, etc.)
@@ -613,7 +613,7 @@ Segue a lista das sessões principais mostradas no vídeo do **Nano Banana do Go
 ------------------------------
 
 MENSAGEM 16
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-29T15:21:13+00:00
 Texto:
 https://www.youtube.com/watch?v=-CEAj3Q_yd8
@@ -622,7 +622,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 17
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-29T15:21:07+00:00
 Texto:
 Curso Nano Banana Google
@@ -630,7 +630,7 @@ Curso Nano Banana Google
 ------------------------------
 
 MENSAGEM 18
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-29T15:21:07+00:00
 Texto:
 ..
@@ -638,7 +638,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 19
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-29T15:21:06+00:00
 Texto:
 .
@@ -646,7 +646,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 20
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-29T15:21:06+00:00
 Texto:
 .
@@ -654,7 +654,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 21
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-29T15:21:06+00:00
 Texto:
 .
@@ -662,7 +662,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 22
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-29T15:21:05+00:00
 Texto:
 .
@@ -670,7 +670,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 23
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-29T15:21:05+00:00
 Texto:
 https://chatgpt.com/c/68b1c39b-38f4-832f-a921-8dd456522447
@@ -679,7 +679,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 24
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-29T15:21:04+00:00
 Texto:
 1
@@ -687,7 +687,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 25
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-08-29T15:20:59+00:00
 Texto: [Sem texto]
 

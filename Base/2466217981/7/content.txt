@@ -10,7 +10,7 @@ Midias baixadas: 1
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-02-25T01:31:12+00:00
 Texto:
 O **fal.ai** é uma plataforma de mídia generativa voltada para desenvolvedores, oferecendo soluções de inferência e treinamento para aplicações de IA em vídeo, imagem e áudio. Fundada em 2021 por Burkay Gur e Gorkem Yurtseven, a empresa se destaca por fornecer uma infraestrutura otimizada para criação de conteúdo mediado por IA, com foco especial em vídeo. citeturn0search3
@@ -43,7 +43,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T02:03:59+00:00
 Texto:
 5
@@ -51,7 +51,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T02:03:58+00:00
 Texto:
 4
@@ -59,7 +59,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T02:03:56+00:00
 Texto:
 3
@@ -67,7 +67,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T02:03:54+00:00
 Texto:
 2
@@ -75,7 +75,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T02:03:52+00:00
 Texto:
 1
@@ -83,7 +83,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T02:03:45+00:00
 Texto: [Sem texto]
 

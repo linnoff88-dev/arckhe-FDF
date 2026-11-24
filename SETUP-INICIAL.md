@@ -15,7 +15,7 @@ No terminal, dentro do diretório `/home/nmaldaner/projetos/IMG`:
 git init
 
 # Adicionar remote do seu repositório
-git remote add origin https://github.com/inematds/FDF.git
+git remote add origin https://github.com/linnoff88-dev/FDF.git
 
 # Verificar se o remote foi adicionado
 git remote -v
@@ -37,7 +37,7 @@ git commit -m "feat: initial commit - Designer do Futuro v1.0
 - Design system baseado no FEP
 - Landing page responsiva
 - Biblioteca de 40+ prompts
-- Documentação INEMA.CLUB e INEMA.VIP
+- Documentação ARCKHÉ AI e ARCKHÉ.VIP
 - Sistema de recursos educacionais
 - Guias de contribuição e instalação"
 
@@ -54,7 +54,7 @@ git push -u origin main
 
 ### Opção A: Via Interface Web
 
-1. Acesse: https://github.com/inematds/FDF/settings/pages
+1. Acesse: https://github.com/linnoff88-dev/FDF/settings/pages
 
 2. Configure:
    - **Source:** Deploy from a branch
@@ -64,7 +64,7 @@ git push -u origin main
 
 3. Aguarde 2-3 minutos
 
-4. Acesse: https://inematds.github.io/FDF/
+4. Acesse: https://linnoff88-dev.github.io/
 
 ### Opção B: Via GitHub CLI (se tiver instalado)
 
@@ -79,7 +79,7 @@ gh repo edit --enable-pages --pages-branch main --pages-path /website
 Edite o `README.md` principal e atualize os links:
 
 ```markdown
-[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue)](https://inematds.github.io/FDF/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue)](https://linnoff88-dev.github.io/
 ```
 
 Commit e push:
@@ -93,7 +93,7 @@ git push
 
 ## 5️⃣ Configurar Topics no GitHub
 
-1. Vá em: https://github.com/inematds/FDF
+1. Vá em: https://github.com/linnoff88-dev/FDF
 2. Clique em ⚙️ (engrenagem) ao lado de "About"
 3. Adicione topics:
    - `education`
@@ -109,16 +109,16 @@ git push
 
 4. Adicione descrição:
    ```
-   🎨 Aprenda a criar imagens profissionais com IA. Curso 100% gratuito e open-source com 4 trilhas educacionais. By INEMA.CLUB
+   🎨 Aprenda a criar imagens profissionais com IA. Curso 100% gratuito e open-source com 4 trilhas educacionais. By ARCKHÉ AI
    ```
 
-5. Website: `https://inematds.github.io/FDF/`
+5. Website: `https://linnoff88-dev.github.io/
 
 ---
 
 ## 6️⃣ Habilitar Features do Repositório
 
-Em https://github.com/inematds/FDF/settings:
+Em https://github.com/linnoff88-dev/FDF/settings:
 
 ### General
 - [x] Issues
@@ -165,7 +165,7 @@ Mas isso é **opcional** - o método básico já funciona perfeitamente!
 
 Após 2-3 minutos do deploy:
 
-1. Acesse: **https://inematds.github.io/FDF/**
+1. Acesse: **https://linnoff88-dev.github.io/
 
 2. Teste:
    - [x] Landing page carrega
@@ -175,7 +175,7 @@ Após 2-3 minutos do deploy:
    - [x] JavaScript funciona (menu mobile)
 
 3. Se algo não funcionar:
-   - Verifique GitHub Actions: https://github.com/inematds/FDF/actions
+   - Verifique GitHub Actions: https://github.com/linnoff88-dev/FDF/actions
    - Aguarde mais alguns minutos
    - Force refresh: Ctrl + Shift + R
 
@@ -192,7 +192,7 @@ git push origin v1.0.0
 ```
 
 No GitHub:
-1. Vá em: https://github.com/inematds/FDF/releases/new
+1. Vá em: https://github.com/linnoff88-dev/FDF/releases/new
 2. Choose tag: v1.0.0
 3. Release title: "Designer do Futuro v1.0.0 - Trilha Iniciante"
 4. Descrição:
@@ -212,10 +212,10 @@ No GitHub:
 - 📚 Biblioteca com 40+ prompts testados
 - 🎨 Design System completo
 - 🌐 Landing page profissional
-- 📖 Documentação INEMA.CLUB e INEMA.VIP
+- 📖 Documentação ARCKHÉ AI e ARCKHÉ.VIP
 
 ### 🚀 Acesse:
-https://inematds.github.io/FDF/
+https://linnoff88-dev.github.io/
 
 ### 📝 Próximos Passos:
 - Trilha Técnico (em desenvolvimento)
@@ -232,7 +232,7 @@ https://inematds.github.io/FDF/
 
 Para evitar commits acidentais direto na main:
 
-1. Vá em: https://github.com/inematds/FDF/settings/branches
+1. Vá em: https://github.com/linnoff88-dev/FDF/settings/branches
 2. Clique em "Add rule"
 3. Branch name pattern: `main`
 4. Marque:
@@ -255,7 +255,7 @@ Após seguir todos os passos:
 
 - [ ] Código no GitHub
 - [ ] GitHub Pages configurado e funcionando
-- [ ] Site acessível em https://inematds.github.io/FDF/
+- [ ] Site acessível em https://linnoff88-dev.github.io/
 - [ ] Topics configurados
 - [ ] Description e website adicionados
 - [ ] Issues/Discussions habilitados
@@ -280,7 +280,7 @@ Curso COMPLETO e 100% GRATUITO para aprender a criar imagens profissionais com I
 ✅ Certificado de conclusão
 ✅ Open-source
 
-🔗 https://inematds.github.io/FDF/
+🔗 https://linnoff88-dev.github.io/
 
 #IA #Design #EducaçãoGratuita #OpenSource
 ```
@@ -299,7 +299,7 @@ O projeto é open-source e inclui:
 - Projeto prático final
 - Certificado de conclusão
 
-Acesse: https://inematds.github.io/FDF/
+Acesse: https://linnoff88-dev.github.io/
 
 O projeto é voltado para a democratização do acesso à criação visual através da IA.
 
@@ -322,8 +322,8 @@ Um projeto educacional open-source que ensina criação de imagens profissionais
 
 O objetivo é democratizar o acesso à criação visual, mostrando que você não precisa ser designer para criar imagens incríveis - só precisa aprender a dirigir a IA.
 
-Link: https://inematds.github.io/FDF/
-GitHub: https://github.com/inematds/FDF
+Link: https://linnoff88-dev.github.io/
+GitHub: https://github.com/linnoff88-dev/FDF
 
 Feedbacks e contribuições são muito bem-vindos!
 
@@ -336,14 +336,14 @@ Feedbacks e contribuições são muito bem-vindos!
 
 Se algo não funcionar:
 
-1. **Verifique Actions:** https://github.com/inematds/FDF/actions
-2. **Verifique Settings:** https://github.com/inematds/FDF/settings/pages
+1. **Verifique Actions:** https://github.com/linnoff88-dev/FDF/actions
+2. **Verifique Settings:** https://github.com/linnoff88-dev/FDF/settings/pages
 3. **Force refresh:** Ctrl+Shift+R no navegador
 4. **Aguarde:** GitHub Pages pode levar até 10 minutos em casos raros
 
 **Ainda com problemas?**
 - Abra uma Issue no próprio repo
-- Email: inematds@gmail.com
+- Email: linnoff88-dev@gmail.com
 
 ---
 
@@ -352,7 +352,7 @@ Se algo não funcionar:
 Você criou e lançou um projeto educacional completo e profissional!
 
 **Próximos passos naturais:**
-1. Criar Discord INEMA.CLUB
+1. Criar Discord ARCKHÉ AI
 2. Setup newsletter
 3. Começar Trilha Técnico
 4. Expandir biblioteca de prompts
@@ -364,7 +364,7 @@ Você criou e lançou um projeto educacional completo e profissional!
 
 **🚀 Projeto no ar e pronto para impactar vidas!**
 
-[Ver Site](https://inematds.github.io/FDF/) | [Ver no GitHub](https://github.com/inematds/FDF)
+[Ver Site](https://linnoff88-dev.github.io/ | [Ver no GitHub](https://github.com/linnoff88-dev/FDF)
 
 **Feito com ❤️ para democratizar a criação visual com IA**
 

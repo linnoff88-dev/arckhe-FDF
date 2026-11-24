@@ -10,7 +10,7 @@ Midias baixadas: 1
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T22:03:49+00:00
 Texto:
 https://gamma.app/docs/j0z0hv3xmj4zuws
@@ -19,7 +19,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T21:39:47+00:00
 Texto:
 Para ensinar alguém que não sabe nada sobre imagens geradas por IA, LLMs, prompts e composição de personagens e cenários, aqui está um guia com **10 passos importantes** que focam no propósito e objetivo: 
@@ -106,7 +106,7 @@ Esses passos são suficientes para guiar alguém do zero ao entendimento básico
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T21:39:25+00:00
 Texto:
 6
@@ -114,7 +114,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T21:39:25+00:00
 Texto:
 5
@@ -122,7 +122,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T21:39:25+00:00
 Texto:
 3
@@ -130,7 +130,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T21:39:24+00:00
 Texto:
 2
@@ -138,7 +138,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T21:39:24+00:00
 Texto:
 1
@@ -146,7 +146,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T21:39:16+00:00
 Texto: [Sem texto]
 

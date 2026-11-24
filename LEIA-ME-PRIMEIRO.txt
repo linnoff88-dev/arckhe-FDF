@@ -6,9 +6,9 @@
 
 ✅ STATUS: PRONTO PARA LANÇAMENTO!
 
-📧 Repositório: https://github.com/inematds/FDF
-📧 Email: inematds@gmail.com
-🌐 Site (após deploy): https://inematds.github.io/FDF/
+📧 Repositório: https://github.com/linnoff88-dev/FDF
+📧 Email: linnoff88-dev@gmail.com
+🌐 Site (após deploy): https://linnoff88-dev.github.io/
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -25,8 +25,8 @@
    - Projeto Final: Pack de 15 imagens
 ✅ Biblioteca de 40+ prompts testados
 ✅ Landing page HTML responsiva e profissional
-✅ Documentação INEMA.CLUB (gratuito)
-✅ Documentação INEMA.VIP (premium)
+✅ Documentação ARCKHÉ AI (gratuito)
+✅ Documentação ARCKHÉ.VIP (premium)
 ✅ Guia de contribuição
 ✅ Guia de instalação e deploy
 ✅ LICENSE (MIT)
@@ -47,7 +47,7 @@ Execute no terminal:
     ./COMANDOS-RAPIDOS.sh
 
 Depois configure GitHub Pages:
-https://github.com/inematds/FDF/settings/pages
+https://github.com/linnoff88-dev/FDF/settings/pages
 - Source: Deploy from a branch
 - Branch: main  
 - Folder: /website
@@ -61,7 +61,7 @@ OPÇÃO 2: COMANDOS MANUAIS (PASSO A PASSO) 📝
 
 2. git init
 
-3. git remote add origin https://github.com/inematds/FDF.git
+3. git remote add origin https://github.com/linnoff88-dev/FDF.git
 
 4. git add .
 
@@ -113,7 +113,7 @@ Total: ~15 minutos até o site estar no ar!
 
 🎯 APÓS O DEPLOY:
 
-1. ✅ Site estará em: https://inematds.github.io/FDF/
+1. ✅ Site estará em: https://linnoff88-dev.github.io/
 2. ✅ Trilha Iniciante estará acessível
 3. ✅ Biblioteca de prompts disponível
 4. ✅ Pronto para receber alunos!
@@ -133,9 +133,9 @@ Total: ~15 minutos até o site estar no ar!
 
 🔜 PRÓXIMOS PASSOS (APÓS DEPLOY):
 
-1. [ ] Configurar Discord INEMA.CLUB
+1. [ ] Configurar Discord ARCKHÉ AI
 2. [ ] Setup newsletter
-3. [ ] Criar redes sociais (@inema.club)
+3. [ ] Criar redes sociais (@ARCKHÉ AI)
 4. [ ] Começar Trilha Técnico (50h)
 5. [ ] Expandir biblioteca de prompts (100+)
 6. [ ] Receber primeiros alunos!
@@ -153,6 +153,6 @@ com IA!
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 Feito com ❤️ para democratizar a criação visual com IA
-Designer do Futuro - INEMA.CLUB - 2025
+Designer do Futuro - ARCKHÉ AI - 2025
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

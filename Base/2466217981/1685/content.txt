@@ -10,10 +10,10 @@ Midias baixadas: 0
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-07-05T01:03:10+00:00
 Texto:
-**estilos de iluminação, efeitos visuais e atmosferas** em fotografia, cinema ou renderização 3D. 
+**estilos de iluminação, efeitos visuais e atmosferas** em fotografia, cARCKHÉ ou renderização 3D. 
 1. **Back (Backlighting)**
 
    * Luz vindo por trás do objeto, criando um contorno brilhante (halo).
@@ -57,7 +57,7 @@ Texto:
 9. **Film haze**
 
    * Efeito de leve neblina ou granulação, dando aspecto de filme antigo.
-   * Exemplo: Cena de floresta com luz difusa e leve “névoa cinematográfica”.
+   * Exemplo: Cena de floresta com luz difusa e leve “névoa cARCKHÉtográfica”.
 
 10. **Foggy**
 
@@ -67,7 +67,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-07-05T01:02:49+00:00
 Texto:
 .
@@ -75,7 +75,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-07-05T01:02:49+00:00
 Texto:
 .
@@ -83,7 +83,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-07-05T01:02:48+00:00
 Texto:
 .
@@ -91,7 +91,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-07-05T01:02:48+00:00
 Texto:
 ..
@@ -99,7 +99,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-07-05T01:02:48+00:00
 Texto:
 .
@@ -107,7 +107,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-07-05T01:02:47+00:00
 Texto:
 .
@@ -115,7 +115,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-07-05T01:02:47+00:00
 Texto:
 1
@@ -123,7 +123,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-07-05T01:02:43+00:00
 Texto: [Sem texto]
 

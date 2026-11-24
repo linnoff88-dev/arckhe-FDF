@@ -1,4 +1,4 @@
-﻿# ðŸŽ¨ Designer do Futuro
+# ðŸŽ¨ Designer do Futuro
 
 <div align="center">
   <img src="capa/logo.svg" alt="Arckhé AI" height="48" />
@@ -8,8 +8,8 @@
 ## *Criatividade Amplificada com IA*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue)](https://inematds.github.io/FDF/)
-[![Community](https://img.shields.io/badge/Community-INEMA.CLUB-green)](https://inema.club)
+[![GitHub Pages](https://img.shields.io/badge/GitHub-Pages-blue)](https://linnoff88-dev.github.io/
+[![Community](https://img.shields.io/badge/Community-ARCKHÉ AI-green)](https://ARCKHÉ AI)
 
 > **Democratizando o acesso Ã  criaÃ§Ã£o de imagens profissionais com IA atravÃ©s de educaÃ§Ã£o gratuita e comunidades ativas.**
 
@@ -101,9 +101,9 @@ Escolha a trilha ideal para seu perfil:
 
 ---
 
-## ðŸ˜ï¸ Comunidades INEMA
+## ðŸ˜ï¸ Comunidades ARCKHÉ
 
-### ðŸŽ¯ [INEMA.CLUB](./comunidade/inema-club.md) - Gratuito
+### ðŸŽ¯ [ARCKHÉ AI](./comunidade/ARCKHÉ-club.md) - Gratuito
 A comunidade aberta para todos os alunos:
 
 - âœ… Acesso a todas as 4 trilhas educacionais
@@ -113,14 +113,14 @@ A comunidade aberta para todos os alunos:
 - âœ… Galeria comunitÃ¡ria
 - âœ… Eventos online gratuitos
 
-[ðŸ‘‰ Participar do INEMA.CLUB](./comunidade/inema-club.md)
+[ðŸ‘‰ Participar do ARCKHÉ AI](./comunidade/ARCKHÉ-club.md)
 
 ---
 
-### âœ¨ [INEMA.VIP](./comunidade/inema-vip.md) - Premium
+### âœ¨ [ARCKHÉ.VIP](./comunidade/ARCKHÉ-vip.md) - Premium
 Comunidade premium com benefÃ­cios exclusivos:
 
-- â­ Tudo do INEMA.CLUB +
+- â­ Tudo do ARCKHÉ AI +
 - â­ Mentorias mensais ao vivo
 - â­ Feedback personalizado em projetos
 - â­ Workshops exclusivos
@@ -128,7 +128,7 @@ Comunidade premium com benefÃ­cios exclusivos:
 - â­ CertificaÃ§Ãµes avanÃ§adas
 - â­ Vagas de emprego e freelas
 
-[ðŸ‘‰ Conhecer INEMA.VIP](./comunidade/inema-vip.md)
+[ðŸ‘‰ Conhecer ARCKHÉ.VIP](./comunidade/ARCKHÉ-vip.md)
 
 ---
 
@@ -171,7 +171,7 @@ Este projeto utiliza um design system adaptado do **FEP (Fundamentos e Engenhari
 Identifique qual trilha se alinha melhor ao seu perfil e objetivos.
 
 ### 2. Entre na comunidade
-Junte-se ao [INEMA.CLUB](./comunidade/inema-club.md) e conecte-se com outros alunos.
+Junte-se ao [ARCKHÉ AI](./comunidade/ARCKHÉ-club.md) e conecte-se com outros alunos.
 
 ### 3. Comece a aprender
 Siga o conteÃºdo do MÃ³dulo 1 da sua trilha escolhida.
@@ -227,16 +227,16 @@ Este projeto estÃ¡ licenciado sob a [LicenÃ§a MIT](./LICENSE) - veja o arqui
 ## ðŸ’¬ Contato e Suporte
 
 - ðŸ’¬ **Discord:** Em breve
-- ðŸ™ **GitHub Discussions:** [DiscussÃµes](https://github.com/inematds/FDF/discussions)
-- ðŸ“§ **Email:** inematds@gmail.com
-- ðŸŒ **Website:** [inematds.github.io/FDF](https://inematds.github.io/FDF/)
+- ðŸ™ **GitHub Discussions:** [DiscussÃµes](https://github.com/linnoff88-dev/FDF/discussions)
+- ðŸ“§ **Email:** linnoff88-dev@gmail.com
+- ðŸŒ **Website:** [linnoff88-dev.github.io/
 
 ---
 
 ## ðŸ™ Agradecimentos
 
 Este projeto Ã© possÃ­vel graÃ§as a:
-- Todos os alunos e membros da comunidade INEMA
+- Todos os alunos e membros da comunidade ARCKHÉ
 - Contribuidores open-source
 - Ferramentas de IA que democratizaram a criaÃ§Ã£o visual
 
@@ -246,9 +246,9 @@ Este projeto Ã© possÃ­vel graÃ§as a:
 
 **ðŸŽ¨ Designer do Futuro** - Criatividade Amplificada com IA
 
-Feito com â¤ï¸ pela comunidade INEMA
+Feito com â¤ï¸ pela comunidade ARCKHÉ
 
-[ðŸŒ Website](https://inematds.github.io/FDF/) â€¢ [ðŸ“š DocumentaÃ§Ã£o](./docs/) â€¢ [ðŸ’¬ DiscussÃµes](https://github.com/inematds/FDF/discussions) â€¢ [â­ GitHub](https://github.com/inematds/FDF)
+[ðŸŒ Website](https://linnoff88-dev.github.io/ â€¢ [ðŸ“š DocumentaÃ§Ã£o](./docs/) â€¢ [ðŸ’¬ DiscussÃµes](https://github.com/linnoff88-dev/FDF/discussions) â€¢ [â­ GitHub](https://github.com/linnoff88-dev/FDF)
 
 </div>
 

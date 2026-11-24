@@ -10,7 +10,7 @@ Midias baixadas: 9
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-06-03T23:12:35+00:00
 Texto:
 https://fluxpro.art/
@@ -19,7 +19,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-06-03T23:11:14+00:00
 Texto:
 https://leonardo.ai/
@@ -28,7 +28,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-06-03T23:10:51+00:00
 Texto:
 https://ideogram.ai/
@@ -37,7 +37,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-06-03T23:09:54+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_1482_004.jpg
@@ -45,7 +45,7 @@ Midia: MessageMediaPhoto -> photo_1482_004.jpg
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-06-03T23:08:06+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_1481_005.jpg
@@ -53,7 +53,7 @@ Midia: MessageMediaPhoto -> photo_1481_005.jpg
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-06-03T23:07:48+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_1480_006.jpg
@@ -61,7 +61,7 @@ Midia: MessageMediaPhoto -> photo_1480_006.jpg
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-02-20T01:37:13+00:00
 Texto:
 https://www.youtube.com/live/Tl-Y4PEHu6o?si=WKTC1W-pY1LGFyhm
@@ -70,7 +70,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T00:20:34+00:00
 Texto:
 https://stable-diffusion-art.com/tutorials/?_page=3
@@ -79,7 +79,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T22:04:11+00:00
 Texto:
 https://gamma.app/docs/es4vjw7vrlp3pq0
@@ -88,7 +88,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T21:40:47+00:00
 Texto:
 Aqui está uma lista de **10 fundamentos essenciais** que você deve ensinar para preparar as pessoas para gerar imagens com consistência: 
@@ -144,7 +144,7 @@ Esses fundamentos garantem que os alunos compreendam o processo desde a base at�
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T21:40:46+00:00
 Texto:
 7
@@ -152,7 +152,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 12
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T21:40:46+00:00
 Texto:
 56
@@ -160,7 +160,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 13
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T21:40:46+00:00
 Texto:
 5
@@ -168,7 +168,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 14
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T21:40:46+00:00
 Texto:
 4
@@ -176,7 +176,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 15
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T21:40:45+00:00
 Texto:
 3
@@ -184,7 +184,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 16
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T21:40:45+00:00
 Texto:
 2
@@ -192,7 +192,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 17
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T21:40:45+00:00
 Texto:
 1
@@ -200,7 +200,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 18
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T21:40:34+00:00
 Texto: [Sem texto]
 

@@ -53,7 +53,7 @@ Vou te entregar um **programa pronto**, organizado como curso, com módulos, aul
 
 * Aula 1: Estrutura universal de um prompt perfeito
 * Aula 2: Como descrever luz, clima, ângulo e textura
-* Aula 3: Estilos artísticos populares (cyber, cinematic, psico, vapor, luxe etc.)
+* Aula 3: Estilos artísticos populares (cyber, cARCKHÉtic, psico, vapor, luxe etc.)
 * Aula 4: Criando séries de imagens consistentes
 * Aula 5: Como consertar imagens usando re-prompt
 

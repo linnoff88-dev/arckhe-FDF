@@ -155,7 +155,7 @@ Os módulos foram projetados para serem feitos em sequência. Não pule etapas.
 A prática é essencial. Faça todos os exercícios propostos.
 
 ### 3. Compartilhe na Comunidade
-Poste suas criações no [INEMA.CLUB](../../comunidade/inema-club.md) e receba feedback.
+Poste suas criações no [ARCKHÉ AI](../../comunidade/ARCKHÉ-club.md) e receba feedback.
 
 ### 4. Seja Paciente
 Aprender leva tempo. Não se compare com outros, compare com você mesmo de ontem.
@@ -172,7 +172,7 @@ Ao completar:
 - ✅ Todos os exercícios práticos
 - ✅ Projeto final
 
-Você receberá o **Certificado de Conclusão - Trilha Iniciante** da INEMA.CLUB.
+Você receberá o **Certificado de Conclusão - Trilha Iniciante** da ARCKHÉ AI.
 
 [Saiba mais sobre certificados](../../comunidade/certificados.md)
 
@@ -182,9 +182,9 @@ Você receberá o **Certificado de Conclusão - Trilha Iniciante** da INEMA.CLUB
 
 ### Ficou com dúvidas?
 
-- 💬 **Discord:** [Canal #trilha-iniciante](https://discord.gg/inema-club)
-- 🐙 **GitHub Discussions:** [Fórum de dúvidas](https://github.com/inema/designer-do-futuro/discussions)
-- 📧 **Email:** suporte@inema.club
+- 💬 **Discord:** [Canal #trilha-iniciante](https://discord.gg/ARCKHÉ-club)
+- 🐙 **GitHub Discussions:** [Fórum de dúvidas](https://github.com/ARCKHÉ/designer-do-futuro/discussions)
+- 📧 **Email:** suporte@ARCKHÉ AI
 
 ### Quer ajuda de outros alunos?
 
@@ -254,6 +254,6 @@ Após concluir esta trilha, você pode:
 
 [Começar Módulo 1](./modulo-01/README.md) →
 
-Feito com ❤️ pela comunidade INEMA
+Feito com ❤️ pela comunidade ARCKHÉ
 
 </div>

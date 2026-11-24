@@ -10,7 +10,7 @@ Midias baixadas: 6
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-24T05:36:36+00:00
 Texto:
 Multi Lora
@@ -19,7 +19,7 @@ Midia: MessageMediaPhoto -> photo_514_001.jpg
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-24T04:42:03+00:00
 Texto:
 https://www.youtube.com/watch?v=FgIDxUmOqBA
@@ -28,7 +28,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-24T04:41:36+00:00
 Texto:
 https://www.youtube.com/watch?v=-I2kOs0_GCk
@@ -37,7 +37,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T19:11:46+00:00
 Texto:
 O **LoRA (Low-Rank Adaptation)** está diretamente relacionado a alguns dos tipos de treinamento listados, especialmente **Transfer Learning** e **Fine-Tuning**, mas com algumas características específicas que o tornam ideal em determinadas situações. 
@@ -88,7 +88,7 @@ LoRA **tem tudo a ver com treinamento eficiente**. É uma alternativa poderosa p
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T19:11:44+00:00
 Texto:
 -------------------------
@@ -96,7 +96,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T19:11:22+00:00
 Texto:
 Os tipos de **treinamentos** que você pode realizar dependem da tarefa e do modelo base. Aqui estão os principais tipos de treinamento disponíveis em plataformas como **Replicate**, **Fal**, ou usando ferramentas como **Hugging Face** e **Google Colab**: 
@@ -176,7 +176,7 @@ Esses tipos de treinamento podem ser realizados em ferramentas como **Replicate*
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T19:11:16+00:00
 Texto:
 -------------------------------
@@ -184,7 +184,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T19:10:23+00:00
 Texto:
 No **Replicate** e no **Fal**, você tem algumas **opções diferentes para treinar imagens**, incluindo **LoRA** e métodos tradicionais de fine-tuning. Aqui está uma visão clara: 
@@ -254,7 +254,7 @@ Se você deseja algo rápido e eficiente, **LoRA** ou **DreamBooth** são as mel
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T19:10:06+00:00
 Texto:
 Se você deseja gerar **imagens personalizadas com modelos treinados** no **Replicate**, aqui estão as opções específicas que podem atender a essa necessidade: 
@@ -326,7 +326,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T19:10:00+00:00
 Texto:
 xxxxxxxxxxxxxxxxxxxxxxxx
@@ -334,7 +334,7 @@ xxxxxxxxxxxxxxxxxxxxxxxx
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T19:08:38+00:00
 Texto:
 Aqui está uma lista de todas as ferramentas discutidas nesta sessão: 
@@ -412,7 +412,7 @@ Essas ferramentas abrangem geração de imagens, treinamento de modelos e person
 ------------------------------
 
 MENSAGEM 12
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T19:07:18+00:00
 Texto:
 https://gamma.app/docs/gy45x4idurnclnf
@@ -421,7 +421,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 13
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T19:06:53+00:00
 Texto:
 Aqui está uma lista de todos os tópicos discutidos nesta sessão: 
@@ -472,7 +472,7 @@ Esses tópicos abrangem uma visão completa sobre como trabalhar com geração d
 ------------------------------
 
 MENSAGEM 14
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T19:06:47+00:00
 Texto:
 9
@@ -480,7 +480,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 15
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T19:06:47+00:00
 Texto:
 8
@@ -488,7 +488,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 16
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T19:06:47+00:00
 Texto:
 7
@@ -496,7 +496,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 17
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T19:06:46+00:00
 Texto:
 6
@@ -504,7 +504,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 18
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T19:06:46+00:00
 Texto:
 5
@@ -512,7 +512,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 19
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T19:06:46+00:00
 Texto:
 4
@@ -520,7 +520,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 20
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T19:06:46+00:00
 Texto:
 3
@@ -528,7 +528,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 21
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T19:06:45+00:00
 Texto:
 2
@@ -536,7 +536,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 22
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T19:06:45+00:00
 Texto:
 https://chatgpt.com/c/679133db-3898-8009-9a47-e35452653d14
@@ -545,7 +545,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 23
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-22T19:06:20+00:00
 Texto: [Sem texto]
 

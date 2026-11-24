@@ -518,7 +518,7 @@ Parabéns! Você completou todos os 4 módulos da Trilha Iniciante. Agora é hor
 
 **🛠️ Você agora domina as ferramentas para criar qualquer imagem que imaginar**
 
-Feito com ❤️ pela comunidade INEMA
+Feito com ❤️ pela comunidade ARCKHÉ
 
 [← Módulo Anterior](../modulo-03/README.md) | [Projeto Final →](../projeto-final/README.md)
 

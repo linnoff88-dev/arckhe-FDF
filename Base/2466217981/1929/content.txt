@@ -10,7 +10,7 @@ Midias baixadas: 0
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-03T04:36:21+00:00
 Texto:
 Aistudio.google.com
@@ -18,7 +18,7 @@ Aistudio.google.com
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-03T04:36:01+00:00
 Texto:
 *👉 ÚLTIMA HORA: A Nano-Banana do Google acaba de se tornar o editor de imagens com IA no 1 no mundo e é GRÁTIS.*
@@ -94,7 +94,7 @@ Este é o momento em que criar visuais profissionais se tornou tão fácil quant
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-03T04:35:57+00:00
 Texto:
 .
@@ -102,7 +102,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-03T04:35:55+00:00
 Texto:
 .
@@ -110,7 +110,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-03T04:35:54+00:00
 Texto:
 .
@@ -118,7 +118,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-03T04:35:53+00:00
 Texto:
 .
@@ -126,7 +126,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-03T04:35:52+00:00
 Texto:
 .
@@ -134,7 +134,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-03T04:35:51+00:00
 Texto:
 .
@@ -142,7 +142,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-03T04:35:50+00:00
 Texto:
 .
@@ -150,7 +150,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-03T04:35:47+00:00
 Texto:
 1
@@ -158,7 +158,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-03T04:35:41+00:00
 Texto: [Sem texto]
 

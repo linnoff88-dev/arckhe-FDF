@@ -10,7 +10,7 @@ Midias baixadas: 4
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-17T06:23:41+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_2076_001.jpg
@@ -18,7 +18,7 @@ Midia: MessageMediaPhoto -> photo_2076_001.jpg
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-17T06:20:55+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_2075_002.jpg
@@ -26,7 +26,7 @@ Midia: MessageMediaPhoto -> photo_2075_002.jpg
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-17T06:18:15+00:00
 Texto:
 **prompt padrão** que funciona como molde: você só troca o assunto, e eu gero o prompt completo já estruturado para usar em geração de imagens.
@@ -47,7 +47,7 @@ Formato horizontal 16:9."
 
 ### Exemplo de uso 1 (assunto: samurai no pôr do sol)
 
-"Crie uma imagem em estilo cinematográfico mostrando um samurai solitário em uma montanha ao pôr do sol.
+"Crie uma imagem em estilo cARCKHÉtográfico mostrando um samurai solitário em uma montanha ao pôr do sol.
 Preserve a silhueta do guerreiro com armadura tradicional e espada desembainhada.
 Destaque o céu alaranjado com nuvens iluminadas.
 Use iluminação quente e dramática para criar uma atmosfera épica e melancólica.
@@ -68,7 +68,7 @@ Formato horizontal 16:9."
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-17T06:17:19+00:00
 Texto:
 ==============
@@ -76,14 +76,14 @@ Texto:
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-17T06:17:15+00:00
 Texto:
 ## Checklist prático para criar prompts
 
 1. **Cena e narrativa**
 
-   * Descrevi o que acontece na imagem como se fosse um diretor de cinema?
+   * Descrevi o que acontece na imagem como se fosse um diretor de cARCKHÉ?
    * Incluí ambiente, posição do sujeito, detalhes do cenário?
 
 2. **Estilo visual**
@@ -128,7 +128,7 @@ Esse checklist pode ser usado como passo a passo: basta reler e confirmar cada i
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-17T06:16:22+00:00
 Texto:
 =================
@@ -136,7 +136,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-17T06:16:13+00:00
 Texto:
 Analisando os Prompts
@@ -170,7 +170,7 @@ Esse método dá ao modelo um guia mais concreto, aumentando fidelidade e consis
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-17T06:15:42+00:00
 Texto:
 ===================
@@ -178,7 +178,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-17T06:15:40+00:00
 Texto:
 Com base na análise dos prompts do *Awesome-Nano-Banana-images* e materiais relacionados, aqui estão os aprendizados práticos que você pode aplicar de imediato para criar prompts melhores e ter resultados consistentes:
@@ -196,7 +196,7 @@ Com base na análise dos prompts do *Awesome-Nano-Banana-images* e materiais rel
 
 2. **Especifique o estilo visual**
 
-   * O modelo responde bem a termos como: “cinematic”, “digital art”, “oil painting”, “retro 80s photo”, “Pixar style”.
+   * O modelo responde bem a termos como: “cARCKHÉtic”, “digital art”, “oil painting”, “retro 80s photo”, “Pixar style”.
    * Isso direciona a estética final e evita resultados genéricos.
 
 3. **Defina o que deve permanecer igual**
@@ -247,7 +247,7 @@ Com base na análise dos prompts do *Awesome-Nano-Banana-images* e materiais rel
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-17T06:15:12+00:00
 Texto:
 ==================
@@ -255,7 +255,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-17T06:15:09+00:00
 Texto:
 Aqui vai uma análise das técnicas usadas nos prompts do *Awesome-Nano-Banana-images* e conteúdos relacionados, mais uma visão geral do que parece funcionar bem. Se quiser, posso resumir em PDF ou esquema visual também.
@@ -303,7 +303,7 @@ Isso mostra que modelos como o Nano Banana valorizam muito a precisão semântic
 ------------------------------
 
 MENSAGEM 12
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-17T06:09:13+00:00
 Texto:
 https://github.com/PicoTrex/Awesome-Nano-Banana-images/blob/main/README_en.md
@@ -312,7 +312,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 13
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-17T06:08:58+00:00
 Texto:
 100 Prompts Nano Banana
@@ -320,7 +320,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 14
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-17T06:08:56+00:00
 Texto:
 .
@@ -328,7 +328,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 15
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-17T06:08:56+00:00
 Texto:
 .
@@ -336,7 +336,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 16
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-17T06:08:55+00:00
 Texto:
 .
@@ -344,7 +344,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 17
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-17T06:08:55+00:00
 Texto:
 .
@@ -352,7 +352,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 18
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-17T06:08:55+00:00
 Texto:
 https://chatgpt.com/c/68ca50f0-c1ac-832b-9def-8a34b1d4f9b0
@@ -361,7 +361,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 19
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-17T06:08:54+00:00
 Texto:
 1
@@ -369,7 +369,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 20
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-17T06:08:48+00:00
 Texto: [Sem texto]
 

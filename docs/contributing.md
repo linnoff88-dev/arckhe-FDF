@@ -43,7 +43,7 @@ Obrigado pelo interesse em contribuir! Este projeto é **community-driven** e su
 
 **Encontrou um problema?**
 
-1. Verifique se já não foi reportado em [Issues](https://github.com/inema/designer-do-futuro/issues)
+1. Verifique se já não foi reportado em [Issues](https://github.com/ARCKHÉ/designer-do-futuro/issues)
 2. Se não, crie nova issue com:
    - Título descritivo
    - Descrição do problema
@@ -55,7 +55,7 @@ Obrigado pelo interesse em contribuir! Este projeto é **community-driven** e su
 
 **Tem uma ideia?**
 
-1. Abra uma [Discussion](https://github.com/inema/designer-do-futuro/discussions)
+1. Abra uma [Discussion](https://github.com/ARCKHÉ/designer-do-futuro/discussions)
 2. Categoria: "Ideas"
 3. Descreva sua sugestão
 4. Explique o valor para a comunidade
@@ -100,7 +100,7 @@ git clone https://github.com/SEU-USUARIO/designer-do-futuro.git
 cd designer-do-futuro
 
 # 3. Adicione remote upstream
-git remote add upstream https://github.com/inema/designer-do-futuro.git
+git remote add upstream https://github.com/ARCKHÉ/designer-do-futuro.git
 
 # 4. Crie uma branch para sua feature
 git checkout -b minha-contribuicao
@@ -272,13 +272,13 @@ Violações serão levadas a sério e podem resultar em banimento do projeto.
 
 **Não sabe por onde começar?**
 
-- 💬 Pergunte no [Discord](https://discord.gg/inema-club) canal #contribuidores
-- 📧 Email: contribuidores@inema.club
-- 🐙 Abra uma [Discussion no GitHub](https://github.com/inema/designer-do-futuro/discussions)
+- 💬 Pergunte no [Discord](https://discord.gg/ARCKHÉ-club) canal #contribuidores
+- 📧 Email: contribuidores@ARCKHÉ AI
+- 🐙 Abra uma [Discussion no GitHub](https://github.com/ARCKHÉ/designer-do-futuro/discussions)
 
 **Quer uma tarefa específica?**
 
-Veja as [Issues com label "good first issue"](https://github.com/inema/designer-do-futuro/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
+Veja as [Issues com label "good first issue"](https://github.com/ARCKHÉ/designer-do-futuro/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22)
 
 ---
 
@@ -308,8 +308,8 @@ Obrigado por contribuir com o Designer do Futuro! Sua ajuda torna a educação e
 
 **🤝 Juntos somos mais fortes!**
 
-[Começar a Contribuir](https://github.com/inema/designer-do-futuro) | [Ver Issues](https://github.com/inema/designer-do-futuro/issues) | [Discord](https://discord.gg/inema-club)
+[Começar a Contribuir](https://github.com/ARCKHÉ/designer-do-futuro) | [Ver Issues](https://github.com/ARCKHÉ/designer-do-futuro/issues) | [Discord](https://discord.gg/ARCKHÉ-club)
 
-Feito com ❤️ pela comunidade INEMA
+Feito com ❤️ pela comunidade ARCKHÉ
 
 </div>

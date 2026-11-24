@@ -10,7 +10,7 @@ Midias baixadas: 3
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-13T00:52:23+00:00
 Texto:
 este link é so referencia minha das fontes
@@ -34,7 +34,7 @@ Esse link tá dando erro
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T05:07:47+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_2003_004.jpg
@@ -42,7 +42,7 @@ Midia: MessageMediaPhoto -> photo_2003_004.jpg
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T05:07:36+00:00
 Texto:
 No vídeo ele deixa escapar vários **hacks e truques de workflow** que são a base do método dele. Aqui está a lista organizada:
@@ -110,7 +110,7 @@ No vídeo ele deixa escapar vários **hacks e truques de workflow** que são a b
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T05:04:58+00:00
 Texto:
 ==================
@@ -118,7 +118,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T05:04:55+00:00
 Texto:
 Vou preparar os 7 prompts no **formato certo para usar no ChatGPT antes de enviar ao Gemini (Nano Banana)**.
@@ -149,7 +149,7 @@ O rosto deve permanecer fiel à foto, transmitindo autoridade e proximidade."
 
 **Prompt para ChatGPT**
 "Reescreva um prompt para o Gemini que aplique estilo de podcast profissional a uma foto.
-Inclua fundo escuro, iluminação de estúdio, microfone em primeiro plano e acabamento cinematográfico.
+Inclua fundo escuro, iluminação de estúdio, microfone em primeiro plano e acabamento cARCKHÉtográfico.
 O rosto original deve ser preservado sem alterações expressivas."
 
 ---
@@ -163,10 +163,10 @@ com reflexos sutis e acabamento de apresentação profissional."
 
 ---
 
-## 5. Cena Cinematográfica (O Poderoso Chefão)
+## 5. Cena CARCKHÉtográfica (O Poderoso Chefão)
 
 **Prompt para ChatGPT**
-"Reescreva um prompt para o Gemini que crie uma cena cinematográfica inspirada em filmes de máfia como 'O Poderoso Chefão'.
+"Reescreva um prompt para o Gemini que crie uma cena cARCKHÉtográfica inspirada em filmes de máfia como 'O Poderoso Chefão'.
 A pessoa da foto deve aparecer com feições preservadas, usando terno preto elegante, com iluminação lateral dramática
 e fundo esfumaçado em clima de suspense."
 
@@ -201,7 +201,7 @@ mantendo fundo e identidade visual iguais para consistência de marca."
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T05:03:41+00:00
 Texto:
 =======================
@@ -209,7 +209,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T05:03:38+00:00
 Texto:
 Vou te explicar a diferença prática entre usar os prompts **direto no Gemini (Nano Banana)** e passar **antes pelo ChatGPT**.
@@ -262,7 +262,7 @@ O estilo deve ser clean, semelhante a apresentações de design de grandes agên
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T05:02:58+00:00
 Texto:
 =================
@@ -270,7 +270,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T05:02:54+00:00
 Texto:
 Vou criar um **kit de prompts prontos**, baseados exatamente nos exemplos e usos que o autor cita no vídeo do Nano Banana. Eles estão estruturados para funcionar no Gemini (Nano Banana), mas sempre podem ser refinados via ChatGPT antes de enviar.
@@ -301,7 +301,7 @@ Aplique o estilo de uma sessão fotográfica profissional de podcast:
 - Fundo escuro com iluminação de estúdio.  
 - Microfone de podcast visível em primeiro plano.  
 - Estilo moderno e consistente, como capa de conteúdo de mídia digital.  
-- Cores neutras e acabamento cinematográfico.
+- Cores neutras e acabamento cARCKHÉtográfico.
 
 ```---
 
@@ -315,9 +315,9 @@ Ana```lise o screenshot fornecido e crie um mockup polido e profissional:
 
 -```--
 
-### 5. Cena Cinematográfica (O Poderoso Chefão)
+### 5. Cena CARCKHÉtográfica (O Poderoso Chefão)
 
-Crie``` uma cena cinematográfica inspirada em pôsteres clássicos de filmes de máfia, como "O Poderoso Chefão".  
+Crie``` uma cena cARCKHÉtográfica inspirada em pôsteres clássicos de filmes de máfia, como "O Poderoso Chefão".  
 Use iluminação escura, fundo dramático e atmosfera de suspense.  
 Coloque a pessoa da imagem fornecida como personagem principal, mantendo as feições originais.  
 Vista-a com terno preto elegante e adicione detalhes como luz lateral suave e fundo esfumaçado.
@@ -345,7 +345,7 @@ Estilo: retrato corporativo profissional para LinkedIn e materiais de marca.```
 ------------------------------
 
 MENSAGEM 12
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T05:01:56+00:00
 Texto:
 ===============
@@ -353,7 +353,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 13
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T05:01:54+00:00
 Texto:
 * Não usar Gemini/Nano Banana para “mesclar imagens direto”.
@@ -363,7 +363,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 14
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T05:01:52+00:00
 Texto:
 ===================
@@ -371,7 +371,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 15
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T05:00:11+00:00
 Texto:
 ### Exemplos e estilos de prompts mencionados
@@ -402,7 +402,7 @@ Texto:
    * Exemplo citado: “Digitize any screenshot into a beautiful mockup on brand.”
    * Útil para criar apresentações e material de marketing sem design manual.
 
-5. **Cenas cinematográficas**
+5. **Cenas cARCKHÉtográficas**
 
    * Exemplo com o **pôster do filme O Poderoso Chefão**:
 
@@ -436,7 +436,7 @@ Ele reforça que o segredo é:
 ------------------------------
 
 MENSAGEM 16
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T04:58:52+00:00
 Texto:
 ==================
@@ -444,7 +444,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 17
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T04:58:48+00:00
 Texto:
 Aqui está o resumo do vídeo sobre o modelo de imagens **Nano Banana** no Google Gemini AI:
@@ -495,7 +495,7 @@ O vídeo mostra que o Nano Banana não é apenas “mais um Photoshop com IA”,
 ------------------------------
 
 MENSAGEM 18
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T04:57:53+00:00
 Texto:
 https://www.youtube.com/watch?v=-AntmYWIX3U
@@ -504,7 +504,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 19
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T04:54:47+00:00
 Texto:
 Hacks 100 horas de Testes
@@ -512,7 +512,7 @@ Hacks 100 horas de Testes
 ------------------------------
 
 MENSAGEM 20
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T04:54:45+00:00
 Texto:
 .
@@ -520,7 +520,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 21
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T04:54:45+00:00
 Texto:
 ..
@@ -528,7 +528,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 22
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T04:54:44+00:00
 Texto:
 ..
@@ -536,7 +536,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 23
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T04:54:44+00:00
 Texto:
 .
@@ -544,7 +544,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 24
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T04:54:44+00:00
 Texto:
 .
@@ -552,7 +552,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 25
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T04:54:44+00:00
 Texto:
 https://chatgpt.com/c/68c3a616-9fb8-8329-a0d5-68893073b209
@@ -561,7 +561,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 26
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T04:54:43+00:00
 Texto:
 1
@@ -569,7 +569,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 27
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-09-12T04:54:39+00:00
 Texto: [Sem texto]
 

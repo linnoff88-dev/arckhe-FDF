@@ -10,7 +10,7 @@ Midias baixadas: 2
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-02-25T01:35:23+00:00
 Texto:
 Consulte a Descrição no CivitAI
@@ -20,7 +20,7 @@ Se não mencionam, provavelmente não foram treinados com suporte para ControlNe
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-02-25T01:34:58+00:00
 Texto:
 Verifique a Arquitetura do Modelo
@@ -62,7 +62,7 @@ Ja estive em Uma Comunidade Oficial deles. eles dao Muitos Nodes para Uso, trein
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-29T04:11:45+00:00
 Texto:
 Pesquisei algo, 
@@ -105,7 +105,7 @@ Gostaria de saber mais a respeito das comunidades disponíveis, aonde posso enco
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T04:56:48+00:00
 Texto:
 As ligações no **ComfyUI** referem-se ao **sistema de nós** que é usado para criar fluxos de trabalho visuais. Cada nó representa uma função ou parte do processo de geração de imagens (como entrada de texto, configuração de modelo, ajuste de parâmetros, etc.), e as **ligações entre os nós** definem como os dados fluem de uma etapa para outra no pipeline de geração. Vamos detalhar isso: 
@@ -169,7 +169,7 @@ As ligações no **ComfyUI** referem-se ao **sistema de nós** que é usado para
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T04:56:02+00:00
 Texto:
 O **ComfyUI** pode ser executado em diferentes ambientes, dependendo do seu hardware e das ferramentas disponíveis. Aqui estão as principais opções para rodá-lo: 
@@ -217,7 +217,7 @@ Se você precisar de instruções detalhadas para algum desses métodos, posso t
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T04:55:43+00:00
 Texto:
 O **ComfyUI** é uma interface gráfica de usuário (GUI) altamente modular e flexível para o Stable Diffusion, projetada para fornecer controle avançado sobre o processo de geração de imagens por inteligência artificial. Ele permite que os usuários configurem fluxos de trabalho personalizados através de um sistema de "nós", possibilitando explorar o potencial máximo do modelo de difusão estável. 
@@ -255,7 +255,7 @@ Quer ajuda com a instalação ou em como usar o ComfyUI para criar fluxos espec�
 ------------------------------
 
 MENSAGEM 12
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T04:53:52+00:00
 Texto:
 ComfyUI
@@ -263,7 +263,7 @@ ComfyUI
 ------------------------------
 
 MENSAGEM 13
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T04:53:49+00:00
 Texto:
 0
@@ -271,7 +271,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 14
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T04:53:45+00:00
 Texto:
 8
@@ -279,7 +279,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 15
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T04:53:45+00:00
 Texto:
 7
@@ -287,7 +287,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 16
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T04:53:44+00:00
 Texto:
 6
@@ -295,7 +295,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 17
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T04:53:44+00:00
 Texto:
 5
@@ -303,7 +303,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 18
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T04:53:44+00:00
 Texto:
 4
@@ -311,7 +311,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 19
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T04:53:43+00:00
 Texto:
 3
@@ -319,7 +319,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 20
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T04:53:43+00:00
 Texto:
 2
@@ -327,7 +327,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 21
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T04:53:42+00:00
 Texto:
 https://chatgpt.com/c/6791c92c-3f8c-8009-842c-6ee4c4b543cf
@@ -336,7 +336,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 22
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T04:53:36+00:00
 Texto: [Sem texto]
 

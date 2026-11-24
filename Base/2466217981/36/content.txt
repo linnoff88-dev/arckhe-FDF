@@ -42,7 +42,7 @@ Bom dia, Nei pode me ajudar, estou tentando montar uma aplicação onde envio a 
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-02-25T01:32:42+00:00
 Texto:
 show
@@ -94,7 +94,7 @@ Deixa ver algumas coisas que tenho aqui...
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-29T05:11:43+00:00
 Texto:
 Sim, a qualidade e as dimensões da foto influenciam muito no resultado do **FaceFusion**. Aqui estão alguns fatores e macetes que podem melhorar a semelhança no **FaceSwap**:
@@ -174,7 +174,7 @@ eu uso diversas... o segredo não é a ferramenta, mas como solicitar, o prompt,
 ------------------------------
 
 MENSAGEM 18
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T02:55:31+00:00
 Texto:
 por isso se fala, q vmaos usar sempre varias
@@ -190,7 +190,7 @@ verdade...
 ------------------------------
 
 MENSAGEM 20
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T02:54:30+00:00
 Texto:
 cada ferraneta vai ter suas caracteristicas nem sempre vamos replicar o estilo
@@ -206,7 +206,7 @@ No canva sai show, mas tem um limite muito pequenos de tokens, fica difícil man
 ------------------------------
 
 MENSAGEM 22
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T02:53:20+00:00
 Texto:
 outra coisa tem ver os moldelos, qual estilo, quals origem do algoritimo qual temperatura.... pois no canva  tem ver q modelo usou
@@ -222,7 +222,7 @@ Já fiz isso... se aproxima
 ------------------------------
 
 MENSAGEM 24
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T02:52:11+00:00
 Texto:
 pegue uma imagem semelhante e manda o chat descrever
@@ -238,7 +238,7 @@ Sr. Nei, como  gerar imagens no estilo lúdico, iguais aos do Canva? passei as i
 ------------------------------
 
 MENSAGEM 26
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T02:39:25+00:00
 Texto:
 Ferramenta de IMAGENS  - (No VIP é sempre atualizada)
@@ -270,7 +270,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 27
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 https://www.blinkshot.io/
@@ -280,7 +280,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 28
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 https://blackforestlabs.ai/
@@ -289,7 +289,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 29
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 https://opendemo.ai/ai-tools/flux-fill
@@ -298,7 +298,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 30
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 https://flux-ai.io/pt/video-generator/
@@ -307,7 +307,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 31
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 https://fal.ai/models
@@ -316,7 +316,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 32
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 https://fal.ai/models/fal-ai/flux-pro/v1/fill
@@ -325,7 +325,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 33
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 freepik.com
@@ -333,7 +333,7 @@ freepik.com
 ------------------------------
 
 MENSAGEM 34
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 https://replicate.com/collections/flux
@@ -342,7 +342,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 35
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 https://github.com/wenqsun/DimensionX
@@ -351,7 +351,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 36
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 https://arxiv.org/abs/2411.04928
@@ -360,7 +360,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 37
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 https://civitai.com/
@@ -369,7 +369,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 38
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 https://kaiber.ai/
@@ -378,7 +378,7 @@ videos e imagens - superstudio
 ------------------------------
 
 MENSAGEM 39
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 https://www.seaart.ai/pt/ai-tools
@@ -387,7 +387,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 40
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_71_040.jpg
@@ -395,7 +395,7 @@ Midia: MessageMediaPhoto -> photo_71_040.jpg
 ------------------------------
 
 MENSAGEM 41
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto: [Sem texto]
 Midia: MessageMediaPhoto -> photo_70_041.jpg
@@ -403,7 +403,7 @@ Midia: MessageMediaPhoto -> photo_70_041.jpg
 ------------------------------
 
 MENSAGEM 42
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 tudo em um
@@ -411,7 +411,7 @@ tudo em um
 ------------------------------
 
 MENSAGEM 43
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 https://glif.app/
@@ -420,7 +420,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 44
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 https://www.aiease.ai
@@ -429,7 +429,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 45
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 https://www.recraft.ai
@@ -438,7 +438,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 46
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 **1) Genmo:** Anima fotos com base em instruções de texto;
@@ -456,7 +456,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 47
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 freepik.com
@@ -464,7 +464,7 @@ freepik.com
 ------------------------------
 
 MENSAGEM 48
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 https://www.fluxpro.ai/pt
@@ -473,7 +473,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 49
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 https://flux.api.airforce/
@@ -481,7 +481,7 @@ https://flux.api.airforce/
 ------------------------------
 
 MENSAGEM 50
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 https://kovenyu.com/
@@ -490,7 +490,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 51
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 alguns modelos de **text2image** que existem e mais conhecidos:
@@ -512,7 +512,7 @@ PixArt-Sigma
 ------------------------------
 
 MENSAGEM 52
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 https://huggingface.co/spaces/jbilcke-hf/FacePoke
@@ -521,7 +521,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 53
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 https://blackforestlabs.ai/announcing-black-forest-labs/
@@ -530,7 +530,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 54
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 https://huggingface.co/black-forest-labs
@@ -539,7 +539,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 55
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 https://fal.ai/
@@ -547,7 +547,7 @@ https://fal.ai/
 ------------------------------
 
 MENSAGEM 56
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 https://replicate.com/collections/flux
@@ -555,7 +555,7 @@ https://replicate.com/collections/flux
 ------------------------------
 
 MENSAGEM 57
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 Aqui estão alguns links úteis para você explorar mais sobre o ComfyUI:
@@ -573,7 +573,7 @@ Esses links devem fornecer todas as informações necessárias para você começ
 ------------------------------
 
 MENSAGEM 58
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 ComfyUI é uma interface gráfica de usuário (GUI) projetada para facilitar o uso de modelos de difusão e outras técnicas de geração de imagens baseadas em inteligência artificial, especialmente aquelas relacionadas ao estilo do Stable Diffusion. O ComfyUI simplifica o processo de ajuste fino, configuração e execução desses modelos, tornando-os mais acessíveis para usuários que preferem uma interface visual em vez de linhas de comando ou programação complexa.
@@ -595,7 +595,7 @@ ComfyUI é uma excelente opção para artistas digitais, designers e qualquer pe
 ------------------------------
 
 MENSAGEM 59
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 Resumo das Ferramentas por Categoria
@@ -666,7 +666,7 @@ Huggingface Portrait
 ------------------------------
 
 MENSAGEM 60
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 7
@@ -674,7 +674,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 61
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 6
@@ -682,7 +682,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 62
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 5
@@ -690,7 +690,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 63
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 4
@@ -698,7 +698,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 64
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 3
@@ -706,7 +706,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 65
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 2
@@ -714,7 +714,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 66
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:38:54+00:00
 Texto:
 1
@@ -722,7 +722,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 67
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T03:37:21+00:00
 Texto: [Sem texto]
 

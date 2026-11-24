@@ -2,7 +2,7 @@
 
 ## 📋 Resumo Executivo
 
-Projeto educacional **100% gratuito e open-source** para ensinar criação de imagens profissionais com IA, desenvolvido para as comunidades **INEMA.CLUB** e **INEMA.VIP**.
+Projeto educacional **100% gratuito e open-source** para ensinar criação de imagens profissionais com IA, desenvolvido para as comunidades **ARCKHÉ AI** e **ARCKHÉ.VIP**.
 
 **Status:** ✅ PRONTO PARA LANÇAMENTO
 
@@ -56,8 +56,8 @@ designer-do-futuro/
 │   └── assets/                  📁 Pasta criada
 │
 ├── comunidade/                  ✅ Documentação Comunidades
-│   ├── inema-club.md            ✅ Comunidade gratuita
-│   ├── inema-vip.md             ✅ Comunidade premium
+│   ├── ARCKHÉ-club.md            ✅ Comunidade gratuita
+│   ├── ARCKHÉ-vip.md             ✅ Comunidade premium
 │   └── codigo-conduta.md        📝 Para criar
 │
 └── scripts/                     📁 Estrutura criada
@@ -135,7 +135,7 @@ designer-do-futuro/
 
 ### ✅ Comunidades Documentadas
 
-**INEMA.CLUB (Gratuito):**
+**ARCKHÉ AI (Gratuito):**
 - Descrição completa
 - Benefícios detalhados
 - Como participar
@@ -143,7 +143,7 @@ designer-do-futuro/
 - Desafios mensais
 - Calendário de eventos
 
-**INEMA.VIP (Premium):**
+**ARCKHÉ.VIP (Premium):**
 - Proposta de valor
 - Comparativo CLUB vs VIP
 - Planos de preços
@@ -158,7 +158,7 @@ designer-do-futuro/
 - Hero section impactante
 - 4 cards de trilhas
 - Seção de recursos
-- Comunidades INEMA
+- Comunidades ARCKHÉ
 - Footer completo
 - 100% responsiva
 - Design system aplicado
@@ -171,8 +171,8 @@ designer-do-futuro/
 ### Cores Principais
 
 ```css
-INEMA Primary:     #6366F1  (Indigo)
-INEMA Accent:      #EC4899  (Pink - VIP)
+ARCKHÉ Primary:     #6366F1  (Indigo)
+ARCKHÉ Accent:      #EC4899  (Pink - VIP)
 
 Trilha Iniciante:      #10B981  (Emerald)
 Trilha Técnico:        #3B82F6  (Blue)
@@ -195,9 +195,9 @@ Pesos: 400, 500, 600, 700, 800
 
 **Alta Prioridade:**
 - [ ] Criar domínio/configurar GitHub Pages
-- [ ] Criar servidor Discord INEMA.CLUB
+- [ ] Criar servidor Discord ARCKHÉ AI
 - [ ] Configurar newsletter
-- [ ] Criar contas sociais (@inema.club)
+- [ ] Criar contas sociais (@ARCKHÉ AI)
 
 **Média Prioridade:**
 - [ ] Gravar vídeo de apresentação
@@ -253,8 +253,8 @@ Pesos: 400, 500, 600, 700, 800
 ### Metas 2025 (Primeiro Ano)
 
 **Comunidade:**
-- 🎯 1.000 membros INEMA.CLUB
-- 🎯 100 membros INEMA.VIP
+- 🎯 1.000 membros ARCKHÉ AI
+- 🎯 100 membros ARCKHÉ.VIP
 - 🎯 500 certificados emitidos
 
 **Conteúdo:**
@@ -290,7 +290,7 @@ Pesos: 400, 500, 600, 700, 800
 
 ## 💰 Modelo de Negócio
 
-### Gratuito (INEMA.CLUB)
+### Gratuito (ARCKHÉ AI)
 - Todo conteúdo educacional
 - Comunidade Discord
 - Certificados básicos
@@ -298,7 +298,7 @@ Pesos: 400, 500, 600, 700, 800
 
 **Receita:** R$ 0 (sustentado por VIP)
 
-### Premium (INEMA.VIP)
+### Premium (ARCKHÉ.VIP)
 - Mentorias ao vivo (2x/mês)
 - Feedback personalizado
 - Workshops exclusivos
@@ -406,13 +406,13 @@ Pesos: 400, 500, 600, 700, 800
 
 ## 📞 Contatos Planejados
 
-- **Website:** inema.club/designer-do-futuro
-- **Email:** contato@inema.club
-- **Discord:** discord.gg/inema-club
-- **GitHub:** github.com/inema/designer-do-futuro
-- **Instagram:** @inema.club
-- **Twitter:** @inemaclub
-- **LinkedIn:** linkedin.com/company/inema-club
+- **Website:** ARCKHÉ AI/designer-do-futuro
+- **Email:** contato@ARCKHÉ AI
+- **Discord:** discord.gg/ARCKHÉ-club
+- **GitHub:** github.com/ARCKHÉ/designer-do-futuro
+- **Instagram:** @ARCKHÉ AI
+- **Twitter:** @ARCKHÉclub
+- **LinkedIn:** linkedin.com/company/ARCKHÉ-club
 
 ---
 
@@ -430,7 +430,7 @@ Este projeto foi desenvolvido com:
 
 **MIT License** - Livre para usar, modificar e distribuir.
 
-Copyright (c) 2025 INEMA.CLUB
+Copyright (c) 2025 ARCKHÉ AI
 
 ---
 
@@ -450,6 +450,6 @@ Copyright (c) 2025 INEMA.CLUB
 
 Feito com ❤️ para democratizar a criação visual com IA
 
-[Ver no GitHub](https://github.com/inema/designer-do-futuro) | [INEMA.CLUB](https://inema.club)
+[Ver no GitHub](https://github.com/ARCKHÉ/designer-do-futuro) | [ARCKHÉ AI](https://ARCKHÉ AI)
 
 </div>

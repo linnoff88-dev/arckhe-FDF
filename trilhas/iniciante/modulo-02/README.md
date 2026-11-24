@@ -488,7 +488,7 @@ Você dominou os fundamentos visuais! Agora está pronto para aprender a se comu
 
 **🎨 Você agora vê o mundo com olhos de criador**
 
-Feito com ❤️ pela comunidade INEMA
+Feito com ❤️ pela comunidade ARCKHÉ
 
 [← Módulo Anterior](../modulo-01/README.md) | [Próximo Módulo →](../modulo-03/README.md)
 

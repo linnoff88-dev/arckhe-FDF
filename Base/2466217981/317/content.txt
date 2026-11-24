@@ -50,7 +50,7 @@ Boa tarde amigos! Estou procurando uma IA capaz de fazer projeções de reforma 
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-18T04:30:09+00:00
 Texto:
 A melhor e o ideogram
@@ -74,7 +74,7 @@ nao esta mais disponivel?
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-03-14T03:52:45+00:00
 Texto:
 ou la no vip ou em cada grupo no duvidas
@@ -93,7 +93,7 @@ Peço desculpa se escrevi no lugar errado, não estou achando um local especific
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:23:01+00:00
 Texto:
 Aqui está uma classificação geral de todos os modelos e ferramentas, agrupando-os por características e usos: 
@@ -157,7 +157,7 @@ Aqui está uma classificação geral de todos os modelos e ferramentas, agrupand
 ------------------------------
 
 MENSAGEM 12
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:22:47+00:00
 Texto:
 =============================
@@ -165,7 +165,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 13
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:21:46+00:00
 Texto:
 Aqui está a lista que eu ainda não tinha citado: 
@@ -194,7 +194,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 14
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:20:53+00:00
 Texto:
 A razão pela qual não mencionei essas ferramentas ou modelos inicialmente é que muitas delas são variações ou integrações de modelos já amplamente conhecidos, como Stable Diffusion, Flux ou DALL·E, e não estavam diretamente destacadas nas fontes pesquisadas. Além disso: 
@@ -210,7 +210,7 @@ A razão pela qual não mencionei essas ferramentas ou modelos inicialmente é q
 ------------------------------
 
 MENSAGEM 15
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:18:45+00:00
 Texto:
 Aqui está uma lista simples e direta dos principais modelos de IA existentes atualmente para geração de imagens: 
@@ -223,7 +223,7 @@ Aqui está uma lista simples e direta dos principais modelos de IA existentes at
 6. **MidJourney**: Foco em imagens artísticas e estilizadas. 
 7. **Imagen**: Google, gera imagens de alta qualidade a partir de texto. 
 8. **DreamBooth**: Personalização de imagens com base em dados específicos. 
-9. **Runway Gen-2**: Geração de imagens e vídeos com estilo cinematográfico. 
+9. **Runway Gen-2**: Geração de imagens e vídeos com estilo cARCKHÉtográfico. 
 10. **Leonardo.ai**: Design de jogos e arte conceitual, focado em qualidade. 
 11. **ControlNet**: Controle preciso de poses e estilos. 
 12. **DeepFloyd IF**: Detalhes textuais e realismo fotográfico. 
@@ -236,7 +236,7 @@ Aqui está uma lista simples e direta dos principais modelos de IA existentes at
 ------------------------------
 
 MENSAGEM 16
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:17:54+00:00
 Texto:
 Aqui está a lista dos modelos lançados após 2023, com descrições simples: 
@@ -249,7 +249,7 @@ Aqui está a lista dos modelos lançados após 2023, com descrições simples:
  
 4. **Gemini 2.0 (2024)**: Modelo multimodal do Google que combina texto, imagem e áudio, com agentes autônomos para realizar tarefas. 
  
-5. **Runway Gen-2 (2024)**: Evolução para criação de imagens e vídeos com estilo cinematográfico e transições suaves. 
+5. **Runway Gen-2 (2024)**: Evolução para criação de imagens e vídeos com estilo cARCKHÉtográfico e transições suaves. 
  
 6. **Recraft V3 (2024)**: Plataforma de design visual que facilita a criação e edição de imagens para designers. 
  
@@ -262,7 +262,7 @@ Aqui está a lista dos modelos lançados após 2023, com descrições simples:
 ------------------------------
 
 MENSAGEM 17
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:16:12+00:00
 Texto:
 https://gamma.app/docs/rnqmw4kx1mhq1yy
@@ -271,7 +271,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 18
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:15:43+00:00
 Texto:
 de texto. 
@@ -298,7 +298,7 @@ de texto.
 ------------------------------
 
 MENSAGEM 19
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:15:43+00:00
 Texto:
 Aqui está uma lista dos principais modelos de IA para geração de imagens, junto com suas características principais e contribuições para a evolução dessa tecnologia: 
@@ -382,7 +382,7 @@ Aqui está uma lista dos principais modelos de IA para geração de imagens, jun
    - **Criado por**: Runway ML. 
    - **Características**: 
      - Geração de imagens e vídeos a partir de texto. 
-     - Especialista em estilos cinematográficos e transições suaves para multimídia. 
+     - Especialista em estilos cARCKHÉtográficos e transições suaves para multimídia. 
  
 --- 
  
@@ -412,7 +412,7 @@ Aqui está uma lista dos principais modelos de IA para geração de imagens, jun
 ------------------------------
 
 MENSAGEM 20
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:15:24+00:00
 Texto:
 9
@@ -420,7 +420,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 21
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:15:23+00:00
 Texto:
 7
@@ -428,7 +428,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 22
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:15:22+00:00
 Texto:
 5
@@ -436,7 +436,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 23
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:15:22+00:00
 Texto:
 4
@@ -444,7 +444,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 24
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:15:21+00:00
 Texto:
 2
@@ -452,7 +452,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 25
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:15:21+00:00
 Texto:
 https://chatgpt.com/c/678878ea-7ec0-8009-b88c-d792d28cb785
@@ -461,7 +461,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 26
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-16T03:15:12+00:00
 Texto: [Sem texto]
 

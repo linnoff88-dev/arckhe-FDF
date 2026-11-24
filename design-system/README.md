@@ -2,7 +2,7 @@
 
 > Sistema de Design Completo adaptado do FEP para o projeto Designer do Futuro
 
-**Versão:** 1.0 | **Data:** 2025-11-24 | **Autor:** INEMA Team
+**Versão:** 1.0 | **Data:** 2025-11-24 | **Autor:** ARCKHÉ Team
 
 ---
 
@@ -58,11 +58,11 @@ Tagline:  "Criatividade Amplificada com IA"
 ### Sub-marcas
 
 ```
-INEMA.CLUB
+ARCKHÉ AI
 └─ Fonte: Inter SemiBold (600)
 └─ Cor: Emerald 600 (#10B981)
 
-INEMA.VIP
+ARCKHÉ.VIP
 └─ Fonte: Inter SemiBold (600)
 └─ Cor: Pink 600 (#EC4899)
 ```
@@ -91,7 +91,7 @@ INEMA.VIP
 
 ```css
 /* Marca Principal */
---primary:        #6366F1;  /* Indigo 500 - INEMA */
+--primary:        #6366F1;  /* Indigo 500 - ARCKHÉ */
 --primary-dark:   #4F46E5;  /* Indigo 600 - Hover */
 --accent:         #EC4899;  /* Pink 500 - Destaques VIP */
 --accent-dark:    #DB2777;  /* Pink 600 - Hover */
@@ -120,7 +120,7 @@ INEMA.VIP
 background: linear-gradient(to bottom right, #6366F1, #4F46E5, #8B5CF6);
 /* Indigo → Indigo Dark → Purple */
 
-/* INEMA.VIP Badge */
+/* ARCKHÉ.VIP Badge */
 background: linear-gradient(90deg, #EC4899, #8B5CF6);
 /* Pink → Purple */
 
@@ -470,8 +470,8 @@ xl:  1280px  - Large desktop
       <div>
         <h4 class="font-semibold mb-4">Comunidade</h4>
         <ul class="space-y-2 text-sm">
-          <li><a href="#" class="text-gray-400 hover:text-white transition-colors">INEMA.CLUB</a></li>
-          <li><a href="#" class="text-gray-400 hover:text-white transition-colors">INEMA.VIP</a></li>
+          <li><a href="#" class="text-gray-400 hover:text-white transition-colors">ARCKHÉ AI</a></li>
+          <li><a href="#" class="text-gray-400 hover:text-white transition-colors">ARCKHÉ.VIP</a></li>
           <li><a href="#" class="text-gray-400 hover:text-white transition-colors">Discord</a></li>
           <li><a href="#" class="text-gray-400 hover:text-white transition-colors">GitHub</a></li>
         </ul>
@@ -491,7 +491,7 @@ xl:  1280px  - Large desktop
     </div>
 
     <div class="border-t border-gray-800 mt-12 pt-8 text-center text-sm text-gray-400">
-      <p>&copy; 2025 Designer do Futuro - INEMA. Todos os direitos reservados.</p>
+      <p>&copy; 2025 Designer do Futuro - ARCKHÉ. Todos os direitos reservados.</p>
       <p class="mt-2">Projeto open-source licenciado sob MIT</p>
     </div>
   </div>
@@ -604,4 +604,4 @@ XL Desktop (xl):   >= 1280px
 
 **Última atualização:** 2025-11-24
 **Versão:** 1.0
-**Autor:** INEMA Team
+**Autor:** ARCKHÉ Team

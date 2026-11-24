@@ -155,7 +155,7 @@ atmosfera de liberdade e alegria pura,
 - `abstract` - abstrato
 
 **ESTILOS POPULARES:**
-- `cinematic` - cinemático
+- `cARCKHÉtic` - cinemático
 - `vintage` - vintage/retrô
 - `modern` - moderno
 - `futuristic` - futurista
@@ -540,7 +540,7 @@ Parabéns! Você dominou a arte de escrever prompts efetivos. Agora está pronto
 
 **💬 Você agora fala a língua da IA criativa**
 
-Feito com ❤️ pela comunidade INEMA
+Feito com ❤️ pela comunidade ARCKHÉ
 
 [← Módulo Anterior](../modulo-02/README.md) | [Próximo Módulo →](../modulo-04/README.md)
 

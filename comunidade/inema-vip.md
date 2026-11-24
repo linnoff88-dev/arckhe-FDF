@@ -1,13 +1,13 @@
-# ✨ INEMA.VIP
+# ✨ ARCKHÉ.VIP
 ## Comunidade Premium Para Criadores Sérios
 
 > **Acelere sua jornada com mentoria exclusiva, feedback personalizado e networking premium**
 
 ---
 
-## 🌟 O Que é o INEMA.VIP?
+## 🌟 O Que é o ARCKHÉ.VIP?
 
-**INEMA.VIP** é a comunidade premium do Designer do Futuro, criada para criadores que querem:
+**ARCKHÉ.VIP** é a comunidade premium do Designer do Futuro, criada para criadores que querem:
 
 - 🚀 Acelerar seu aprendizado
 - 👨‍🏫 Receber mentoria personalizada
@@ -23,7 +23,7 @@
 
 ---
 
-## 💎 Tudo do INEMA.CLUB +
+## 💎 Tudo do ARCKHÉ AI +
 
 Você mantém todos os benefícios gratuitos:
 
@@ -259,7 +259,7 @@ Você mantém todos os benefícios gratuitos:
 ## ❓ FAQ VIP
 
 **Posso testar antes de assinar?**
-O INEMA.CLUB gratuito é seu "test drive". Se gostar, faça upgrade para VIP.
+O ARCKHÉ AI gratuito é seu "test drive". Se gostar, faça upgrade para VIP.
 
 **Posso cancelar quando quiser?**
 Sim! Plano mensal é sem fidelidade. Pode cancelar a qualquer momento.
@@ -309,7 +309,7 @@ Sim! Fique de olho em promoções especiais e parcerias.
 - Envie seus projetos
 - Conecte-se com a comunidade
 
-[🚀 Quero Ser VIP Agora](https://inema.club/vip)
+[🚀 Quero Ser VIP Agora](https://ARCKHÉ AI/vip)
 
 ---
 
@@ -325,16 +325,16 @@ Quer treinar sua equipe em criação com IA?
 - Workshops personalizados
 - Suporte dedicado
 
-[📧 Falar com time corporativo](mailto:empresas@inema.club)
+[📧 Falar com time corporativo](mailto:empresas@ARCKHÉ AI)
 
 ---
 
 ## 🔗 Links Importantes
 
-- 🌐 **Página VIP:** [inema.club/vip](https://inema.club/vip)
+- 🌐 **Página VIP:** [ARCKHÉ AI/vip](https://ARCKHÉ AI/vip)
 - 💬 **Discord VIP:** Acesso após assinatura
-- 📧 **Suporte VIP:** vip@inema.club
-- 💳 **Área do Membro:** [member.inema.club](https://member.inema.club)
+- 📧 **Suporte VIP:** vip@ARCKHÉ AI
+- 💳 **Área do Membro:** [member.ARCKHÉ AI](https://member.ARCKHÉ AI)
 
 ---
 
@@ -382,7 +382,7 @@ Quer treinar sua equipe em criação com IA?
 - ✅ Badge de "Founding Member"
 - ✅ Mentoria 1:1 extra
 
-[⚡ Aproveitar Oferta de Lançamento](https://inema.club/vip/launch)
+[⚡ Aproveitar Oferta de Lançamento](https://ARCKHÉ AI/vip/launch)
 
 ---
 
@@ -390,9 +390,9 @@ Quer treinar sua equipe em criação com IA?
 
 **✨ Pronto para acelerar sua jornada como criador com IA?**
 
-[Quero Ser VIP](https://inema.club/vip) | [Falar com Suporte](mailto:vip@inema.club) | [Voltar para CLUB](./inema-club.md)
+[Quero Ser VIP](https://ARCKHÉ AI/vip) | [Falar com Suporte](mailto:vip@ARCKHÉ AI) | [Voltar para CLUB](./ARCKHÉ-club.md)
 
-**INEMA.VIP** - Onde criadores sérios se tornam profissionais
+**ARCKHÉ.VIP** - Onde criadores sérios se tornam profissionais
 
 Feito com ❤️ pela comunidade
 

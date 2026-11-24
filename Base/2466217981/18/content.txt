@@ -10,7 +10,7 @@ Midias baixadas: 2
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T05:28:30+00:00
 Texto:
 Para aprimorar suas habilidades na criação de prompts no MidJourney, especialmente no que diz respeito a estilos e pesos, recomendo os seguintes recursos: 
@@ -30,7 +30,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T05:25:59+00:00
 Texto:
 stormy clouds in the background, realistic style, high detail, --ar 2:3 
@@ -44,7 +44,7 @@ stormy clouds in the background, realistic style, high detail, --ar 2:3
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T05:25:58+00:00
 Texto:
 Existem várias fontes para aprender a usar o **MidJourney** e criar prompts criativos e eficientes. Aqui estão alguns recursos e dicas que você pode usar para criar suas bases: 
@@ -105,7 +105,7 @@ Link do Discord: [MidJourney Discord](https://www.midjourney.com/)
 #### **Técnicas para Refinar Prompts** 
    - **Use Adjetivos Detalhados**: Descreva ao máximo (ex.: "dragão com escamas douradas e olhos brilhantes, cercado por fogo em uma caverna escura"). 
    - **Adicione Estilos Artísticos**: Tente algo como "em estilo vaporwave" ou "como uma pintura de Van Gogh". 
-   - **Especifique a Iluminação**: Inclua detalhes como "luz suave", "contra a luz", "luz neon" ou "iluminação cinematográfica". 
+   - **Especifique a Iluminação**: Inclua detalhes como "luz suave", "contra a luz", "luz neon" ou "iluminação cARCKHÉtográfica". 
    - **Mude o Foco**: Especifique o tipo de foco da imagem (ex.: “close-up de um rosto”, “plano aberto de uma paisagem”). 
  
 --- 
@@ -122,7 +122,7 @@ Link do Discord: [MidJourney Discord](https://www.midjourney.com/)
 #### **Exemplos Avançados** 
    - **Cena Fantástica:** 
      ``` 
-     A majestic phoenix rising from the ashes, glowing in vibrant orange and yellow tones, surrounded by a dark and mysterious forest, ultra-realistic, cinematic lighting, 4k resolution, --ar 16:9 
+     A majestic phoenix rising from the ashes, glowing in vibrant orange and yellow tones, surrounded by a dark and mysterious forest, ultra-realistic, cARCKHÉtic lighting, 4k resolution, --ar 16:9 
      ``` 
    - **Estilo Surrealista:** 
      ``` 
@@ -136,7 +136,7 @@ Midia: MessageMediaWebPage
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T05:24:34+00:00
 Texto:
 O **MidJourney** ainda é uma das ferramentas mais relevantes no mercado de geração de imagens por IA, mesmo com o avanço de concorrentes como **DALL·E**, **Stable Diffusion** e outras plataformas. Vamos explorar onde você pode usar o MidJourney e quais são suas vantagens em 2025: 
@@ -151,8 +151,8 @@ Mesmo com a evolução das ferramentas concorrentes, o MidJourney ainda mantém 
 #### 2. **Rapidez e Simplicidade**   
    A experiência via Discord é ágil e direta, ideal para quem quer gerar imagens rapidamente sem precisar configurar softwares complexos. 
  
-#### 3. **Estética Cinematográfica**   
-   Muitas das imagens do MidJourney têm uma aparência cinematográfica, com iluminação e composição que impressionam. Isso o torna ideal para criadores que buscam impacto visual. 
+#### 3. **Estética CARCKHÉtográfica**   
+   Muitas das imagens do MidJourney têm uma aparência cARCKHÉtográfica, com iluminação e composição que impressionam. Isso o torna ideal para criadores que buscam impacto visual. 
  
 #### 4. **Iterações Refinadas**   
    Você pode gerar variações e refinamentos de uma imagem com um simples clique, permitindo explorar ideias mais rapidamente. 
@@ -187,7 +187,7 @@ Se precisar de ajuda para criar prompts ou testar o potencial do MidJourney, pos
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-01-23T05:23:30+00:00
 Texto:
 O **MidJourney** é uma ferramenta de inteligência artificial voltada para a geração de imagens a partir de descrições textuais (os chamados prompts). Ela se destaca principalmente pela **qualidade artística e criativa** das imagens, sendo muito utilizada por designers, artistas e criadores de conteúdo. Aqui vai um panorama geral: 
@@ -233,7 +233,7 @@ O **MidJourney** é uma ferramenta de inteligência artificial voltada para a ge
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T02:05:41+00:00
 Texto:
 4
@@ -241,7 +241,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T02:05:39+00:00
 Texto:
 3
@@ -249,7 +249,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T02:05:37+00:00
 Texto:
 2
@@ -257,7 +257,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T02:05:35+00:00
 Texto:
 1
@@ -265,7 +265,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 10
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T02:05:32+00:00
 Texto:
 1
@@ -275,7 +275,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 11
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2024-12-25T02:05:23+00:00
 Texto: [Sem texto]
 

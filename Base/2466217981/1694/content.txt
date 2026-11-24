@@ -10,10 +10,10 @@ Midias baixadas: 0
 --------------------------------------------------
 
 MENSAGEM 1
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-07-05T01:16:26+00:00
 Texto:
-Aqui estão 10 tipos de lentes (ou efeitos de lentes) muito usados em fotografia, cinema e renderização 3D, com exemplos:
+Aqui estão 10 tipos de lentes (ou efeitos de lentes) muito usados em fotografia, cARCKHÉ e renderização 3D, com exemplos:
 
 1. **Grande Angular (Wide Angle)**
 
@@ -57,7 +57,7 @@ Aqui estão 10 tipos de lentes (ou efeitos de lentes) muito usados em fotografia
 
 9. **Anamórfica (Anamorphic)**
 
-   * Cria proporção cinematográfica widescreen e flares horizontais.
+   * Cria proporção cARCKHÉtográfica widescreen e flares horizontais.
    * Exemplo: Usada em filmes como “Blade Runner”.
 
 10. **Lensbaby (Criativa)**
@@ -68,7 +68,7 @@ Aqui estão 10 tipos de lentes (ou efeitos de lentes) muito usados em fotografia
 ------------------------------
 
 MENSAGEM 2
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-07-05T01:16:18+00:00
 Texto:
 .
@@ -76,7 +76,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 3
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-07-05T01:16:18+00:00
 Texto:
 .
@@ -84,7 +84,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 4
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-07-05T01:16:17+00:00
 Texto:
 .
@@ -92,7 +92,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 5
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-07-05T01:16:17+00:00
 Texto:
 .
@@ -100,7 +100,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 6
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-07-05T01:16:17+00:00
 Texto:
 .
@@ -108,7 +108,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 7
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-07-05T01:16:16+00:00
 Texto:
 .
@@ -116,7 +116,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 8
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-07-05T01:16:16+00:00
 Texto:
 1
@@ -124,7 +124,7 @@ Texto:
 ------------------------------
 
 MENSAGEM 9
-Autor: INEMA
+Autor: ARCKHÉ
 Data: 2025-07-05T01:16:10+00:00
 Texto: [Sem texto]
 
