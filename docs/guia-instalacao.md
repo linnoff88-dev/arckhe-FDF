@@ -1,4 +1,4 @@
-# 🚀 Guia de Instalação e Deploy
+# 🚀 Guia de Instalaçêo e Deploy
 
 ## Para Desenvolvedores e Contribuidores
 
@@ -26,11 +26,11 @@ cd FDF
 
 O projeto é baseado em **arquivos estáticos** (HTML, CSS via Tailwind CDN, JavaScript vanilla).
 
-Não requer build process ou instalação de dependências!
+Nêo requer build process ou instalaçêo de dependências!
 
 ### 3. Visualizar Localmente
 
-**Opção 1: Abrir diretamente no navegador**
+**Opçêo 1: Abrir diretamente no navegador**
 ```bash
 # Abra o arquivo HTML diretamente
 open website/index.html
@@ -38,7 +38,7 @@ open website/index.html
 start website/index.html
 ```
 
-**Opção 2: Usar servidor local (recomendado)**
+**Opçêo 2: Usar servidor local (recomendado)**
 
 Com Python:
 ```bash
@@ -54,7 +54,7 @@ npx serve
 ```
 
 Com VS Code:
-- Instale extensão "Live Server"
+- Instale extensêo "Live Server"
 - Clique direito em `index.html` → "Open with Live Server"
 
 ---
@@ -135,7 +135,7 @@ Se você tiver um domínio (exemplo: `ARCKHÉ AI`):
 
 O README principal já está otimizado com:
 - Badges (License, GitHub Pages)
-- Descrição clara
+- Descriçêo clara
 - Links para trilhas
 - Instruções de como começar
 - Como contribuir
@@ -208,7 +208,7 @@ Antes de fazer deploy de mudanças:
 
 ## 🐛 Troubleshooting
 
-### Problema: GitHub Pages não atualiza
+### Problema: GitHub Pages nêo atualiza
 
 **Soluções:**
 1. Aguarde 1-5 minutos (pode levar um tempo)
@@ -218,24 +218,24 @@ Antes de fazer deploy de mudanças:
 
 ### Problema: Links quebrados no GitHub Pages
 
-**Causa:** Links absolutos começando com `/` não funcionam em subdomínios.
+**Causa:** Links absolutos começando com `/` nêo funcionam em subdomínios.
 
-**Solução:** Use caminhos relativos ou configure base URL.
+**Soluçêo:** Use caminhos relativos ou configure base URL.
 
 ```html
-<!-- ❌ Errado (não funciona em GitHub Pages) -->
+<!-- ❌ Errado (nêo funciona em GitHub Pages) -->
 <a href="/trilhas/iniciante.html">
 
 <!-- ✅ Correto -->
 <a href="./trilhas/iniciante.html">
 ```
 
-### Problema: CSS não carrega
+### Problema: CSS nêo carrega
 
 **Causa:** Tailwind CDN pode ter delay ou estar bloqueado.
 
-**Solução:**
-1. Verifique conexão com internet
+**Soluçêo:**
+1. Verifique conexêo com internet
 2. Abra DevTools → Network → veja se CDN carrega
 3. Considere fazer download local do Tailwind se necessário
 
@@ -262,7 +262,7 @@ Para rastrear visitantes, adicione Google Analytics ou similar:
 
 ### Boas Práticas
 
-- ✅ Não commite secrets ou API keys
+- ✅ Nêo commite secrets ou API keys
 - ✅ Use `.gitignore` para arquivos sensíveis
 - ✅ HTTPS sempre (GitHub Pages já fornece)
 - ✅ Valide inputs se adicionar forms

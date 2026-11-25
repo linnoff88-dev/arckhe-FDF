@@ -13,7 +13,7 @@ MENSAGEM 1
 Autor: ARCKHÉ
 Data: 2025-09-17T03:28:15+00:00
 Texto:
-Acabei de experimentar o Seedream 4 e o Nano Banana, o mesmo prompt produziu resultados muito diferentes. Eu gosto que o Seedream 4 oferece um pouco mais de controle sobre o tamanho da imagem. Não foi possível fazer com que a nano banana o dimensionasse corretamente.
+Acabei de experimentar o Seedream 4 e o Nano Banana, o mesmo prompt produziu resultados muito diferentes. Eu gosto que o Seedream 4 oferece um pouco mais de controle sobre o tamanho da imagem. Nêo foi possível fazer com que a nano banana o dimensionasse corretamente.
 
 ------------------------------
 
@@ -23,7 +23,7 @@ Data: 2025-09-17T03:27:25+00:00
 Texto:
 Eu tenho colocado os dois à prova e, para mim, Seedream supera Banana na maioria das áreas. 
 
-O único lugar que encontrei onde Banana vence é em detalhes faciais de pessoas ou outros objetos que estão mais distantes da câmera. Como em tomadas amplas, digamos. Por algum tempo, Seedream desmorona completamente aqui e a fidelidade de Banana é muito melhor.
+O único lugar que encontrei onde Banana vence é em detalhes faciais de pessoas ou outros objetos que estêo mais distantes da câmera. Como em tomadas amplas, digamos. Por algum tempo, Seedream desmorona completamente aqui e a fidelidade de Banana é muito melhor.
 
 ------------------------------
 
@@ -61,13 +61,13 @@ O concorrente nano-banana chegou à Replicate.
 
 [https://replicate.com/bytedance/seedream-4](https://replicate.com/bytedance/seedream-4)
 
-Tenho assistido a alguns vídeos de comparação sobre isso, e o Seedream parece ganhar um pouco em algumas categorias.
+Tenho assistido a alguns vídeos de comparaçêo sobre isso, e o Seedream parece ganhar um pouco em algumas categorias.
 
 Alguns outros aspectos interessantes:
 
-*) Resolução de até 4096 pixels x 2304 pixels
+*) Resoluçêo de até 4096 pixels x 2304 pixels
 *) Livre escolha de proporções.
-é muito bom para geração pura, bem como com alta resolução e texto (com fórmulas complicadas, não tão)
+é muito bom para geraçêo pura, bem como com alta resoluçêo e texto (com fórmulas complicadas, nêo têo)
 
 Ambos os modelos têm seus pontos fortes - você pode considerar os dois.
 Midia: MessageMediaWebPage

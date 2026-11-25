@@ -13,7 +13,7 @@ MENSAGEM 1
 Autor: ARCKHÉ
 Data: 2025-07-05T01:03:10+00:00
 Texto:
-**estilos de iluminação, efeitos visuais e atmosferas** em fotografia, cARCKHÉ ou renderização 3D. 
+**estilos de iluminaçêo, efeitos visuais e atmosferas** em fotografia, cARCKHÉ ou renderizaçêo 3D. 
 1. **Back (Backlighting)**
 
    * Luz vindo por trás do objeto, criando um contorno brilhante (halo).
@@ -21,7 +21,7 @@ Texto:
 
 2. **Candle**
 
-   * Iluminação suave e quente como a luz de uma vela.
+   * Iluminaçêo suave e quente como a luz de uma vela.
    * Exemplo: Cena intimista com luz âmbar tremeluzente sobre o rosto.
 
 3. **Volumetric**
@@ -37,7 +37,7 @@ Texto:
 5. **Hard**
 
    * Luz direta, sombras fortes e bem definidas.
-   * Exemplo: Sol do meio-dia criando sombras nítidas no chão.
+   * Exemplo: Sol do meio-dia criando sombras nítidas no chêo.
 
 6. **Golden**
 
@@ -46,17 +46,17 @@ Texto:
 
 7. **Dramatic**
 
-   * Contraste alto, sombras profundas, sensação de tensão ou intensidade.
+   * Contraste alto, sombras profundas, sensaçêo de tensêo ou intensidade.
    * Exemplo: Foto de um boxeador na penumbra com suor brilhando.
 
 8. **Low-key**
 
-   * Predominância de áreas escuras, pouca iluminação, foco no jogo de sombras.
+   * Predominância de áreas escuras, pouca iluminaçêo, foco no jogo de sombras.
    * Exemplo: Filme noir com apenas partes do rosto iluminadas.
 
 9. **Film haze**
 
-   * Efeito de leve neblina ou granulação, dando aspecto de filme antigo.
+   * Efeito de leve neblina ou granulaçêo, dando aspecto de filme antigo.
    * Exemplo: Cena de floresta com luz difusa e leve “névoa cARCKHÉtográfica”.
 
 10. **Foggy**

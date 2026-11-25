@@ -2,7 +2,7 @@
 
 ## 📋 Resumo Executivo
 
-Projeto educacional **100% gratuito e open-source** para ensinar criação de imagens profissionais com IA, desenvolvido para as comunidades **ARCKHÉ AI** e **ARCKHÉ.VIP**.
+Projeto educacional **100% gratuito e open-source** para ensinar criaçêo de imagens profissionais com IA, desenvolvido para as comunidades **ARCKHÉ AI** e **ARCKHÉ.VIP**.
 
 **Status:** ✅ PRONTO PARA LANÇAMENTO
 
@@ -19,8 +19,8 @@ designer-do-futuro/
 ├── .gitignore                   ✅ Configurado
 ├── package.json                 ✅ Existente
 │
-├── docs/                        ✅ Documentação
-│   ├── contributing.md          ✅ Guia de contribuição
+├── docs/                        ✅ Documentaçêo
+│   ├── contributing.md          ✅ Guia de contribuiçêo
 │   ├── guia-instalacao.md       📝 Para criar
 │   ├── roadmap.md               📝 Para criar
 │   └── faq.md                   📝 Para criar
@@ -55,7 +55,7 @@ designer-do-futuro/
 │   ├── js/                      📁 Pasta criada
 │   └── assets/                  📁 Pasta criada
 │
-├── comunidade/                  ✅ Documentação Comunidades
+├── comunidade/                  ✅ Documentaçêo Comunidades
 │   ├── ARCKHÉ-club.md            ✅ Comunidade gratuita
 │   ├── ARCKHÉ-vip.md             ✅ Comunidade premium
 │   └── codigo-conduta.md        📝 Para criar
@@ -78,7 +78,7 @@ designer-do-futuro/
    - Auto-descoberta criativa
 
 2. **Módulo 2: Fundamentos Visuais** (8h)
-   - Composição, cores, luz
+   - Composiçêo, cores, luz
    - Checklist de qualidade
    - 4 exercícios práticos
 
@@ -95,7 +95,7 @@ designer-do-futuro/
 5. **Projeto Final** (15h)
    - Pack de 15 imagens
    - Identidade visual coerente
-   - Certificado de conclusão
+   - Certificado de conclusêo
 
 **Total:** 30 horas de conteúdo pronto
 
@@ -112,7 +112,7 @@ designer-do-futuro/
   - Empreendedores: Âmbar
 
 - **Tipografia:** Inter (Google Fonts)
-- **Componentes:** Navegação, Hero, Cards, Botões, Footer
+- **Componentes:** Navegaçêo, Hero, Cards, Botões, Footer
 - **Responsividade:** Mobile-first
 - **Acessibilidade:** WCAG 2.1 AA
 
@@ -136,10 +136,10 @@ designer-do-futuro/
 ### ✅ Comunidades Documentadas
 
 **ARCKHÉ AI (Gratuito):**
-- Descrição completa
+- Descriçêo completa
 - Benefícios detalhados
 - Como participar
-- Níveis de progressão
+- Níveis de progressêo
 - Desafios mensais
 - Calendário de eventos
 
@@ -157,7 +157,7 @@ designer-do-futuro/
 **Landing Page HTML Completa:**
 - Hero section impactante
 - 4 cards de trilhas
-- Seção de recursos
+- Seçêo de recursos
 - Comunidades ARCKHÉ
 - Footer completo
 - 100% responsiva
@@ -191,7 +191,7 @@ Pesos: 400, 500, 600, 700, 800
 
 ## 🚀 Próximos Passos Para Lançamento
 
-### Fase 1: Preparação (Antes do Launch)
+### Fase 1: Preparaçêo (Antes do Launch)
 
 **Alta Prioridade:**
 - [ ] Criar domínio/configurar GitHub Pages
@@ -200,8 +200,8 @@ Pesos: 400, 500, 600, 700, 800
 - [ ] Criar contas sociais (@ARCKHÉ AI)
 
 **Média Prioridade:**
-- [ ] Gravar vídeo de apresentação
-- [ ] Criar imagens de divulgação
+- [ ] Gravar vídeo de apresentaçêo
+- [ ] Criar imagens de divulgaçêo
 - [ ] Preparar press kit
 - [ ] FAQ expandido
 
@@ -223,7 +223,7 @@ Pesos: 400, 500, 600, 700, 800
 **Discord:**
 - [ ] Estrutura de canais
 - [ ] Bots e automações
-- [ ] Moderação e regras
+- [ ] Moderaçêo e regras
 - [ ] Onboarding automático
 
 **Eventos:**
@@ -240,7 +240,7 @@ Pesos: 400, 500, 600, 700, 800
 - [ ] SEO do site
 - [ ] Conteúdo para redes sociais
 
-**Monetização (VIP):**
+**Monetizaçêo (VIP):**
 - [ ] Plataforma de pagamento
 - [ ] Sistema de membros
 - [ ] Mentorias agendadas
@@ -263,7 +263,7 @@ Pesos: 400, 500, 600, 700, 800
 - 🎯 100+ projetos na galeria
 
 **Engajamento:**
-- 🎯 80% taxa de conclusão Trilha Iniciante
+- 🎯 80% taxa de conclusêo Trilha Iniciante
 - 🎯 12 desafios mensais realizados
 - 🎯 50+ contribuidores GitHub
 
@@ -272,7 +272,7 @@ Pesos: 400, 500, 600, 700, 800
 ## 🛠️ Stack Tecnológico
 
 ### Website
-- **HTML5** - Marcação semântica
+- **HTML5** - Marcaçêo semântica
 - **Tailwind CSS 3.x** - Framework CSS (CDN)
 - **Vanilla JavaScript** - Interatividade
 - **GitHub Pages** - Hospedagem gratuita
@@ -284,7 +284,7 @@ Pesos: 400, 500, 600, 700, 800
 ### Comunidade
 - **Discord** - Comunidade principal
 - **GitHub** - Código e discussões
-- **Newsletter** - Comunicação (Mailchimp/ConvertKit)
+- **Newsletter** - Comunicaçêo (Mailchimp/ConvertKit)
 
 ---
 
@@ -345,7 +345,7 @@ Pesos: 400, 500, 600, 700, 800
 ### Lançamento (Dia D)
 1. Discord aberto
 2. Trilha Iniciante liberada
-3. Live de apresentação
+3. Live de apresentaçêo
 4. Primeiro desafio anunciado
 
 ### Pós-Lançamento (Primeira semana)
@@ -364,17 +364,17 @@ Pesos: 400, 500, 600, 700, 800
 - Design system
 - Trilha Iniciante (completa)
 - Biblioteca de prompts
-- Documentação comunidades
+- Documentaçêo comunidades
 - Landing page HTML
-- Arquivos de configuração (.gitignore, LICENSE)
-- Guia de contribuição
+- Arquivos de configuraçêo (.gitignore, LICENSE)
+- Guia de contribuiçêo
 
 ### 📝 Para Desenvolver (Futuro)
 - Trilhas Técnico, Masterclass, Empreendedores
 - Mais recursos (prompts, referências, checklists)
 - FAQ expandido
 - Roadmap detalhado
-- Guia de instalação
+- Guia de instalaçêo
 
 ### 🚀 Para Implementar (Infraestrutura)
 - GitHub Pages configurado
@@ -419,7 +419,7 @@ Pesos: 400, 500, 600, 700, 800
 ## 🙏 Agradecimentos
 
 Este projeto foi desenvolvido com:
-- ❤️ Paixão por educação
+- ❤️ Paixêo por educaçêo
 - 🤖 IA (Claude, para desenvolvimento)
 - ☕ Muito café
 - 🎯 Foco em impacto social
@@ -448,7 +448,7 @@ Copyright (c) 2025 ARCKHÉ AI
 
 **Designer do Futuro - Criatividade Amplificada com IA**
 
-Feito com ❤️ para democratizar a criação visual com IA
+Feito com ❤️ para democratizar a criaçêo visual com IA
 
 [Ver no GitHub](https://github.com/ARCKHÉ/designer-do-futuro) | [ARCKHÉ AI](https://ARCKHÉ AI)
 

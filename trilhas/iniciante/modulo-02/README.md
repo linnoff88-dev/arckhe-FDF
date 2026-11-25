@@ -1,8 +1,8 @@
 # 🎨 Módulo 2: Fundamentos Visuais Simplificados
-## Aprenda o essencial de design sem complicação
+## Aprenda o essencial de design sem complicaçêo
 
 **Trilha:** Iniciante
-**Duração:** 1 semana | 8 horas
+**Duraçêo:** 1 semana | 8 horas
 **Dificuldade:** ⭐⭐ Iniciante
 
 ---
@@ -12,7 +12,7 @@
 Ao final deste módulo, você vai:
 
 - ✅ Identificar o que faz uma imagem "funcionar"
-- ✅ Aplicar composição básica em suas criações
+- ✅ Aplicar composiçêo básica em suas criações
 - ✅ Usar cores de forma estratégica e emocional
 - ✅ Entender luz e contraste
 - ✅ Avaliar qualidade visual de qualquer imagem
@@ -23,7 +23,7 @@ Ao final deste módulo, você vai:
 
 ### Aula 1: O Que Faz Uma Imagem "Funcionar"
 
-**Duração:** 1.5 horas
+**Duraçêo:** 1.5 horas
 
 #### Os 5 Elementos Essenciais
 
@@ -46,17 +46,17 @@ O olhar deve saber para onde ir.
 - Feche os olhos
 - O que você lembra?
 
-Se não lembra de nada específico → sem foco.
+Se nêo lembra de nada específico → sem foco.
 
 **3. Harmonia**
 Todos os elementos devem "conversar" entre si.
 
 **Elementos:**
-- Cores complementam (não brigam)
-- Estilos alinhados (não misturados aleatoriamente)
+- Cores complementam (nêo brigam)
+- Estilos alinhados (nêo misturados aleatoriamente)
 - Proporções equilibradas
 
-**4. Emoção**
+**4. Emoçêo**
 Boas imagens fazem você SENTIR algo.
 
 **Pergunte-se:**
@@ -64,9 +64,9 @@ Boas imagens fazem você SENTIR algo.
 - É o que deveria fazer sentir?
 
 **5. Qualidade Técnica**
-- Resolução adequada
+- Resoluçêo adequada
 - Sem artefatos ou distorções
-- Iluminação coerente
+- Iluminaçêo coerente
 
 #### Framework de Análise
 
@@ -76,18 +76,18 @@ Use este framework para avaliar qualquer imagem:
 □ PROPÓSITO: A imagem tem um objetivo claro?
 □ FOCO: Meu olhar sabe para onde ir?
 □ HARMONIA: Os elementos se complementam?
-□ EMOÇÃO: Me faz sentir algo?
+□ EMOÇêO: Me faz sentir algo?
 □ QUALIDADE: Está tecnicamente bem executada?
 ```
 
-Se 4+ estão ✅ = Imagem funciona
+Se 4+ estêo ✅ = Imagem funciona
 Se 3 ou menos = Precisa melhorar
 
 ---
 
-### Aula 2: Composição Explicada Para Iniciantes
+### Aula 2: Composiçêo Explicada Para Iniciantes
 
-**Duração:** 2 horas
+**Duraçêo:** 2 horas
 
 #### Regra dos Terços (Mais Importante!)
 
@@ -137,7 +137,7 @@ Nosso olho naturalmente vai para esses pontos.
 Maior = mais importante
 
 **Contraste:**
-Mais contraste = mais atenção
+Mais contraste = mais atençêo
 
 **Posicionamento:**
 Topo e esquerda = visto primeiro
@@ -154,7 +154,7 @@ Topo e esquerda = visto primeiro
 - Informal e energético
 - Bom para: criativo, moderno
 
-#### Direção do Olhar
+#### Direçêo do Olhar
 
 **Linhas guiam o olhar:**
 - Diagonais = dinamismo
@@ -169,47 +169,47 @@ No prompt, especifique: "diagonal composition" ou "centered composition"
 
 ### Aula 3: Cores Que Emocionam e Vendem
 
-**Duração:** 2 horas
+**Duraçêo:** 2 horas
 
 #### Psicologia das Cores
 
 **🔴 Vermelho**
-- Emoção: Paixão, energia, urgência
+- Emoçêo: Paixêo, energia, urgência
 - Uso: Vendas, comida, alerta
 - Evite: Finanças, saúde mental
 
 **🔵 Azul**
-- Emoção: Confiança, calma, profissionalismo
+- Emoçêo: Confiança, calma, profissionalismo
 - Uso: Tech, saúde, finanças
 - Evite: Comida (reduz apetite)
 
 **🟢 Verde**
-- Emoção: Natureza, crescimento, saúde
+- Emoçêo: Natureza, crescimento, saúde
 - Uso: Sustentabilidade, bem-estar, dinheiro
 - Evite: Luxo high-end
 
 **🟡 Amarelo**
-- Emoção: Otimismo, alegria, atenção
+- Emoçêo: Otimismo, alegria, atençêo
 - Uso: Crianças, felicidade, energia
 - Evite: Excesso (cansa os olhos)
 
 **🟣 Roxo**
-- Emoção: Luxo, criatividade, mistério
+- Emoçêo: Luxo, criatividade, mistério
 - Uso: Beleza, luxo, espiritualidade
 - Evite: Corporativo tradicional
 
 **🟠 Laranja**
-- Emoção: Entusiasmo, criatividade, diversão
+- Emoçêo: Entusiasmo, criatividade, diversêo
 - Uso: Call-to-action, jovem, energia
 - Evite: Corporativo sério
 
 **⚫ Preto**
-- Emoção: Elegância, poder, sofisticação
+- Emoçêo: Elegância, poder, sofisticaçêo
 - Uso: Luxo, moda, minimalismo
 - Evite: Infantil, alegre
 
 **⚪ Branco**
-- Emoção: Pureza, simplicidade, espaço
+- Emoçêo: Pureza, simplicidade, espaço
 - Uso: Minimalismo, limpeza, médico
 - Evite: Sozinho (pode ser estéril)
 
@@ -259,9 +259,9 @@ Cores opostas no círculo.
 
 ### Aula 4: Luz e Contraste na Prática
 
-**Duração:** 1.5 horas
+**Duraçêo:** 1.5 horas
 
-#### Tipos de Iluminação
+#### Tipos de Iluminaçêo
 
 **1. Golden Hour (Hora Dourada)**
 - Luz suave e quente
@@ -306,7 +306,7 @@ Diferença entre claro e escuro.
 
 **Alto Contraste:**
 - Dramático
-- Chama atenção
+- Chama atençêo
 - Moderno
 - Exemplo: Preto e branco
 
@@ -328,7 +328,7 @@ Baixo: "low contrast, soft, muted"
 Médio: "natural lighting, balanced"
 ```
 
-#### Direção da Luz
+#### Direçêo da Luz
 
 **Frontal:**
 - Ilumina tudo
@@ -346,7 +346,7 @@ Médio: "natural lighting, balanced"
 - Pode ser duro
 
 **Inferior:**
-- Não natural
+- Nêo natural
 - Terror, drama
 - Use com cuidado
 
@@ -354,11 +354,11 @@ Médio: "natural lighting, balanced"
 
 ### Aula 5: Como Analisar Se Uma Imagem É Boa
 
-**Duração:** 1 hora
+**Duraçêo:** 1 hora
 
 #### Checklist Definitivo
 
-**COMPOSIÇÃO**
+**COMPOSIÇêO**
 - [ ] Tem um ponto focal claro?
 - [ ] Segue regra dos terços?
 - [ ] Tem equilíbrio visual?
@@ -366,29 +366,29 @@ Médio: "natural lighting, balanced"
 
 **COR**
 - [ ] Paleta de cores harmoniosa?
-- [ ] Cores transmitem emoção certa?
-- [ ] Não há mais de 3-4 cores dominantes?
+- [ ] Cores transmitem emoçêo certa?
+- [ ] Nêo há mais de 3-4 cores dominantes?
 - [ ] Contraste adequado?
 
 **LUZ**
-- [ ] Iluminação é coerente?
+- [ ] Iluminaçêo é coerente?
 - [ ] Sombras fazem sentido?
 - [ ] Atmosfera desejada foi alcançada?
 - [ ] Contraste funciona?
 
 **TÉCNICA**
-- [ ] Resolução boa?
+- [ ] Resoluçêo boa?
 - [ ] Sem artefatos visuais?
 - [ ] Proporções corretas?
 - [ ] Qualidade geral profissional?
 
-**EMOÇÃO/PROPÓSITO**
-- [ ] Transmite a emoção desejada?
+**EMOÇêO/PROPÓSITO**
+- [ ] Transmite a emoçêo desejada?
 - [ ] Atinge o objetivo?
 - [ ] Adequada ao público-alvo?
 - [ ] Impactante ou memorável?
 
-**Pontuação:**
+**Pontuaçêo:**
 - 18-20 ✅ = Excelente
 - 15-17 ✅ = Boa
 - 12-14 ⚠️ = Precisa ajustes
@@ -398,7 +398,7 @@ Médio: "natural lighting, balanced"
 
 ## 🎯 Exercícios Práticos
 
-### Exercício 1: Análise de Composição (1h)
+### Exercício 1: Análise de Composiçêo (1h)
 
 Encontre 5 imagens famosas e analise:
 1. Onde está o ponto focal?
@@ -430,7 +430,7 @@ Usando IA (Bing Image Creator), crie a MESMA cena com 3 luzes diferentes:
 2. Dramatic hard light
 3. Soft diffused light
 
-**Entrega:** 3 imagens + reflexão sobre diferenças
+**Entrega:** 3 imagens + reflexêo sobre diferenças
 
 ---
 
@@ -451,7 +451,7 @@ Aplique o checklist e documente diferenças.
 - [ ] Completei todas as 5 aulas
 - [ ] Entendo regra dos terços
 - [ ] Sei aplicar psicologia das cores
-- [ ] Reconheço tipos de iluminação
+- [ ] Reconheço tipos de iluminaçêo
 - [ ] Posso avaliar qualidade de imagens
 - [ ] Fiz todos os exercícios
 - [ ] Compartilhei na comunidade
@@ -463,15 +463,15 @@ Aplique o checklist e documente diferenças.
 **Para Lembrar:**
 1. Simplicidade vence complexidade
 2. Menos é mais (espaço negativo)
-3. Cor comunica emoção
+3. Cor comunica emoçêo
 4. Luz cria atmosfera
 5. Sempre tenha um propósito claro
 
 **Para Prompts:**
 Agora você pode especificar:
-- Composição desejada
+- Composiçêo desejada
 - Paleta de cores específica
-- Tipo de iluminação
+- Tipo de iluminaçêo
 - Atmosfera emocional
 
 ---

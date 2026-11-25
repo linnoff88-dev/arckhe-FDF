@@ -2,7 +2,7 @@
 ## Primeiros Passos no Design com IA
 
 > **Para:** Pessoas sem experiência em design que querem criar imagens com IA
-> **Duração:** 4 semanas | **Carga:** ~30 horas
+> **Duraçêo:** 4 semanas | **Carga:** ~30 horas
 > **Nível:** Iniciante - Nenhum conhecimento prévio necessário
 
 ---
@@ -14,7 +14,7 @@ Ao final desta trilha, você será capaz de:
 - ✅ Criar imagens profissionais usando ferramentas de IA
 - ✅ Escrever prompts efetivos que geram o que você imagina
 - ✅ Entender fundamentos visuais essenciais
-- ✅ Usar ferramentas gratuitas de criação e edição
+- ✅ Usar ferramentas gratuitas de criaçêo e ediçêo
 - ✅ Produzir conteúdo visual para redes sociais
 - ✅ Desenvolver sua própria identidade criativa
 
@@ -23,13 +23,13 @@ Ao final desta trilha, você será capaz de:
 ## 📚 Estrutura do Curso
 
 ### [Módulo 1: Mentalidade do Criador](./modulo-01/README.md)
-**Duração:** 1 semana | 6 horas
+**Duraçêo:** 1 semana | 6 horas
 
-Transforme sua forma de pensar sobre criação visual.
+Transforme sua forma de pensar sobre criaçêo visual.
 
 **Aulas:**
-1. Você não precisa ser designer para criar
-2. Como a IA democratizou a criação visual
+1. Você nêo precisa ser designer para criar
+2. Como a IA democratizou a criaçêo visual
 3. Descobrindo seus talentos criativos escondidos
 4. O novo papel do criador em 2025
 5. Onde a IA falha e você se destaca
@@ -37,35 +37,35 @@ Transforme sua forma de pensar sobre criação visual.
 **Exercícios:**
 - Auto-descoberta criativa
 - Análise de imagens
-- Definição de objetivos
+- Definiçêo de objetivos
 
 [👉 Começar Módulo 1](./modulo-01/README.md)
 
 ---
 
 ### [Módulo 2: Fundamentos Visuais Simplificados](./modulo-02/README.md)
-**Duração:** 1 semana | 8 horas
+**Duraçêo:** 1 semana | 8 horas
 
-Aprenda o essencial de design sem complicação.
+Aprenda o essencial de design sem complicaçêo.
 
 **Aulas:**
 1. O que faz uma imagem "funcionar"
-2. Composição explicada para iniciantes
+2. Composiçêo explicada para iniciantes
 3. Cores que emocionam e vendem
 4. Luz e contraste na prática
 5. Como analisar se uma imagem é boa
 
 **Exercícios:**
 - Análise de composições
-- Criação de paletas de cores
-- Prática de iluminação
+- Criaçêo de paletas de cores
+- Prática de iluminaçêo
 
 [👉 Começar Módulo 2](./modulo-02/README.md)
 
 ---
 
 ### [Módulo 3: Seus Primeiros Prompts](./modulo-03/README.md)
-**Duração:** 1 semana | 8 horas
+**Duraçêo:** 1 semana | 8 horas
 
 Domine a arte de se comunicar com a IA.
 
@@ -73,12 +73,12 @@ Domine a arte de se comunicar com a IA.
 1. Estrutura básica de um prompt efetivo
 2. Vocabulário essencial (luz, estilo, atmosfera)
 3. Como descrever o que você quer
-4. Iteração: transformando o bom em perfeito
+4. Iteraçêo: transformando o bom em perfeito
 5. Erros comuns e como evitá-los
 
 **Exercícios:**
 - Primeiros 10 prompts
-- Criação de variações
+- Criaçêo de variações
 - Refinamento iterativo
 
 [👉 Começar Módulo 3](./modulo-03/README.md)
@@ -86,21 +86,21 @@ Domine a arte de se comunicar com a IA.
 ---
 
 ### [Módulo 4: Ferramentas Acessíveis](./modulo-04/README.md)
-**Duração:** 1 semana | 8 horas
+**Duraçêo:** 1 semana | 8 horas
 
-Domine ferramentas gratuitas de criação com IA.
+Domine ferramentas gratuitas de criaçêo com IA.
 
 **Aulas:**
 1. Panorama de ferramentas gratuitas 2025
 2. DALL·E e Bing Image Creator
 3. Leonardo.ai e Ideogram
-4. Edição básica com Canva IA
+4. Ediçêo básica com Canva IA
 5. Workflow completo: da ideia à imagem final
 
 **Exercícios:**
-- Exploração de ferramentas
-- Criação de imagens em cada plataforma
-- Edição e finalização
+- Exploraçêo de ferramentas
+- Criaçêo de imagens em cada plataforma
+- Ediçêo e finalizaçêo
 
 [👉 Começar Módulo 4](./modulo-04/README.md)
 
@@ -149,7 +149,7 @@ Domine ferramentas gratuitas de criação com IA.
 ## 🎓 Como Estudar
 
 ### 1. Siga a Ordem
-Os módulos foram projetados para serem feitos em sequência. Não pule etapas.
+Os módulos foram projetados para serem feitos em sequência. Nêo pule etapas.
 
 ### 2. Faça os Exercícios
 A prática é essencial. Faça todos os exercícios propostos.
@@ -158,10 +158,10 @@ A prática é essencial. Faça todos os exercícios propostos.
 Poste suas criações no [ARCKHÉ AI](../../comunidade/ARCKHÉ-club.md) e receba feedback.
 
 ### 4. Seja Paciente
-Aprender leva tempo. Não se compare com outros, compare com você mesmo de ontem.
+Aprender leva tempo. Nêo se compare com outros, compare com você mesmo de ontem.
 
 ### 5. Experimente
-Não tenha medo de errar. A IA é sua parceira de experimentação ilimitada.
+Nêo tenha medo de errar. A IA é sua parceira de experimentaçêo ilimitada.
 
 ---
 
@@ -172,7 +172,7 @@ Ao completar:
 - ✅ Todos os exercícios práticos
 - ✅ Projeto final
 
-Você receberá o **Certificado de Conclusão - Trilha Iniciante** da ARCKHÉ AI.
+Você receberá o **Certificado de Conclusêo - Trilha Iniciante** da ARCKHÉ AI.
 
 [Saiba mais sobre certificados](../../comunidade/certificados.md)
 
@@ -228,7 +228,7 @@ Após concluir esta trilha, você pode:
 
 ## 🌟 Depoimentos
 
-> *"Nunca imaginei que conseguiria criar imagens tão bonitas. Esta trilha mudou minha vida!"*
+> *"Nunca imaginei que conseguiria criar imagens têo bonitas. Esta trilha mudou minha vida!"*
 > — Ana Silva, ex-aluna
 
 > *"Comecei do zero absoluto. Hoje crio todas as imagens para meu negócio."*

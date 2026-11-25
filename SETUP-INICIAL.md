@@ -11,7 +11,7 @@ Siga estes passos para colocar o projeto no ar:
 No terminal, dentro do diretório `/home/nmaldaner/projetos/IMG`:
 
 ```bash
-# Inicializar Git (se ainda não estiver)
+# Inicializar Git (se ainda nêo estiver)
 git init
 
 # Adicionar remote do seu repositório
@@ -37,9 +37,9 @@ git commit -m "feat: initial commit - Designer do Futuro v1.0
 - Design system baseado no FEP
 - Landing page responsiva
 - Biblioteca de 40+ prompts
-- Documentação ARCKHÉ AI e ARCKHÉ.VIP
+- Documentaçêo ARCKHÉ AI e ARCKHÉ.VIP
 - Sistema de recursos educacionais
-- Guias de contribuição e instalação"
+- Guias de contribuiçêo e instalaçêo"
 
 # Criar branch main (se necessário)
 git branch -M main
@@ -52,7 +52,7 @@ git push -u origin main
 
 ## 3️⃣ Configurar GitHub Pages
 
-### Opção A: Via Interface Web
+### Opçêo A: Via Interface Web
 
 1. Acesse: https://github.com/linnoff88-dev/FDF/settings/pages
 
@@ -66,7 +66,7 @@ git push -u origin main
 
 4. Acesse: https://linnoff88-dev.github.io/
 
-### Opção B: Via GitHub CLI (se tiver instalado)
+### Opçêo B: Via GitHub CLI (se tiver instalado)
 
 ```bash
 gh repo edit --enable-pages --pages-branch main --pages-path /website
@@ -107,7 +107,7 @@ git push
    - `brazil`
    - `community`
 
-4. Adicione descrição:
+4. Adicione descriçêo:
    ```
    🎨 Aprenda a criar imagens profissionais com IA. Curso 100% gratuito e open-source com 4 trilhas educacionais. By ARCKHÉ AI
    ```
@@ -133,7 +133,7 @@ Em https://github.com/linnoff88-dev/FDF/settings:
 
 ---
 
-## 7️⃣ Criar Arquivo de Configuração do GitHub Pages (Opcional)
+## 7️⃣ Criar Arquivo de Configuraçêo do GitHub Pages (Opcional)
 
 Crie um arquivo `.github/workflows/deploy.yml` se quiser deploy automático mais customizado:
 
@@ -174,7 +174,7 @@ Após 2-3 minutos do deploy:
    - [x] CSS carrega (Tailwind)
    - [x] JavaScript funciona (menu mobile)
 
-3. Se algo não funcionar:
+3. Se algo nêo funcionar:
    - Verifique GitHub Actions: https://github.com/linnoff88-dev/FDF/actions
    - Aguarde mais alguns minutos
    - Force refresh: Ctrl + Shift + R
@@ -195,7 +195,7 @@ No GitHub:
 1. Vá em: https://github.com/linnoff88-dev/FDF/releases/new
 2. Choose tag: v1.0.0
 3. Release title: "Designer do Futuro v1.0.0 - Trilha Iniciante"
-4. Descrição:
+4. Descriçêo:
 ```markdown
 ## 🎉 Primeiro Release - Trilha Iniciante Completa!
 
@@ -212,7 +212,7 @@ No GitHub:
 - 📚 Biblioteca com 40+ prompts testados
 - 🎨 Design System completo
 - 🌐 Landing page profissional
-- 📖 Documentação ARCKHÉ AI e ARCKHÉ.VIP
+- 📖 Documentaçêo ARCKHÉ AI e ARCKHÉ.VIP
 
 ### 🚀 Acesse:
 https://linnoff88-dev.github.io/
@@ -221,14 +221,14 @@ https://linnoff88-dev.github.io/
 - Trilha Técnico (em desenvolvimento)
 - Trilha Masterclass (planejado)
 - Trilha Empreendedores (planejado)
-- Expansão da biblioteca de prompts
+- Expansêo da biblioteca de prompts
 
 100% Gratuito | Open-Source | MIT License
 ```
 
 ---
 
-## 🔟 Configurar Proteção da Branch Main (Recomendado)
+## 🔟 Configurar Proteçêo da Branch Main (Recomendado)
 
 Para evitar commits acidentais direto na main:
 
@@ -264,7 +264,7 @@ Após seguir todos os passos:
 
 ---
 
-## 📣 Divulgação
+## 📣 Divulgaçêo
 
 Agora que está no ar, você pode:
 
@@ -277,12 +277,12 @@ Curso COMPLETO e 100% GRATUITO para aprender a criar imagens profissionais com I
 ✅ 30h de conteúdo (Trilha Iniciante)
 ✅ 40+ prompts prontos
 ✅ Projeto prático final
-✅ Certificado de conclusão
+✅ Certificado de conclusêo
 ✅ Open-source
 
 🔗 https://linnoff88-dev.github.io/
 
-#IA #Design #EducaçãoGratuita #OpenSource
+#IA #Design #EducaçêoGratuita #OpenSource
 ```
 
 ### Email para Contatos
@@ -291,17 +291,17 @@ Assunto: 🎨 Novo curso gratuito: Designer do Futuro
 
 Olá!
 
-Acabei de lançar o "Designer do Futuro", um curso completo e 100% gratuito para ensinar criação de imagens profissionais usando Inteligência Artificial.
+Acabei de lançar o "Designer do Futuro", um curso completo e 100% gratuito para ensinar criaçêo de imagens profissionais usando Inteligência Artificial.
 
 O projeto é open-source e inclui:
 - 30 horas de conteúdo na Trilha Iniciante
 - Biblioteca com 40+ prompts testados
 - Projeto prático final
-- Certificado de conclusão
+- Certificado de conclusêo
 
 Acesse: https://linnoff88-dev.github.io/
 
-O projeto é voltado para a democratização do acesso à criação visual através da IA.
+O projeto é voltado para a democratizaçêo do acesso à criaçêo visual através da IA.
 
 Seria incrível ter seu feedback!
 
@@ -313,28 +313,28 @@ Abraço,
 ```
 Orgulhoso de compartilhar o lançamento do "Designer do Futuro"! 🚀
 
-Um projeto educacional open-source que ensina criação de imagens profissionais com IA.
+Um projeto educacional open-source que ensina criaçêo de imagens profissionais com IA.
 
 🎯 100% gratuito
 📚 30h de conteúdo (Trilha Iniciante completa)
 🌍 Acessível a todos
 💡 Foco em impacto social
 
-O objetivo é democratizar o acesso à criação visual, mostrando que você não precisa ser designer para criar imagens incríveis - só precisa aprender a dirigir a IA.
+O objetivo é democratizar o acesso à criaçêo visual, mostrando que você nêo precisa ser designer para criar imagens incríveis - só precisa aprender a dirigir a IA.
 
 Link: https://linnoff88-dev.github.io/
 GitHub: https://github.com/linnoff88-dev/FDF
 
-Feedbacks e contribuições são muito bem-vindos!
+Feedbacks e contribuições sêo muito bem-vindos!
 
-#IA #Educação #OpenSource #Design #InovacaoSocial
+#IA #Educaçêo #OpenSource #Design #InovacaoSocial
 ```
 
 ---
 
 ## 🆘 Ajuda
 
-Se algo não funcionar:
+Se algo nêo funcionar:
 
 1. **Verifique Actions:** https://github.com/linnoff88-dev/FDF/actions
 2. **Verifique Settings:** https://github.com/linnoff88-dev/FDF/settings/pages
@@ -366,6 +366,6 @@ Você criou e lançou um projeto educacional completo e profissional!
 
 [Ver Site](https://linnoff88-dev.github.io/ | [Ver no GitHub](https://github.com/linnoff88-dev/FDF)
 
-**Feito com ❤️ para democratizar a criação visual com IA**
+**Feito com ❤️ para democratizar a criaçêo visual com IA**
 
 </div>

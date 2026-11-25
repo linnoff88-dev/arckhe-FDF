@@ -45,13 +45,13 @@ MENSAGEM 5
 Autor: ARCKHÉ
 Data: 2025-09-12T05:07:36+00:00
 Texto:
-No vídeo ele deixa escapar vários **hacks e truques de workflow** que são a base do método dele. Aqui está a lista organizada:
+No vídeo ele deixa escapar vários **hacks e truques de workflow** que sêo a base do método dele. Aqui está a lista organizada:
 
 ---
 
 ### Hacks citados no vídeo Nano Banana
 
-1. **Não misture imagens direto no Gemini**
+1. **Nêo misture imagens direto no Gemini**
 
    * Ele mostra que quando você envia duas imagens e pede para “mesclar”, o resultado quase sempre sai ruim.
    * Hack: em vez disso, **use o ChatGPT para analisar uma imagem de referência e escrever o prompt descritivo** → depois só envia a imagem principal + prompt no Gemini.
@@ -74,11 +74,11 @@ No vídeo ele deixa escapar vários **hacks e truques de workflow** que são a b
 5. **Branded prompts (prompts da marca)**
 
    * Criar prompts que sempre retornem o estilo visual da marca (ex.: cores, cenários, estética).
-   * Assim você gera imagens infinitas no mesmo padrão de branding sem contratar fotógrafo/designer.
+   * Assim você gera imagens infinitas no mesmo padrêo de branding sem contratar fotógrafo/designer.
 
 6. **Use variáveis no prompt**
 
-   * Adicionar parâmetros como iluminação, ângulo ou fundo.
+   * Adicionar parâmetros como iluminaçêo, ângulo ou fundo.
    * Hack: um mesmo prompt pode gerar **múltiplas versões automáticas** (ex.: luz lateral, luz difusa, frontal).
 
 7. **Aproveitar fotos antigas**
@@ -90,9 +90,9 @@ No vídeo ele deixa escapar vários **hacks e truques de workflow** que são a b
 
    * Se o Gemini mostrar limitações de segurança (copyright, filtros), vá para o **Google AI Studio**, que usa o mesmo modelo Nano Banana mas tem menos bloqueios.
 
-9. **Não edite dentro do Gemini**
+9. **Nêo edite dentro do Gemini**
 
-   * Hack: se o resultado não ficou bom, não perca tempo refinando dentro do Gemini.
+   * Hack: se o resultado nêo ficou bom, nêo perca tempo refinando dentro do Gemini.
    * Volte para o ChatGPT, explique o que precisa ajustar → receba um prompt melhorado → rode de novo no Gemini.
 
 10. **Crie thumbnails automáticas**
@@ -127,12 +127,12 @@ A lógica é: você pede para o ChatGPT **reescrever e detalhar** os prompts, de
 
 ---
 
-## 1. Transformação de Cliente (antes/depois estilo super-herói)
+## 1. Transformaçêo de Cliente (antes/depois estilo super-herói)
 
 **Prompt para ChatGPT**
-"Reescreva um prompt para o Gemini que, a partir de uma foto de um cliente, mostre uma transformação 'antes e depois'.
+"Reescreva um prompt para o Gemini que, a partir de uma foto de um cliente, mostre uma transformaçêo 'antes e depois'.
 No 'depois', coloque o cliente em um palco iluminado, em pose de super-herói, mantendo o rosto original.
-Inclua iluminação dramática, cores vibrantes e atmosfera de evolução pessoal."
+Inclua iluminaçêo dramática, cores vibrantes e atmosfera de evoluçêo pessoal."
 
 ---
 
@@ -140,7 +140,7 @@ Inclua iluminação dramática, cores vibrantes e atmosfera de evolução pessoa
 
 **Prompt para ChatGPT**
 "Escreva um prompt para o Gemini que insira a pessoa da foto em uma cena realista de coaching online.
-Descreva fundo profissional, ambiente moderno, iluminação de escritório e elementos de chamada de vídeo.
+Descreva fundo profissional, ambiente moderno, iluminaçêo de escritório e elementos de chamada de vídeo.
 O rosto deve permanecer fiel à foto, transmitindo autoridade e proximidade."
 
 ---
@@ -149,7 +149,7 @@ O rosto deve permanecer fiel à foto, transmitindo autoridade e proximidade."
 
 **Prompt para ChatGPT**
 "Reescreva um prompt para o Gemini que aplique estilo de podcast profissional a uma foto.
-Inclua fundo escuro, iluminação de estúdio, microfone em primeiro plano e acabamento cARCKHÉtográfico.
+Inclua fundo escuro, iluminaçêo de estúdio, microfone em primeiro plano e acabamento cARCKHÉtográfico.
 O rosto original deve ser preservado sem alterações expressivas."
 
 ---
@@ -159,15 +159,15 @@ O rosto original deve ser preservado sem alterações expressivas."
 **Prompt para ChatGPT**
 "Escreva um prompt para o Gemini que transforme um screenshot fornecido em um mockup polido.
 Mostre a interface em uma tela realista (laptop ou smartphone), sobre fundo clean e minimalista,
-com reflexos sutis e acabamento de apresentação profissional."
+com reflexos sutis e acabamento de apresentaçêo profissional."
 
 ---
 
-## 5. Cena CARCKHÉtográfica (O Poderoso Chefão)
+## 5. Cena CARCKHÉtográfica (O Poderoso Chefêo)
 
 **Prompt para ChatGPT**
-"Reescreva um prompt para o Gemini que crie uma cena cARCKHÉtográfica inspirada em filmes de máfia como 'O Poderoso Chefão'.
-A pessoa da foto deve aparecer com feições preservadas, usando terno preto elegante, com iluminação lateral dramática
+"Reescreva um prompt para o Gemini que crie uma cena cARCKHÉtográfica inspirada em filmes de máfia como 'O Poderoso Chefêo'.
+A pessoa da foto deve aparecer com feições preservadas, usando terno preto elegante, com iluminaçêo lateral dramática
 e fundo esfumaçado em clima de suspense."
 
 ---
@@ -185,7 +185,7 @@ cores contrastantes (amarelo, vermelho, branco) e elementos visuais de setas e �
 
 **Prompt para ChatGPT**
 "Reescreva um prompt para o Gemini que gere 3 variações da mesma foto em estilo corporativo para LinkedIn.
-Altere apenas iluminação (luz lateral, superior, difusa) e ângulos (frontal, ¾ perfil, close-up),
+Altere apenas iluminaçêo (luz lateral, superior, difusa) e ângulos (frontal, ¾ perfil, close-up),
 mantendo fundo e identidade visual iguais para consistência de marca."
 
 ---
@@ -221,7 +221,7 @@ Vou te explicar a diferença prática entre usar os prompts **direto no Gemini (
 * Você cola exatamente como está no Gemini.
 * O modelo vai tentar interpretar sozinho.
 * Funciona bem para casos simples (ex.: “coloque meu cachorro como super-herói”).
-* Problema: resultados podem variar muito, porque o Gemini pode não entender todos os detalhes que você imaginou.
+* Problema: resultados podem variar muito, porque o Gemini pode nêo entender todos os detalhes que você imaginou.
 
 **Exemplo**
 
@@ -237,7 +237,7 @@ Mostre meu rosto claramente, use cores chamativas e estilo de thumbnail popular.
 * Você pede para o ChatGPT r**eescrever o prompt de forma estruturada e inteligente.**
 * O ChatGPT “descarrega” o trabalho mental: ele descreve cenários, luz, ângulo, estilo, detalhes visuais de forma que o Gemini compreenda melhor.
 * Resultado: muito mais consistente, porque o Gemini recebe instruções mais claras e completas.
-* Vantagem: você pode refinar o prompt com ChatGPT (ex.: “ficou muito escuro, coloque mais luz suave no rosto”) e gerar uma nova versão.
+* Vantagem: você pode refinar o prompt com ChatGPT (ex.: “ficou muito escuro, coloque mais luz suave no rosto”) e gerar uma nova versêo.
 
 E**xemplo (ChatGPT preparando o prompt)
 **Você diz:
@@ -246,7 +246,7 @@ E**xemplo (ChatGPT preparando o prompt)
 O ChatGPT devolve algo como:
 
 A```nalise a captura de tela fornecida e insira-a em um mockup de laptop moderno sobre uma mesa de madeira clara,  
-com fundo minimalista e iluminação natural suave.  
+com fundo minimalista e iluminaçêo natural suave.  
 Inclua reflexos sutis na tela e bordas realistas do dispositivo para transmitir profissionalismo.  
 O estilo deve ser clean, semelhante a apresentações de design de grandes agências.
 ```
@@ -273,15 +273,15 @@ MENSAGEM 11
 Autor: ARCKHÉ
 Data: 2025-09-12T05:02:54+00:00
 Texto:
-Vou criar um **kit de prompts prontos**, baseados exatamente nos exemplos e usos que o autor cita no vídeo do Nano Banana. Eles estão estruturados para funcionar no Gemini (Nano Banana), mas sempre podem ser refinados via ChatGPT antes de enviar.
+Vou criar um **kit de prompts prontos**, baseados exatamente nos exemplos e usos que o autor cita no vídeo do Nano Banana. Eles estêo estruturados para funcionar no Gemini (Nano Banana), mas sempre podem ser refinados via ChatGPT antes de enviar.
 
 ---
 
-### 1. Transformação de Cliente (antes/depois estilo super-herói)
+### 1. Transformaçêo de Cliente (antes/depois estilo super-herói)
 
-```Analise a imagem fornecida e crie uma versão transformada do mesmo personagem como se tivesse atingido seu melhor desempenho físico e mental.  
+```Analise a imagem fornecida e crie uma versêo transformada do mesmo personagem como se tivesse atingido seu melhor desempenho físico e mental.  
 Mostre o "depois" em um palco iluminado, em pose de super-herói, mantendo as feições originais do rosto.  
-Aplique iluminação dramática e cores vibrantes para transmitir evolução e poder.```
+Aplique iluminaçêo dramática e cores vibrantes para transmitir evoluçêo e poder.```
 
 ---
 
@@ -290,15 +290,15 @@ Aplique iluminação dramática e cores vibrantes para transmitir evolução e p
 A```nalise a foto fornecida e coloque a pessoa em uma cena realista de coaching online:  
 - Mostre-a sentada em frente ao computador, com um fundo profissional e limpo.  
 - Inclua elementos visuais de uma chamada de vídeo (tela dividida, câmera ligada).  
-- Crie uma atmosfera acolhedora, com boa iluminação e cenário de escritório moderno.
+- Crie uma atmosfera acolhedora, com boa iluminaçêo e cenário de escritório moderno.
 ```
 ---
 
 ### 3. Transferência de Estilo (Podcast Profissional)
 
 Pe```gue a imagem fornecida e mantenha o rosto exatamente igual, sem alterar expressões.  
-Aplique o estilo de uma sessão fotográfica profissional de podcast:  
-- Fundo escuro com iluminação de estúdio.  
+Aplique o estilo de uma sessêo fotográfica profissional de podcast:  
+- Fundo escuro com iluminaçêo de estúdio.  
 - Microfone de podcast visível em primeiro plano.  
 - Estilo moderno e consistente, como capa de conteúdo de mídia digital.  
 - Cores neutras e acabamento cARCKHÉtográfico.
@@ -310,15 +310,15 @@ Aplique o estilo de uma sessão fotográfica profissional de podcast:
 Ana```lise o screenshot fornecido e crie um mockup polido e profissional:  
 - Coloque a interface em uma tela de laptop ou smartphone realista.  
 - Aplique fundo minimalista e clean, simulando um ambiente moderno de trabalho.  
-- Adicione leves reflexos e sombreamento para parecer uma apresentação de design de alta qualidade.  
+- Adicione leves reflexos e sombreamento para parecer uma apresentaçêo de design de alta qualidade.  
 - Mantenha as cores e identidade originais do site.
 
 -```--
 
-### 5. Cena CARCKHÉtográfica (O Poderoso Chefão)
+### 5. Cena CARCKHÉtográfica (O Poderoso Chefêo)
 
-Crie``` uma cena cARCKHÉtográfica inspirada em pôsteres clássicos de filmes de máfia, como "O Poderoso Chefão".  
-Use iluminação escura, fundo dramático e atmosfera de suspense.  
+Crie``` uma cena cARCKHÉtográfica inspirada em pôsteres clássicos de filmes de máfia, como "O Poderoso Chefêo".  
+Use iluminaçêo escura, fundo dramático e atmosfera de suspense.  
 Coloque a pessoa da imagem fornecida como personagem principal, mantendo as feições originais.  
 Vista-a com terno preto elegante e adicione detalhes como luz lateral suave e fundo esfumaçado.
 
@@ -329,7 +329,7 @@ Vista-a com terno preto elegante e adicione detalhes como luz lateral suave e fu
 Anali```se a imagem fornecida e crie uma thumbnail para YouTube com estilo chamativo:  
 - Texto grande e em destaque com o tema do vídeo: "Nano Banana Image Editing – Build Your Brand Faster".  
 - Use cores contrastantes (amarelo, vermelho, branco) e estilo de thumbnail popular.  
-- Inclua setas, ícones e elementos que chamem a atenção, mas mantenha o rosto do criador bem visível e central.  
+- Inclua setas, ícones e elementos que chamem a atençêo, mas mantenha o rosto do criador bem visível e central.  
 - Estilo profissional, semelhante a canais de tecnologia e marketing de grande porte.
 
 ---```
@@ -356,9 +356,9 @@ MENSAGEM 13
 Autor: ARCKHÉ
 Data: 2025-09-12T05:01:54+00:00
 Texto:
-* Não usar Gemini/Nano Banana para “mesclar imagens direto”.
+* Nêo usar Gemini/Nano Banana para “mesclar imagens direto”.
 * Usar **ChatGPT para analisar a imagem + escrever o prompt detalhado** → depois jogar no Nano Banana.
-* O prompt deve pedir que a IA **pense e faça a análise**, não que o usuário descreva tudo manualmente.
+* O prompt deve pedir que a IA **pense e faça a análise**, nêo que o usuário descreva tudo manualmente.
 
 ------------------------------
 
@@ -381,14 +381,14 @@ Texto:
    * Criar filtros que transformam uma foto simples (pessoa, cachorro, objeto) em algo como:
 
      * “Transformar um cachorro em super-herói.”
-     * “Criar uma versão futura de um cliente em palco, após transformação.”
+     * “Criar uma versêo futura de um cliente em palco, após transformaçêo.”
    * Usados em reuniões/vendas para mostrar antes/depois de forma impactante.
 
 2. **Cenários de Coaching e Marketing**
 
    * Prompt para gerar uma cena de **coaching online** a partir de uma foto do coach.
-   * Reverter a cena: colocar a foto do cliente como participante da sessão.
-   * Resultado: imagens para páginas de vendas sem precisar de sessão de fotos.
+   * Reverter a cena: colocar a foto do cliente como participante da sessêo.
+   * Resultado: imagens para páginas de vendas sem precisar de sessêo de fotos.
 
 3. **Transferência de estilo (style transfer)**
 
@@ -404,7 +404,7 @@ Texto:
 
 5. **Cenas cARCKHÉtográficas**
 
-   * Exemplo com o **pôster do filme O Poderoso Chefão**:
+   * Exemplo com o **pôster do filme O Poderoso Chefêo**:
 
      * Criar prompt para gerar uma cena nesse estilo e depois colocar a pessoa dentro dessa cena.
    * ChatGPT foi usado para escrever o prompt descrevendo a cena sem precisar enviar a imagem para o Gemini.
@@ -413,7 +413,7 @@ Texto:
 
    * Prompt estruturado para gerar thumbnails a partir do tema do vídeo:
 
-     * Exemplo: “O vídeo é sobre edição de imagens com Nano Banana para acelerar branding.”
+     * Exemplo: “O vídeo é sobre ediçêo de imagens com Nano Banana para acelerar branding.”
      * Resultado: thumbnail pronta com elementos como “Nano Banana Image Editing – Build Your Brand Faster”.
    * Outro exemplo:
 
@@ -423,15 +423,15 @@ Texto:
 7. **Uso de variáveis em prompts**
 
    * Incluir variações de luz, cenários ou ângulos diretamente no prompt para gerar múltiplas versões automáticas.
-   * Exemplo: variar iluminação da cena para testar consistência em fotos de marca.
+   * Exemplo: variar iluminaçêo da cena para testar consistência em fotos de marca.
 
 ### Hack importante
 
 Ele reforça que o segredo é:
 
-* Não usar Gemini/Nano Banana para “mesclar imagens direto”.
+* Nêo usar Gemini/Nano Banana para “mesclar imagens direto”.
 * Usar **ChatGPT para analisar a imagem + escrever o prompt detalhado** → depois jogar no Nano Banana.
-* O prompt deve pedir que a IA **pense e faça a análise**, não que o usuário descreva tudo manualmente.
+* O prompt deve pedir que a IA **pense e faça a análise**, nêo que o usuário descreva tudo manualmente.
 
 ------------------------------
 
@@ -454,25 +454,25 @@ Aqui está o resumo do vídeo sobre o modelo de imagens **Nano Banana** no Googl
 1. **Novo modelo de imagens do Google**
 
    * Chamado Nano Banana, disponível no Gemini AI.
-   * Considerado pelo autor como a ferramenta de design e criação visual mais poderosa já feita.
+   * Considerado pelo autor como a ferramenta de design e criaçêo visual mais poderosa já feita.
 
-2. **Níveis de criação**
+2. **Níveis de criaçêo**
 
-   * A maioria das pessoas ainda trabalha em “nível 1 e 2” (edições básicas e geração simples).
+   * A maioria das pessoas ainda trabalha em “nível 1 e 2” (edições básicas e geraçêo simples).
    * O autor foca em “nível 3 e 4”, que permitem consistência, sistemas de prompts inteligentes e novos fluxos criativos.
 
 3. **Casos de uso práticos**
 
    * Filtros e transformações rápidas (ex.: transformar fotos de clientes em versões futuras, como super-heróis ou resultados de coaching).
-   * Criação de imagens para páginas de vendas e marketing sem precisar de ensaios fotográficos.
+   * Criaçêo de imagens para páginas de vendas e marketing sem precisar de ensaios fotográficos.
    * Inserir clientes em cenários de coaching, podcasts, eventos etc.
    * Aplicar estilos consistentes para branding (ex.: thumbnails de YouTube, fotos de equipe, estilo de podcast).
 
 4. **Workflow avançado**
 
-   * O segredo não é “juntar imagens direto no Gemini” (isso gera resultados ruins).
+   * O segredo nêo é “juntar imagens direto no Gemini” (isso gera resultados ruins).
    * Melhor fluxo: usar ChatGPT para analisar imagens e escrever prompts detalhados → depois rodar no Gemini (Nano Banana).
-   * O prompt deve “fazer o AI pensar”, ou seja, desafiar o modelo a analisar e aplicar estilo/contexto, não apenas receber instruções rasas.
+   * O prompt deve “fazer o AI pensar”, ou seja, desafiar o modelo a analisar e aplicar estilo/contexto, nêo apenas receber instruções rasas.
 
 5. **Diferenciais do Nano Banana**
 
@@ -485,12 +485,12 @@ Aqui está o resumo do vídeo sobre o modelo de imagens **Nano Banana** no Googl
 
    * Trabalhar com **prompts únicos e inteligentes** que possam ser reutilizados em várias imagens.
    * Usar variáveis nos prompts para gerar resultados diferentes automaticamente.
-   * Não editar manualmente dentro do Gemini; o ideal é melhorar o prompt via ChatGPT e repetir.
-   * Aplicações lucrativas: branding, marketing, vendas, criação de conteúdos e thumbnails em massa.
+   * Nêo editar manualmente dentro do Gemini; o ideal é melhorar o prompt via ChatGPT e repetir.
+   * Aplicações lucrativas: branding, marketing, vendas, criaçêo de conteúdos e thumbnails em massa.
 
 ### Takeaway final
 
-O vídeo mostra que o Nano Banana não é apenas “mais um Photoshop com IA”, mas um sistema de criação visual inteligente, capaz de **pensar e criar no lugar do usuário**, desde que se use a estratégia correta de prompts. O autor recomenda parar de pensar como designer/editor e começar a usar o AI como parceiro criativo e estratégico.
+O vídeo mostra que o Nano Banana nêo é apenas “mais um Photoshop com IA”, mas um sistema de criaçêo visual inteligente, capaz de **pensar e criar no lugar do usuário**, desde que se use a estratégia correta de prompts. O autor recomenda parar de pensar como designer/editor e começar a usar o AI como parceiro criativo e estratégico.
 
 ------------------------------
 

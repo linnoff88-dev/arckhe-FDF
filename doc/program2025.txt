@@ -4,13 +4,13 @@ Vou te entregar um **programa pronto**, organizado como curso, com módulos, aul
 
 ---
 
-# 🎨🚀 **PROGRAMA COMPLETO: "IMAGENS IMPACTANTES COM IA — EDIÇÃO 2025"**
+# 🎨🚀 **PROGRAMA COMPLETO: "IMAGENS IMPACTANTES COM IA — EDIÇêO 2025"**
 
 ### *Do zero ao profissional criativo, mesmo sem experiência em design*
 
 ---
 
-# 📍 **VISÃO GERAL DO PROGRAMA**
+# 📍 **VISêO GERAL DO PROGRAMA**
 
 * **Carga horária:** 4 a 6 semanas
 * **Formato:** aulas curtas + exercícios práticos + projetos guiados
@@ -37,13 +37,13 @@ Vou te entregar um **programa pronto**, organizado como curso, com módulos, aul
 
 ### *Só o que realmente importa hoje*
 
-* Aula 1: Composição explicada para quem não é designer
-* Aula 2: Iluminação e contraste para não depender da sorte
+* Aula 1: Composiçêo explicada para quem nêo é designer
+* Aula 2: Iluminaçêo e contraste para nêo depender da sorte
 * Aula 3: Psicologia das cores aplicada à IA
-* Aula 4: Estilo, atmosfera e direção artística
+* Aula 4: Estilo, atmosfera e direçêo artística
 * Aula 5: Como analisar uma imagem e saber se ela funciona
 
-**Exercício:** recriar uma imagem profissional usando IA com direção específica.
+**Exercício:** recriar uma imagem profissional usando IA com direçêo específica.
 
 ---
 
@@ -66,16 +66,16 @@ Vou te entregar um **programa pronto**, organizado como curso, com módulos, aul
 ### *De forma prática e objetiva*
 
 * Aula 1: Midjourney e Flux — impacto visual rápido
-* Aula 2: DALL·E — consistência e manipulação
-* Aula 3: Recraft — edição direta com IA
-* Aula 4: Photoshop IA — pós-produção realista
+* Aula 2: DALL·E — consistência e manipulaçêo
+* Aula 3: Recraft — ediçêo direta com IA
+* Aula 4: Photoshop IA — pós-produçêo realista
 * Aula 5: Figma e Canva IA — layouts prontos para social
 
 **Exercício:** criar um pack de imagens com 2 ferramentas diferentes.
 
 ---
 
-# 🎬 **MÓDULO 5 — Direção Criativa Aplicada**
+# 🎬 **MÓDULO 5 — Direçêo Criativa Aplicada**
 
 ### *O segredo dos profissionais*
 
@@ -89,15 +89,15 @@ Vou te entregar um **programa pronto**, organizado como curso, com módulos, aul
 
 ---
 
-# 🖌️ **MÓDULO 6 — Pós-Produção Inteligente**
+# 🖌️ **MÓDULO 6 — Pós-Produçêo Inteligente**
 
 ### *O toque que separa amadores de profissionais*
 
 * Aula 1: Color grading cinemático
 * Aula 2: Ajustes de luz e textura
 * Aula 3: Limpeza de imperfeições
-* Aula 4: Inserção de elementos adicionais
-* Aula 5: Harmonização visual
+* Aula 4: Inserçêo de elementos adicionais
+* Aula 5: Harmonizaçêo visual
 
 **Exercício:** pegar uma imagem IA e transformá-la em peça profissional.
 
@@ -108,8 +108,8 @@ Vou te entregar um **programa pronto**, organizado como curso, com módulos, aul
 ### *O que realmente performa em 2025*
 
 * Aula 1: Formatos e tendências
-* Aula 2: Composição para alta retenção
-* Aula 3: Estética que chama atenção instantaneamente
+* Aula 2: Composiçêo para alta retençêo
+* Aula 3: Estética que chama atençêo instantaneamente
 * Aula 4: Construindo uma linha editorial visual
 * Aula 5: Como viralizar usando imagens IA
 
@@ -117,15 +117,15 @@ Vou te entregar um **programa pronto**, organizado como curso, com módulos, aul
 
 ---
 
-# 🤑 **MÓDULO 8 — Monetização e Carreira**
+# 🤑 **MÓDULO 8 — Monetizaçêo e Carreira**
 
 ### *Como viver disso em 2025*
 
 * Aula 1: Nichos que mais pagam hoje
 * Aula 2: Como oferecer serviços com IA
-* Aula 3: Precificação para iniciantes e avançados
+* Aula 3: Precificaçêo para iniciantes e avançados
 * Aula 4: Trabalhando sem portfólio (o segredo)
-* Aula 5: Automatizando seu processo de criação
+* Aula 5: Automatizando seu processo de criaçêo
 
 **Exercício:** montar seu primeiro portfólio IA.
 
@@ -147,7 +147,7 @@ Vou te entregar um **programa pronto**, organizado como curso, com módulos, aul
 * 100 prompts prontos
 * 50 estilos visuais explicados
 * Biblioteca de referências
-* Checklists de criação
+* Checklists de criaçêo
 * Guias de ferramentas IA
 
 ---
@@ -158,7 +158,7 @@ Posso converter esse programa em:
 
 * **Ebook completo**
 * **PDF estruturado**
-* **Slides de apresentação**
+* **Slides de apresentaçêo**
 * **Página de vendas**
 * **Script para vídeo de lançamento**
 * **Plano de aulas detalhado**

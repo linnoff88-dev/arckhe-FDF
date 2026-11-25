@@ -13,7 +13,7 @@ MENSAGEM 1
 Autor: ARCKHÉ
 Data: 2025-08-29T16:05:49+00:00
 Texto:
-**dicas e hacks práticos** para usar melhor o **Nano Banana (Gemini 2.5 Flash)** no dia a dia. Aqui estão os principais:
+**dicas e hacks práticos** para usar melhor o **Nano Banana (Gemini 2.5 Flash)** no dia a dia. Aqui estêo os principais:
 
 ---
 
@@ -22,7 +22,7 @@ Texto:
 * Use prompts diretos como:
 
   * “Transforme esta foto em um thumbnail para YouTube com fundo espacial e título em contraste.”
-* Hack: sempre especifique **contraste de texto e posição centralizada** para evitar cortes estranhos.
+* Hack: sempre especifique **contraste de texto e posiçêo centralizada** para evitar cortes estranhos.
 
 ---
 
@@ -36,7 +36,7 @@ Texto:
 ### 3. Editando outdoors e produtos
 
 * É possível trocar ingredientes ou mensagens em anúncios.
-* Hack: combine **remoção + substituição** no mesmo prompt.
+* Hack: combine **remoçêo + substituiçêo** no mesmo prompt.
 
   * Exemplo: “Remova os tomates do hambúrguer, mantenha tudo igual, troque o texto de Open Now para Closed Now.”
 
@@ -45,14 +45,14 @@ Texto:
 ### 4. Fundos complexos
 
 * Nano Banana remove fundos difíceis mantendo cabelos e detalhes.
-* Hack: especifique “mantenha o cabelo natural e os detalhes do rosto” → isso melhora o resultado em comparação com só “remove background”.
+* Hack: especifique “mantenha o cabelo natural e os detalhes do rosto” → isso melhora o resultado em comparaçêo com só “remove background”.
 
 ---
 
-### 5. Troca de cenário e composição
+### 5. Troca de cenário e composiçêo
 
 * Você pode juntar elementos de diferentes imagens (ex.: pessoa + carro + estrada).
-* Hack: sempre peça **“mesma iluminação e sombras”** → o modelo tenta manter consistência no novo cenário.
+* Hack: sempre peça **“mesma iluminaçêo e sombras”** → o modelo tenta manter consistência no novo cenário.
 
 ---
 
@@ -66,7 +66,7 @@ Texto:
 ### 7. Arquitetura e interiores
 
 * Funciona bem para remodelagem rápida de ambientes.
-* Hack: faça prompts incrementais → primeiro mude piso, depois iluminação, depois teto. Isso mantém consistência.
+* Hack: faça prompts incrementais → primeiro mude piso, depois iluminaçêo, depois teto. Isso mantém consistência.
 
 ---
 
@@ -76,7 +76,7 @@ Texto:
 
 ---
 
-### 9. Restauração de fotos antigas
+### 9. Restauraçêo de fotos antigas
 
 * Hack: combine “restore and colorize” no prompt → ele traz cor e corrige danos.
 * Dá para pedir também “place photo in elegant frame” para resultado final já pronto para exibir.
@@ -90,7 +90,7 @@ Texto:
 
 ---
 
-### 11. Produção de Action Figures / Mockups
+### 11. Produçêo de Action Figures / Mockups
 
 * Hack: descreva em detalhes a embalagem (“blister pack, premium collectible toy, logo no canto, pose relaxada”). Quanto mais detalhado, mais fiel fica.
 
@@ -132,7 +132,7 @@ MENSAGEM 5
 Autor: ARCKHÉ
 Data: 2025-08-29T15:26:37+00:00
 Texto:
-com um casaco de inverno vermelho, depois faça ela segurá-lo na frente do corpo em outra variação."
+com um casaco de inverno vermelho, depois faça ela segurá-lo na frente do corpo em outra variaçêo."
   (EN: "Dress this woman with a red winter coat, then make her hold it in front of her body in another variation.")
 
 ------------------------------
@@ -148,15 +148,15 @@ Vou montar um **cheat sheet de prompts completos** (em português e inglês quan
 ### 1. Consistência de personagens
 
 * Prompt:
-  "Transforme esta foto, mantendo o mesmo rosto, mas mude a expressão para sorridente e adicione neve caindo no cenário."
+  "Transforme esta foto, mantendo o mesmo rosto, mas mude a expressêo para sorridente e adicione neve caindo no cenário."
   (EN: "Keep the same face, but change the expression to smiling and add snowy weather in the background.")
 
 ---
 
-### 2. Alteração de ambiente
+### 2. Alteraçêo de ambiente
 
 * Prompt:
-  "Coloque o personagem sentado em posição de meditação em um parque durante o outono, folhas laranjas ao fundo."
+  "Coloque o personagem sentado em posiçêo de meditaçêo em um parque durante o outono, folhas laranjas ao fundo."
   (EN: "Place the character in a meditation pose in a park during autumn, with orange leaves in the background.")
 
 ---
@@ -205,10 +205,10 @@ Vou montar um **cheat sheet de prompts completos** (em português e inglês quan
 
 ---
 
-### 7. Criação de universos cARCKHÉtográficos
+### 7. Criaçêo de universos cARCKHÉtográficos
 
 * Prompt:
-  "Mostre o mesmo personagem correndo em direção à torre ao fundo, na mesma cidade da imagem original, mantendo roupas e estilo consistentes."
+  "Mostre o mesmo personagem correndo em direçêo à torre ao fundo, na mesma cidade da imagem original, mantendo roupas e estilo consistentes."
   (EN: "Show the same character running towards the tower in the background, in the same city as the original image, keeping clothes and style consistent.")
 
 * Prompt alternativo:
@@ -217,14 +217,14 @@ Vou montar um **cheat sheet de prompts completos** (em português e inglês quan
 
 ---
 
-### 8. Redecoração e interiores
+### 8. Redecoraçêo e interiores
 
 * Prompt:
-  "Redecore esta sala em estilo art déco com atmosfera nostálgica, incluindo móveis clássicos e iluminação quente."
+  "Redecore esta sala em estilo art déco com atmosfera nostálgica, incluindo móveis clássicos e iluminaçêo quente."
   (EN: "Redecorate this room in art deco style with a nostalgic atmosphere, including classic furniture and warm lighting.")
 
 * Prompt alternativo:
-  "Transforme este apartamento em um estúdio gamer futurista com telas holográficas e iluminação de neon."
+  "Transforme este apartamento em um estúdio gamer futurista com telas holográficas e iluminaçêo de neon."
   (EN: "Turn this apartment into a futuristic gamer studio with holographic screens and neon lighting.")
 
 ---
@@ -256,17 +256,17 @@ MENSAGEM 8
 Autor: ARCKHÉ
 Data: 2025-08-29T15:25:51+00:00
 Texto:
-Aqui estão os principais **hacks e truques** mostrados e descobertos no vídeo do **Nano Banana do Google**:
+Aqui estêo os principais **hacks e truques** mostrados e descobertos no vídeo do **Nano Banana do Google**:
 
 ---
 
 ### 1. Consistência de personagens
 
 * Use **sua própria foto** como base para testar consistência (rosto, roupas, detalhes).
-* Replique cenas mudando apenas **expressão ou ambiente** para obter universos cARCKHÉtográficos.
+* Replique cenas mudando apenas **expressêo ou ambiente** para obter universos cARCKHÉtográficos.
 * Exemplo:
 
-  * “Make him laughing” → apenas muda expressão.
+  * “Make him laughing” → apenas muda expressêo.
   * “Same man, sad face, snowy weather” → consistência + cenário diferente.
 
 ---
@@ -289,7 +289,7 @@ Aqui estão os principais **hacks e truques** mostrados e descobertos no vídeo 
 
   * Use **“water gun”** em vez de “shotgun”.
   * Use **“swimsuit”** em vez de “bikini”.
-  * Permite figuras públicas genéricas (Trump, Messi), mas não rostos de famosos enviados por foto.
+  * Permite figuras públicas genéricas (Trump, Messi), mas nêo rostos de famosos enviados por foto.
 
 ---
 
@@ -309,7 +309,7 @@ Aqui estão os principais **hacks e truques** mostrados e descobertos no vídeo 
 
 ---
 
-### 6. Criação de universos cARCKHÉtográficos
+### 6. Criaçêo de universos cARCKHÉtográficos
 
 * Ao invés de repromptar do zero, continue editando a mesma cena.
 * Hack: use prompts incrementais como “change weather”, “make him running”, “show scene from behind”.
@@ -317,7 +317,7 @@ Aqui estão os principais **hacks e truques** mostrados e descobertos no vídeo 
 
 ---
 
-### 7. Estilo e ambientação
+### 7. Estilo e ambientaçêo
 
 * Para aplicar um estilo sem perder realismo, especifique **elementos locais**.
 * Exemplo:
@@ -337,7 +337,7 @@ Aqui estão os principais **hacks e truques** mostrados e descobertos no vídeo 
 
 ---
 
-### 9. Redecoração e arquitetura
+### 9. Redecoraçêo e arquitetura
 
 * Hack: peça para transformar o mesmo ambiente em diferentes estilos.
 * Exemplo:
@@ -349,7 +349,7 @@ Aqui estão os principais **hacks e truques** mostrados e descobertos no vídeo 
 
 ### 10. Estilo narrativo / Storytelling
 
-* Hack: sempre **peça B-roll ou variação de câmera** → útil para quem cria vídeos e filmes.
+* Hack: sempre **peça B-roll ou variaçêo de câmera** → útil para quem cria vídeos e filmes.
 * Exemplo:
 
   * “Provide a four panel image of B-roll footage of the subject in his environment”.
@@ -374,36 +374,36 @@ Aqui está o resumo do vídeo sobre o **Nano Banana do Google**:
 
 ### Principais pontos
 
-* O **Nano Banana** é um novo modelo de IA gratuito do Google, da família **Gemini 2.5 Flash**, com foco em edição e geração de imagens.
+* O **Nano Banana** é um novo modelo de IA gratuito do Google, da família **Gemini 2.5 Flash**, com foco em ediçêo e geraçêo de imagens.
 * Permite **edições avançadas em nível de Photoshop** apenas com texto, preservando alta consistência de personagens (90–95%), algo superior a MidJourney e GPT.
 * Funciona no **Gemini app** (selecionando Flash) e também no **Google AI Studio** (modo image preview).
 * Destaque para a capacidade de **manter personagens consistentes** em diferentes ângulos, poses e expressões, útil para criar universos cARCKHÉtográficos com continuidade.
 
 ### Testes práticos mostrados
 
-* Alterações em fotos pessoais: mudar expressão, adicionar objetos (banana, cachorro, chapéu), trocar cabelo, cenário e clima.
-* Criação de cenas completas: selfies, mudanças de cenário (cidade, floresta, neve), poses de meditação, etc.
+* Alterações em fotos pessoais: mudar expressêo, adicionar objetos (banana, cachorro, chapéu), trocar cabelo, cenário e clima.
+* Criaçêo de cenas completas: selfies, mudanças de cenário (cidade, floresta, neve), poses de meditaçêo, etc.
 * Testes de ângulos de câmera: vista aérea, de trás, sobre o ombro, diferentes distâncias.
-* Geração de **sequências cARCKHÉtográficas** com o mesmo personagem em várias cenas.
-* Edição de múltiplos personagens juntos com boa consistência.
+* Geraçêo de **sequências cARCKHÉtográficas** com o mesmo personagem em várias cenas.
+* Ediçêo de múltiplos personagens juntos com boa consistência.
 * Aplicações em **fotografia de produtos**: segurar objetos, mudar roupas, criar pôsteres publicitários automáticos.
-* Estilo e ambientação: transformar ambientes (apartamento em art déco, estúdio gamer futurista, selva, etc.), transferir estilos artísticos (Ghibli, 2D, etc.).
+* Estilo e ambientaçêo: transformar ambientes (apartamento em art déco, estúdio gamer futurista, selva, etc.), transferir estilos artísticos (Ghibli, 2D, etc.).
 
 ### Limitações observadas
 
-* Problemas com **mãos e textos** em algumas situações.
+* Problemas com **mêos e textos** em algumas situações.
 * Dificuldades em cenas complexas (relógios, copos cheios, rostos muito distantes).
-* **Censura/restrições**: bloqueia uso de rostos famosos, armas, violência, trajes sensuais (ex. “bikini” não aceita, mas “swimsuit” sim).
+* **Censura/restrições**: bloqueia uso de rostos famosos, armas, violência, trajes sensuais (ex. “bikini” nêo aceita, mas “swimsuit” sim).
 * Em alguns casos, estética cai para estilo mais “3D game asset” ao invés de fotorrealismo.
-* Restrições no **formato**: modelo tende a manter o aspecto original, não gera bem formatos verticais para stories.
+* Restrições no **formato**: modelo tende a manter o aspecto original, nêo gera bem formatos verticais para stories.
 
 ### Potenciais aplicações
 
-* Criação rápida de anúncios, pôsteres e materiais de marketing.
-* Produção de curtas ou filmes em estilo cARCKHÉtográfico com consistência entre cenas.
-* Visualização de interiores e arquitetura (redecoração de ambientes).
+* Criaçêo rápida de anúncios, pôsteres e materiais de marketing.
+* Produçêo de curtas ou filmes em estilo cARCKHÉtográfico com consistência entre cenas.
+* Visualizaçêo de interiores e arquitetura (redecoraçêo de ambientes).
 * Moda e publicidade (mudança de roupas, acessórios, produtos).
-* Geração de moodboards e referências de estilo.
+* Geraçêo de moodboards e referências de estilo.
 
 ---
 
@@ -434,7 +434,7 @@ mas adicionou objetos novos.
   * Nano Banana = melhor para **consistência de personagens** e **narrativas visuais contínuas**.
   * GPT = melhor em **mudança de clima/luz**.
   * Qian = mais limitado, perde realismo.
-  * Limitações: censura, erros em texto/mãos, dificuldade em objetos específicos.
+  * Limitações: censura, erros em texto/mêos, dificuldade em objetos específicos.
   * Potencial enorme em **publicidade, cARCKHÉ, design e marketing digital**.
 
 ---
@@ -445,17 +445,17 @@ MENSAGEM 13
 Autor: ARCKHÉ
 Data: 2025-08-29T15:23:55+00:00
 Texto:
-Vou detalhar cada sessão do vídeo do **Nano Banana** com exemplos de prompts usados, como se fosse um guia prático:
+Vou detalhar cada sessêo do vídeo do **Nano Banana** com exemplos de prompts usados, como se fosse um guia prático:
 
 ---
 
-### 1. Introdução e apresentação do modelo
+### 1. Introduçêo e apresentaçêo do modelo
 
 * Modelo: **Gemini 2.5 Flash (Nano Banana)**
 * Foco: **edições em nível de Photoshop só com texto**, mantendo consistência.
 * Exemplo:
 
-  * Prompt: “Make him laughing” → mudou expressão facial mantendo o rosto original.
+  * Prompt: “Make him laughing” → mudou expressêo facial mantendo o rosto original.
 
 ---
 
@@ -476,8 +476,8 @@ Vou detalhar cada sessão do vídeo do **Nano Banana** com exemplos de prompts u
 * Exemplos:
 
   * “Change to outdoor scene high up in a building” → personagem e cachorro no topo de prédio.
-  * “Make the weather snowy and face sad” → ambiente nevado + expressão de tristeza.
-  * “Meditation pose in autumn” → pose de meditação, folhas alaranjadas ao fundo.
+  * “Make the weather snowy and face sad” → ambiente nevado + expressêo de tristeza.
+  * “Meditation pose in autumn” → pose de meditaçêo, folhas alaranjadas ao fundo.
   * “Replace buildings with tall tree houses” → prédios substituídos por casas na árvore.
 
 ---
@@ -493,19 +493,19 @@ Vou detalhar cada sessão do vídeo do **Nano Banana** com exemplos de prompts u
 
 ---
 
-### 5. Criação de universos cARCKHÉtográficos
+### 5. Criaçêo de universos cARCKHÉtográficos
 
 * Sequência de imagens que parecem frames de um filme.
 * Exemplos:
 
   * “Army marching towards a massive castle wall” → continuidade na narrativa.
-  * “Create B-roll footage” → gerou 4 ângulos diferentes do mesmo personagem (frente, costas, close-up, café na mão).
+  * “Create B-roll footage” → gerou 4 ângulos diferentes do mesmo personagem (frente, costas, close-up, café na mêo).
 
 ---
 
-### 6. Edição com múltiplos personagens
+### 6. Ediçêo com múltiplos personagens
 
-* Manutenção da consistência em grupo.
+* Manutençêo da consistência em grupo.
 * Exemplos:
 
   * “Two women in an arcade → sitting on billiard table” → mantidas roupas, rostos e estilo.
@@ -526,9 +526,9 @@ Vou detalhar cada sessão do vídeo do **Nano Banana** com exemplos de prompts u
 
 ---
 
-### 8. Estilo e ambientação
+### 8. Estilo e ambientaçêo
 
-* Transformação de interiores e cenários.
+* Transformaçêo de interiores e cenários.
 * Exemplos:
 
   * “Redecorate apartment in art deco style” → móveis clássicos, vibe nostálgica.
@@ -539,7 +539,7 @@ Vou detalhar cada sessão do vídeo do **Nano Banana** com exemplos de prompts u
 
 ### 9. Transferência de estilo artístico
 
-* Aplicação de estilos visuais em partes da imagem.
+* Aplicaçêo de estilos visuais em partes da imagem.
 * Exemplos:
 
   * “Make lantern and face look like 2D Ghibli” → só alguns elementos ganharam estilo anime.
@@ -566,11 +566,11 @@ Vou detalhar cada sessão do vídeo do **Nano Banana** com exemplos de prompts u
 
   * “Cafe drink → create ad poster” → pôster para café/bar com bebida autoral.
   * “Anti-aging cream in beach vibe” → modelo aplicando creme com logomarca visível.
-  * “Mood board anti-aging cream” → geração de painel visual com diferentes cenas.
+  * “Mood board anti-aging cream” → geraçêo de painel visual com diferentes cenas.
 
 ---
 
-### 12. Comparação com outros modelos (GPT e Qian)
+### 12. Comparaçêo com outros modelos (GPT e Qian)
 
 * Testes de qualidade com a mesma imagem.
 * Exemplos:
@@ -596,18 +596,18 @@ Data: 2025-08-29T15:21:20+00:00
 Texto:
 Segue a lista das sessões principais mostradas no vídeo do **Nano Banana do Google**:
 
-1. Introdução e apresentação do modelo (Gemini 2.5 Flash, foco em consistência)
+1. Introduçêo e apresentaçêo do modelo (Gemini 2.5 Flash, foco em consistência)
 2. Testes com foto pessoal (expressões faciais, chapéu, cachorro, objetos, clima)
 3. Alterações de cenário (cidade, neve, outono, floresta, telhados, prédios → casas na árvore)
 4. Testes de ângulos de câmera (frente, lado, trás, aérea, drone, sobre o ombro)
-5. Criação de universos cARCKHÉtográficos (sequências de cenas com mesmo personagem)
-6. Edição com múltiplos personagens (selfies em grupo, combinações com outros avatares)
+5. Criaçêo de universos cARCKHÉtográficos (sequências de cenas com mesmo personagem)
+6. Ediçêo com múltiplos personagens (selfies em grupo, combinações com outros avatares)
 7. Fotografia de produtos (inserir objetos, segurar embalagens, anúncios publicitários automáticos)
-8. Estilo e ambientação (transformar interiores em art déco, gamer futurista, selva, etc.)
-9. Transferência de estilo artístico (2D Ghibli, ilustração parcial, moodboards)
-10. Limitações e problemas (mãos, textos, rostos distantes, restrições de censura)
-11. Aplicações práticas e comerciais (moda, publicidade, arquitetura, criação de conteúdos para redes sociais)
-12. Testes de consistência em comparação com outros modelos (GPT, Qian)
+8. Estilo e ambientaçêo (transformar interiores em art déco, gamer futurista, selva, etc.)
+9. Transferência de estilo artístico (2D Ghibli, ilustraçêo parcial, moodboards)
+10. Limitações e problemas (mêos, textos, rostos distantes, restrições de censura)
+11. Aplicações práticas e comerciais (moda, publicidade, arquitetura, criaçêo de conteúdos para redes sociais)
+12. Testes de consistência em comparaçêo com outros modelos (GPT, Qian)
 13. Encerramento com observações sobre uso real e restrições.
 
 ------------------------------

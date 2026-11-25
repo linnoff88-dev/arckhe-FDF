@@ -93,16 +93,16 @@ Data: 2025-01-22T21:40:47+00:00
 Texto:
 Aqui está uma lista de **10 fundamentos essenciais** que você deve ensinar para preparar as pessoas para gerar imagens com consistência: 
  
-### 1. **Compreensão dos Modelos de IA** 
-   - Explique o que são modelos como **Stable Diffusion**, **DreamBooth**, e **ControlNet**. 
+### 1. **Compreensêo dos Modelos de IA** 
+   - Explique o que sêo modelos como **Stable Diffusion**, **DreamBooth**, e **ControlNet**. 
    - Diferencie entre modelos pré-treinados e personalizados. 
  
 ### 2. **Conceito de Prompt Engineering** 
    - Ensine como criar prompts claros, detalhados e repetíveis. 
-   - Mostre exemplos práticos de como a alteração de um prompt afeta o resultado. 
+   - Mostre exemplos práticos de como a alteraçêo de um prompt afeta o resultado. 
  
 ### 3. **Uso de Sementes (Seed)** 
-   - Explique como sementes controlam a aleatoriedade no processo de geração. 
+   - Explique como sementes controlam a aleatoriedade no processo de geraçêo. 
    - Ensine a reutilizar sementes para gerar variações consistentes. 
  
 ### 4. **Treinamento Personalizado** 
@@ -110,36 +110,36 @@ Aqui está uma lista de **10 fundamentos essenciais** que você deve ensinar par
    - Mostre como adicionar características específicas (ex.: estilo artístico ou rostos). 
  
 ### 5. **Controle de Entradas** 
-   - Apresente ferramentas como **ControlNet** para guiar a geração com esboços, poses ou mapas de profundidade. 
+   - Apresente ferramentas como **ControlNet** para guiar a geraçêo com esboços, poses ou mapas de profundidade. 
  
-### 6. **Formatação e Escalabilidade** 
-   - Ensine a importância de manter a mesma resolução, proporção e formato de saída. 
+### 6. **Formataçêo e Escalabilidade** 
+   - Ensine a importância de manter a mesma resoluçêo, proporçêo e formato de saída. 
    - Explique como evitar inconsistências geradas por alterações na escala. 
  
-### 7. **Organização e Dataset** 
+### 7. **Organizaçêo e Dataset** 
    - Mostre como organizar imagens de referência e datasets para treinamento eficaz. 
    - Explique a necessidade de imagens variadas e de alta qualidade. 
  
 ### 8. **Conhecimento sobre Estilos Visuais** 
-   - Ensine como estudar estilos e referências para criar um padrão visual consistente. 
+   - Ensine como estudar estilos e referências para criar um padrêo visual consistente. 
    - Demonstre como usar descrições estilísticas em prompts. 
  
 ### 9. **Ferramentas e Plataformas** 
    - Apresente as ferramentas disponíveis (Replicate, Hugging Face, Fal, etc.). 
    - Explique como escolher a ferramenta certa com base no objetivo. 
  
-### 10. **Iteração e Ajustes** 
+### 10. **Iteraçêo e Ajustes** 
    - Mostre como iterar os resultados ajustando parâmetros, como prompts, seeds e configurações de modelo. 
    - Ensine a avaliar os resultados e identificar áreas de melhoria. 
  
 --- 
  
 ### **Plano de Aula Sugerido** 
-- **Parte 1**: Teoria e introdução aos fundamentos (Pontos 1-5).   
-- **Parte 2**: Demonstração prática de geração e ajuste (Pontos 6-10).   
-- **Exercício**: Criação de uma imagem consistente usando os conceitos aprendidos. 
+- **Parte 1**: Teoria e introduçêo aos fundamentos (Pontos 1-5).   
+- **Parte 2**: Demonstraçêo prática de geraçêo e ajuste (Pontos 6-10).   
+- **Exercício**: Criaçêo de uma imagem consistente usando os conceitos aprendidos. 
  
-Esses fundamentos garantem que os alunos compreendam o processo desde a base até a aplicação prática.
+Esses fundamentos garantem que os alunos compreendam o processo desde a base até a aplicaçêo prática.
 
 ------------------------------
 

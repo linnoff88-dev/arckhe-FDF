@@ -2,13 +2,13 @@
 
 > Sistema de Design Completo adaptado do FEP para o projeto Designer do Futuro
 
-**Versão:** 1.0 | **Data:** 2025-11-24 | **Autor:** ARCKHÉ Team
+**Versêo:** 1.0 | **Data:** 2025-11-24 | **Autor:** ARCKHÉ Team
 
 ---
 
 ## 📋 Índice Rápido
 
-- [Visão Geral](#visão-geral)
+- [Visêo Geral](#visêo-geral)
 - [Identidade Visual](#identidade-visual)
 - [Sistema de Cores](#sistema-de-cores)
 - [Tipografia](#tipografia)
@@ -19,16 +19,16 @@
 
 ---
 
-## 🎯 Visão Geral
+## 🎯 Visêo Geral
 
 ### Sobre o Projeto
 
-**Designer do Futuro** é um projeto educacional com 4 trilhas progressivas de aprendizado focadas em criação de imagens com IA.
+**Designer do Futuro** é um projeto educacional com 4 trilhas progressivas de aprendizado focadas em criaçêo de imagens com IA.
 
 ### Princípios de Design
 
 1. ✅ **Clareza** - Interface limpa e fácil de navegar
-2. ✅ **Progressão Visual** - Cada trilha tem sua identidade
+2. ✅ **Progressêo Visual** - Cada trilha tem sua identidade
 3. ✅ **Acessibilidade** - WCAG 2.1 AA compliant
 4. ✅ **Performance** - Animações suaves e carregamento rápido
 5. ✅ **Mobile-First** - Design responsivo priorizando mobile
@@ -71,7 +71,7 @@ ARCKHÉ.VIP
 
 - **Tom**: Inspirador, acessível, moderno
 - **Estilo**: Futurista, minimalista, profissional
-- **Emoção**: Empoderamento, criatividade, transformação
+- **Emoçêo**: Empoderamento, criatividade, transformaçêo
 
 ---
 
@@ -106,7 +106,7 @@ ARCKHÉ.VIP
 --gray-50:        #F9FAFB;  /* Backgrounds leves */
 --gray-100:       #F3F4F6;  /* Cards alternativos */
 --gray-200:       #E5E7EB;  /* Bordas leves */
---gray-300:       #D1D5DB;  /* Bordas padrão */
+--gray-300:       #D1D5DB;  /* Bordas padrêo */
 --gray-400:       #9CA3AF;  /* Disabled */
 --gray-600:       #4B5563;  /* Texto secundário */
 --gray-700:       #374151;  /* Texto principal */
@@ -153,7 +153,7 @@ background: linear-gradient(90deg, #EC4899, #8B5CF6);
 | **Badge** | `bg-emerald-500` | `bg-blue-500` | `bg-purple-500` | `bg-amber-500` |
 | **Borda** | `border-emerald-200` | `border-blue-200` | `border-purple-200` | `border-amber-200` |
 | **Hover** | `border-emerald-400` | `border-blue-400` | `border-purple-400` | `border-amber-400` |
-| **Botão** | `bg-emerald-500` | `bg-blue-500` | `bg-purple-500` | `bg-amber-500` |
+| **Botêo** | `bg-emerald-500` | `bg-blue-500` | `bg-purple-500` | `bg-amber-500` |
 
 ---
 
@@ -210,7 +210,7 @@ H3:  1.5rem (24px)
 <p class="text-base text-gray-700">Conteúdo aqui</p>
 
 <!-- Secondary Text -->
-<p class="text-sm text-gray-600">Informação secundária</p>
+<p class="text-sm text-gray-600">Informaçêo secundária</p>
 ```
 
 ---
@@ -222,7 +222,7 @@ H3:  1.5rem (24px)
 ```
 xs:   0.25rem   (4px)   - Espaços mínimos
 sm:   0.5rem    (8px)   - Gaps pequenos
-md:   1rem      (16px)  - Padrão
+md:   1rem      (16px)  - Padrêo
 lg:   1.5rem    (24px)  - Entre elementos
 xl:   2rem      (32px)  - Entre seções
 2xl:  3rem      (48px)  - Padding de seções
@@ -230,7 +230,7 @@ xl:   2rem      (32px)  - Entre seções
 4xl:  5rem      (80px)  - Separadores
 ```
 
-### Container Padrão
+### Container Padrêo
 
 ```html
 <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -272,7 +272,7 @@ xl:  1280px  - Large desktop
 
 ## 🧩 Componentes
 
-### 1. Navegação
+### 1. Navegaçêo
 
 ```html
 <nav class="sticky top-0 z-50 bg-white/95 backdrop-blur-sm shadow-sm">
@@ -377,7 +377,7 @@ xl:  1280px  - Large desktop
       </li>
     </ul>
 
-    <!-- Botão -->
+    <!-- Botêo -->
     <a href="./trilhas/iniciante.html" class="block w-full bg-emerald-500 text-white py-3 rounded-lg font-semibold text-center hover:bg-emerald-600 transition-colors">
       Começar Agora
     </a>
@@ -451,7 +451,7 @@ xl:  1280px  - Large desktop
           Criatividade Amplificada com IA
         </p>
         <p class="text-gray-400 text-sm">
-          Educação gratuita para todos.
+          Educaçêo gratuita para todos.
         </p>
       </div>
 
@@ -505,7 +505,7 @@ xl:  1280px  - Large desktop
 ### Princípios
 
 1. Usar apenas `transform` e `opacity` (performance)
-2. Duração: 0.2s-0.8s
+2. Duraçêo: 0.2s-0.8s
 3. Easing: `ease-out` ou `cubic-bezier(0.4, 0, 0.2, 1)`
 4. Respeitar `prefers-reduced-motion`
 
@@ -588,7 +588,7 @@ XL Desktop (xl):   >= 1280px
 
 ---
 
-## ✅ Checklist de Implementação
+## ✅ Checklist de Implementaçêo
 
 - [ ] Incluir Tailwind CSS CDN
 - [ ] Incluir Google Fonts (Inter)
@@ -602,6 +602,6 @@ XL Desktop (xl):   >= 1280px
 
 ---
 
-**Última atualização:** 2025-11-24
-**Versão:** 1.0
+**Última atualizaçêo:** 2025-11-24
+**Versêo:** 1.0
 **Autor:** ARCKHÉ Team

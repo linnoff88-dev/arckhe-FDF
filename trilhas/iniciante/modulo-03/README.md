@@ -2,7 +2,7 @@
 ## Domine a arte de se comunicar com a IA
 
 **Trilha:** Iniciante
-**Duração:** 1 semana | 8 horas
+**Duraçêo:** 1 semana | 8 horas
 **Dificuldade:** ⭐⭐ Iniciante
 
 ---
@@ -23,13 +23,13 @@ Ao final deste módulo, você vai:
 
 ### Aula 1: Estrutura Básica de Um Prompt Efetivo
 
-**Duração:** 2 horas
+**Duraçêo:** 2 horas
 
 #### Anatomia de Um Prompt Perfeito
 
 **Fórmula Básica:**
 ```
-[SUJEITO] + [AÇÃO] + [ESTILO] + [ILUMINAÇÃO] + [ATMOSFERA] + [QUALIDADE]
+[SUJEITO] + [AÇêO] + [ESTILO] + [ILUMINAÇêO] + [ATMOSFERA] + [QUALIDADE]
 ```
 
 **Exemplo Completo:**
@@ -49,7 +49,7 @@ O elemento principal da imagem.
 ❌ Vago: "uma pessoa"
 ✅ Específico: "uma mulher de 30 anos, cabelos castanhos, vestindo blazer azul"
 
-**2. AÇÃO (FAZENDO O QUÊ)**
+**2. AÇêO (FAZENDO O QUÊ)**
 O que está acontecendo.
 
 ❌ "pessoa"
@@ -60,13 +60,13 @@ O estilo visual desejado.
 
 Opções:
 - "fotografia realista"
-- "ilustração digital"
+- "ilustraçêo digital"
 - "pintura a óleo"
 - "arte 3D"
 - "aquarela"
 - "cartoon"
 
-**4. ILUMINAÇÃO (TIPO DE LUZ)**
+**4. ILUMINAÇêO (TIPO DE LUZ)**
 Como a cena é iluminada.
 
 - "golden hour lighting"
@@ -75,7 +75,7 @@ Como a cena é iluminada.
 - "neon lights"
 - "candlelight"
 
-**5. ATMOSFERA/MOOD (EMOÇÃO)**
+**5. ATMOSFERA/MOOD (EMOÇêO)**
 Que sentimento transmite.
 
 - "cozy and warm"
@@ -115,7 +115,7 @@ alta qualidade, foco nítido
 Um cachorro golden retriever adulto correndo alegremente através de um campo de
 flores silvestres amarelas e roxas, orelhas ao vento, língua para fora,
 fotografia profissional estilo National Geographic,
-iluminação golden hour com raios de sol atravessando,
+iluminaçêo golden hour com raios de sol atravessando,
 atmosfera de liberdade e alegria pura,
 8k, ultra detalhado, foco nítido, bokeh no fundo
 ```
@@ -124,7 +124,7 @@ atmosfera de liberdade e alegria pura,
 
 ### Aula 2: Vocabulário Essencial Para IA
 
-**Duração:** 2 horas
+**Duraçêo:** 2 horas
 
 #### Estilos Visuais
 
@@ -140,7 +140,7 @@ atmosfera de liberdade e alegria pura,
 **ARTE DIGITAL:**
 - `digital art` - arte digital
 - `digital painting` - pintura digital
-- `3D render` - renderização 3D
+- `3D render` - renderizaçêo 3D
 - `pixel art` - arte pixelada
 - `vector art` - arte vetorial
 - `concept art` - arte conceitual
@@ -150,7 +150,7 @@ atmosfera de liberdade e alegria pura,
 - `watercolor` - aquarela
 - `ink drawing` - desenho à tinta
 - `pencil sketch` - esboço a lápis
-- `charcoal` - carvão
+- `charcoal` - carvêo
 - `minimalist` - minimalista
 - `abstract` - abstrato
 
@@ -163,7 +163,7 @@ atmosfera de liberdade e alegria pura,
 - `cyberpunk` - cyberpunk
 - `fantasy` - fantasia
 
-#### Iluminação
+#### Iluminaçêo
 
 **NATURAL:**
 - `golden hour` - hora dourada
@@ -178,12 +178,12 @@ atmosfera de liberdade e alegria pura,
 - `neon lights` - luzes neon
 - `candlelight` - luz de vela
 - `spotlight` - holofote
-- `ambient lighting` - iluminação ambiente
+- `ambient lighting` - iluminaçêo ambiente
 
 **QUALIDADE:**
 - `soft light` - luz suave
 - `hard light` - luz dura
-- `dramatic lighting` - iluminação dramática
+- `dramatic lighting` - iluminaçêo dramática
 - `rim light` - contraluz
 - `backlit` - retroiluminado
 
@@ -210,7 +210,7 @@ atmosfera de liberdade e alegria pura,
 - `magical atmosphere` - atmosfera mágica
 - `professional atmosphere` - atmosfera profissional
 
-#### Composição e Ângulos
+#### Composiçêo e Ângulos
 
 **ÂNGULOS:**
 - `top view` - vista de cima
@@ -220,8 +220,8 @@ atmosfera de liberdade e alegria pura,
 - `close-up` - close
 - `wide shot` - plano aberto
 
-**COMPOSIÇÃO:**
-- `centered composition` - composição centralizada
+**COMPOSIÇêO:**
+- `centered composition` - composiçêo centralizada
 - `rule of thirds` - regra dos terços
 - `symmetrical` - simétrica
 - `asymmetrical` - assimétrica
@@ -229,7 +229,7 @@ atmosfera de liberdade e alegria pura,
 #### Qualidade Técnica
 
 - `high quality` - alta qualidade
-- `4k`, `8k` - resolução
+- `4k`, `8k` - resoluçêo
 - `detailed` - detalhado
 - `sharp focus` - foco nítido
 - `bokeh` - desfoque do fundo
@@ -241,7 +241,7 @@ atmosfera de liberdade e alegria pura,
 
 ### Aula 3: Como Descrever O Que Você Quer
 
-**Duração:** 1.5 horas
+**Duraçêo:** 1.5 horas
 
 #### Técnica: Do Geral Para o Específico
 
@@ -262,7 +262,7 @@ atmosfera de liberdade e alegria pura,
 Um gato persa branco fofo enrolado dormindo em uma janela larga com moldura de madeira,
 raios de sol dourado atravessando iluminando seu pelo,
 plantas em vasos ao redor,
-atmosfera de manhã tranquila e aconchegante,
+atmosfera de manhê tranquila e aconchegante,
 fotografia profissional, soft focus, cores quentes
 ```
 
@@ -276,7 +276,7 @@ fotografia profissional, soft focus, cores quentes
 ❌ "árvores"
 ✅ "três árvores altas"
 
-**POSIÇÃO:**
+**POSIÇêO:**
 ❌ "montanhas e lago"
 ✅ "montanhas ao fundo com lago em primeiro plano"
 
@@ -297,9 +297,9 @@ fotografia profissional, soft focus, cores quentes
 - "estilo Pinterest aesthetic"
 - "estilo filme Wes Anderson" (cores pastel, simétrico)
 
-#### Técnica do "Não É"
+#### Técnica do "Nêo É"
 
-Diga o que NÃO quer (nem todas as IAs suportam):
+Diga o que NêO quer (nem todas as IAs suportam):
 
 ```
 Uma floresta mística, atmosfera mágica
@@ -308,9 +308,9 @@ Negative prompt: pessoas, animais, carros, prédios
 
 ---
 
-### Aula 4: Iteração - Transformando Bom em Perfeito
+### Aula 4: Iteraçêo - Transformando Bom em Perfeito
 
-**Duração:** 1.5 horas
+**Duraçêo:** 1.5 horas
 
 #### O Processo Iterativo
 
@@ -325,19 +325,19 @@ Negative prompt: pessoas, animais, carros, prédios
 4. REPETIR (até ficar perfeito)
 ```
 
-#### Exemplo Real de Iteração
+#### Exemplo Real de Iteraçêo
 
-**Versão 1:**
+**Versêo 1:**
 "uma casa"
 
 **Resultado:** Genérico, sem personalidade
 
-**Versão 2:**
+**Versêo 2:**
 "uma casa moderna com piscina"
 
 **Resultado:** Melhor, mas ainda vago
 
-**Versão 3:**
+**Versêo 3:**
 ```
 Uma casa moderna minimalista branca com piscina infinity,
 vista frontal, dia ensolarado
@@ -345,7 +345,7 @@ vista frontal, dia ensolarado
 
 **Resultado:** Bom, mas falta atmosfera
 
-**Versão 4:**
+**Versêo 4:**
 ```
 Uma casa moderna minimalista branca de dois andares com grandes janelas de vidro
 e piscina infinity, cercada por jardim minimalista,
@@ -362,7 +362,7 @@ atmosfera de luxo e tranquilidade,
 #### Técnicas de Refinamento
 
 **1. Adicione Detalhes Gradualmente**
-Não tente tudo de uma vez.
+Nêo tente tudo de uma vez.
 
 **2. Mude Uma Variável Por Vez**
 Assim você sabe o que funcionou.
@@ -377,7 +377,7 @@ Use partes de diferentes prompts bons.
 
 ### Aula 5: Erros Comuns e Como Evitá-Los
 
-**Duração:** 1 hora
+**Duraçêo:** 1 hora
 
 #### Top 10 Erros de Iniciantes
 
@@ -386,50 +386,50 @@ Use partes de diferentes prompts bons.
 ✅ "paisagem de montanhas cobertas de neve ao pôr do sol"
 
 **2. Informações Conflitantes**
-❌ "noite ensolarada" (contradição)
+❌ "noite ensolarada" (contradiçêo)
 ✅ "noite iluminada pela lua cheia"
 
-**3. Excesso de Informação**
+**3. Excesso de Informaçêo**
 ❌ Um parágrafo gigante com 50 detalhes
 ✅ Foque em 5-10 elementos-chave
 
 **4. Ortografia Errada**
 A maioria das IAs funciona melhor em inglês correto.
 
-**5. Falta de Especificação de Estilo**
-Sempre diga: fotografia, ilustração, 3D, etc.
+**5. Falta de Especificaçêo de Estilo**
+Sempre diga: fotografia, ilustraçêo, 3D, etc.
 
-**6. Esquecer a Iluminação**
+**6. Esquecer a Iluminaçêo**
 Luz transforma tudo!
 
-**7. Não Definir Atmosfera**
+**7. Nêo Definir Atmosfera**
 Sem mood, a imagem fica sem alma.
 
-**8. Ignorar Composição**
+**8. Ignorar Composiçêo**
 Especifique ângulo e enquadramento.
 
-**9. Não Iterar**
-Primeira versão raramente é a melhor.
+**9. Nêo Iterar**
+Primeira versêo raramente é a melhor.
 
-**10. Não Salvar Prompts que Funcionam**
+**10. Nêo Salvar Prompts que Funcionam**
 Mantenha uma biblioteca!
 
-#### Solução de Problemas Comuns
+#### Soluçêo de Problemas Comuns
 
 **Problema:** Imagem muito escura
-**Solução:** Adicione "bright", "well lit", "natural light"
+**Soluçêo:** Adicione "bright", "well lit", "natural light"
 
 **Problema:** Cores estranhas
-**Solução:** Especifique paleta de cores
+**Soluçêo:** Especifique paleta de cores
 
-**Problema:** Composição ruim
-**Solução:** Adicione "centered", "rule of thirds", ou ângulo específico
+**Problema:** Composiçêo ruim
+**Soluçêo:** Adicione "centered", "rule of thirds", ou ângulo específico
 
 **Problema:** Baixa qualidade
-**Solução:** Adicione "high quality, detailed, sharp, professional"
+**Soluçêo:** Adicione "high quality, detailed, sharp, professional"
 
 **Problema:** Estilo inconsistente
-**Solução:** Seja mais específico no estilo
+**Soluçêo:** Seja mais específico no estilo
 
 ---
 
@@ -447,30 +447,30 @@ Crie 10 imagens diferentes usando a estrutura aprendida:
 6. Comida
 7. Interior de casa
 8. Objeto abstrato
-9. Cena de ação
+9. Cena de açêo
 10. Natureza
 
 **Entrega:** 10 imagens + prompts usados
 
 ---
 
-### Exercício 2: Iteração Guiada (1.5h)
+### Exercício 2: Iteraçêo Guiada (1.5h)
 
 Escolha 1 tema e crie 5 versões iterativas:
 - V1: Prompt básico
 - V2: Adicione estilo
-- V3: Adicione iluminação
+- V3: Adicione iluminaçêo
 - V4: Adicione atmosfera
 - V5: Adicione detalhes finais
 
-**Entrega:** 5 imagens mostrando evolução + análise
+**Entrega:** 5 imagens mostrando evoluçêo + análise
 
 ---
 
 ### Exercício 3: Vocabulário na Prática (1h)
 
 Crie 3 pares de imagens mudando apenas:
-- Par 1: Iluminação (golden hour vs blue hour)
+- Par 1: Iluminaçêo (golden hour vs blue hour)
 - Par 2: Atmosfera (cozy vs dramatic)
 - Par 3: Estilo (fotografia vs pintura)
 
@@ -494,7 +494,7 @@ Crie sua biblioteca pessoal de prompts:
 
 - [ ] Entendo a estrutura de um prompt efetivo
 - [ ] Domino vocabulário essencial
-- [ ] Sei descrever o que quero com precisão
+- [ ] Sei descrever o que quero com precisêo
 - [ ] Aprendi a iterar e refinar
 - [ ] Conheço erros comuns e como evitar
 - [ ] Criei minha biblioteca pessoal de prompts
@@ -507,9 +507,9 @@ Crie sua biblioteca pessoal de prompts:
 
 ```
 [SUJEITO DETALHADO],
-[AÇÃO/SITUAÇÃO],
-[ESTILO VISUAL] (fotografia/ilustração/3D/etc),
-[TIPO DE ILUMINAÇÃO],
+[AÇêO/SITUAÇêO],
+[ESTILO VISUAL] (fotografia/ilustraçêo/3D/etc),
+[TIPO DE ILUMINAÇêO],
 [ATMOSFERA/MOOD],
 [DETALHES ADICIONAIS],
 [QUALIDADE TÉCNICA]
@@ -518,7 +518,7 @@ Crie sua biblioteca pessoal de prompts:
 **Exemplo preenchido:**
 ```
 Uma xícara de café fumegante sobre uma mesa de madeira rústica,
-com grãos de café espalhados ao redor e luz entrando pela janela,
+com grêos de café espalhados ao redor e luz entrando pela janela,
 fotografia profissional de produto,
 soft natural morning light,
 atmosfera acolhedora e reconfortante,

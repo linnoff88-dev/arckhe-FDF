@@ -25,10 +25,10 @@
    - Projeto Final: Pack de 15 imagens
 ✅ Biblioteca de 40+ prompts testados
 ✅ Landing page HTML responsiva e profissional
-✅ Documentação ARCKHÉ AI (gratuito)
-✅ Documentação ARCKHÉ.VIP (premium)
-✅ Guia de contribuição
-✅ Guia de instalação e deploy
+✅ Documentaçêo ARCKHÉ AI (gratuito)
+✅ Documentaçêo ARCKHÉ.VIP (premium)
+✅ Guia de contribuiçêo
+✅ Guia de instalaçêo e deploy
 ✅ LICENSE (MIT)
 ✅ .gitignore configurado
 ✅ Script de deploy rápido
@@ -39,7 +39,7 @@
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-OPÇÃO 1: SCRIPT AUTOMÁTICO (MAIS RÁPIDO) ⚡
+OPÇêO 1: SCRIPT AUTOMÁTICO (MAIS RÁPIDO) ⚡
 
 Execute no terminal:
 
@@ -55,7 +55,7 @@ https://github.com/linnoff88-dev/FDF/settings/pages
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-OPÇÃO 2: COMANDOS MANUAIS (PASSO A PASSO) 📝
+OPÇêO 2: COMANDOS MANUAIS (PASSO A PASSO) 📝
 
 1. cd /home/nmaldaner/projetos/IMG
 
@@ -75,19 +75,19 @@ OPÇÃO 2: COMANDOS MANUAIS (PASSO A PASSO) 📝
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-OPÇÃO 3: GUIA DETALHADO (PASSO A PASSO COMPLETO) 📖
+OPÇêO 3: GUIA DETALHADO (PASSO A PASSO COMPLETO) 📖
 
 Abra e siga: SETUP-INICIAL.md
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-📚 DOCUMENTAÇÃO IMPORTANTE:
+📚 DOCUMENTAÇêO IMPORTANTE:
 
 1. SETUP-INICIAL.md
    → Guia completo passo a passo para deploy
 
 2. PROJETO-COMPLETO.md
-   → Visão geral do que foi criado e próximos passos
+   → Visêo geral do que foi criado e próximos passos
 
 3. docs/guia-instalacao.md
    → Instruções técnicas de desenvolvimento e deploy
@@ -96,7 +96,7 @@ Abra e siga: SETUP-INICIAL.md
    → Como outras pessoas podem contribuir
 
 5. README.md
-   → Documentação principal do projeto
+   → Documentaçêo principal do projeto
 
 6. COMANDOS-RAPIDOS.sh
    → Script bash para deploy automático
@@ -147,12 +147,12 @@ Total: ~15 minutos até o site estar no ar!
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 🎉 PARABÉNS! Você tem um projeto educacional completo e profissional
-pronto para impactar vidas e democratizar o acesso à criação visual
+pronto para impactar vidas e democratizar o acesso à criaçêo visual
 com IA!
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Feito com ❤️ para democratizar a criação visual com IA
+Feito com ❤️ para democratizar a criaçêo visual com IA
 Designer do Futuro - ARCKHÉ AI - 2025
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

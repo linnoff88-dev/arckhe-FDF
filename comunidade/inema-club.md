@@ -9,19 +9,19 @@
 
 O **ARCKHÉ AI** é a comunidade oficial e **100% gratuita** do projeto Designer do Futuro, onde criadores de todos os níveis se reúnem para:
 
-- 📚 Aprender criação de imagens com IA
+- 📚 Aprender criaçêo de imagens com IA
 - 🤝 Compartilhar projetos e receber feedback
 - 💡 Participar de desafios criativos
 - 🎓 Acessar conteúdo educacional gratuito
 - 🌍 Fazer networking com outros criadores
 
-**Missão:** Democratizar o acesso à criação visual profissional através de educação e comunidade.
+**Missêo:** Democratizar o acesso à criaçêo visual profissional através de educaçêo e comunidade.
 
 ---
 
 ## ✨ Benefícios Gratuitos
 
-### 📚 Educação Completa
+### 📚 Educaçêo Completa
 
 ✅ **Acesso Total a 4 Trilhas Educacionais:**
 - Trilha Iniciante (30h)
@@ -60,7 +60,7 @@ O **ARCKHÉ AI** é a comunidade oficial e **100% gratuita** do projeto Designer
 
 ✅ **Desafios Mensais:**
 - Tema criativo novo todo mês
-- Premiação simbólica
+- Premiaçêo simbólica
 - Destaque na galeria
 - Badges especiais
 
@@ -80,7 +80,7 @@ O **ARCKHÉ AI** é a comunidade oficial e **100% gratuita** do projeto Designer
 
 ✅ **Badges no Discord:**
 - Badges por conquistas
-- Níveis de participação
+- Níveis de participaçêo
 - Reconhecimento público
 
 ### 📸 Galeria Comunitária
@@ -114,7 +114,7 @@ O **ARCKHÉ AI** é a comunidade oficial e **100% gratuita** do projeto Designer
 - `#ajuda` - Peça e ofereça ajuda
 - `#feedback` - Receba feedback em seus projetos
 
-**🎨 Criação:**
+**🎨 Criaçêo:**
 - `#showcase` - Mostre seus projetos
 - `#desafio-mensal` - Participe dos desafios
 - `#work-in-progress` - Compartilhe seu processo
@@ -195,13 +195,13 @@ Receba mensalmente:
 2. Você tem até dia 28 para criar
 3. Poste no canal `#desafio-mensal`
 4. Comunidade vota favoritos (dia 29-30)
-5. Top 3 são premiados dia 31/1
+5. Top 3 sêo premiados dia 31/1
 
-**Premiação:**
+**Premiaçêo:**
 - 🥇 Destaque no site oficial + Badge Ouro
 - 🥈 Destaque na newsletter + Badge Prata
 - 🥉 Showcase fixado + Badge Bronze
-- 🎖️ Todos participantes: Badge de Participação
+- 🎖️ Todos participantes: Badge de Participaçêo
 
 **Exemplos de Temas Passados:**
 - Janeiro: "Ano Novo, Eu Novo"
@@ -229,13 +229,13 @@ Receba mensalmente:
 
 **Primeira sexta-feira do mês:**
 - Launch do desafio mensal
-- Apresentação do tema
+- Apresentaçêo do tema
 - Inspirações e referências
 
 **Último sábado do mês:**
 - Hackathon criativo (4h)
 - Crie em tempo real com a comunidade
-- Premiação instantânea
+- Premiaçêo instantânea
 
 ### Eventos Especiais
 
@@ -247,7 +247,7 @@ Receba mensalmente:
 
 **Anuais:**
 - ARCKHÉ Fest (evento principal)
-- Premiação anual
+- Premiaçêo anual
 - Retrospectiva
 - Roadmap do próximo ano
 
@@ -259,22 +259,22 @@ Receba mensalmente:
 
 **Respeito:**
 - Trate todos com gentileza
-- Sem discriminação de qualquer tipo
+- Sem discriminaçêo de qualquer tipo
 - Críticas construtivas, nunca destrutivas
 
-**Colaboração:**
+**Colaboraçêo:**
 - Ajude quem está começando
 - Compartilhe conhecimento
 - Crescemos juntos
 
 **Criatividade:**
 - Celebre a diversidade criativa
-- Não existem ideias "erradas"
+- Nêo existem ideias "erradas"
 - Experimente sem medo
 
 **Integridade:**
 - Dê crédito onde é devido
-- Não plagie
+- Nêo plagie
 - Seja honesto sobre IA
 
 ### Regras da Comunidade
@@ -287,9 +287,9 @@ Receba mensalmente:
 - Promover SEU conteúdo (moderadamente)
 
 ❌ **Proibido:**
-- Spam ou autopromoção excessiva
+- Spam ou autopromoçêo excessiva
 - Conteúdo NSFW ou ofensivo
-- Discriminação ou assédio
+- Discriminaçêo ou assédio
 - Venda agressiva
 - Compartilhar conteúdo ilegal
 
@@ -313,7 +313,7 @@ Receba mensalmente:
 **Código:**
 - Corrija bugs
 - Adicione recursos ao site
-- Melhore documentação
+- Melhore documentaçêo
 - Crie ferramentas auxiliares
 
 **Comunidade:**
@@ -328,7 +328,7 @@ Receba mensalmente:
 - Teste novos recursos
 - Compartilhe experiência
 
-[Guia completo de contribuição](../docs/contributing.md)
+[Guia completo de contribuiçêo](../docs/contributing.md)
 
 ---
 
@@ -345,10 +345,10 @@ Receba mensalmente:
 ## ❓ FAQ
 
 **É realmente 100% gratuito?**
-Sim! Todo conteúdo educacional e acesso à comunidade são gratuitos para sempre.
+Sim! Todo conteúdo educacional e acesso à comunidade sêo gratuitos para sempre.
 
 **Preciso saber inglês?**
-Não, todo conteúdo está em português. Mas ajuda para usar ferramentas de IA.
+Nêo, todo conteúdo está em português. Mas ajuda para usar ferramentas de IA.
 
 **Quanto tempo leva para completar uma trilha?**
 Depende do seu ritmo. Em média:
@@ -359,15 +359,15 @@ Depende do seu ritmo. Em média:
 **Posso fazer várias trilhas?**
 Sim! Faça quantas quiser, na ordem que quiser.
 
-**Os certificados são reconhecidos?**
-São certificados de conclusão de curso livre, válidos como comprovante de horas de estudo e conhecimento adquirido.
+**Os certificados sêo reconhecidos?**
+Sêo certificados de conclusêo de curso livre, válidos como comprovante de horas de estudo e conhecimento adquirido.
 
 **Qual a diferença entre ARCKHÉ AI e ARCKHÉ.VIP?**
 - CLUB: Gratuito, acesso a conteúdo e comunidade
 - VIP: Pago, mentorias, feedback personalizado, networking premium
 
 **Preciso usar ferramentas pagas?**
-Não! Todos os cursos usam ferramentas gratuitas. Ferramentas pagas são opcionais.
+Nêo! Todos os cursos usam ferramentas gratuitas. Ferramentas pagas sêo opcionais.
 
 ---
 

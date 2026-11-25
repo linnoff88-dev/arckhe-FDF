@@ -44,16 +44,16 @@ git commit -m "feat: initial commit - Designer do Futuro v1.0
 - Design system baseado no FEP
 - Landing page HTML responsiva
 - Biblioteca de 40+ prompts testados
-- Documentação INEMA.CLUB e INEMA.VIP
+- Documentaçêo INEMA.CLUB e INEMA.VIP
 - Sistema de recursos educacionais
-- Guias de contribuição e instalação
+- Guias de contribuiçêo e instalaçêo
 - 100% gratuito e open-source
 
 Inclui:
 - 4 módulos educacionais completos
 - Projeto final prático
 - Website profissional com Tailwind CSS
-- Documentação completa
+- Documentaçêo completa
 - MIT License"
 
 echo -e "${GREEN}✓ Commit criado${NC}"
@@ -86,7 +86,7 @@ if [ $? -eq 0 ]; then
     echo ""
     echo "3. Veja SETUP-INICIAL.md para próximos passos detalhados"
 else
-    echo -e "${YELLOW}⚠ Erro no push. Verifique sua autenticação com GitHub${NC}"
+    echo -e "${YELLOW}⚠ Erro no push. Verifique sua autenticaçêo com GitHub${NC}"
     echo ""
     echo "Você pode precisar:"
     echo "1. Configurar GitHub CLI (gh auth login)"
@@ -98,7 +98,7 @@ fi
 
 echo ""
 echo "======================================"
-echo "📖 Documentação útil:"
+echo "📖 Documentaçêo útil:"
 echo "  - SETUP-INICIAL.md: Guia passo a passo completo"
 echo "  - docs/guia-instalacao.md: Deploy e desenvolvimento"
 echo "  - PROJETO-COMPLETO.md: Resumo do projeto"

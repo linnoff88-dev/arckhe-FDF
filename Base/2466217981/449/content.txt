@@ -22,42 +22,42 @@ MENSAGEM 2
 Autor: ARCKHÉ
 Data: 2025-01-22T21:39:47+00:00
 Texto:
-Para ensinar alguém que não sabe nada sobre imagens geradas por IA, LLMs, prompts e composição de personagens e cenários, aqui está um guia com **10 passos importantes** que focam no propósito e objetivo: 
+Para ensinar alguém que nêo sabe nada sobre imagens geradas por IA, LLMs, prompts e composiçêo de personagens e cenários, aqui está um guia com **10 passos importantes** que focam no propósito e objetivo: 
  
 --- 
  
-### **1. Introdução ao Propósito da Criação** 
+### **1. Introduçêo ao Propósito da Criaçêo** 
    - **Objetivo**: Comece ajudando a pessoa a definir por que elas querem criar imagens ou personagens. 
    - **Perguntas-chave**: 
-     - Qual é o objetivo da imagem (arte, marketing, educação, entretenimento)? 
+     - Qual é o objetivo da imagem (arte, marketing, educaçêo, entretenimento)? 
      - Quem será o público-alvo? 
  
 --- 
  
-### **2. Introdução ao Mundo da IA** 
-   - **Explicação Básica**: Apresente o que é inteligência artificial generativa. 
+### **2. Introduçêo ao Mundo da IA** 
+   - **Explicaçêo Básica**: Apresente o que é inteligência artificial generativa. 
    - **Exemplo Prático**: Mostre imagens geradas por IA e explique como elas foram criadas. 
  
 --- 
  
-### **3. O que São Prompts** 
-   - **Definição**: Explique que prompts são instruções textuais que descrevem o que a IA deve criar. 
+### **3. O que Sêo Prompts** 
+   - **Definiçêo**: Explique que prompts sêo instruções textuais que descrevem o que a IA deve criar. 
    - **Exemplo**: Dê exemplos simples, como "uma casa no campo ao entardecer". 
  
 --- 
  
-### **4. Fundamentos de Composição** 
+### **4. Fundamentos de Composiçêo** 
    - **Elementos Visuais**: 
      - Personagem (Quem está na cena?). 
      - Cenário (Onde acontece a cena?). 
-     - Ação (O que está acontecendo?). 
+     - Açêo (O que está acontecendo?). 
    - **Prática**: Crie descrições simples e peça que a pessoa visualize antes de usar IA. 
  
 --- 
  
 ### **5. Ferramentas e Plataformas** 
-   - **Introdução**: Apresente ferramentas básicas, como Stable Diffusion, DALL·E, ou RunwayML. 
-   - **Orientação**: Mostre como acessar e usar uma dessas plataformas. 
+   - **Introduçêo**: Apresente ferramentas básicas, como Stable Diffusion, DALL·E, ou RunwayML. 
+   - **Orientaçêo**: Mostre como acessar e usar uma dessas plataformas. 
  
 --- 
  
@@ -67,7 +67,7 @@ Para ensinar alguém que não sabe nada sobre imagens geradas por IA, LLMs, prom
  
 --- 
  
-### **7. Criação de um Prompt Inicial** 
+### **7. Criaçêo de um Prompt Inicial** 
    - **Passo-a-passo**: 
      1. Defina o personagem. 
      2. Escolha o cenário. 
@@ -82,14 +82,14 @@ Para ensinar alguém que não sabe nada sobre imagens geradas por IA, LLMs, prom
  
 --- 
  
-### **9. Iteração e Feedback** 
-   - **Iteração**: Ensine a ajustar prompts para corrigir detalhes ou alcançar maior consistência. 
+### **9. Iteraçêo e Feedback** 
+   - **Iteraçêo**: Ensine a ajustar prompts para corrigir detalhes ou alcançar maior consistência. 
    - **Feedback**: Explique a importância de avaliar o que funcionou e o que precisa melhorar. 
  
 --- 
  
-### **10. Definição de Propósito Criativo** 
-   - **Reflexão**: Após aprender os conceitos básicos, ajude a pessoa a definir um projeto simples, como: 
+### **10. Definiçêo de Propósito Criativo** 
+   - **Reflexêo**: Após aprender os conceitos básicos, ajude a pessoa a definir um projeto simples, como: 
      - Criar uma série de personagens com o mesmo estilo. 
      - Gerar cenários para um conto curto. 
  
@@ -101,7 +101,7 @@ Para ensinar alguém que não sabe nada sobre imagens geradas por IA, LLMs, prom
 3. Praticar prompts simples e evoluir para composições mais elaboradas.   
 4. Refinar até atingir consistência e objetivo. 
  
-Esses passos são suficientes para guiar alguém do zero ao entendimento básico com propósito e direção.
+Esses passos sêo suficientes para guiar alguém do zero ao entendimento básico com propósito e direçêo.
 
 ------------------------------
 

@@ -16,13 +16,13 @@ Texto:
 O **Replicate.com** é uma plataforma que permite rodar modelos de inteligência artificial diretamente na nuvem sem precisar configurar ou manter infraestrutura própria. Ele é muito usado para **executar modelos de machine learning** de forma fácil e rápida, sem a necessidade de instalar bibliotecas ou ter um ambiente de desenvolvimento local configurado.
 
 ## Como funciona?
-1. **Escolha um modelo**: O Replicate oferece uma biblioteca de modelos treinados, como **Stable Diffusion (para gerar imagens)**, **Whisper (para transcrição de áudio)**, **LLaMA e GPT (para processamento de linguagem natural)**, entre outros.
+1. **Escolha um modelo**: O Replicate oferece uma biblioteca de modelos treinados, como **Stable Diffusion (para gerar imagens)**, **Whisper (para transcriçêo de áudio)**, **LLaMA e GPT (para processamento de linguagem natural)**, entre outros.
 2. **Execute na nuvem**: Você pode rodar os modelos diretamente no site ou via API sem precisar configurar GPUs ou servidores.
 3. **API acessível**: Com apenas algumas chamadas REST, é possível enviar dados e receber os resultados do modelo de IA.
 4. **Pague pelo uso**: O Replicate funciona no modelo **pay-per-use**, ou seja, você só paga pelo tempo de processamento dos modelos que usar.
 
 ## Vantagens do Replicate
-- **Facilidade de uso**: Não é necessário instalar pacotes complexos nem configurar servidores.
+- **Facilidade de uso**: Nêo é necessário instalar pacotes complexos nem configurar servidores.
 - **Acesso a modelos poderosos**: Permite usar modelos de ponta sem precisar treinar ou ajustar hiperparâmetros.
 - **Escalabilidade**: Como roda na nuvem, pode processar tarefas pesadas sem depender do seu hardware local.
 - **Flexibilidade**: Oferece uma API simples para integrar modelos de IA a aplicações, sites e automações.

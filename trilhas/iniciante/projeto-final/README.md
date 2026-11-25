@@ -2,7 +2,7 @@
 ## Pack de Imagens para Redes Sociais
 
 **Trilha:** Iniciante
-**Duração:** 1 semana
+**Duraçêo:** 1 semana
 **Dificuldade:** ⭐⭐ Iniciante
 
 ---
@@ -46,15 +46,15 @@ Todas as 15 imagens devem seguir uma **identidade visual unificada**:
 
 **Escolha e mantenha:**
 - [ ] Paleta de 3-4 cores principais
-- [ ] Estilo visual consistente (fotográfico, ilustração, 3D, etc.)
-- [ ] Tipo de iluminação predominante
+- [ ] Estilo visual consistente (fotográfico, ilustraçêo, 3D, etc.)
+- [ ] Tipo de iluminaçêo predominante
 - [ ] Atmosfera/mood geral
 
 **Exemplo de Identidade:**
 ```
 Paleta: Azul (#3B82F6), Branco (#FFFFFF), Cinza claro (#F3F4F6)
 Estilo: Fotografia profissional moderna
-Iluminação: Luz natural suave
+Iluminaçêo: Luz natural suave
 Atmosfera: Profissional, clean, inspirador
 ```
 
@@ -66,34 +66,34 @@ Você DEVE usar pelo menos 2 ferramentas diferentes:
 - [ ] Bing Image Creator
 - [ ] Leonardo.ai
 - [ ] Ideogram
-- [ ] Canva (para edição/finalização)
+- [ ] Canva (para ediçêo/finalizaçêo)
 
 **Exemplo:**
 - Gerar imagens base no Bing
 - Finalizar todas no Canva
 
-### 3. Aplicação dos Fundamentos
+### 3. Aplicaçêo dos Fundamentos
 
 Cada imagem deve demonstrar:
 
-**Composição (Módulo 2):**
-- [ ] Regra dos terços ou composição intencional
+**Composiçêo (Módulo 2):**
+- [ ] Regra dos terços ou composiçêo intencional
 - [ ] Ponto focal claro
 - [ ] Espaço negativo adequado
 
 **Cores (Módulo 2):**
 - [ ] Paleta harmoniosa
-- [ ] Cores transmitem emoção adequada
+- [ ] Cores transmitem emoçêo adequada
 - [ ] Contraste suficiente
 
 **Prompts (Módulo 3):**
 - [ ] Prompts bem estruturados
 - [ ] Uso de vocabulário correto
-- [ ] Iteração e refinamento
+- [ ] Iteraçêo e refinamento
 
 ### 4. Propósito e Contexto
 
-Defina para qual marca/pessoa/projeto são estas imagens.
+Defina para qual marca/pessoa/projeto sêo estas imagens.
 
 **Opções:**
 - Seu próprio negócio/marca pessoal
@@ -123,16 +123,16 @@ Defina para qual marca/pessoa/projeto são estas imagens.
 **3. Planeje as 15 imagens**
 Faça lista do que cada uma vai mostrar:
 ```
-Feed 1: [descrição]
-Feed 2: [descrição]
-Feed 3: [descrição]
-Story 1: [descrição]
+Feed 1: [descriçêo]
+Feed 2: [descriçêo]
+Feed 3: [descriçêo]
+Story 1: [descriçêo]
 ... e assim por diante
 ```
 
 ---
 
-**Dia 2-3: Criação - Parte 1 (4h)**
+**Dia 2-3: Criaçêo - Parte 1 (4h)**
 
 **4. Crie os 6 primeiros (Instagram/Facebook)**
 
@@ -151,7 +151,7 @@ Para cada imagem:
 
 ---
 
-**Dia 4-5: Criação - Parte 2 (4h)**
+**Dia 4-5: Criaçêo - Parte 2 (4h)**
 
 **5. Crie as 9 restantes (LinkedIn, YouTube, Twitter)**
 
@@ -161,14 +161,14 @@ Mesmo processo do dia 2-3.
 
 ---
 
-**Dia 6: Edição e Finalização (3h)**
+**Dia 6: Ediçêo e Finalizaçêo (3h)**
 
 **6. Importe todas no Canva**
 
 Para cada imagem:
-1. Ajuste se necessário (crop, posição)
+1. Ajuste se necessário (crop, posiçêo)
 2. Adicione texto se apropriado
-3. Ajuste cores (leve correção)
+3. Ajuste cores (leve correçêo)
 4. Aplique filtro sutil se necessário
 
 **7. Exporte todas**
@@ -178,7 +178,7 @@ Para cada imagem:
 
 ---
 
-**Dia 7: Documentação e Entrega (2h)**
+**Dia 7: Documentaçêo e Entrega (2h)**
 
 **8. Crie documento do projeto**
 
@@ -189,7 +189,7 @@ Inclua:
 - Prompts usados para cada uma
 - Ferramentas utilizadas
 - Desafios e aprendizados
-- Auto-avaliação
+- Auto-avaliaçêo
 
 **9. Organize arquivos**
 ```
@@ -222,7 +222,7 @@ projeto-final/
 
 ---
 
-## ✅ Critérios de Avaliação
+## ✅ Critérios de Avaliaçêo
 
 ### Seu projeto será avaliado em:
 
@@ -232,25 +232,25 @@ projeto-final/
 - [ ] Estilo visual unificado (10)
 
 **2. Qualidade Técnica (25 pontos)**
-- [ ] Composição bem executada (10)
-- [ ] Iluminação adequada (5)
-- [ ] Resolução e qualidade corretas (5)
+- [ ] Composiçêo bem executada (10)
+- [ ] Iluminaçêo adequada (5)
+- [ ] Resoluçêo e qualidade corretas (5)
 - [ ] Sem erros visuais graves (5)
 
-**3. Aplicação do Conteúdo (25 pontos)**
+**3. Aplicaçêo do Conteúdo (25 pontos)**
 - [ ] Uso correto de fundamentos visuais (10)
 - [ ] Prompts bem estruturados (10)
 - [ ] Demonstra aprendizado dos módulos (5)
 
 **4. Criatividade e Originalidade (10 pontos)**
-- [ ] Visão criativa própria (5)
-- [ ] Não é apenas cópia de referências (5)
+- [ ] Visêo criativa própria (5)
+- [ ] Nêo é apenas cópia de referências (5)
 
-**5. Documentação (10 pontos)**
+**5. Documentaçêo (10 pontos)**
 - [ ] Projeto bem documentado (5)
 - [ ] Prompts salvos e organizados (5)
 
-**Pontuação:**
+**Pontuaçêo:**
 - 90-100: ⭐⭐⭐⭐⭐ Excepcional
 - 80-89: ⭐⭐⭐⭐ Excelente
 - 70-79: ⭐⭐⭐ Bom
@@ -281,7 +281,7 @@ projeto-final/
 
 **Causas:**
 - Sustentabilidade
-- Educação
+- Educaçêo
 - Saúde mental
 - Animais
 - Tecnologia
@@ -292,7 +292,7 @@ projeto-final/
 ```
 Cores: Azul elétrico (#3B82F6), Preto (#000000), Branco (#FFFFFF)
 Estilo: 3D render futurista
-Iluminação: Neon lights, dramatic
+Iluminaçêo: Neon lights, dramatic
 Atmosfera: Inovador, moderno, energético
 ```
 
@@ -300,7 +300,7 @@ Atmosfera: Inovador, moderno, energético
 ```
 Cores: Marrom (#8B4513), Creme (#F5E6D3), Verde (#10B981)
 Estilo: Fotografia natural
-Iluminação: Golden hour, soft light
+Iluminaçêo: Golden hour, soft light
 Atmosfera: Aconchegante, artesanal, autêntico
 ```
 
@@ -308,7 +308,7 @@ Atmosfera: Aconchegante, artesanal, autêntico
 ```
 Cores: Verde água (#10B981), Laranja (#F59E0B), Branco (#FFFFFF)
 Estilo: Fotografia vibrante
-Iluminação: Natural, bright
+Iluminaçêo: Natural, bright
 Atmosfera: Energético, saudável, motivador
 ```
 
@@ -316,20 +316,20 @@ Atmosfera: Energético, saudável, motivador
 
 ## 📤 Como Entregar
 
-### Opção 1: GitHub (Recomendado)
+### Opçêo 1: GitHub (Recomendado)
 
 1. Crie repositório público
 2. Organize arquivos conforme estrutura acima
 3. Adicione README.md com seu projeto
 4. Compartilhe link no Discord
 
-### Opção 2: Google Drive/Dropbox
+### Opçêo 2: Google Drive/Dropbox
 
 1. Organize arquivos em pasta
 2. Torne público (view only)
 3. Compartilhe link no Discord
 
-### Opção 3: Portfolio Online
+### Opçêo 3: Portfolio Online
 
 1. Crie página no Behance, Dribbble ou similar
 2. Publique projeto completo
@@ -341,7 +341,7 @@ Atmosfera: Energético, saudável, motivador
 
 Após completar e entregar o projeto final com nota mínima de 70 pontos, você receberá:
 
-**Certificado de Conclusão - Trilha Iniciante**
+**Certificado de Conclusêo - Trilha Iniciante**
 - Designer do Futuro by ARCKHÉ AI
 - 30 horas de curso
 - Assinado digitalmente
@@ -364,7 +364,7 @@ Após completar e entregar o projeto final com nota mínima de 70 pontos, você 
 
 ## 🌟 Hall da Fama
 
-Os melhores projetos serão destacados:
+Os melhores projetos serêo destacados:
 
 - ✨ Galeria oficial do ARCKHÉ AI
 - 📱 Redes sociais do projeto
@@ -380,7 +380,7 @@ Os melhores projetos serão destacados:
 - [Gerador de Paletas](https://coolors.co)
 - [Moodboard Pinterest](https://pinterest.com)
 
-### Inspiração:
+### Inspiraçêo:
 - [Behance](https://behance.net)
 - [Dribbble](https://dribbble.com)
 - [Instagram](https://instagram.com) - procure hashtags do seu nicho
@@ -397,10 +397,10 @@ Os melhores projetos serão destacados:
 | Dia | Atividade | Horas | Entrega |
 |-----|-----------|-------|---------|
 | 1 | Planejamento | 2h | Briefing + Identidade Visual |
-| 2-3 | Criação Parte 1 | 4h | 6 imagens (IG/FB) |
-| 4-5 | Criação Parte 2 | 4h | 9 imagens (LI/YT/TW) |
-| 6 | Edição/Finalização | 3h | 15 imagens finalizadas |
-| 7 | Documentação | 2h | Projeto completo |
+| 2-3 | Criaçêo Parte 1 | 4h | 6 imagens (IG/FB) |
+| 4-5 | Criaçêo Parte 2 | 4h | 9 imagens (LI/YT/TW) |
+| 6 | Ediçêo/Finalizaçêo | 3h | 15 imagens finalizadas |
+| 7 | Documentaçêo | 2h | Projeto completo |
 
 **Total: ~15 horas ao longo de 1 semana**
 
@@ -420,25 +420,25 @@ Antes de entregar, confira:
 
 **Qualidade:**
 - [ ] Todas seguem identidade visual
-- [ ] Composição aplicada corretamente
+- [ ] Composiçêo aplicada corretamente
 - [ ] Cores harmoniosas
 - [ ] Sem erros graves
 - [ ] Resoluções adequadas
 
-**Documentação:**
-- [ ] README/Apresentação criado
+**Documentaçêo:**
+- [ ] README/Apresentaçêo criado
 - [ ] Desafios e aprendizados documentados
-- [ ] Auto-avaliação honesta
+- [ ] Auto-avaliaçêo honesta
 - [ ] Créditos dados onde necessário
 
 **Entrega:**
 - [ ] Link compartilhado no Discord
-- [ ] Marcou @mentor para revisão
+- [ ] Marcou @mentor para revisêo
 - [ ] Pediu feedback da comunidade
 
 ---
 
-## 🚀 Após a Conclusão
+## 🚀 Após a Conclusêo
 
 **Parabéns! Você completou a Trilha Iniciante!** 🎉
 

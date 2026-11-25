@@ -1,8 +1,8 @@
 # 🛠️ Módulo 4: Ferramentas Acessíveis
-## Domine ferramentas gratuitas de criação com IA
+## Domine ferramentas gratuitas de criaçêo com IA
 
 **Trilha:** Iniciante
-**Duração:** 1 semana | 8 horas
+**Duraçêo:** 1 semana | 8 horas
 **Dificuldade:** ⭐⭐ Iniciante
 
 ---
@@ -12,7 +12,7 @@
 Ao final deste módulo, você vai:
 
 - ✅ Conhecer as melhores ferramentas gratuitas de IA para imagens
-- ✅ Saber qual ferramenta usar para cada situação
+- ✅ Saber qual ferramenta usar para cada situaçêo
 - ✅ Dominar DALL·E, Bing Image Creator e Leonardo.ai
 - ✅ Editar imagens com Canva IA
 - ✅ Ter um workflow completo da ideia à imagem final
@@ -23,20 +23,20 @@ Ao final deste módulo, você vai:
 
 ### Aula 1: Panorama de Ferramentas Gratuitas 2025
 
-**Duração:** 1.5 horas
+**Duraçêo:** 1.5 horas
 
 #### Categorias de Ferramentas
 
-**1. GERAÇÃO DE IMAGEM**
+**1. GERAÇêO DE IMAGEM**
 Criam imagens do zero a partir de prompts.
 
-**2. EDIÇÃO COM IA**
+**2. EDIÇêO COM IA**
 Editam e melhoram imagens existentes.
 
 **3. UPSCALE/MELHORIA**
-Aumentam resolução e qualidade.
+Aumentam resoluçêo e qualidade.
 
-**4. REMOÇÃO DE FUNDO**
+**4. REMOÇêO DE FUNDO**
 Removem fundos automaticamente.
 
 **5. FERRAMENTAS ALL-IN-ONE**
@@ -44,7 +44,7 @@ Fazem tudo em uma plataforma.
 
 #### Top Ferramentas Gratuitas (2025)
 
-**GERAÇÃO:**
+**GERAÇêO:**
 
 **Microsoft Bing Image Creator** ⭐⭐⭐⭐⭐
 - Baseado em DALL·E 3
@@ -69,10 +69,10 @@ Fazem tudo em uma plataforma.
 **Playground AI** ⭐⭐⭐⭐
 - 500 imagens/dia grátis
 - Vários estilos
-- Melhor para: experimentação
+- Melhor para: experimentaçêo
 - Link: playgroundai.com
 
-**EDIÇÃO:**
+**EDIÇêO:**
 
 **Canva (IA integrada)** ⭐⭐⭐⭐⭐
 - Plano gratuito robusto
@@ -83,7 +83,7 @@ Fazem tudo em uma plataforma.
 
 **Photopea** ⭐⭐⭐⭐
 - Photoshop online grátis
-- Sem instalação
+- Sem instalaçêo
 - Melhor para: edições complexas
 - Link: photopea.com
 
@@ -91,11 +91,11 @@ Fazem tudo em uma plataforma.
 
 **Remove.bg** ⭐⭐⭐⭐⭐
 - Remove fundos perfeitamente
-- Gratuito (baixa resolução)
+- Gratuito (baixa resoluçêo)
 - Link: remove.bg
 
 **Upscale.media** ⭐⭐⭐⭐
-- Aumenta resolução
+- Aumenta resoluçêo
 - Gratuito com limites
 - Link: upscale.media
 
@@ -114,7 +114,7 @@ Fazem tudo em uma plataforma.
 
 ### Aula 2: DALL·E via Bing Image Creator
 
-**Duração:** 2 horas
+**Duraçêo:** 2 horas
 
 #### Por Que Começar Aqui?
 
@@ -140,7 +140,7 @@ Fazem tudo em uma plataforma.
 
 **4. Escolha a Melhor**
 - Clique para ver em tamanho maior
-- Baixe (botão de download)
+- Baixe (botêo de download)
 
 **5. Itere Se Necessário**
 - Ajuste o prompt
@@ -166,7 +166,7 @@ Fazem tudo em uma plataforma.
 
 ```
 ❌ Evite: "crie uma imagem de..."
-✅ Use: Descrição direta
+✅ Use: Descriçêo direta
 
 Exemplo:
 "Uma moderna cozinha minimalista branca com ilha central,
@@ -178,8 +178,8 @@ plantas decorativas, atmosfera clean e acolhedora,
 
 #### Formatos e Download
 
-**Resolução:**
-- 1024x1024 (quadrado) - padrão
+**Resoluçêo:**
+- 1024x1024 (quadrado) - padrêo
 - Ou especifique no prompt: "widescreen", "portrait orientation"
 
 **Formato:**
@@ -190,7 +190,7 @@ plantas decorativas, atmosfera clean e acolhedora,
 
 ### Aula 3: Leonardo.ai e Ideogram
 
-**Duração:** 2 horas
+**Duraçêo:** 2 horas
 
 #### Leonardo.ai - Arte e Versatilidade
 
@@ -214,7 +214,7 @@ Escolha o modelo:
 - RPG 4.0 (fantasia)
 
 **2. Aspect Ratio**
-Escolha proporção:
+Escolha proporçêo:
 - 1:1 (quadrado)
 - 16:9 (widescreen)
 - 9:16 (vertical/stories)
@@ -264,18 +264,18 @@ e inspirador, tipografia sans-serif, layout centralizado"
 
 ---
 
-### Aula 4: Edição Básica com Canva IA
+### Aula 4: Ediçêo Básica com Canva IA
 
-**Duração:** 1.5 horas
+**Duraçêo:** 1.5 horas
 
-#### Canva - Sua Ferramenta de Finalização
+#### Canva - Sua Ferramenta de Finalizaçêo
 
 **Por Que Canva?**
 ✅ Interface intuitiva
 ✅ Templates prontos
 ✅ IA integrada
 ✅ Gratuito (com upgrades opcionais)
-✅ Exportação fácil
+✅ Exportaçêo fácil
 
 **Recursos IA Gratuitos:**
 
@@ -298,7 +298,7 @@ e inspirador, tipografia sans-serif, layout centralizado"
 
 **1. Crie Imagem Base em IA**
 - Bing, Leonardo, etc.
-- Baixe em alta resolução
+- Baixe em alta resoluçêo
 
 **2. Importe no Canva**
 - Crie novo design
@@ -307,7 +307,7 @@ e inspirador, tipografia sans-serif, layout centralizado"
 
 **3. Ajustes Básicos**
 - Crop/cortar
-- Ajustar posição
+- Ajustar posiçêo
 - Redimensionar
 
 **4. Adicione Elementos**
@@ -317,7 +317,7 @@ e inspirador, tipografia sans-serif, layout centralizado"
 - Filtros
 
 **5. Finalize**
-- Ajuste cores (saturação, brilho, contraste)
+- Ajuste cores (saturaçêo, brilho, contraste)
 - Aplique filtros se necessário
 - Verifique qualidade
 
@@ -338,7 +338,7 @@ Para este curso, use templates de:
 
 ### Aula 5: Workflow Completo - Da Ideia à Imagem Final
 
-**Duração:** 1 hora
+**Duraçêo:** 1 hora
 
 #### Seu Processo Profissional
 
@@ -346,7 +346,7 @@ Para este curso, use templates de:
 
 1. Defina objetivo
    - Para quê é a imagem?
-   - Qual emoção deve transmitir?
+   - Qual emoçêo deve transmitir?
 
 2. Defina especificações
    - Formato (quadrado, vertical, horizontal)
@@ -357,7 +357,7 @@ Para este curso, use templates de:
    - Procure 2-3 imagens similares ao desejado
    - Analise o que te atrai nelas
 
-**FASE 2: CRIAÇÃO (10-20 min)**
+**FASE 2: CRIAÇêO (10-20 min)**
 
 4. Escreva o prompt
    - Use estrutura do Módulo 3
@@ -368,7 +368,7 @@ Para este curso, use templates de:
    - Leonardo: arte, fantasia
    - Ideogram: precisa de texto
 
-6. Gere primeira versão
+6. Gere primeira versêo
    - Crie 4 variações
    - Escolha a melhor
 
@@ -381,17 +381,17 @@ Para este curso, use templates de:
 
 8. Edite no Canva
    - Importe a imagem
-   - Ajuste composição
+   - Ajuste composiçêo
    - Adicione texto se necessário
    - Aplique filtros sutis
 
 9. Ajustes finais
    - Cores
    - Contraste
-   - Saturação
+   - Saturaçêo
    - Nitidez
 
-**FASE 4: EXPORTAÇÃO (2-5 min)**
+**FASE 4: EXPORTAÇêO (2-5 min)**
 
 10. Revise
     - Zoom in para ver detalhes
@@ -400,7 +400,7 @@ Para este curso, use templates de:
 
 11. Exporte
     - Formato correto
-    - Resolução adequada
+    - Resoluçêo adequada
     - Nome de arquivo descritivo
 
 12. Organize
@@ -440,7 +440,7 @@ Compare resultados.
 
 ---
 
-### Exercício 3: IA + Edição (1.5h)
+### Exercício 3: IA + Ediçêo (1.5h)
 
 Workflow completo:
 1. Crie imagem em IA (Bing ou Leonardo)
@@ -476,19 +476,19 @@ Mantenha identidade visual consistente.
 - [ ] Editei imagens no Canva
 - [ ] Tenho workflow definido
 - [ ] Fiz todos os exercícios
-- [ ] Sei qual ferramenta usar para cada situação
+- [ ] Sei qual ferramenta usar para cada situaçêo
 
 ---
 
 ## 🔗 Links Rápidos
 
-**Ferramentas de Geração:**
+**Ferramentas de Geraçêo:**
 - [Bing Image Creator](https://www.bing.com/create)
 - [Leonardo.ai](https://leonardo.ai)
 - [Ideogram](https://ideogram.ai)
 - [Playground AI](https://playgroundai.com)
 
-**Ferramentas de Edição:**
+**Ferramentas de Ediçêo:**
 - [Canva](https://canva.com)
 - [Photopea](https://photopea.com)
 - [Remove.bg](https://remove.bg)
@@ -502,7 +502,7 @@ Mantenha identidade visual consistente.
 1. **Bing Image Creator** (criar)
 2. **Canva** (editar/finalizar)
 
-Simples assim! As outras são para casos específicos.
+Simples assim! As outras sêo para casos específicos.
 
 ---
 

@@ -1,9 +1,9 @@
 # 📚 Biblioteca de Prompts
 ## 100+ Prompts Prontos Para Usar
 
-> Coleção curada de prompts testados e aprovados pela comunidade ARCKHÉ
+> Coleçêo curada de prompts testados e aprovados pela comunidade ARCKHÉ
 
-**Última atualização:** 2025-11-24
+**Última atualizaçêo:** 2025-11-24
 
 ---
 
@@ -14,7 +14,7 @@
 - [Paisagens e Natureza](#paisagens-e-natureza)
 - [Produtos e Still Life](#produtos-e-still-life)
 - [Arquitetura e Interiores](#arquitetura-e-interiores)
-- [Arte e Ilustração](#arte-e-ilustração)
+- [Arte e Ilustraçêo](#arte-e-ilustraçêo)
 - [Negócios e Profissional](#negócios-e-profissional)
 - [Food e Bebidas](#food-e-bebidas)
 - [Abstrato e Conceitual](#abstrato-e-conceitual)
@@ -142,7 +142,7 @@ professional nature photography,
 8k, detailed, cARCKHÉtic
 ```
 
-**Uso:** Conteúdo inspiracional, meditação, natureza
+**Uso:** Conteúdo inspiracional, meditaçêo, natureza
 
 ---
 
@@ -232,7 +232,7 @@ interior design photography,
 8k, detailed
 ```
 
-**Uso:** Design de interiores, decoração, lifestyle
+**Uso:** Design de interiores, decoraçêo, lifestyle
 
 ---
 
@@ -253,7 +253,7 @@ architectural interior photography,
 
 ---
 
-## 🎨 Arte e Ilustração
+## 🎨 Arte e Ilustraçêo
 
 ### Fantasia Épica
 
@@ -307,7 +307,7 @@ professional, clean, 8k
 
 ## 💼 Negócios e Profissional
 
-### Reunião de Equipe
+### Reuniêo de Equipe
 
 ```
 Professional business team meeting in modern office,
@@ -324,7 +324,7 @@ natural lighting, authentic moment,
 
 ---
 
-### Apresentação de Sucesso
+### Apresentaçêo de Sucesso
 
 ```
 Confident professional giving presentation,
@@ -442,11 +442,11 @@ professional art photography,
 8k, serene
 ```
 
-**Uso:** Meditação, wellness, minimalismo
+**Uso:** Meditaçêo, wellness, minimalismo
 
 ---
 
-### Explosão de Cores
+### Explosêo de Cores
 
 ```
 Abstract explosion of vibrant colors,
@@ -526,7 +526,7 @@ professional tech illustration,
 8k, detailed, cARCKHÉtic
 ```
 
-**Uso:** Tech, IA, inovação
+**Uso:** Tech, IA, inovaçêo
 
 ---
 
@@ -557,11 +557,11 @@ astronomical photography style,
 detailed, 8k, awe-inspiring
 ```
 
-**Uso:** Inspiração, ciência, wallpapers
+**Uso:** Inspiraçêo, ciência, wallpapers
 
 ---
 
-## 🎯 Dicas de Personalização
+## 🎯 Dicas de Personalizaçêo
 
 ### Ajuste as Cores:
 Adicione: `color palette: [suas cores]`
@@ -569,7 +569,7 @@ Adicione: `color palette: [suas cores]`
 ### Mude o Estilo:
 Troque: `photography` por `illustration`, `3D render`, `watercolor`, etc.
 
-### Ajuste a Iluminação:
+### Ajuste a Iluminaçêo:
 Troque: `golden hour` por `blue hour`, `studio lighting`, `neon lights`, etc.
 
 ### Mude a Atmosfera:
@@ -594,7 +594,7 @@ Criou um prompt incrível? Compartilhe com a comunidade!
 **Total de Prompts:** 40+ (em crescimento)
 **Categorias:** 10
 **Contribuidores:** Comunidade ARCKHÉ
-**Última Atualização:** 2025-11-24
+**Última Atualizaçêo:** 2025-11-24
 
 ---
 

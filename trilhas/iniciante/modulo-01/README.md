@@ -1,8 +1,8 @@
 # 🌟 Módulo 1: Mentalidade do Criador
-## Transforme sua forma de pensar sobre criação visual
+## Transforme sua forma de pensar sobre criaçêo visual
 
 **Trilha:** Iniciante
-**Duração:** 1 semana | 6 horas
+**Duraçêo:** 1 semana | 6 horas
 **Dificuldade:** ⭐ Iniciante
 
 ---
@@ -11,8 +11,8 @@
 
 Ao final deste módulo, você vai:
 
-- ✅ Entender que **não precisa ser designer** para criar imagens incríveis
-- ✅ Descobrir talentos criativos que você não sabia que tinha
+- ✅ Entender que **nêo precisa ser designer** para criar imagens incríveis
+- ✅ Descobrir talentos criativos que você nêo sabia que tinha
 - ✅ Compreender o novo papel do criador na era da IA
 - ✅ Identificar onde a IA falha e você se destaca
 - ✅ Desenvolver confiança para começar a criar
@@ -21,9 +21,9 @@ Ao final deste módulo, você vai:
 
 ## 📚 Conteúdo do Módulo
 
-### Aula 1: Você Não Precisa Ser Designer Para Criar
+### Aula 1: Você Nêo Precisa Ser Designer Para Criar
 
-**Duração:** 1 hora
+**Duraçêo:** 1 hora
 
 #### A Grande Mudança
 
@@ -34,7 +34,7 @@ Até poucos anos atrás, criar imagens profissionais exigia:
 - ✗ Conhecimento técnico profundo
 
 **Hoje, com IA, você precisa de:**
-- ✓ Criatividade e imaginação
+- ✓ Criatividade e imaginaçêo
 - ✓ Capacidade de descrever o que quer
 - ✓ Senso estético (que todos temos)
 - ✓ Vontade de aprender e experimentar
@@ -47,7 +47,7 @@ Até poucos anos atrás, criar imagens profissionais exigia:
 - Alto custo e barreira de entrada
 
 **Agora:**
-- Criador → Dirige a IA com visão criativa
+- Criador → Dirige a IA com visêo criativa
 - Processo rápido e iterativo
 - Acessível e democrático
 
@@ -58,7 +58,7 @@ Até poucos anos atrás, criar imagens profissionais exigia:
 - Aprendeu prompts em 2 semanas
 - Hoje cria todo material visual da escola
 
-**Caso 2: João, Empreendedor**
+**Caso 2: Joêo, Empreendedor**
 - Zero experiência em design
 - Começou criando posts para Instagram
 - 3 meses depois, faz branding completo do negócio
@@ -68,7 +68,7 @@ Até poucos anos atrás, criar imagens profissionais exigia:
 - Descobriu IA gerativa
 - Cria ilustrações para livro infantil dos netos
 
-#### Reflexão
+#### Reflexêo
 
 💭 **Pare e pense:**
 - O que te impedia de criar imagens antes?
@@ -77,11 +77,11 @@ Até poucos anos atrás, criar imagens profissionais exigia:
 
 ---
 
-### Aula 2: Como a IA Democratizou a Criação Visual
+### Aula 2: Como a IA Democratizou a Criaçêo Visual
 
-**Duração:** 1 hora
+**Duraçêo:** 1 hora
 
-#### A Revolução Está Acontecendo Agora
+#### A Revoluçêo Está Acontecendo Agora
 
 **2020 e antes:**
 - Ferramentas complexas (Photoshop, Illustrator)
@@ -89,16 +89,16 @@ Até poucos anos atrás, criar imagens profissionais exigia:
 - Custos altos de software e cursos
 
 **2021-2023:**
-- Explosão da IA generativa
+- Explosêo da IA generativa
 - DALL·E, Midjourney, Stable Diffusion
 - Acesso democratizado
 
 **2024-2025:**
 - Ferramentas gratuitas de alta qualidade
-- Integração em plataformas populares
+- Integraçêo em plataformas populares
 - IA em todo lugar
 
-#### O Poder Está em Suas Mãos
+#### O Poder Está em Suas Mêos
 
 **Antes você precisava:**
 1. Contratar um designer → R$ 500-5000 por projeto
@@ -112,14 +112,14 @@ Até poucos anos atrás, criar imagens profissionais exigia:
 
 #### Tipos de IA Para Imagem
 
-**Geração de Imagem:**
+**Geraçêo de Imagem:**
 - DALL·E (OpenAI)
 - Midjourney
 - Stable Diffusion
 - Leonardo.ai
 - Ideogram
 
-**Edição com IA:**
+**Ediçêo com IA:**
 - Photoshop IA
 - Canva IA
 - Remove.bg
@@ -133,43 +133,43 @@ Até poucos anos atrás, criar imagens profissionais exigia:
 #### O Que Isso Significa Para Você?
 
 **Oportunidades:**
-- 💼 Nova profissão acessível
-- 🎨 Expressão criativa ilimitada
+- 💼 Nova profissêo acessível
+- 🎨 Expressêo criativa ilimitada
 - 💰 Economia em serviços
-- 🚀 Escala de produção
+- 🚀 Escala de produçêo
 
 **Responsabilidades:**
 - ✓ Usar de forma ética
 - ✓ Dar crédito quando devido
 - ✓ Respeitar direitos autorais
-- ✓ Não criar conteúdo prejudicial
+- ✓ Nêo criar conteúdo prejudicial
 
 ---
 
 ### Aula 3: Descobrindo Seus Talentos Criativos Escondidos
 
-**Duração:** 1.5 horas
+**Duraçêo:** 1.5 horas
 
 #### Você É Mais Criativo Do Que Pensa
 
-**Mito:** "Não sou criativo"
-**Verdade:** Criatividade é habilidade, não dom
+**Mito:** "Nêo sou criativo"
+**Verdade:** Criatividade é habilidade, nêo dom
 
 #### Exercício de Auto-Descoberta
 
 **Passo 1: Suas Preferências Visuais**
 
 Responda honestamente:
-1. Que tipo de imagem chama sua atenção?
+1. Que tipo de imagem chama sua atençêo?
    - [ ] Minimalista e clean
    - [ ] Colorida e vibrante
    - [ ] Escura e dramática
    - [ ] Natural e orgânica
 
-2. Que emoção você mais gosta de sentir ao ver uma imagem?
-   - [ ] Inspiração e motivação
+2. Que emoçêo você mais gosta de sentir ao ver uma imagem?
+   - [ ] Inspiraçêo e motivaçêo
    - [ ] Paz e tranquilidade
-   - [ ] Energia e empolgação
+   - [ ] Energia e empolgaçêo
    - [ ] Nostalgia e memória
 
 3. Em qual contexto você mais consome imagens?
@@ -184,7 +184,7 @@ Complete as frases:
 1. "Eu sempre reparei em _______ nas imagens que ninguém percebe"
 2. "Quando vejo uma imagem ruim, eu penso _______"
 3. "Se pudesse criar qualquer imagem, seria _______"
-4. "As cores que mais me atraem são _______"
+4. "As cores que mais me atraem sêo _______"
 5. "O estilo visual que mais me representa é _______"
 
 **Passo 3: Análise de Referências**
@@ -194,7 +194,7 @@ Escolha 5 imagens que você ADORA (pode ser de qualquer lugar).
 Para cada uma, identifique:
 - Por que você gosta?
 - O que te emociona nela?
-- Que elementos você nota? (cores, composição, luz)
+- Que elementos você nota? (cores, composiçêo, luz)
 - Como ela te faz sentir?
 
 📌 **Guarde essas respostas!** Elas revelam seu estilo criativo único.
@@ -206,35 +206,35 @@ Você pode se identificar com um ou mais:
 **1. O Storyteller (Contador de Histórias)**
 - Ama narrativas visuais
 - Cria imagens que contam histórias
-- Foco: emoção e significado
+- Foco: emoçêo e significado
 
 **2. O Esteta (Apreciador da Beleza)**
 - Sensibilidade estética apurada
 - Busca harmonia e equilíbrio
-- Foco: composição e cores
+- Foco: composiçêo e cores
 
 **3. O Comunicador**
 - Quer transmitir mensagens claras
 - Pensa em impacto e resultado
-- Foco: efetividade e conversão
+- Foco: efetividade e conversêo
 
 **4. O Experimentador**
 - Adora testar e explorar
-- Não tem medo de errar
-- Foco: inovação e descoberta
+- Nêo tem medo de errar
+- Foco: inovaçêo e descoberta
 
 **5. O Curador**
 - Excelente em escolher e combinar
 - Sensibilidade para o que funciona
-- Foco: seleção e refinamento
+- Foco: seleçêo e refinamento
 
-💡 **Qual(is) é você?** Não existe certo ou errado!
+💡 **Qual(is) é você?** Nêo existe certo ou errado!
 
 ---
 
 ### Aula 4: O Novo Papel do Criador em 2025
 
-**Duração:** 1 hora
+**Duraçêo:** 1 hora
 
 #### De Executor Para Diretor
 
@@ -245,21 +245,21 @@ Você pode se identificar com um ou mais:
 - Valor = habilidade técnica
 
 **Criador com IA (Diretor):**
-- Domina visão criativa
-- Dirige a IA com precisão
+- Domina visêo criativa
+- Dirige a IA com precisêo
 - Processo rápido e iterativo
-- Valor = criatividade e direção
+- Valor = criatividade e direçêo
 
 #### As 5 Habilidades do Criador 2025
 
-**1. Visão Criativa**
+**1. Visêo Criativa**
 - Saber o que quer criar
 - Ter referências mentais
 - Imaginar o resultado final
 
-**2. Comunicação com IA**
+**2. Comunicaçêo com IA**
 - Escrever prompts efetivos
-- Descrever com precisão
+- Descrever com precisêo
 - Iterar e refinar
 
 **3. Curadoria**
@@ -270,7 +270,7 @@ Você pode se identificar com um ou mais:
 **4. Contexto e Propósito**
 - Entender para quem é
 - Saber o objetivo
-- Alinhar forma e função
+- Alinhar forma e funçêo
 
 **5. Senso Estético**
 - Reconhecer qualidade visual
@@ -301,13 +301,13 @@ Pense na IA como:
 - 👨‍🍳 Chef → Assistentes de cozinha
 - 🎨 **Você → IA**
 
-Você não executa tudo, mas **dirige** tudo.
+Você nêo executa tudo, mas **dirige** tudo.
 
 ---
 
 ### Aula 5: Onde a IA Falha e Você Se Destaca
 
-**Duração:** 1.5 horas
+**Duraçêo:** 1.5 horas
 
 #### O Que a IA Faz Muito Bem
 
@@ -317,46 +317,46 @@ Você não executa tudo, mas **dirige** tudo.
 ✅ Combinar estilos visuais
 ✅ Produzir detalhes complexos
 
-#### O Que a IA NÃO Consegue (ainda)
+#### O Que a IA NêO Consegue (ainda)
 
 ❌ Entender contexto profundo
 ❌ Ter sensibilidade cultural
 ❌ Compreender emoções humanas
 ❌ Fazer escolhas estratégicas
 ❌ Criar algo verdadeiramente original
-❌ Saber o que é "certo" para cada situação
+❌ Saber o que é "certo" para cada situaçêo
 
 #### Seu Valor Como Humano
 
-**1. Intenção e Propósito**
-A IA não sabe POR QUE algo deve existir.
+**1. Intençêo e Propósito**
+A IA nêo sabe POR QUE algo deve existir.
 
 **Exemplo:**
 - ❌ IA: Gera imagem bonita
 - ✅ Você: Define que deve emocionar, vender, informar
 
 **2. Contexto Cultural**
-A IA não entende sutilezas culturais.
+A IA nêo entende sutilezas culturais.
 
 **Exemplo:**
 - ❌ IA: Usa vermelho (pode significar perigo ou sorte)
 - ✅ Você: Sabe o contexto cultural do público
 
-**3. Emoção e Empatia**
-A IA não sente.
+**3. Emoçêo e Empatia**
+A IA nêo sente.
 
 **Exemplo:**
 - ❌ IA: Cria imagem tecnicamente perfeita
 - ✅ Você: Escolhe a que emociona de verdade
 
-**4. Estratégia e Decisão**
-A IA não toma decisões de negócio.
+**4. Estratégia e Decisêo**
+A IA nêo toma decisões de negócio.
 
 **Exemplo:**
 - ❌ IA: Oferece 100 opções
 - ✅ Você: Escolhe a que atinge o objetivo
 
-**5. Originalidade e Visão**
+**5. Originalidade e Visêo**
 A IA combina o que já existe.
 
 **Exemplo:**
@@ -368,10 +368,10 @@ A IA combina o que já existe.
 ```
 IA                    +    VOCÊ
 ────────────────────      ──────────────────────
-Execução rápida           Visão criativa
+Execuçêo rápida           Visêo criativa
 Variações infinitas       Escolha estratégica
 Poder técnico             Sensibilidade humana
-Produção em escala        Curadoria e refinamento
+Produçêo em escala        Curadoria e refinamento
 Possibilidades            Decisões
 ────────────────────      ──────────────────────
                 MAGIA ✨
@@ -385,7 +385,7 @@ Compare estas duas abordagens:
 "Crie uma imagem bonita para meu negócio"
 
 **Abordagem 2 (IA + Você):**
-"Meu negócio vende bolos artesanais para mães de classe média.
+"Meu negócio vende bolos artesanais para mêes de classe média.
 Preciso de imagem que transmita:
 - Aconchego e nostalgia
 - Qualidade artesanal
@@ -412,8 +412,8 @@ Complete o questionário da Aula 3 e identifique:
 ### Exercício 2: Análise Antes e Depois (1 hora)
 
 Encontre 3 exemplos de:
-- Algo criado SEM visão criativa (só técnica)
-- Algo criado COM visão criativa + técnica
+- Algo criado SEM visêo criativa (só técnica)
+- Algo criado COM visêo criativa + técnica
 
 Compare e documente as diferenças.
 
@@ -429,7 +429,7 @@ Escreva seu manifesto pessoal:
 EU SOU UM CRIADOR PORQUE:
 _______________________________
 
-MINHA VISÃO CRIATIVA É:
+MINHA VISêO CRIATIVA É:
 _______________________________
 
 O QUE QUERO CRIAR NO MUNDO:
@@ -446,7 +446,7 @@ _______________________________
 
 ---
 
-### Exercício 4: Primeira Interação com IA (30 min)
+### Exercício 4: Primeira Interaçêo com IA (30 min)
 
 Sem medo! Vamos começar:
 
@@ -456,7 +456,7 @@ Sem medo! Vamos começar:
 4. Observe o que deu certo e errado
 5. Tente melhorar o prompt
 
-**Entrega:** Screenshots das imagens e reflexão sobre a experiência
+**Entrega:** Screenshots das imagens e reflexêo sobre a experiência
 
 ---
 
@@ -468,7 +468,7 @@ Antes de avançar, certifique-se de que:
 - [ ] Fiz os 4 exercícios práticos
 - [ ] Identifiquei meu tipo de criatividade
 - [ ] Escrevi meu manifesto criativo
-- [ ] Fiz minha primeira geração com IA
+- [ ] Fiz minha primeira geraçêo com IA
 - [ ] Compartilhei na comunidade
 - [ ] Estou confiante para continuar
 
@@ -481,7 +481,7 @@ Antes de avançar, certifique-se de que:
 Responda para si mesmo:
 
 1. Como você se sente sobre criar imagens agora?
-2. O que mudou na sua percepção?
+2. O que mudou na sua percepçêo?
 3. Qual foi seu maior insight deste módulo?
 4. O que mais te empolgou?
 5. Que medos ou dúvidas ainda tem?
@@ -494,7 +494,7 @@ Responda para si mesmo:
 
 Parabéns por completar o Módulo 1! 🎉
 
-Você transformou sua mentalidade e está pronto para aprender os fundamentos visuais que vão elevar suas criações.
+Você transformou sua mentalidade e está pronto para aprender os fundamentos visuais que vêo elevar suas criações.
 
 [Continuar para Módulo 2: Fundamentos Visuais →](../modulo-02/README.md)
 
@@ -502,7 +502,7 @@ Você transformou sua mentalidade e está pronto para aprender os fundamentos vi
 
 ## 📚 Recursos Adicionais
 
-- [Artigo: A Democratização da Criação Visual](../../recursos/artigos/democratizacao.md)
+- [Artigo: A Democratizaçêo da Criaçêo Visual](../../recursos/artigos/democratizacao.md)
 - [Vídeo: Entrevistas com Criadores com IA](../../recursos/videos/)
 - [Comunidade: Canal #mentalidade-criativa](https://discord.gg/ARCKHÉ-club)
 

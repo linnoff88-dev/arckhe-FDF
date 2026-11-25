@@ -4,15 +4,15 @@
 
 ## **1. Fundamentos de Design (Design Basics)**
 
-Entender princípios como **equilíbrio, contraste, alinhamento, proporção, hierarquia e espaçamento**.
+Entender princípios como **equilíbrio, contraste, alinhamento, proporçêo, hierarquia e espaçamento**.
 Esses fundamentos tornam qualquer imagem automaticamente mais profissional.
 
 ---
 
 ## **2. Teoria das Cores**
 
-Saber usar cores que combinam, transmitam emoção e direcionem o olhar.
-Inclui: **harmonias de cor, psicologia das cores, saturação, brilho e contraste.**
+Saber usar cores que combinam, transmitam emoçêo e direcionem o olhar.
+Inclui: **harmonias de cor, psicologia das cores, saturaçêo, brilho e contraste.**
 
 ---
 
@@ -23,7 +23,7 @@ Dominar: **hierarquia tipográfica, peso das fontes, espaçamento, legibilidade 
 
 ---
 
-## **4. Composição e Layout**
+## **4. Composiçêo e Layout**
 
 Saber organizar elementos no espaço visual.
 Inclui: **Regra dos terços, linhas de força, grid, fluxo visual e áreas de respiro.**
@@ -38,18 +38,18 @@ Dominar pelo menos uma ferramenta principal:
 * **Illustrator**
 * **Canva** (para iniciantes)
 * **Figma**
-  E ter noção de ferramentas de **IA para imagem**, como Midjourney, DALL·E, Recraft, etc.
+  E ter noçêo de ferramentas de **IA para imagem**, como Midjourney, DALL·E, Recraft, etc.
 
 ---
 
-## **6. Direção de Arte**
+## **6. Direçêo de Arte**
 
-Saber criar um **conceito visual** coerente: estilo, tom, composição, atmosfera.
+Saber criar um **conceito visual** coerente: estilo, tom, composiçêo, atmosfera.
 É a “alma” de imagens verdadeiramente impactantes.
 
 ---
 
-## **7. Fotografia e Iluminação (mesmo para imagens de IA)**
+## **7. Fotografia e Iluminaçêo (mesmo para imagens de IA)**
 
 Mesmo criando imagens com IA, é essencial entender:
 
@@ -62,12 +62,12 @@ Mesmo criando imagens com IA, é essencial entender:
 
 ---
 
-## **8. Edição e Pós-Produção**
+## **8. Ediçêo e Pós-Produçêo**
 
 Ajustar imagem é uma habilidade-chave:
 
 * **Color grading**
-* **Correção de cor**
+* **Correçêo de cor**
 * **Texturas**
 * **Nitidez**
 * **Efeitos visuais sutis**
@@ -90,6 +90,6 @@ Estar sempre atualizado com:
 * Portfólios de designers
 * Sites como Behance, Dribbble e Pinterest
 * Tendências visuais e estilos novos
-  Sem referência, não existe criatividade consistente.
+  Sem referência, nêo existe criatividade consistente.
 
 ---

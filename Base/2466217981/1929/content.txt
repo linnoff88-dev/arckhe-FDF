@@ -28,36 +28,36 @@ E está fazendo coisas que só o Photoshop poderia fazer... em SEGUNDOS...
 Esta coisa apareceu anonimamente no LMArena e imediatamente começou a esmagar todos os concorrentes. Agora, o Google revelou oficialmente que é o modelo de Imagem Flash Gemini 2.5.
 
 Aqui está o que o torna absolutamente louco:
-✓ Mistura de imagens → Apague pessoas, mude de roupa, conserte a iluminação, tudo em milissegundos no seu celular
-✓ Fusão de várias imagens → Misture perfeitamente várias imagens em uma
+✓ Mistura de imagens → Apague pessoas, mude de roupa, conserte a iluminaçêo, tudo em milissegundos no seu celular
+✓ Fusêo de várias imagens → Misture perfeitamente várias imagens em uma
 ✓ Consistência de caráter → Mantenha o rosto, visual e detalhes do mesmo personagem nas edições
-✓ Edição de várias voltas → Edite passo a passo sem quebrar o resto da imagem
-✓ Transferência de estilo → Aplicar texturas de uma imagem para outra (enrolar um carro em mármore ou padrões de grãos de madeira)
+✓ Ediçêo de várias voltas → Edite passo a passo sem quebrar o resto da imagem
+✓ Transferência de estilo → Aplicar texturas de uma imagem para outra (enrolar um carro em mármore ou padrões de grêos de madeira)
 ✓ Edições direcionadas → Desfocar fundos, remover manchas, ajustar poses — apenas descrevendo
-✓ Renderização super rápida → Gere ou edite em 1-2 segundos, quase em tempo real
+✓ Renderizaçêo super rápida → Gere ou edite em 1-2 segundos, quase em tempo real
 ✓ Ajustamentos conscientes do mundo → Lide com edições que precisam de conhecimento e contexto do mundo real
 
-Os resultados são loucos.
+Os resultados sêo loucos.
 
-As pessoas estão chamando-o de "o melhor editor de fotos de IA que já viram. "
+As pessoas estêo chamando-o de "o melhor editor de fotos de IA que já viram. "
 
 O que o distingue: Quando você pede ao ChatGPT ou ao Grok para mudar a cor da camisa de alguém, você fica com caras distorcidas e fundos alterados. Nano-Banana preserva cada detalhe enquanto faz edições precisas.
 
-As aplicações de negócios são loucas:
+As aplicações de negócios sêo loucas:
 → E-commerce pronto → Fotos de produtos em várias variantes instantaneamente
 → Ativos do jogo → Gere milhares de retratos consistentes de NPC
 → Arquitetura e interiores → Proponha espaços e mostre revisões em segundos
 → Visuais educacionais → Crie diagramas mais nítidos e ensinando gráficos sob demanda
-A competição nem sequer está perto:
-→ Usuários relatam que "destrói completamente" o Flux Kontext na preservação das características faciais
+A competiçêo nem sequer está perto:
+→ Usuários relatam que "destrói completamente" o Flux Kontext na preservaçêo das características faciais
 → Primeiro modelo com verdadeira persistência de objetos - as praias permanecem intocadas enquanto os sujeitos se transformam
-→ Desempenho de edição de uma foto onde outros modelos precisam de várias tentativas
+→ Desempenho de ediçêo de uma foto onde outros modelos precisam de várias tentativas
 
 Como experimentar agora:
 → Visite gemini.google.com
 → Selecione Gemini 2.5 modelo Flash
 → Carregue sua imagem
-→ Dê comandos de edição de linguagem natural
+→ Dê comandos de ediçêo de linguagem natural
 → Veja o poder acontecer
 
 Usuários gratuitos recebem 100 edições por dia. Usuários pagos recebem 1.000 edições diárias.
@@ -71,7 +71,7 @@ Pense no seu fluxo de trabalho atual:
 - Aprenda Photoshop: Meses de treinamento
 - Nano-Banana: Descreva o que você quer, obtenha-o instantaneamente
 
-As poupanças de custos são loucas. O que costumava exigir uma equipa de design completa agora acontece com sugestões de texto simples.
+As poupanças de custos sêo loucas. O que costumava exigir uma equipa de design completa agora acontece com sugestões de texto simples.
 
 Para empresários de comércio eletrônico:
 → Fotos de produtos em qualquer ambiente instantaneamente
@@ -85,11 +85,11 @@ Para criadores de conteúdo:
 → Visuais com aparência profissional sem orçamento profissional
 → Conteúdo multiplataforma adaptado automaticamente
 
-A verificação da realidade: Enquanto você está debatendo se a IA vai substituir designers, seus concorrentes já estão usando isso para criar conteúdo melhor mais rápido e mais barato.
+A verificaçêo da realidade: Enquanto você está debatendo se a IA vai substituir designers, seus concorrentes já estêo usando isso para criar conteúdo melhor mais rápido e mais barato.
 
-Este não é apenas um editor de fotos melhor.
+Este nêo é apenas um editor de fotos melhor.
 
-Este é o momento em que criar visuais profissionais se tornou tão fácil quanto pensar neles.
+Este é o momento em que criar visuais profissionais se tornou têo fácil quanto pensar neles.
 
 ------------------------------
 

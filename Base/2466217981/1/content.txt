@@ -1293,7 +1293,7 @@ Texto: [Sem texto]
 ------------------------------
 
 MENSAGEM 184
-Autor: Magalhães
+Autor: Magalhêes
 Data: 2025-09-14T00:37:40+00:00
 Texto: [Sem texto]
 
@@ -1591,7 +1591,7 @@ MENSAGEM 226
 Autor: Gsantos
 Data: 2025-08-31T13:33:42+00:00
 Texto:
-🚀 Automação que brilha ! 🎥✨
+🚀 Automaçêo que brilha ! 🎥✨
 Sistema  criado no Make que recebe vídeos direto do Telegram — seja de canais ou mensagens privadas — e transforma tudo automaticamente em posts prontos para Reels do Instagram, Shorts do YouTube e LinkedIn.
 Tudo rápido, simples e 100% integrado. ⚡️🔥
 Midia: MessageMediaPhoto -> photo_1922_226.jpg
@@ -2838,7 +2838,7 @@ Texto: [Sem texto]
 ------------------------------
 
 MENSAGEM 404
-Autor: Sandrão Magal
+Autor: Sandrêo Magal
 Data: 2025-07-05T06:51:54+00:00
 Texto: [Sem texto]
 
@@ -3503,7 +3503,7 @@ Texto: [Sem texto]
 ------------------------------
 
 MENSAGEM 499
-Autor: Digão
+Autor: Digêo
 Data: 2025-06-16T16:55:02+00:00
 Texto: [Sem texto]
 
@@ -4189,7 +4189,7 @@ Texto: [Sem texto]
 ------------------------------
 
 MENSAGEM 597
-Autor: João
+Autor: Joêo
 Data: 2025-06-04T20:25:04+00:00
 Texto: [Sem texto]
 
@@ -4736,7 +4736,7 @@ Texto: [Sem texto]
 ------------------------------
 
 MENSAGEM 675
-Autor: João
+Autor: Joêo
 Data: 2025-05-21T16:39:35+00:00
 Texto: [Sem texto]
 
@@ -4890,7 +4890,7 @@ Texto: [Sem texto]
 ------------------------------
 
 MENSAGEM 697
-Autor: João
+Autor: Joêo
 Data: 2025-05-17T14:44:09+00:00
 Texto: [Sem texto]
 
@@ -6318,7 +6318,7 @@ Texto: [Sem texto]
 ------------------------------
 
 MENSAGEM 901
-Autor: João Paulo
+Autor: Joêo Paulo
 Data: 2025-04-16T22:12:55+00:00
 Texto: [Sem texto]
 
@@ -6458,7 +6458,7 @@ Texto: [Sem texto]
 ------------------------------
 
 MENSAGEM 921
-Autor: Magalhães
+Autor: Magalhêes
 Data: 2025-04-15T00:28:44+00:00
 Texto: [Sem texto]
 
@@ -7410,7 +7410,7 @@ Texto: [Sem texto]
 ------------------------------
 
 MENSAGEM 1057
-Autor: Sergio Guimarães
+Autor: Sergio Guimarêes
 Data: 2025-03-28T13:42:58+00:00
 Texto: [Sem texto]
 
@@ -7907,7 +7907,7 @@ Texto: [Sem texto]
 ------------------------------
 
 MENSAGEM 1128
-Autor: João
+Autor: Joêo
 Data: 2025-03-20T01:06:45+00:00
 Texto: [Sem texto]
 
@@ -8222,7 +8222,7 @@ Texto: [Sem texto]
 ------------------------------
 
 MENSAGEM 1173
-Autor: João Vitor
+Autor: Joêo Vitor
 Data: 2025-03-15T11:09:44+00:00
 Texto: [Sem texto]
 
@@ -8971,7 +8971,7 @@ Texto: [Sem texto]
 ------------------------------
 
 MENSAGEM 1280
-Autor: Luizão
+Autor: Luizêo
 Data: 2025-02-27T20:50:00+00:00
 Texto: [Sem texto]
 
@@ -9230,7 +9230,7 @@ Texto: [Sem texto]
 ------------------------------
 
 MENSAGEM 1317
-Autor: João Paulo
+Autor: Joêo Paulo
 Data: 2025-02-19T23:04:35+00:00
 Texto: [Sem texto]
 
@@ -10428,7 +10428,7 @@ Texto: [Sem texto]
 ------------------------------
 
 MENSAGEM 1488
-Autor: JOÃO
+Autor: JOêO
 Data: 2025-01-25T17:03:26+00:00
 Texto: [Sem texto]
 
@@ -10743,7 +10743,7 @@ Texto: [Sem texto]
 ------------------------------
 
 MENSAGEM 1533
-Autor: João Pedro
+Autor: Joêo Pedro
 Data: 2025-01-20T21:12:26+00:00
 Texto: [Sem texto]
 
@@ -11857,7 +11857,7 @@ MENSAGEM 1691
 Autor: Lucas
 Data: 2025-01-03T14:48:17+00:00
 Texto:
-Como faço pra criar um personagem dentro de um roteiro e que ao gerar ele na IA não se percam as características? uma hora sai de um formato, daqui a pouco sai de outro!!!
+Como faço pra criar um personagem dentro de um roteiro e que ao gerar ele na IA nêo se percam as características? uma hora sai de um formato, daqui a pouco sai de outro!!!
 
 ------------------------------
 

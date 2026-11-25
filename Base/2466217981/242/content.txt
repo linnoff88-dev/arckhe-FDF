@@ -30,7 +30,7 @@ MENSAGEM 3
 Autor: Carlos
 Data: 2025-05-14T03:46:00+00:00
 Texto:
-Pessoal, uma das dificuldades que tive foi achar ferramentas gratuitas, open source, para usar nas automações. Então parti para uma estrutura própria, no caso VPS. Relacionei em um pdf que coloco abaixo. Trata-se de um serviço que estou prestando para quem quiser ter sua estrutura propria com as ferramentas open source que precisar. Um Kit básico engloba n8n, typebot, EvolutionAI e Minio. qualquer coisa chama no privado aqui, ok. Bons estudos e bom trabalho a todos.
+Pessoal, uma das dificuldades que tive foi achar ferramentas gratuitas, open source, para usar nas automações. Entêo parti para uma estrutura própria, no caso VPS. Relacionei em um pdf que coloco abaixo. Trata-se de um serviço que estou prestando para quem quiser ter sua estrutura propria com as ferramentas open source que precisar. Um Kit básico engloba n8n, typebot, EvolutionAI e Minio. qualquer coisa chama no privado aqui, ok. Bons estudos e bom trabalho a todos.
 
 ------------------------------
 
@@ -114,7 +114,7 @@ MENSAGEM 13
 Autor: Emerson
 Data: 2025-01-16T02:35:42+00:00
 Texto:
-tentei em várias IAs, não faz
+tentei em várias IAs, nêo faz
 
 ------------------------------
 
@@ -159,7 +159,7 @@ Texto:
 quero q tenha uma cena como no filme planeta dos macacos, os humanos serem papeis invertidos,  faca esta cena com o cao
 O ChatGPT disse:
 ChatGPT
-Não foi possível gerar a imagem solicitada, pois ela não atende às diretrizes de política de conteúdo da ferramenta utilizada. Caso queira, posso ajudar a reformular o pedido ou trabalhar em uma ideia alternativa que se alinhe melhor às políticas.
+Nêo foi possível gerar a imagem solicitada, pois ela nêo atende às diretrizes de política de conteúdo da ferramenta utilizada. Caso queira, posso ajudar a reformular o pedido ou trabalhar em uma ideia alternativa que se alinhe melhor às políticas.
 
 ------------------------------
 
@@ -169,7 +169,7 @@ Data: 2025-01-16T02:30:11+00:00
 Texto:
 Aqui está o prompt utilizado para criar a imagem: 
  
-"Uma imagem hiper-realista de um homem usando uma coleira de couro preta em seu pescoço, sendo puxado por um cachorro que segura a guia em sua boca. O homem está vestido com roupas casuais, incluindo uma camiseta cinza clara e calça jeans azul, e exibe uma expressão de surpresa, mas levemente divertida. Seu corpo está levemente inclinado para trás, demonstrando resistência moderada ao puxão. O cachorro é de porte médio e musculoso, como um pitbull ou pastor alemão, e não usa coleira no pescoço. A guia é feita de couro preto resistente, com textura realista e marcas sutis de desgaste. A cena se passa em um parque urbano, com grama verde exuberante, árvores espaçadas e um caminho pavimentado ao fundo. A iluminação é natural, representando uma tarde ensolarada com sombras suaves, destacando a interação dinâmica entre o homem e o cachorro. O fundo está levemente desfocado, mantendo o foco principal no homem, na coleira e no cachorro."
+"Uma imagem hiper-realista de um homem usando uma coleira de couro preta em seu pescoço, sendo puxado por um cachorro que segura a guia em sua boca. O homem está vestido com roupas casuais, incluindo uma camiseta cinza clara e calça jeans azul, e exibe uma expressêo de surpresa, mas levemente divertida. Seu corpo está levemente inclinado para trás, demonstrando resistência moderada ao puxêo. O cachorro é de porte médio e musculoso, como um pitbull ou pastor alemêo, e nêo usa coleira no pescoço. A guia é feita de couro preto resistente, com textura realista e marcas sutis de desgaste. A cena se passa em um parque urbano, com grama verde exuberante, árvores espaçadas e um caminho pavimentado ao fundo. A iluminaçêo é natural, representando uma tarde ensolarada com sombras suaves, destacando a interaçêo dinâmica entre o homem e o cachorro. O fundo está levemente desfocado, mantendo o foco principal no homem, na coleira e no cachorro."
 
 ------------------------------
 
@@ -177,7 +177,7 @@ MENSAGEM 20
 Autor: Emerson
 Data: 2025-01-16T02:27:28+00:00
 Texto:
-eu fiz um prompt super detalhado, mas as IAs não fazerm
+eu fiz um prompt super detalhado, mas as IAs nêo fazerm
 
 ------------------------------
 
@@ -185,7 +185,7 @@ MENSAGEM 21
 Autor: Emerson
 Data: 2025-01-16T02:27:05+00:00
 Texto:
-pois é...eu não consegui gerar, poucos se aproximaram...
+pois é...eu nêo consegui gerar, poucos se aproximaram...
 
 ------------------------------
 
@@ -209,11 +209,11 @@ MENSAGEM 24
 Autor: ARCKHÉ
 Data: 2025-01-16T02:26:01+00:00
 Texto:
-A imagem apresenta um cachorro de porte médio puxando um homem pela coleira presa ao pescoço dele. O homem usa uma coleira de couro preta, à qual está presa uma guia que o cachorro segura firmemente com a boca. O cachorro, possivelmente um pitbull ou pastor alemão, exibe uma postura determinada, com as patas firmes no chão e o corpo levemente inclinado para frente, indicando esforço ao puxar.  
+A imagem apresenta um cachorro de porte médio puxando um homem pela coleira presa ao pescoço dele. O homem usa uma coleira de couro preta, à qual está presa uma guia que o cachorro segura firmemente com a boca. O cachorro, possivelmente um pitbull ou pastor alemêo, exibe uma postura determinada, com as patas firmes no chêo e o corpo levemente inclinado para frente, indicando esforço ao puxar.  
  
-O homem veste roupas casuais, como uma camiseta cinza clara e jeans azuis. Ele parece surpreso, com uma expressão que mistura leve desconforto e diversão. Seu corpo está ligeiramente inclinado para trás, mostrando resistência ao movimento, mas sem parecer totalmente contra a ação do cachorro. 
+O homem veste roupas casuais, como uma camiseta cinza clara e jeans azuis. Ele parece surpreso, com uma expressêo que mistura leve desconforto e diversêo. Seu corpo está ligeiramente inclinado para trás, mostrando resistência ao movimento, mas sem parecer totalmente contra a açêo do cachorro. 
  
-O cenário ao fundo é um parque urbano, com grama verde, árvores espaçadas e um caminho pavimentado parcialmente visível. A iluminação é natural, com luz suave de um dia claro, criando sombras delicadas. O foco principal está nos dois protagonistas, enquanto o fundo permanece levemente desfocado, destacando a interação entre o homem e o cão.]
+O cenário ao fundo é um parque urbano, com grama verde, árvores espaçadas e um caminho pavimentado parcialmente visível. A iluminaçêo é natural, com luz suave de um dia claro, criando sombras delicadas. O foco principal está nos dois protagonistas, enquanto o fundo permanece levemente desfocado, destacando a interaçêo entre o homem e o cêo.]
 
 ------------------------------
 
@@ -246,7 +246,7 @@ MENSAGEM 28
 Autor: Emerson
 Data: 2025-01-16T02:17:54+00:00
 Texto:
-Uma coisa que as IAs tem dificuldade é com inversão de papéis. Por exemplo. Tenta gerar um cachorro puchando um home pela coleira.. rsrs
+Uma coisa que as IAs tem dificuldade é com inversêo de papéis. Por exemplo. Tenta gerar um cachorro puchando um home pela coleira.. rsrs
 
 ------------------------------
 
@@ -336,32 +336,32 @@ Data: 2025-01-16T02:02:26+00:00
 Texto:
 ### Novo Prompt Baseado na Imagem Fornecida 
  
-Crie uma imagem de dois filhotes de tigre abraçados em um ambiente mágico e colorido. O filhote à esquerda deve ter uma pelagem branca com listras pretas e um brilho azul, com sua pelagem refletindo e refratando a luz como cristais de gelo ou diamantes, dando uma textura translúcida e dura. O filhote à direita deve ter uma pelagem laranja com listras pretas e um brilho dourado, semelhante ao âmbar ou ouro, com um efeito de reflexão e refração cristalina semelhante, proporcionando profundidade e preciosidade. Ambos os filhotes devem parecer amigáveis e estar em um cenário encantado com reflexos na água e bolhas flutuando ao redor. A iluminação deve ser suave e destacar os brilhos coloridos nas pelagens dos filhotes. O fundo deve estar suavemente desfocado com uma superfície molhada refletindo os filhotes e as bolhas, realçando a atmosfera encantada e serena com uma iluminação suave que destaque a aparência cristalina e luminosa dos filhotes de tigre. 
+Crie uma imagem de dois filhotes de tigre abraçados em um ambiente mágico e colorido. O filhote à esquerda deve ter uma pelagem branca com listras pretas e um brilho azul, com sua pelagem refletindo e refratando a luz como cristais de gelo ou diamantes, dando uma textura translúcida e dura. O filhote à direita deve ter uma pelagem laranja com listras pretas e um brilho dourado, semelhante ao âmbar ou ouro, com um efeito de reflexêo e refraçêo cristalina semelhante, proporcionando profundidade e preciosidade. Ambos os filhotes devem parecer amigáveis e estar em um cenário encantado com reflexos na água e bolhas flutuando ao redor. A iluminaçêo deve ser suave e destacar os brilhos coloridos nas pelagens dos filhotes. O fundo deve estar suavemente desfocado com uma superfície molhada refletindo os filhotes e as bolhas, realçando a atmosfera encantada e serena com uma iluminaçêo suave que destaque a aparência cristalina e luminosa dos filhotes de tigre. 
  
 ### Categorias 
  
 1. Assunto: Dois filhotes de tigre abraçados 
-2. Meio: Renderização 3D 
+2. Meio: Renderizaçêo 3D 
 3. Estilo: Estilo mágico e colorido, aparência de cristais preciosos 
-4. Site de Compartilhamento de Arte: Não especificado 
-5. Resolução: Alta resolução 
+4. Site de Compartilhamento de Arte: Nêo especificado 
+5. Resoluçêo: Alta resoluçêo 
 6. Detalhes Adicionais: Pelagem branca com listras pretas e brilho azul (filhote à esquerda), pelagem laranja com listras pretas e brilho dourado (filhote à direita), bolhas flutuando com aparência de cristal 
 7. Cor: Brilho azul e dourado nas pelagens, ambiente colorido 
-8. Iluminação: Iluminação suave destacando os brilhos coloridos 
+8. Iluminaçêo: Iluminaçêo suave destacando os brilhos coloridos 
 9. Observações: Reflexos na água, cenário encantado, superfície molhada refletindo 
-10. Prompt Negativo: Não especificado 
+10. Prompt Negativo: Nêo especificado 
 11. Ambiente: Ambiente mágico e colorido 
 12. Pose: Abraçados 
-13. Expressão Facial: Amigáveis 
+13. Expressêo Facial: Amigáveis 
 14. Textura: Pelagem refletindo e refratando como cristais 
-15. Tamanho/Proporção: Proporções realistas 
-16. Contexto Histórico/Temporal: Não especificado 
+15. Tamanho/Proporçêo: Proporções realistas 
+16. Contexto Histórico/Temporal: Nêo especificado 
 17. Dinâmica de Movimento: Estáticos (abraçados) 
-18. Interatividade: Não especificado 
+18. Interatividade: Nêo especificado 
 19. Atmosfera: Encantada e amigável 
 20. Material: Pelagem dos tigres, aparência cristalina 
-21. Perspectiva/Ângulo: Não especificado 
-22. Fonte de Inspiração: Não especificado 
+21. Perspectiva/Ângulo: Nêo especificado 
+22. Fonte de Inspiraçêo: Nêo especificado 
  
  
  
@@ -375,40 +375,40 @@ Data: 2025-01-16T02:01:55+00:00
 Texto:
 ### Anatomia de um Bom Prompt 
  
-Prompt: Dois filhotes de tigre abraçados em um ambiente mágico e colorido. O filhote à esquerda tem uma pelagem branca com listras pretas e um brilho azul, enquanto o filhote à direita tem uma pelagem laranja com listras pretas e um brilho dourado. Ambos os tigres devem parecer amigáveis e estar em um cenário encantado com reflexos na água e bolhas flutuando ao redor. A iluminação deve ser suave e destacar os brilhos coloridos nas pelagens dos filhotes. 
+Prompt: Dois filhotes de tigre abraçados em um ambiente mágico e colorido. O filhote à esquerda tem uma pelagem branca com listras pretas e um brilho azul, enquanto o filhote à direita tem uma pelagem laranja com listras pretas e um brilho dourado. Ambos os tigres devem parecer amigáveis e estar em um cenário encantado com reflexos na água e bolhas flutuando ao redor. A iluminaçêo deve ser suave e destacar os brilhos coloridos nas pelagens dos filhotes. 
  
 ### Categorias 
  
 1. Assunto: Dois filhotes de tigre abraçados 
-2. Meio: Renderização 3D 
+2. Meio: Renderizaçêo 3D 
 3. Estilo: Estilo mágico e colorido 
-4. Site de Compartilhamento de Arte: Não especificado 
-5. Resolução: Alta resolução 
+4. Site de Compartilhamento de Arte: Nêo especificado 
+5. Resoluçêo: Alta resoluçêo 
 6. Detalhes Adicionais: Pelagem branca com listras pretas e brilho azul (filhote à esquerda), pelagem laranja com listras pretas e brilho dourado (filhote à direita), bolhas flutuando 
 7. Cor: Brilho azul e dourado nas pelagens, ambiente colorido 
-8. Iluminação: Iluminação suave destacando os brilhos coloridos 
+8. Iluminaçêo: Iluminaçêo suave destacando os brilhos coloridos 
 9. Observações: Reflexos na água, cenário encantado 
-10. Prompt Negativo: Não especificado 
+10. Prompt Negativo: Nêo especificado 
 11. Ambiente: Ambiente mágico e colorido 
 12. Pose: Abraçados 
-13. Expressão Facial: Amigáveis 
+13. Expressêo Facial: Amigáveis 
 14. Textura: Pelagem brilhante e detalhada 
-15. Tamanho/Proporção: Proporções realistas 
-16. Contexto Histórico/Temporal: Não especificado 
+15. Tamanho/Proporçêo: Proporções realistas 
+16. Contexto Histórico/Temporal: Nêo especificado 
 17. Dinâmica de Movimento: Estáticos (abraçados) 
-18. Interatividade: Não especificado 
+18. Interatividade: Nêo especificado 
 19. Atmosfera: Encantada e amigável 
 20. Material: Pelagem dos tigres 
-21. Perspectiva/Ângulo: Não especificado 
-22. Fonte de Inspiração: Não especificado 
+21. Perspectiva/Ângulo: Nêo especificado 
+22. Fonte de Inspiraçêo: Nêo especificado 
  
-### Categorias não Aplicadas 
+### Categorias nêo Aplicadas 
  
 - Site de Compartilhamento de Arte 
 - Contexto Histórico/Temporal 
 - Interatividade 
 - Perspectiva/Ângulo 
-- Fonte de Inspiração
+- Fonte de Inspiraçêo
 
 ------------------------------
 
@@ -418,38 +418,38 @@ Data: 2025-01-16T02:01:02+00:00
 Texto:
 ### Anatomia de um Bom Prompt 
  
-Prompt: Um adorável, gordinho filhote de gato tabby com uma barriga redonda e grandes olhos, representado em estilo chibi. O gato é levemente fofo com uma textura de pelúcia e é renderizado em tons pastéis. O fundo é limpo e apresenta luz natural. O estilo combina elementos da Pixar e Disney, renderizado em 3D com super detalhes e alta resolução. A estética é minimalista com uma paleta de cores neutras e sombreamento sutil. O design inclui elementos interativos e uma aparência moderna e refinada. A imagem é criada usando Unreal Engine 5, com composição cARCKHÉtográfica e retratos realistas e hiper-detalhados, adequados para arte de jogos 3D. A iluminação é suave e cARCKHÉtográfica, com luz de borda, luz suave e luz de borda de filme, renderizada no CARCKHÉ4D, alcançando um alto nível de detalhe e realismo em uma resolução de 8k. 
+Prompt: Um adorável, gordinho filhote de gato tabby com uma barriga redonda e grandes olhos, representado em estilo chibi. O gato é levemente fofo com uma textura de pelúcia e é renderizado em tons pastéis. O fundo é limpo e apresenta luz natural. O estilo combina elementos da Pixar e Disney, renderizado em 3D com super detalhes e alta resoluçêo. A estética é minimalista com uma paleta de cores neutras e sombreamento sutil. O design inclui elementos interativos e uma aparência moderna e refinada. A imagem é criada usando Unreal Engine 5, com composiçêo cARCKHÉtográfica e retratos realistas e hiper-detalhados, adequados para arte de jogos 3D. A iluminaçêo é suave e cARCKHÉtográfica, com luz de borda, luz suave e luz de borda de filme, renderizada no CARCKHÉ4D, alcançando um alto nível de detalhe e realismo em uma resoluçêo de 8k. 
  
 ### Categorias 
  
 1. Assunto: Um adorável, gordinho filhote de gato tabby 
-2. Meio: Renderização 3D 
+2. Meio: Renderizaçêo 3D 
 3. Estilo: Estilo Pixar, estilo Disney 
 4. Site de Compartilhamento de Arte: cg society, art station hd 
-5. Resolução: Alta resolução, 8k 
+5. Resoluçêo: Alta resoluçêo, 8k 
 6. Detalhes Adicionais: Grandes olhos, chibi, pelúcia fofa, levemente fofo 
 7. Cor: Tons pastéis, paleta de cores neutras 
-8. Iluminação: Luz natural, iluminação cARCKHÉtográfica, luz de borda, luz suave, luz de borda de filme 
-9. Observações: Fundo limpo, 3D minimalista, sombreamento sutil, elementos interativos, estética moderna e refinada, gráficos 3D para web, composição cARCKHÉtográfica, retratos hiper-detalhados realistas 
-10. Prompt Negativo: Não especificado 
-11. Ambiente: Não especificado 
-12. Pose: Não especificado 
-13. Expressão Facial: Não especificado 
+8. Iluminaçêo: Luz natural, iluminaçêo cARCKHÉtográfica, luz de borda, luz suave, luz de borda de filme 
+9. Observações: Fundo limpo, 3D minimalista, sombreamento sutil, elementos interativos, estética moderna e refinada, gráficos 3D para web, composiçêo cARCKHÉtográfica, retratos hiper-detalhados realistas 
+10. Prompt Negativo: Nêo especificado 
+11. Ambiente: Nêo especificado 
+12. Pose: Nêo especificado 
+13. Expressêo Facial: Nêo especificado 
 14. Textura: Pelúcia fofa 
-15. Tamanho/Proporção: Proporções realistas 
-16. Contexto Histórico/Temporal: Não especificado 
-17. Dinâmica de Movimento: Não especificado 
+15. Tamanho/Proporçêo: Proporções realistas 
+16. Contexto Histórico/Temporal: Nêo especificado 
+17. Dinâmica de Movimento: Nêo especificado 
 18. Interatividade: Elementos interativos 
 19. Atmosfera: Aconchegante e convidativa 
 20. Material: Pelúcia (gato) 
-21. Perspectiva/Ângulo: Não especificado 
-22. Fonte de Inspiração: Estilo Pixar, estilo Disney 
+21. Perspectiva/Ângulo: Nêo especificado 
+22. Fonte de Inspiraçêo: Estilo Pixar, estilo Disney 
  
-### Categorias não Aplicadas 
+### Categorias nêo Aplicadas 
  
 - Ambiente 
 - Pose 
-- Expressão Facial 
+- Expressêo Facial 
 - Contexto Histórico/Temporal 
 - Dinâmica de Movimento 
 - Perspectiva/Ângulo
@@ -466,24 +466,24 @@ Assunto
 Meio 
 Estilo 
 Site de Compartilhamento de Arte 
-Resolução 
+Resoluçêo 
 Detalhes Adicionais 
 Cor 
-Iluminação 
+Iluminaçêo 
 Observações 
 Prompt Negativo 
 Ambiente 
 Pose 
-Expressão Facial 
+Expressêo Facial 
 Textura 
-Tamanho/Proporção 
+Tamanho/Proporçêo 
 Contexto Histórico/Temporal 
 Dinâmica de Movimento 
 Interatividade 
 Atmosfera 
 Material 
 Perspectiva/Ângulo 
-Fonte de Inspiração
+Fonte de Inspiraçêo
 
 ------------------------------
 
@@ -509,21 +509,21 @@ Texto:
    Referência de plataformas conhecidas.   
    Exemplo: DeviantArt, ArtStation. 
  
-5. **Resolução**   
+5. **Resoluçêo**   
    Qualidade da imagem gerada.   
    Exemplo: 1024x1024, 4K. 
  
 6. **Detalhes Adicionais**   
-   Especificações para enriquecer a criação.   
+   Especificações para enriquecer a criaçêo.   
    Exemplo: flores ao fundo, nuvens coloridas no céu. 
  
 7. **Cor**   
    Paleta de cores ou tom dominante.   
    Exemplo: tons pastel, azul vibrante. 
  
-8. **Iluminação**   
+8. **Iluminaçêo**   
    Tipo de luz e seu impacto na cena.   
-   Exemplo: luz natural suave, iluminação dramática com sombras marcadas. 
+   Exemplo: luz natural suave, iluminaçêo dramática com sombras marcadas. 
  
 9. **Observações**   
    Informações relevantes que orientem nuances.   
@@ -534,50 +534,50 @@ Texto:
     Exemplo: sem rostos humanos, sem texturas ásperas. 
  
 11. **Ambiente**   
-    O cenário ou localização onde o assunto está inserido.   
+    O cenário ou localizaçêo onde o assunto está inserido.   
     Exemplo: floresta encantada, cidade futurista. 
  
 12. **Pose**   
-    Posição ou atitude do personagem.   
+    Posiçêo ou atitude do personagem.   
     Exemplo: sentado em uma pedra, braços abertos. 
  
-13. **Expressão Facial**   
+13. **Expressêo Facial**   
     Sentimentos ou emoções do rosto.   
     Exemplo: sorriso gentil, olhar de curiosidade. 
  
 14. **Textura**   
-    Sensação tátil visual da superfície.   
+    Sensaçêo tátil visual da superfície.   
     Exemplo: metálico, áspero, fosco. 
  
-15. **Tamanho/Proporção**   
+15. **Tamanho/Proporçêo**   
     Escala relativa ou dimensões.   
-    Exemplo: personagem gigante em comparação a árvores. 
+    Exemplo: personagem gigante em comparaçêo a árvores. 
  
 16. **Contexto Histórico/Temporal**   
     Período ou era.   
     Exemplo: Era Medieval, futuro distante. 
  
 17. **Dinâmica de Movimento**   
-    Indicação de movimento ou ação.   
+    Indicaçêo de movimento ou açêo.   
     Exemplo: folhas voando ao vento, água fluindo. 
  
 18. **Interatividade**   
-    Relação entre os elementos na cena.   
+    Relaçêo entre os elementos na cena.   
     Exemplo: personagem alimentando pássaros. 
  
 19. **Atmosfera**   
-    Sensação geral ou clima emocional da cena.   
+    Sensaçêo geral ou clima emocional da cena.   
     Exemplo: misterioso, alegre, melancólico. 
  
 20. **Material**   
-    Composição dos elementos.   
+    Composiçêo dos elementos.   
     Exemplo: vidro, madeira, tecido. 
  
 21. **Perspectiva/Ângulo**   
     Ponto de vista da cena.   
-    Exemplo: ângulo superior, visão em primeira pessoa. 
+    Exemplo: ângulo superior, visêo em primeira pessoa. 
  
-22. **Fonte de Inspiração**   
+22. **Fonte de Inspiraçêo**   
     Referências ou artistas que influenciam o design.   
     Exemplo: inspirado por obras de Van Gogh, estilo Pixar.
 
@@ -590,35 +590,35 @@ Texto:
 Um bom prompt para gerar imagens é claro, detalhado e estruturado, fornecendo informações suficientes para que a ferramenta de IA compreenda exatamente o que você deseja criar. Ele combina categorias relevantes, como o assunto principal, estilo, cenário, detalhes visuais e emocionais, e, se necessário, inclui um "prompt negativo" para evitar elementos indesejados. 
  
 ### Estrutura Ideal de um Bom Prompt 
-1. **Descrição Geral**: Explique o tema principal.   
-   Exemplo: Um dragão dourado voando sobre uma floresta densa.   
+1. **Descriçêo Geral**: Explique o tema principal.   
+   Exemplo: Um dragêo dourado voando sobre uma floresta densa.   
  
 2. **Detalhes Visuais**: Inclua especificidades como cores, texturas, e formas.   
    Exemplo: Escamas brilhantes douradas refletindo a luz do sol, árvores com folhas verdes escuras.   
  
 3. **Estilo e Meio**: Descreva o estilo artístico.   
-   Exemplo: No estilo realista, com detalhes intrincados nas escamas do dragão.   
+   Exemplo: No estilo realista, com detalhes intrincados nas escamas do dragêo.   
  
-4. **Cenário/Ambiente**: Detalhe onde e como a ação ocorre.   
-   Exemplo: Uma floresta tropical ao amanhecer, com neblina cobrindo o chão e um rio cristalino fluindo.   
+4. **Cenário/Ambiente**: Detalhe onde e como a açêo ocorre.   
+   Exemplo: Uma floresta tropical ao amanhecer, com neblina cobrindo o chêo e um rio cristalino fluindo.   
  
-5. **Iluminação e Atmosfera**: Explique o tom ou clima.   
-   Exemplo: Iluminação suave e dourada do sol nascente, atmosfera mágica e calma.   
+5. **Iluminaçêo e Atmosfera**: Explique o tom ou clima.   
+   Exemplo: Iluminaçêo suave e dourada do sol nascente, atmosfera mágica e calma.   
  
 6. **Perspectiva e Ângulo**: Defina o ponto de vista da cena.   
-   Exemplo: Vista de baixo, mostrando o dragão em pleno voo.   
+   Exemplo: Vista de baixo, mostrando o dragêo em pleno voo.   
  
 7. **Interatividade ou Dinâmica**: Descreva ações ou interações na cena.   
-   Exemplo: O dragão exalando pequenas faíscas de fogo enquanto voa.   
+   Exemplo: O dragêo exalando pequenas faíscas de fogo enquanto voa.   
  
 8. **Prompt Negativo**: Liste elementos a evitar.   
    Exemplo: Evitar nuvens escuras, sem prédios ou estruturas modernas.   
  
-9. **Resolução/Proporção**: Caso necessário, especifique o tamanho da imagem.   
-   Exemplo: Resolução 4K, proporção 16:9.   
+9. **Resoluçêo/Proporçêo**: Caso necessário, especifique o tamanho da imagem.   
+   Exemplo: Resoluçêo 4K, proporçêo 16:9.   
  
 ### Exemplo de Prompt Completo 
-"Um dragão dourado em estilo realista voando sobre uma floresta tropical ao amanhecer. Suas escamas brilham intensamente sob a luz dourada do sol nascente, e pequenas faíscas de fogo escapam de sua boca. A floresta abaixo é densa, com árvores altas e folhas verdes escuras, coberta por uma leve neblina. Um rio cristalino serpenteia pelo terreno. O ângulo é de baixo para cima, destacando o dragão em voo contra o céu azul. A atmosfera é mágica e pacífica. Evitar nuvens escuras, prédios ou elementos modernos." 
+"Um dragêo dourado em estilo realista voando sobre uma floresta tropical ao amanhecer. Suas escamas brilham intensamente sob a luz dourada do sol nascente, e pequenas faíscas de fogo escapam de sua boca. A floresta abaixo é densa, com árvores altas e folhas verdes escuras, coberta por uma leve neblina. Um rio cristalino serpenteia pelo terreno. O ângulo é de baixo para cima, destacando o dragêo em voo contra o céu azul. A atmosfera é mágica e pacífica. Evitar nuvens escuras, prédios ou elementos modernos." 
  
 Esse exemplo deixa claro o que deve ser criado, garantindo um resultado mais próximo da expectativa.
 

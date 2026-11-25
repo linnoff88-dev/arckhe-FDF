@@ -1,4 +1,4 @@
-# 🤝 Guia de Contribuição
+# 🤝 Guia de Contribuiçêo
 ## Como Contribuir com o Designer do Futuro
 
 Obrigado pelo interesse em contribuir! Este projeto é **community-driven** e sua ajuda é muito bem-vinda.
@@ -43,10 +43,10 @@ Obrigado pelo interesse em contribuir! Este projeto é **community-driven** e su
 
 **Encontrou um problema?**
 
-1. Verifique se já não foi reportado em [Issues](https://github.com/ARCKHÉ/designer-do-futuro/issues)
-2. Se não, crie nova issue com:
+1. Verifique se já nêo foi reportado em [Issues](https://github.com/ARCKHÉ/designer-do-futuro/issues)
+2. Se nêo, crie nova issue com:
    - Título descritivo
-   - Descrição do problema
+   - Descriçêo do problema
    - Passos para reproduzir
    - Screenshots se aplicável
    - Ambiente (navegador, OS, etc.)
@@ -57,7 +57,7 @@ Obrigado pelo interesse em contribuir! Este projeto é **community-driven** e su
 
 1. Abra uma [Discussion](https://github.com/ARCKHÉ/designer-do-futuro/discussions)
 2. Categoria: "Ideas"
-3. Descreva sua sugestão
+3. Descreva sua sugestêo
 4. Explique o valor para a comunidade
 
 ### 5. 🎨 Contribuir com Design
@@ -69,7 +69,7 @@ Obrigado pelo interesse em contribuir! Este projeto é **community-driven** e su
 - Acessibilidade
 
 **Visual Design:**
-- Imagens para documentação
+- Imagens para documentaçêo
 - Diagramas explicativos
 - Infográficos
 
@@ -109,7 +109,7 @@ git checkout -b minha-contribuicao
 
 # 6. Commit
 git add .
-git commit -m "Descrição clara da alteração"
+git commit -m "Descriçêo clara da alteraçêo"
 
 # 7. Push
 git push origin minha-contribuicao
@@ -125,19 +125,19 @@ git push origin minha-contribuicao
 
 **Formato:**
 ```
-tipo: descrição curta
+tipo: descriçêo curta
 
-Descrição mais detalhada se necessário.
+Descriçêo mais detalhada se necessário.
 ```
 
 **Tipos:**
 - `feat`: Nova feature
-- `fix`: Correção de bug
-- `docs`: Documentação
-- `style`: Formatação, sem mudança de código
-- `refactor`: Refatoração de código
+- `fix`: Correçêo de bug
+- `docs`: Documentaçêo
+- `style`: Formataçêo, sem mudança de código
+- `refactor`: Refatoraçêo de código
 - `test`: Testes
-- `chore`: Tarefas de manutenção
+- `chore`: Tarefas de manutençêo
 
 **Exemplos:**
 ```
@@ -164,8 +164,8 @@ fix: corrigir erro de português no módulo 2
 **Markdown:**
 - Use títulos hierárquicos (`#`, `##`, `###`)
 - Adicione links internos
-- Use emojis com moderação
-- Mantenha formatação consistente
+- Use emojis com moderaçêo
+- Mantenha formataçêo consistente
 
 ---
 
@@ -185,7 +185,7 @@ fix: corrigir erro de português no módulo 2
 
 ```
 designer-do-futuro/
-├── docs/              # Documentação
+├── docs/              # Documentaçêo
 ├── design-system/     # Sistema de design
 ├── trilhas/           # Conteúdo educacional
 │   ├── iniciante/
@@ -206,7 +206,7 @@ designer-do-futuro/
 ## 🎯 Áreas Que Precisam de Ajuda
 
 **Alta Prioridade:**
-- [ ] Tradução para inglês e espanhol
+- [ ] Traduçêo para inglês e espanhol
 - [ ] Conteúdo das trilhas Técnico e Masterclass
 - [ ] Mais prompts na biblioteca
 - [ ] Exemplos visuais e screenshots
@@ -220,7 +220,7 @@ designer-do-futuro/
 
 **Contribuições Sempre Bem-vindas:**
 - Correções de bugs
-- Melhorias de documentação
+- Melhorias de documentaçêo
 - Compartilhar casos de uso
 - Depoimentos de uso
 
@@ -233,15 +233,15 @@ designer-do-futuro/
 **Respeito:**
 - Seja gentil e respeitoso
 - Aceite críticas construtivas
-- Diferentes perspectivas são valiosas
+- Diferentes perspectivas sêo valiosas
 
-**Colaboração:**
-- Trabalhe junto, não contra
+**Colaboraçêo:**
+- Trabalhe junto, nêo contra
 - Compartilhe conhecimento
 - Ajude novatos
 
 **Qualidade:**
-- Mantenha alto padrão
+- Mantenha alto padrêo
 - Teste antes de submeter
 - Revise seu próprio código
 
@@ -249,17 +249,17 @@ designer-do-futuro/
 
 ❌ Linguagem ofensiva ou discriminatória
 ❌ Assédio de qualquer tipo
-❌ Spam ou autopromoção excessiva
+❌ Spam ou autopromoçêo excessiva
 ❌ Compartilhar informações privadas de outros
 
 **Consequências:**
-Violações serão levadas a sério e podem resultar em banimento do projeto.
+Violações serêo levadas a sério e podem resultar em banimento do projeto.
 
 ---
 
 ## 🏆 Reconhecimento
 
-**Todos os contribuidores são reconhecidos!**
+**Todos os contribuidores sêo reconhecidos!**
 
 - Nome no README.md
 - Badge especial no Discord
@@ -270,7 +270,7 @@ Violações serão levadas a sério e podem resultar em banimento do projeto.
 
 ## ❓ Dúvidas?
 
-**Não sabe por onde começar?**
+**Nêo sabe por onde começar?**
 
 - 💬 Pergunte no [Discord](https://discord.gg/ARCKHÉ-club) canal #contribuidores
 - 📧 Email: contribuidores@ARCKHÉ AI
@@ -300,7 +300,7 @@ Veja as [Issues com label "good first issue"](https://github.com/ARCKHÉ/designe
 
 ## 🙏 Agradecimentos
 
-Obrigado por contribuir com o Designer do Futuro! Sua ajuda torna a educação em IA acessível para todos.
+Obrigado por contribuir com o Designer do Futuro! Sua ajuda torna a educaçêo em IA acessível para todos.
 
 ---
 

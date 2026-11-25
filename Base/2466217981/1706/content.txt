@@ -27,7 +27,7 @@ Exemplos de técnicas e movimentos artísticos aplicados à imagem:
 * Gold Sculpture (Escultura em ouro)
 * Origami
 * Crayon Drawing (Desenho com giz de cera)
-* Charcoal Drawing (Desenho a carvão)
+* Charcoal Drawing (Desenho a carvêo)
 * Watercolor Painting (Aquarela)
 * Oil Painting (Pintura a óleo)
 * Pastel Drawing (Desenho a pastel)
@@ -78,7 +78,7 @@ Diferentes câmeras que influenciam o estilo visual:
 * Film Camera (Câmera de filme)
 * Disposable Camera (Câmera descartável)
 * Polaroid Camera
-* Action Camera (Câmera de ação)
+* Action Camera (Câmera de açêo)
 
 ---
 
@@ -100,11 +100,11 @@ Diferentes câmeras que influenciam o estilo visual:
 
 ### 📚 **Recursos Extras**
 
-Para aprimorar habilidades de geração de imagens:
+Para aprimorar habilidades de geraçêo de imagens:
 
-1. **Bestseller AI Image Generation Course** – Curso completo para aprender engenharia de prompts e criação de imagens/vídeos com IA.
-2. **Free AI Image Styles Ebook (4ª edição)** – Ebook gratuito com estilos e técnicas de prompts.
-3. **Master AI Videos - Video Prompt Ebook** – Ebook pago (\$9,90) para dominar geração de vídeos com IA.
+1. **Bestseller AI Image Generation Course** – Curso completo para aprender engenharia de prompts e criaçêo de imagens/vídeos com IA.
+2. **Free AI Image Styles Ebook (4ª ediçêo)** – Ebook gratuito com estilos e técnicas de prompts.
+3. **Master AI Videos - Video Prompt Ebook** – Ebook pago (\$9,90) para dominar geraçêo de vídeos com IA.
 
 ---
 

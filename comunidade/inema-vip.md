@@ -16,9 +16,9 @@
 - ⭐ Se destacar no mercado
 
 **Para quem é:**
-- Profissionais sérios sobre criação com IA
+- Profissionais sérios sobre criaçêo com IA
 - Quem quer transformar isso em carreira
-- Criadores buscando diferenciação
+- Criadores buscando diferenciaçêo
 - Empreendedores usando IA para escalar
 
 ---
@@ -29,7 +29,7 @@ Você mantém todos os benefícios gratuitos:
 
 ✅ Acesso a todas as 4 trilhas educacionais
 ✅ Biblioteca de prompts e recursos
-✅ Participação na comunidade Discord
+✅ Participaçêo na comunidade Discord
 ✅ Desafios mensais
 ✅ Certificados oficiais
 
@@ -50,13 +50,13 @@ Você mantém todos os benefícios gratuitos:
 **Temas rotativos:**
 - Técnicas avançadas de prompting
 - Workflow profissional
-- Monetização e precificação
+- Monetizaçêo e precificaçêo
 - Portfolio e branding pessoal
 - Ferramentas emergentes
 
 ### 📝 Feedback Personalizado
 
-**Revisão de Projetos:**
+**Revisêo de Projetos:**
 - Envie até 5 projetos/mês
 - Feedback detalhado por escrito
 - Vídeo-análise quando necessário
@@ -65,10 +65,10 @@ Você mantém todos os benefícios gratuitos:
 
 **O que analisamos:**
 - Qualidade técnica
-- Direção criativa
-- Aplicação de fundamentos
+- Direçêo criativa
+- Aplicaçêo de fundamentos
 - Potencial de mercado
-- Sugestões de otimização
+- Sugestões de otimizaçêo
 
 ### 🎯 Workshops Exclusivos
 
@@ -82,7 +82,7 @@ Você mantém todos os benefícios gratuitos:
 **Exemplos de workshops:**
 - ComfyUI para workflows avançados
 - LoRA training personalizado
-- Criação de asset packs comerciais
+- Criaçêo de asset packs comerciais
 - Branding end-to-end com IA
 - Fotografia virtual profissional
 
@@ -92,7 +92,7 @@ Você mantém todos os benefícios gratuitos:
 - Canal VIP no Discord
 - Grupo fechado no LinkedIn
 - Eventos VIP presenciais (quando disponível)
-- Conexão com empresas parceiras
+- Conexêo com empresas parceiras
 - Job board exclusivo
 
 **Oportunidades:**
@@ -149,7 +149,7 @@ Você mantém todos os benefícios gratuitos:
 - Desconto de 8%
 
 **Pagamento:**
-- Cartão de crédito
+- Cartêo de crédito
 - PIX (desconto de 5% adicional)
 - Boleto bancário
 
@@ -177,7 +177,7 @@ Você mantém todos os benefícios gratuitos:
 ## 🚀 Para Quem é o VIP?
 
 **✅ Você deve ser VIP se:**
-- Quer transformar criação com IA em carreira
+- Quer transformar criaçêo com IA em carreira
 - Precisa acelerar seu aprendizado
 - Valoriza feedback personalizado
 - Busca networking profissional
@@ -185,9 +185,9 @@ Você mantém todos os benefícios gratuitos:
 - Tem comprometimento sério
 - Investe em seu desenvolvimento
 
-**❌ Talvez não seja para você se:**
+**❌ Talvez nêo seja para você se:**
 - Está apenas experimentando (comece no CLUB)
-- Não pode dedicar tempo consistente
+- Nêo pode dedicar tempo consistente
 - Prefere aprender sozinho
 - Orçamento muito limitado (CLUB é gratuito!)
 
@@ -198,7 +198,7 @@ Você mantém todos os benefícios gratuitos:
 > *"O feedback personalizado nos meus projetos valeu cada centavo. Em 2 meses passei de iniciante a conseguir meus primeiros clientes."*
 > — **Ana Silva**, Designer Freelancer
 
-> *"As mentorias mensais são ouro puro. Aprendi técnicas que não acharia em nenhum curso."*
+> *"As mentorias mensais sêo ouro puro. Aprendi técnicas que nêo acharia em nenhum curso."*
 > — **Carlos Mendes**, Empreendedor Digital
 
 > *"O networking VIP me conectou com minha primeira oportunidade CLT em uma startup de IA."*
@@ -215,7 +215,7 @@ Você mantém todos os benefícios gratuitos:
 
 **Semana 2:**
 - Envio de projetos para feedback
-- Participação em eventos
+- Participaçêo em eventos
 - Acesso a conteúdo antecipado
 
 **Semana 3:**
@@ -225,8 +225,8 @@ Você mantém todos os benefícios gratuitos:
 
 **Semana 4:**
 - Mentoria ao vivo (2ª do mês)
-- Implementação de melhorias
-- Preparação para novo mês
+- Implementaçêo de melhorias
+- Preparaçêo para novo mês
 
 ---
 
@@ -244,9 +244,9 @@ Você mantém todos os benefícios gratuitos:
    - Organizados por categoria
    - Testados e aprovados
 
-3. **Sessão 1:1 de Onboarding**
+3. **Sessêo 1:1 de Onboarding**
    - 30 minutos individual
-   - Definição de objetivos
+   - Definiçêo de objetivos
    - Plano personalizado
 
 4. **Acesso a Gravações**
@@ -268,10 +268,10 @@ Sim! Plano mensal é sem fidelidade. Pode cancelar a qualquer momento.
 Você volta para CLUB (gratuito) e mantém acesso às trilhas. Perde apenas benefícios VIP.
 
 **Quantos alunos por mentoria?**
-Máximo 30 pessoas para garantir qualidade e interação.
+Máximo 30 pessoas para garantir qualidade e interaçêo.
 
-**E se eu não puder participar da mentoria ao vivo?**
-Todas são gravadas e ficam disponíveis por 12 meses.
+**E se eu nêo puder participar da mentoria ao vivo?**
+Todas sêo gravadas e ficam disponíveis por 12 meses.
 
 **Quanto tempo demora feedback de projetos?**
 48-72 horas úteis na maioria dos casos.
@@ -280,7 +280,7 @@ Todas são gravadas e ficam disponíveis por 12 meses.
 Sim! Pagamos a diferença proporcional e você aproveita o desconto.
 
 **Tem garantia?**
-Sim! 7 dias de garantia incondicional. Não gostou? Reembolso total.
+Sim! 7 dias de garantia incondicional. Nêo gostou? Reembolso total.
 
 **Aceitam cupom de desconto?**
 Sim! Fique de olho em promoções especiais e parcerias.
@@ -297,7 +297,7 @@ Sim! Fique de olho em promoções especiais e parcerias.
 ### Passo 2: Complete o Cadastro
 - Dados pessoais
 - Forma de pagamento
-- Confirmação
+- Confirmaçêo
 
 ### Passo 3: Acesso Imediato
 - Receba email de boas-vindas
@@ -317,7 +317,7 @@ Sim! Fique de olho em promoções especiais e parcerias.
 
 **Licenças Corporativas Disponíveis:**
 
-Quer treinar sua equipe em criação com IA?
+Quer treinar sua equipe em criaçêo com IA?
 
 **Benefícios corporativos:**
 - Desconto em múltiplas licenças
@@ -359,7 +359,7 @@ Quer treinar sua equipe em criação com IA?
 **Sem VIP:**
 - Tentativa e erro: 6-12 meses
 - Cursos diversos: R$ 2.000+
-- Mentoria avulsa: R$ 500+/sessão
+- Mentoria avulsa: R$ 500+/sessêo
 - Sem networking direcionado
 - Total: R$ 3.000+ e 12 meses
 

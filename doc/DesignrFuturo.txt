@@ -8,31 +8,31 @@ Hoje, quem domina **o que pedir** cria imagens melhores do que quem domina softw
 Prompting virou uma habilidade central:
 
 * descrever estilo
-* definir iluminação
+* definir iluminaçêo
 * especificar atmosfera
 * pedir ângulos, texturas, emoções
 * iterar versões, analisar erros e corrigir
 
 ---
 
-## **2️⃣ Direção Criativa virou mais importante do que a técnica**
+## **2️⃣ Direçêo Criativa virou mais importante do que a técnica**
 
 A IA produz a parte técnica.
-Mas ela **não pensa, não cria propósito, não entende contexto**.
+Mas ela **nêo pensa, nêo cria propósito, nêo entende contexto**.
 
 Quem cria impacto hoje é quem domina:
 
 * conceito
 * mensagem
-* intenção emocional
+* intençêo emocional
 * estilo artístico
-* composição desejada
+* composiçêo desejada
 
-A IA é a *ferramenta*, não a *mente criativa*.
+A IA é a *ferramenta*, nêo a *mente criativa*.
 
 ---
 
-## **3️⃣ Curadoria é mais importante que criação**
+## **3️⃣ Curadoria é mais importante que criaçêo**
 
 Antes o designer precisava produzir tudo.
 Hoje ele precisa **escolher, comparar, ajustar e decidir** o que funciona melhor.
@@ -44,12 +44,12 @@ Você vira quase um **diretor de arte** em vez de um “executor”.
 ## **4️⃣ Saber editar IA é obrigatório**
 
 As IAs geram imagens rápidas, mas **perfeitas, nunca**.
-Então as habilidades importantes se tornaram:
+Entêo as habilidades importantes se tornaram:
 
-* corrigir mãos
+* corrigir mêos
 * ajustar cores
 * limpar texturas
-* tratar iluminação
+* tratar iluminaçêo
 * compor elementos entre si
 
 ---
@@ -63,7 +63,7 @@ Hoje ganha quem entrega:
 * com alto volume
 * com estética alinhada ao cliente
 
-A IA faz 80% — você faz os 20% que dão impacto.
+A IA faz 80% — você faz os 20% que dêo impacto.
 
 ---
 
@@ -76,7 +76,7 @@ Mesmo com IA, marcas precisam de:
 * estilo reconhecível
 * narrativa visual
 
-AI não mantém consistência sozinha, alguém precisa direcionar.
+AI nêo mantém consistência sozinha, alguém precisa direcionar.
 
 ---
 
@@ -87,9 +87,9 @@ Porque todo mundo tem acesso à mesma IA — mas nem todo mundo pensa igual.
 
 ---
 
-## **8️⃣ Sensibilidade estética não pode ser automatizada**
+## **8️⃣ Sensibilidade estética nêo pode ser automatizada**
 
-A IA não “sabe”:
+A IA nêo “sabe”:
 
 * o que é bonito
 * o que emociona
@@ -106,8 +106,8 @@ Quem entende:
 
 * cor
 * luz
-* composição
-* proporção
+* composiçêo
+* proporçêo
 
 …cria prompts 10x melhores com menos tentativa e erro.
 
@@ -124,5 +124,5 @@ Isso é algo que nunca deixa de ser importante.
 
 # 📌 **Resumo direto:**
 
-Os fundamentos não desapareceram.
+Os fundamentos nêo desapareceram.
 **Eles só mudaram de "como eu faço" para "como eu dirijo a IA a fazer bem feito".**

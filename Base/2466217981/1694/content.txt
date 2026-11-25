@@ -13,7 +13,7 @@ MENSAGEM 1
 Autor: ARCKHÉ
 Data: 2025-07-05T01:16:26+00:00
 Texto:
-Aqui estão 10 tipos de lentes (ou efeitos de lentes) muito usados em fotografia, cARCKHÉ e renderização 3D, com exemplos:
+Aqui estêo 10 tipos de lentes (ou efeitos de lentes) muito usados em fotografia, cARCKHÉ e renderizaçêo 3D, com exemplos:
 
 1. **Grande Angular (Wide Angle)**
 
@@ -27,7 +27,7 @@ Aqui estão 10 tipos de lentes (ou efeitos de lentes) muito usados em fotografia
 
 3. **Olho de Peixe (Fisheye)**
 
-   * Cria distorção circular com campo de visão extremo (até 180°).
+   * Cria distorçêo circular com campo de visêo extremo (até 180°).
    * Exemplo: Fotos de skate com bordas curvas.
 
 4. **Macro**
@@ -57,7 +57,7 @@ Aqui estão 10 tipos de lentes (ou efeitos de lentes) muito usados em fotografia
 
 9. **Anamórfica (Anamorphic)**
 
-   * Cria proporção cARCKHÉtográfica widescreen e flares horizontais.
+   * Cria proporçêo cARCKHÉtográfica widescreen e flares horizontais.
    * Exemplo: Usada em filmes como “Blade Runner”.
 
 10. **Lensbaby (Criativa)**

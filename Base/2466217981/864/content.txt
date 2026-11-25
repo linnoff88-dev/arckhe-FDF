@@ -21,7 +21,7 @@ MENSAGEM 2
 Autor: Karina
 Data: 2025-09-12T20:36:22+00:00
 Texto:
-boa tarde! eu uso o "yupp.ai" ele não tem limite
+boa tarde! eu uso o "yupp.ai" ele nêo tem limite
 
 ------------------------------
 
@@ -29,7 +29,7 @@ MENSAGEM 3
 Autor: FabricioVazMKT
 Data: 2025-09-12T10:31:48+00:00
 Texto:
-Bom dia pessoal Nano banana pelo gemini PRO, está com limite de geração?
+Bom dia pessoal Nano banana pelo gemini PRO, está com limite de geraçêo?
 
 ------------------------------
 
@@ -37,7 +37,7 @@ MENSAGEM 4
 Autor: Vinicius
 Data: 2025-09-10T14:51:49+00:00
 Texto:
-Bom dia, pessoal! Alguém sabe uma i.a de criação de imagens que mantém uma boa consistência na hora da criação?
+Bom dia, pessoal! Alguém sabe uma i.a de criaçêo de imagens que mantém uma boa consistência na hora da criaçêo?
 
 ------------------------------
 
@@ -103,7 +103,7 @@ MENSAGEM 12
 Autor: Paulo
 Data: 2025-05-07T22:26:48+00:00
 Texto:
-Chatgpt faz e só pedir pra ele fazer parecido com a pessoa e não exatamente igual se não dá direitos autorais mesmo
+Chatgpt faz e só pedir pra ele fazer parecido com a pessoa e nêo exatamente igual se nêo dá direitos autorais mesmo
 
 ------------------------------
 
@@ -111,7 +111,7 @@ MENSAGEM 13
 Autor: Paulo
 Data: 2025-05-07T22:26:12+00:00
 Texto:
-Estou a disposição
+Estou a disposiçêo
 
 ------------------------------
 
