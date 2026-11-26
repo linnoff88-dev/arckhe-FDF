@@ -25,8 +25,8 @@ echo ""
 # 2. Configurar remote
 echo -e "${BLUE}🔗 Passo 2: Configurando remote...${NC}"
 git remote remove origin 2>/dev/null  # Remove se já existir
-git remote add origin https://github.com/inematds/FDF.git
-echo -e "${GREEN}✓ Remote configurado: https://github.com/inematds/FDF.git${NC}"
+git remote add origin https://github.com/linnoff88-dev/FDF.git
+echo -e "${GREEN}✓ Remote configurado: https://github.com/linnoff88-dev/FDF.git${NC}"
 echo ""
 
 # 3. Adicionar todos os arquivos
@@ -44,7 +44,7 @@ git commit -m "feat: initial commit - Designer do Futuro v1.0
 - Design system baseado no FEP
 - Landing page HTML responsiva
 - Biblioteca de 40+ prompts testados
-- Documentaçêo INEMA.CLUB e INEMA.VIP
+- Documentaçêo ARCKHÉ AI e ARCKHÉ.VIP
 - Sistema de recursos educacionais
 - Guias de contribuiçêo e instalaçêo
 - 100% gratuito e open-source
@@ -76,13 +76,13 @@ if [ $? -eq 0 ]; then
     echo -e "${GREEN}🎉 SUCESSO! Projeto enviado para GitHub${NC}"
     echo ""
     echo "Próximos passos:"
-    echo "1. Configure GitHub Pages em: https://github.com/inematds/FDF/settings/pages"
+    echo "1. Configure GitHub Pages em: https://github.com/linnoff88-dev/FDF/settings/pages"
     echo "   - Source: Deploy from a branch"
     echo "   - Branch: main"
     echo "   - Folder: /website"
     echo ""
     echo "2. Aguarde 2-3 minutos e acesse:"
-    echo "   https://inematds.github.io/FDF/"
+    echo "   https://linnoff88-dev.github.io/arckhe-/"
     echo ""
     echo "3. Veja SETUP-INICIAL.md para próximos passos detalhados"
 else
